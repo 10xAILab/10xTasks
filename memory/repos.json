@@ -1,0 +1,28 @@
+{
+  "repos": [
+    {
+      "id": "10x-echo",
+      "localPath": "/Users/chico/projects/10x/10xEcho"
+    },
+    {
+      "id": "10x-ship",
+      "localPath": "/Users/chico/projects/10x/10xShip"
+    },
+    {
+      "id": "10x-tasks",
+      "localPath": "/Users/chico/projects/10x/10xTasks"
+    },
+    {
+      "id": "ai-roast",
+      "localPath": "/Users/chico/projects/10x/ai-roast"
+    },
+    {
+      "id": "ai-trip",
+      "localPath": "/Users/chico/projects/10x/ai-trip"
+    },
+    {
+      "id": "ai-trip-viz",
+      "localPath": "/Users/chico/projects/10x/ai-trip-viz"
+    }
+  ]
+}

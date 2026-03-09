@@ -1,0 +1,13 @@
+{
+  "name": "10xTasks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-skills": "node scripts/install-skills/index.js",
+    "transcript": "node scripts/youtube-transcript/get_transcript.js"
+  },
+  "dependencies": {
+    "youtube-transcript-plus": "^1.2.0"
+  }
+}

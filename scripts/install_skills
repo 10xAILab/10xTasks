@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Installs scripts for the system.
+# Implementation will be copied from another project.
+
+echo "install_skills not implemented yet"
