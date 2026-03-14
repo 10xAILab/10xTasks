@@ -1,15 +1,15 @@
 {
   "repos": [
     {
-      "id": "10x-echo",
+      "id": "10XEcho",
       "localPath": "/Users/chico/projects/10x/10xEcho"
     },
     {
-      "id": "10x-ship",
+      "id": "10XShip",
       "localPath": "/Users/chico/projects/10x/10xShip"
     },
     {
-      "id": "10x-tasks",
+      "id": "10XTasks",
       "localPath": "/Users/chico/projects/10x/10xTasks"
     },
     {

@@ -1,77 +1,52 @@
 # Master Orchestrator Prompt
 
-Use this prompt to run end-to-end task orchestration from local intake to
-Linear-managed execution.
+Use this prompt for end-to-end task orchestration when working from **todo** and **wip** (and optionally Linear).
 
-## Operating Mode
+## Operating mode
 
-- default to autonomous execution when risk is low
-- ask the human only when blocked or when a coding task needs plan approval
-- Linear is the source of truth after intake
+- Default to autonomous execution when risk is low.
+- Ask the human only when blocked or when a coding task needs plan approval.
+- **Local tasks do not auto-create Linear issues** — they are turned into task files in `tasks/todo` (see `prompts/daily-run.md`). Linear can be used in parallel or later as a separate sync step.
 
 ## Inputs
 
-- `tasks/local.md` for new private intake items
-- existing prompts:
-  - `prompts/triage.md`
-  - `prompts/task-expansion.md`
-  - `prompts/execution.md`
-- repo mapping config: `memory/repos.json`
+- `tasks/local.md` — private intake (processed by daily-run into `tasks/todo`)
+- `tasks/todo/`, `tasks/review/`, `tasks/wip/`, `tasks/completed/` — task file lifecycle
+- `memory/repos.json` — repo IDs for placement
+- Prompts: `prompts/triage.md`, `prompts/task-expansion.md`, `prompts/execution.md`
 
-## Intake and Linear Sync
+## Intake (use daily-run)
 
-For each item in `tasks/local.md`:
+Do **not** create Linear issues from `tasks/local.md`. Instead:
 
-1. Normalize and fingerprint the task text (for dedupe).
-2. Search Linear for an existing issue with the same fingerprint.
-3. If duplicate exists:
-   - link/update that issue as needed
-   - remove the duplicate item from `tasks/local.md`
-4. If no duplicate exists:
-   - triage with `prompts/triage.md`
-   - if classified as project, expand with `prompts/task-expansion.md`
-   - create/update Linear issue(s), including fingerprint metadata
-   - only after confirmed issue ID(s), remove item from `tasks/local.md`
+- Run the intake steps in `prompts/daily-run.md`: read `tasks/local.md`, triage, create task .md files in `tasks/todo/10xTasks` or `tasks/todo/<repo_id>`, then review/list/suggest plan.
 
-If Linear write fails, do not remove local task. Mark as retry and continue.
+## Execution from todo/wip
 
-## Execution Routing
+When executing a task file from `tasks/todo` or `tasks/review`:
 
-Once task exists in Linear:
+1. **Start/resume**: move the task file to `tasks/wip`.
+2. **Execute** using `prompts/execution.md`:
+   - Non-coding: execute when unblocked; for YouTube summaries use transcript script then `prompts/youtube-summary.md`.
+   - Coding: write plan, then pause for human approval before implementing.
+3. **On completion**: move task file to `tasks/completed`; write artifacts under `artifacts/`.
+4. **On needs review**: move task file to `tasks/review`; add/update **Next Steps** in the task file.
 
-- run execution from Linear only (not from `tasks/local.md`)
-- non-coding tasks:
-  - if unblocked and context is sufficient, execute via `prompts/execution.md`
-  - store outputs in `artifacts/`
-- coding tasks:
-  - generate plan first
-  - set status to `Planned`
-  - add label `needs-plan-approval`
-  - pause and request human approval
-  - only after approval, move to `In Progress` and implement
-
-## Human Handoff Rules
+## Human handoff
 
 Ask the human when:
 
-- blocked by missing context/access/dependencies
-- deterministic script support is required but unavailable
-- coding task plan approval is required
+- Blocked by missing context, access, or dependencies
+- Deterministic script support is required but unavailable
+- Coding task plan approval is required
 
-Do not ask for confirmation on low-risk admin or research execution when
-unblocked.
+## Optional Linear state (if syncing later)
 
-## Linear State Contract
+If tasks are later synced to Linear, use consistent state:
 
-Use Linear statuses and labels consistently:
+- Backlog/Todo: created
+- Planned + needs-plan-approval: coding plan ready
+- In Progress: executing
+- Done: artifacts attached
 
-- `Backlog` or `Todo`: created/intake complete
-- `Planned` + `needs-plan-approval`: coding plan ready, waiting for human
-- `In Progress`: approved and executing
-- `Done`: acceptance criteria met and artifacts attached/linked
-
-Include:
-
-- task fingerprint metadata for dedupe
-- dependency links for expanded project subtasks
-- artifact links or summary notes upon completion
+Include task fingerprint for dedupe, dependency links, and artifact paths like `artifacts/task-<id>/` or `artifacts/<task-slug>/`.

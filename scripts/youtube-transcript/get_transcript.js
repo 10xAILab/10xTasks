@@ -3,9 +3,18 @@ import { fetchTranscript } from 'youtube-transcript-plus'
 
 function getVideoId(url) {
   try {
-    const u = new URL(url)
-    if (u.hostname.includes('youtu.be')) return u.pathname.slice(1)
-    if (u.hostname.includes('youtube.com')) return u.searchParams.get('v')
+    const cleanedUrl = url.split('?')[0].split('#')[0]
+    const u = new URL(cleanedUrl)
+    if (u.hostname.includes('youtu.be')) return u.pathname.slice(1).split('/')[0]
+    if (u.hostname.includes('youtube.com')) {
+      const originalUrl = new URL(url)
+      const queryId = originalUrl.searchParams.get('v')
+      if (queryId) return queryId
+
+      const parts = u.pathname.split('/').filter(Boolean)
+      if (parts[0] === 'live' || parts[0] === 'shorts') return parts[1] || null
+      if (parts[0] === 'embed') return parts[1] || null
+    }
   } catch {}
   return null
 }

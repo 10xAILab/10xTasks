@@ -5,3 +5,5 @@
 - Summarise https://aitoolsclub.com/how-to-build-an-ai-agent-a-complete-guide/
 
 - Resarch how to migrate Google biz email to cloudflare where domain emails get forwarded to another email, e.g. gmail
+
+- Goal: fetch ctonow github repo & update my bio, pic & profile links
