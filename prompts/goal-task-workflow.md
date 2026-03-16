@@ -28,6 +28,7 @@ Before implementation, complete:
 
 2. **Data and memory**
    - If the human provides data (e.g. bio text, links, credentials), put it under **`data/`** in a sensible path (e.g. `data/<goal-slug>/brief.md`, `data/<goal-slug>/inputs.md`). Do **not** put secrets in repo-tracked files; use env or secure storage and document where they live.
+   - If the goal requires **fetching a ChatGPT conversation**, follow **`prompts/chatgpt-convo-export.md`**: open the convo URL in the browser, ask the human to log in if needed, then give them the script at `scripts/chatgpt-export-convo.js` to run in the console; the human saves the downloaded .md into `data/<goal-slug>/`.
    - Update **`memory/`** if clarifications add reusable context (e.g. new repo in `memory/repos.json`, or a new memory file for this goal). See AGENTS.md and existing `memory/` layout.
 
 3. **Implementation plan**
