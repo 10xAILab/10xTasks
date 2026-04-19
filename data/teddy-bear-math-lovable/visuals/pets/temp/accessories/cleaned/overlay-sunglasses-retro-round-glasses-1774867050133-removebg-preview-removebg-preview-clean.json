@@ -1,0 +1,74 @@
+{
+  "inputPath": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/overlay-sunglasses-retro-round-glasses-1774867050133-removebg-preview-removebg-preview.jpg",
+  "outputPaths": {
+    "png": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/overlay-sunglasses-retro-round-glasses-1774867050133-removebg-preview-removebg-preview-clean.png",
+    "webp": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/overlay-sunglasses-retro-round-glasses-1774867050133-removebg-preview-removebg-preview-clean.webp",
+    "metadata": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/overlay-sunglasses-retro-round-glasses-1774867050133-removebg-preview-removebg-preview-clean.json"
+  },
+  "before": {
+    "width": 577,
+    "height": 433
+  },
+  "after": {
+    "width": 458,
+    "height": 225
+  },
+  "options": {
+    "input": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/overlay-sunglasses-retro-round-glasses-1774867050133-removebg-preview-removebg-preview.jpg",
+    "outputDir": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned",
+    "name": null,
+    "padding": 20,
+    "maxWidth": 512,
+    "maxHeight": 512,
+    "bgFuzz": 18,
+    "alphaThreshold": 8,
+    "minAlpha": 0,
+    "png": true,
+    "webp": true,
+    "webpQuality": 85,
+    "webpAlphaQuality": 100,
+    "webpEffort": 4,
+    "dryRun": false,
+    "metadata": true
+  },
+  "inferredBackgroundColor": {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "fromCorner": "top-left"
+  },
+  "cornerSamples": [
+    {
+      "corner": "top-left",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    {
+      "corner": "top-right",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    {
+      "corner": "bottom-left",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    {
+      "corner": "bottom-right",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    }
+  ],
+  "cleanupStats": {
+    "changedPixels": 203121,
+    "forcedTransparent": 0
+  },
+  "outputsWritten": {
+    "png": true,
+    "webp": true
+  }
+}

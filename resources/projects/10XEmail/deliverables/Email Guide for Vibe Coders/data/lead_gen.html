@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your vibe-coded app is great. Your emails are stuck in 2005.</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --surface2: #1a1a1a;
+    --border: #2a2a2a;
+    --accent: #e8f542;
+    --accent2: #f5a623;
+    --text: #f0f0f0;
+    --muted: #888;
+    --danger: #ff4d4d;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { font-size: 10.5pt; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 48px 64px;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .header-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .brand-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(232,245,66,0.08);
+    border: 1px solid rgba(232,245,66,0.2);
+    padding: 3px 10px;
+    display: inline-block;
+    width: fit-content;
+  }
+
+  .brand-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 9pt;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .brand-name a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .brand-name a:hover { color: var(--accent); }
+
+  .header-tagline {
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+    font-size: 8pt;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    margin-bottom: 48px;
+  }
+
+  .hero-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 54pt;
+    line-height: 0.95;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+
+  .hero h1 .accent-word {
+    color: var(--accent);
+  }
+
+  .hero-sub {
+    font-size: 12pt;
+    color: var(--muted);
+    font-weight: 300;
+    font-style: italic;
+    max-width: 540px;
+    border-left: 2px solid var(--accent);
+    padding-left: 16px;
+  }
+
+  /* ── SECTION ── */
+  section {
+    margin-bottom: 40px;
+    page-break-inside: avoid;
+  }
+
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 7.5pt;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22pt;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    margin-bottom: 14px;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 10pt;
+    line-height: 1.75;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+
+  /* ── PROBLEMS BLOCK ── */
+  .problem-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .problem-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--danger);
+    padding: 10px 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 8.5pt;
+    color: #bbb;
+  }
+
+  .problem-item::before {
+    content: '✗ ';
+    color: var(--danger);
+    font-weight: 500;
+  }
+
+  /* ── TWO-COL LIST ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 24px;
+    margin-top: 12px;
+  }
+
+  .list-item {
+    font-size: 9.5pt;
+    color: #bbb;
+    padding: 5px 0;
+    border-bottom: 1px solid #1e1e1e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .list-item .tick { color: var(--accent); font-size: 10pt; }
+  .list-item .cross { color: var(--danger); font-size: 10pt; }
+
+  /* ── BREAK BOX ── */
+  .break-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent2);
+    padding: 22px 26px;
+    margin: 20px 0;
+  }
+
+  .break-box .label {
+    font-family: 'DM Mono', monospace;
+    font-size: 7.5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent2);
+    margin-bottom: 10px;
+  }
+
+  .break-box p {
+    font-size: 9.5pt;
+    color: #bbb;
+    margin: 0;
+  }
+
+  /* ── PROMPT BLOCK ── */
+  .prompt-block {
+    background: #0f1a0f;
+    border: 1px solid #2a3a2a;
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 8.5pt;
+    color: #a8c890;
+    line-height: 1.8;
+    margin: 16px 0;
+  }
+
+  .prompt-block .prompt-label {
+    font-size: 7pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  /* ── CODE BLOCK ── */
+  .code-block {
+    background: #111;
+    border: 1px solid var(--border);
+    padding: 16px 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 8.5pt;
+    color: #bbb;
+    line-height: 1.9;
+    margin: 14px 0;
+  }
+
+  .code-block .dir { color: var(--muted); }
+  .code-block .file { color: var(--accent); }
+
+  /* ── WORKFLOW ── */
+  .workflow {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 14px;
+  }
+
+  .workflow-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #1a1a1a;
+  }
+
+  .step-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18pt;
+    color: var(--accent);
+    line-height: 1;
+    min-width: 28px;
+    opacity: 0.7;
+  }
+
+  .step-text {
+    font-size: 9.5pt;
+    color: #ccc;
+    padding-top: 1px;
+    line-height: 1.5;
+  }
+
+  .step-text strong {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* ── CHECKLIST ── */
+  .checklist {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .check-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 9.5pt;
+    color: #bbb;
+    padding: 8px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+
+  .check-item .chk { color: var(--accent); font-size: 11pt; flex-shrink: 0; }
+
+  /* ── TAG LIST ── */
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 8pt;
+    color: #bbb;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 5px 12px;
+  }
+
+  /* ── CALLOUT ── */
+  .callout {
+    border-left: 3px solid var(--accent2);
+    padding: 14px 20px;
+    background: #161208;
+    margin: 16px 0;
+  }
+
+  .callout p {
+    font-family: 'DM Mono', monospace;
+    font-size: 9pt;
+    color: #c8a96e;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  /* ── NEXT LIST ── */
+  .next-list {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .next-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 9.5pt;
+    color: #bbb;
+    padding: 8px 0;
+    border-bottom: 1px solid #1a1a1a;
+  }
+
+  .next-item .arrow {
+    color: var(--accent2);
+    font-family: 'DM Mono', monospace;
+    font-size: 10pt;
+    flex-shrink: 0;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 36px 0;
+  }
+
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .divider span {
+    font-family: 'DM Mono', monospace;
+    font-size: 7.5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ── CTA ── */
+  .cta-block {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
+    padding: 28px 30px;
+    margin-top: 12px;
+    page-break-inside: avoid;
+  }
+
+  .cta-block h2 {
+    font-size: 26pt;
+    margin-bottom: 10px;
+  }
+
+  .cta-block p {
+    max-width: 520px;
+    margin-bottom: 20px;
+  }
+
+  .cta-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .cta-reply {
+    font-family: 'DM Mono', monospace;
+    font-size: 8.5pt;
+    color: var(--muted);
+  }
+
+  .cta-reply span {
+    color: var(--accent);
+    background: rgba(232,245,66,0.08);
+    padding: 2px 8px;
+    font-style: italic;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    margin-top: 52px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .footer-author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .footer-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.06em;
+    color: var(--text);
+  }
+
+  .footer-link {
+    font-family: 'DM Mono', monospace;
+    font-size: 8pt;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .footer-link:hover { color: var(--accent); }
+
+  .footer-right {
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+    font-size: 7.5pt;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    html { font-size: 10pt; }
+
+    body {
+      background: #0a0a0a !important;
+      color: #f0f0f0 !important;
+      padding: 32px 40px 48px;
+      max-width: 100%;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .pb { page-break-before: always; }
+    section { page-break-inside: avoid; }
+    .cta-block { page-break-inside: avoid; }
+    a { color: inherit; }
+  }
+
+  @page {
+    size: A4;
+    margin: 18mm 20mm;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-brand">
+    <span class="brand-badge">Free Guide</span>
+    <span class="brand-name">By <a href="https://linkedin.com/in/chicocharlesworth">Chico Charlesworth</a></span>
+  </div>
+  <div class="header-tagline">Email guide for vibe coders</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <!-- <div class="hero-eyebrow">// email for vibe-coders</div> -->
+  <h1>Your app<br>is <span class="accent-word">great.</span><br>Your emails<br>are <span class="accent-word">stuck in 2005.</span></h1>
+  <p class="hero-sub">A short guide to fixing the emails your AI-built app sends.<br/>Without becoming an email HTML expert.</p>
+</div>
+
+<!-- SECTION 1 -->
+<section>
+  <div class="section-label">// 01 — vibe coding &amp; emails</div>
+  <h2>Vibe coding is great. Except for emails.</h2>
+  <p>Modern builders use ChatGPT, Claude, Cursor, Lovable, Bolt, or v0. You can ship a full product in a weekend — UI, auth, database, landing page, the works. You launch, users sign up and then they get an email.<br/>And honestly, it's terrible...</p>
+
+  <div class="problem-grid">
+    <div class="problem-item">Default template</div>
+    <div class="problem-item">Wrong font, wrong colours</div>
+    <div class="problem-item">Broken spacing</div>
+    <div class="problem-item">Unstyled links</div>
+    <div class="problem-item">Dark mode chaos</div>
+    <div class="problem-item">Landed in spam</div>
+  </div>
+
+  <div class="break-box" style="margin-top: 20px;">
+    <div class="label">// why this happens</div>
+    <p>Because <strong style="color:#f0f0f0;">email HTML is different from web HTML</strong>. And AI doesn't know the constraints unless you explicitly tell it. So you get unbranded emails that break in Gmail, lose styles in Outlook, and go straight to spam.</p>
+  </div>
+</section>
+
+<div class="divider"><span>where it breaks</span></div>
+
+<!-- SECTION 2 -->
+<section>
+  <div class="section-label">// 02 — where AI breaks emails</div>
+  <h2>AI generates web HTML. Email needs something different.</h2>
+  <p>AI usually generates normal HTML. Email needs AI to generate email-safe HTML.</p>
+
+  <div class="two-col">
+    <div class="list-item"><span class="cross">✗</span> Tailwind classes</div>
+    <div class="list-item"><span class="cross">✗</span> External CSS</div>
+    <div class="list-item"><span class="cross">✗</span> Flexbox layouts</div>
+    <div class="list-item"><span class="cross">✗</span> Custom fonts</div>
+    <div class="list-item"><span class="cross">✗</span> Modern HTML tags</div>
+    <div class="list-item"><span class="cross">✗</span> Dark mode styles</div>
+    <div class="list-item"><span class="cross">✗</span> Responsive layouts</div>
+    <div class="list-item"><span class="cross">✗</span> Inline style conflicts</div>
+  </div>
+
+  <p style="margin-top: 16px;">The output looks fine in preview. Then it breaks in Gmail, Outlook strips the styles, and users see something completely different from what you built. This is why most vibe-coded apps ship default templates because the fix isn't obvious.</p>
+</section>
+
+<!-- SECTION 3 -->
+<section>
+  <div class="section-label">// 03 — why default auth emails look bad</div>
+  <h2>Default templates work. They just look terrible.</h2>
+  <p>Tools like Supabase give you working email templates. But they're generic, minimal, and unbranded>
+
+  <div class="break-box">
+    <div class="label">// the typical workflow</div>
+    <p>Copy template → edit in dashboard → save → break layout → user receives it.<br>
+    No versioning. No preview. No rollback. No safe deploy. So people stop touching them.</p>
+  </div>
+
+  <p>The default stays. And every email your app sends looks like it came from a demo project, not a real product.</p>
+</section>
+
+<div class="divider pb"><span>fixing it</span></div>
+
+<!-- SECTION 4 -->
+<section>
+  <div class="section-label">// 04 — the safe way to handle emails</div>
+  <h2>Systemize your emails.</h2>
+  <p>Use a structured file layout: one layout, simple HTML, inline styles, no runtime CSS, no JS. Small templates that are predictable, testable, and safe to change.</p>
+
+  <div class="code-block">
+    <span class="dir">emails/</span><br>
+    &nbsp;&nbsp;<span class="file">layout.html</span>&nbsp;&nbsp;&nbsp;<span class="dir">← one layout</span><br>
+    &nbsp;&nbsp;<span class="file">confirm.html</span>&nbsp;&nbsp;<span class="dir">← reuse the structure</span><br>
+    &nbsp;&nbsp;<span class="file">invite.html</span>
+  </div>
+
+  <p>This structure makes emails easy to maintain and helps AI to work much better with your emails.</p>
+</section>
+
+<!-- SECTION 5 -->
+<section>
+  <div class="section-label">// 05 — how to use AI safely for emails</div>
+  <h2>Give constraints. Get good output.</h2>
+  <p>AI works well for emails but only when you're specific. A good prompt makes all the difference.</p>
+
+  <div class="prompt-block">
+    <span class="prompt-label">✓ Good prompt</span>
+    Generate an email-safe HTML template.<br>
+    Use tables for layout.<br>
+    Use inline styles only.<br>
+    No flexbox. No external CSS.<br>
+    Must work in Gmail and Outlook.
+  </div>
+
+  <p style="color: var(--danger); font-family: 'DM Mono', monospace; font-size: 8.5pt; margin-bottom: 6px;">✗ Bad prompt — "Make a nice email template"</p>
+  
+  <p><strong style="color: var(--text);">Best workflow:</strong> use AI to generate a base template once, fix the layout, then reuse the structure.</p>
+</section>
+
+<div class="divider"><span>previewing &amp; shipping</span></div>
+
+<!-- SECTION 6 -->
+<section>
+  <div class="section-label">// 06 — always preview before sending</div>
+  <h2>Never deploy emails blind.</h2>
+
+  <div class="workflow">
+    <div class="workflow-step">
+      <span class="step-num">1</span>
+      <span class="step-text"><strong>Preview in browser</strong> to catch obvious layout breaks early</span>
+    </div>
+    <div class="workflow-step">
+      <span class="step-num">2</span>
+      <span class="step-text"><strong>Send a test email</strong> to a real inbox, not a preview pane</span>
+    </div>
+    <div class="workflow-step">
+      <span class="step-num">3</span>
+      <span class="step-text"><strong>Check Gmail + Outlook</strong>, every time</span>
+    </div>
+    <div class="workflow-step">
+      <span class="step-num">4</span>
+      <span class="step-text"><strong>Then deploy</strong> with version history so you can roll back</span>
+    </div>
+  </div>
+
+  <div class="break-box" style="margin-top: 18px; border-top-color: var(--danger);">
+    <div class="label" style="color: var(--danger);">// the bad workflow</div>
+    <p>Edit → save → user receives → panic. Most tools don't give you preview, version history, or rollback. So most builders skip all three and find out when users complain.</p>
+  </div>
+</section>
+
+<!-- SECTION 7 -->
+<section>
+  <div class="section-label">// 07 — deliverability</div>
+  <h2>Good-looking emails that never arrive.</h2>
+  <p>You test that emails work locally. You send to yourself and it's all good. You ship... and users never get the email. This is where many vibe-coded apps fail silently.</p>
+  <p>Email delivery depends on <strong style="color: var(--text);">domain settings</strong>, not just HTML. These don't throw errors, it shows up as emails in spam, delayed, blocked, or simply never sent.</p>
+
+  <div class="two-col" style="margin-bottom: 16px;">
+    <div class="list-item"><span class="cross">✗</span> SPF record missing</div>
+    <div class="list-item"><span class="cross">✗</span> Wrong sender address</div>
+    <div class="list-item"><span class="cross">✗</span> DKIM not enabled</div>
+    <div class="list-item"><span class="cross">✗</span> Using default SMTP</div>
+    <div class="list-item"><span class="cross">✗</span> Domain not verified</div>
+    <div class="list-item"><span class="cross">✗</span> Bad domain reputation</div>
+  </div>
+
+  <p><strong style="color: var(--text);">The minimum safe setup:</strong></p>
+  <div class="checklist">
+    <div class="check-item"><span class="chk">✓</span> Custom domain</div>
+    <div class="check-item"><span class="chk">✓</span> Verified sender address</div>
+    <div class="check-item"><span class="chk">✓</span> SPF record configured</div>
+    <div class="check-item"><span class="chk">✓</span> DKIM enabled</div>
+    <div class="check-item"><span class="chk">✓</span> Domain verified in your email provider (Resend / Postmark / SMTP)</div>
+    <div class="check-item"><span class="chk">✓</span> Tested in Gmail + Outlook with a real user account</div>
+  </div>
+
+  <div class="callout" style="margin-top: 18px;">
+    <p>Most builders do this last. It should be done first. Set up your domain, verify it, configure SPF + DKIM, send a test, check the spam folder. Only then ship emails.</p>
+  </div>
+</section>
+
+<div class="divider pb"><span>what's next</span></div>
+
+<!-- SECTION 8 -->
+<section>
+  <div class="section-label">// 08 — what I'm building next</div>
+  <h2>Solving email problems that every vibe-coded app runs into.</h2>
+  <p>Building apps with AI works, but emails are a challenge. You need templates, previews, versioning, localisation and reliable delivery. I'm looking to build tools that fix that.</p>
+
+  <div class="next-list">
+    <div class="next-item"><span class="arrow">→</span> Branded emails: templates with preview-before-send and clean HTML export</div>
+    <div class="next-item"><span class="arrow">→</span> Template versioning: never lose a working version again</div>
+    <div class="next-item"><span class="arrow">→</span> Safe deploy and rollback: ship with confidence</div>
+    <div class="next-item"><span class="arrow">→</span> Localisation: emails that work for every market</div>
+    <div class="next-item"><span class="arrow">→</span> Deliverability diagnostics: know before users complain</div>
+    <div class="next-item"><span class="arrow">→</span> Event-triggered emails: automated, not manual</div>
+  </div>
+
+</section>
+
+<!-- CTA -->
+<div class="cta-block">
+  <div class="section-label">// get early access</div>
+  <h2>Want emails that vibe with your customers?</h2>
+  <p>I'm building tools specifically for vibe-coded apps so your emails look as good as the rest of your product.</p>
+
+  <div class="cta-row">
+    <span class="cta-reply">Message me on <a href="https://linkedin.com/in/chicocharlesworth" style="color: var(--accent);">linkedin.com/in/chicocharlesworth</a> for early access</span>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-author">
+    <span class="footer-name">Chico Charlesworth</span>
+    <a class="footer-link" href="https://linkedin.com/in/chicocharlesworth">linkedin.com/in/chicocharlesworth</a>
+  </div>
+  <div class="footer-right">
+    Email guide for vibe coders<br>
+    © 2026 Chico Charlesworth
+  </div>
+</div>
+
+</body>
+</html>

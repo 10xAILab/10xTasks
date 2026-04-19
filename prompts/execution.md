@@ -57,3 +57,12 @@ For tasks that summarize YouTube content:
 1. Run the transcript script first: `npm run transcript -- "<youtube-url>"`.
 2. Save transcript output under `artifacts/<task-id-or-slug>/data/`.
 3. Produce the summary using `prompts/youtube-summary.md`: chapter-based format, one `### <name> (<start> - <end>)` and description per chapter, same count and order; output only valid markdown.
+
+### Book Summary Rule
+
+For tasks that summarize books:
+
+1. Use `prompts/book-summary.md` for the output format and quality rules.
+2. If input is title-only, find the matching Amazon UK Kindle page first.
+3. Include Amazon UK Kindle link and displayed GBP price and if available as Kindle Unlimited in the summary.
+4. Include: brief description, one short author sentence, 3 key insights, 1 popular YouTube URL that mentions the book, 3 real reviews, and chapter-by-chapter one-sentence summaries.

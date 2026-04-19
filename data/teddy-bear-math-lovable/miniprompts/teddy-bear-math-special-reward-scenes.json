@@ -1,0 +1,2638 @@
+{
+  "bear": [
+    {
+      "id": "bear_1",
+      "theme": "forest",
+      "mood": "content",
+      "outfit": null,
+      "accessory": null,
+      "prop": "sandwich",
+      "pose": "sitting on a picnic blanket and holding sandwich",
+      "prompt": "Cute cartoon bear, sitting on a picnic blanket and holding sandwich, wearing multi-colored checkered scarf, in a picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_2",
+      "theme": "bedroom",
+      "mood": "sleepy",
+      "outfit": "striped pajamas",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "lying on tummy and reading",
+      "prompt": "Cute cartoon bear, lying on tummy and reading, wearing striped pajamas, with storybook, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_3",
+      "theme": "sky",
+      "mood": "proud",
+      "outfit": "superhero cape",
+      "accessory": null,
+      "prop": null,
+      "pose": "flying",
+      "prompt": "Cute cartoon bear, flying, wearing superhero cape, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_4",
+      "theme": "candy-land",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cupcake",
+      "pose": "standing and presenting cupcake",
+      "prompt": "Cute cartoon bear, standing and presenting cupcake, wearing party hat, with cupcake, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_5",
+      "theme": "forest",
+      "mood": "calm",
+      "outfit": "hoodie",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon bear, sitting beside lantern, wearing hoodie, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_6",
+      "theme": "beach",
+      "mood": "happy",
+      "outfit": "sun hat",
+      "accessory": "sunglasses",
+      "prop": "ice cream",
+      "pose": "sitting and holding ice cream",
+      "prompt": "Cute cartoon bear, sitting and holding ice cream, wearing sun hat, with sunglasses and ice cream, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_7",
+      "theme": "pirate-ship",
+      "mood": "playful",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure map",
+      "pose": "pointing at treasure map",
+      "prompt": "Cute cartoon bear, pointing at treasure map, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_8",
+      "theme": "space",
+      "mood": "curious",
+      "outfit": "space suit",
+      "accessory": null,
+      "prop": null,
+      "pose": "floating with paws stretched out",
+      "prompt": "Cute cartoon bear, floating with paws stretched out, wearing space suit, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_9",
+      "theme": "bedroom",
+      "mood": "peaceful",
+      "outfit": "knit sweater",
+      "accessory": null,
+      "prop": "warm cocoa",
+      "pose": "sitting with cocoa",
+      "prompt": "Cute cartoon bear, sitting with cocoa, wearing knit sweater, with warm cocoa, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_10",
+      "theme": "fairy-garden",
+      "mood": "wonder",
+      "outfit": "flower crown",
+      "accessory": null,
+      "prop": "sparkly watering can",
+      "pose": "standing and watering flowers",
+      "prompt": "Cute cartoon bear, standing and watering flowers, wearing flower crown, with sparkly watering can, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_11",
+      "theme": "rainbow-hills",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "drum",
+      "pose": "marching and tapping drum",
+      "prompt": "Cute cartoon bear, marching and tapping drum, wearing bow tie, with drum, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_12",
+      "theme": "snow-world",
+      "mood": "cheerful",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": null,
+      "pose": "standing and hugging mug",
+      "prompt": "Cute cartoon bear, wearing pom pom hat, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_13",
+      "theme": "kite festival",
+      "mood": "delighted",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite spool",
+      "pose": "running and holding kite spool",
+      "prompt": "Cute cartoon bear, running and holding kite spool, wearing light jacket, with kite spool, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_14",
+      "theme": "pajama movie night",
+      "mood": "relaxed",
+      "outfit": "star pajamas",
+      "accessory": null,
+      "prop": "popcorn bowl",
+      "pose": "sitting cross-legged with popcorn",
+      "prompt": "Cute cartoon bear, sitting cross-legged with popcorn, wearing star pajamas, with popcorn bowl, in a pajama movie night setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_15",
+      "theme": "baker's day",
+      "mood": "focused",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "cookie tray",
+      "pose": "holding cookie tray carefully",
+      "prompt": "Cute cartoon bear, holding cookie tray carefully, wearing chef hat, with cookie tray, in a baker's day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_16",
+      "theme": "library adventure",
+      "mood": "curious",
+      "outfit": "tiny backpack",
+      "accessory": null,
+      "prop": "stack of books",
+      "pose": "walking and balancing books",
+      "prompt": "Cute cartoon bear, walking and balancing books, wearing tiny backpack, with stack of books, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_17",
+      "theme": "garden helper",
+      "mood": "gentle",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "watering can",
+      "pose": "standing and watering plants",
+      "prompt": "Cute cartoon bear, standing and watering plants, wearing apron, with watering can, in a garden helper setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_18",
+      "theme": "moonlight lullaby",
+      "mood": "dreamy",
+      "outfit": "nightcap",
+      "accessory": null,
+      "prop": "crescent pillow",
+      "pose": "swaying and hugging pillow",
+      "prompt": "Cute cartoon bear, swaying and hugging pillow, wearing nightcap, with crescent pillow, in a moonlight lullaby setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_19",
+      "theme": "toy train day",
+      "mood": "playful",
+      "outfit": null,
+      "accessory": null,
+      "prop": "toy train",
+      "pose": "kneeling and pushing toy train",
+      "prompt": "Cute cartoon bear, kneeling and pushing toy train, with toy train, in a toy train day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bear_20",
+      "theme": "festival lights",
+      "mood": "amazed",
+      "outfit": "scarf",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "looking up and holding lantern",
+      "prompt": "Cute cartoon bear, looking up and holding lantern, wearing scarf, with paper lantern, in a festival lights setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "pig": [
+    {
+      "id": "pig_1",
+      "theme": "harvest picnic",
+      "mood": "cheerful",
+      "outfit": "straw hat",
+      "accessory": null,
+      "prop": "apple basket",
+      "pose": "standing and holding basket",
+      "prompt": "Cute cartoon pig, standing and holding basket, wearing straw hat, with apple basket, in a harvest picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_2",
+      "theme": "bubble bath spa",
+      "mood": "relaxed",
+      "outfit": "head towel",
+      "accessory": null,
+      "prop": "rubber duck",
+      "pose": "sitting and splashing gently",
+      "prompt": "Cute cartoon pig, sitting and splashing gently, wearing head towel, with rubber duck, in a bubble bath spa setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_3",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "balloon bundle",
+      "pose": "trotting and holding balloons",
+      "prompt": "Cute cartoon pig, trotting and holding balloons, wearing party hat, with balloon bundle, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_4",
+      "theme": "rainy day indoors",
+      "mood": "playful",
+      "outfit": "rain boots",
+      "accessory": null,
+      "prop": "paper boat",
+      "pose": "splashing and launching paper boat",
+      "prompt": "Cute cartoon pig, splashing and launching paper boat, wearing rain boots, with paper boat, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_5",
+      "theme": "beach day",
+      "mood": "sunny",
+      "outfit": "visor",
+      "accessory": "sunglasses",
+      "prop": "watermelon slice",
+      "pose": "lounging and nibbling watermelon",
+      "prompt": "Cute cartoon pig, lounging and nibbling watermelon, wearing visor, with sunglasses and watermelon slice, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_6",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "tiny wand",
+      "pose": "standing and twirling wand",
+      "prompt": "Cute cartoon pig, standing and twirling wand, with flower crown and tiny wand, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_7",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "star shield",
+      "pose": "running forward with shield",
+      "prompt": "Cute cartoon pig, running forward with shield, wearing cape, with star shield, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_8",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "snuggly pillow",
+      "pose": "curling up and hugging pillow",
+      "prompt": "Cute cartoon pig, curling up and hugging pillow, wearing pajamas, with snuggly pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_9",
+      "theme": "camping breakfast",
+      "mood": "happy",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "veggie skewer",
+      "pose": "sitting and toasting skewer",
+      "prompt": "Cute cartoon pig, sitting and toasting skewer, wearing bandana, with veggie skewer, in a camping breakfast setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_10",
+      "theme": "pirate adventure",
+      "mood": "mischievous",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure key",
+      "pose": "tiptoeing with treasure key",
+      "prompt": "Cute cartoon pig, tiptoeing with treasure key, wearing pirate hat, with treasure key, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_11",
+      "theme": "music recital",
+      "mood": "proud",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "toy violin",
+      "pose": "standing and playing violin",
+      "prompt": "Cute cartoon pig, standing and playing violin, wearing bow tie, with toy violin, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_12",
+      "theme": "bakery morning",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "pie",
+      "pose": "carrying pie carefully",
+      "prompt": "Cute cartoon pig, carrying pie carefully, wearing chef hat, with pie, in a bakery morning setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_13",
+      "theme": "spring fair",
+      "mood": "delighted",
+      "outfit": "ribbon collar",
+      "accessory": null,
+      "prop": "pinwheel",
+      "pose": "skipping and holding pinwheel",
+      "prompt": "Cute cartoon pig, skipping and holding pinwheel, wearing ribbon collar, with pinwheel, in a spring fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_14",
+      "theme": "garden market",
+      "mood": "content",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "carrot bouquet",
+      "pose": "standing and offering bouquet",
+      "prompt": "Cute cartoon pig, standing and offering bouquet, wearing apron, with carrot bouquet, in a garden market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_15",
+      "theme": "stargazing night",
+      "mood": "dreamy",
+      "outfit": "blanket cape",
+      "accessory": null,
+      "prop": "telescope",
+      "pose": "sitting and peeking through telescope",
+      "prompt": "Cute cartoon pig, sitting and peeking through telescope, wearing blanket cape, with telescope, in a stargazing night setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_16",
+      "theme": "story time nook",
+      "mood": "calm",
+      "outfit": "hoodie",
+      "accessory": null,
+      "prop": "picture book",
+      "pose": "sitting in a beanbag reading",
+      "prompt": "Cute cartoon pig, sitting in a beanbag reading, wearing hoodie, with picture book, in a story time nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_17",
+      "theme": "snow day fun",
+      "mood": "gleeful",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "sled rope",
+      "pose": "pulling a tiny sled",
+      "prompt": "Cute cartoon pig, pulling a tiny sled, wearing pom pom hat, with sled rope, in a snow day fun setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_18",
+      "theme": "tea party",
+      "mood": "fancy",
+      "outfit": "lace collar",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "sitting politely with teacup",
+      "prompt": "Cute cartoon pig, sitting politely with teacup, wearing lace collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_19",
+      "theme": "flower parade",
+      "mood": "joyful",
+      "outfit": null,
+      "accessory": "daisy crown",
+      "prop": "confetti basket",
+      "pose": "marching and tossing petals",
+      "prompt": "Cute cartoon pig, marching and tossing petals, with daisy crown and confetti basket, in a flower parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "pig_20",
+      "theme": "sunflower field",
+      "mood": "peaceful",
+      "outfit": "overalls",
+      "accessory": null,
+      "prop": "sun hat",
+      "pose": "standing with hands behind back",
+      "prompt": "Cute cartoon pig, standing with hands behind back, wearing overalls, with sun hat, in a sunflower field setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "cat": [
+    {
+      "id": "cat_1",
+      "theme": "moonlit pajama party",
+      "mood": "sleepy",
+      "outfit": "moon pajamas",
+      "accessory": null,
+      "prop": "plush star",
+      "pose": "curling up with plush star",
+      "prompt": "Cute cartoon cat, curling up with plush star, wearing moon pajamas, with plush star, in a moonlit pajama party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_2",
+      "theme": "artist studio",
+      "mood": "focused",
+      "outfit": "paint smock",
+      "accessory": null,
+      "prop": "paintbrush",
+      "pose": "sitting and painting",
+      "prompt": "Cute cartoon cat, sitting and painting, wearing paint smock, with paintbrush, in a artist studio setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_3",
+      "theme": "beach day",
+      "mood": "playful",
+      "outfit": "sun visor",
+      "accessory": "sunglasses",
+      "prop": "sand bucket",
+      "pose": "patting a sandcastle bucket",
+      "prompt": "Cute cartoon cat, patting a sandcastle bucket, wearing sun visor, with sunglasses and sand bucket, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_4",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party crown",
+      "accessory": null,
+      "prop": "sprinkle cupcake",
+      "pose": "standing with cupcake raised",
+      "prompt": "Cute cartoon cat, standing with cupcake raised, wearing party crown, with sprinkle cupcake, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_5",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "butterfly wings",
+      "prop": "watering can",
+      "pose": "tiptoeing and watering blossoms",
+      "prompt": "Cute cartoon cat, tiptoeing and watering blossoms, with butterfly wings and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_6",
+      "theme": "pirate adventure",
+      "mood": "sly",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "spyglass",
+      "pose": "peeking through spyglass",
+      "prompt": "Cute cartoon cat, peeking through spyglass, wearing pirate hat, with spyglass, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_7",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star flag",
+      "pose": "bouncing and planting star flag",
+      "prompt": "Cute cartoon cat, bouncing and planting star flag, wearing space helmet, with star flag, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_8",
+      "theme": "rainy day indoors",
+      "mood": "cozy",
+      "outfit": "oversized sweater",
+      "accessory": null,
+      "prop": "yarn ball",
+      "pose": "pawing at yarn ball",
+      "prompt": "Cute cartoon cat, pawing at yarn ball, wearing oversized sweater, with yarn ball, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_9",
+      "theme": "superhero moment",
+      "mood": "confident",
+      "outfit": "hero cape",
+      "accessory": null,
+      "prop": "mask",
+      "pose": "perched tall with cape fluttering",
+      "prompt": "Cute cartoon cat, perched tall with cape fluttering, wearing hero cape, with mask, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_10",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside a glowing lantern",
+      "prompt": "Cute cartoon cat, sitting beside a glowing lantern, wearing bandana, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_11",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "frilly collar",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "sitting upright with teacup",
+      "prompt": "Cute cartoon cat, sitting upright with teacup, wearing frilly collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_12",
+      "theme": "garden picnic",
+      "mood": "content",
+      "outfit": "straw hat",
+      "accessory": null,
+      "prop": "berry tart",
+      "pose": "lying on tummy with tart",
+      "prompt": "Cute cartoon cat, lying on tummy with tart, wearing straw hat, with berry tart, in a garden picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_13",
+      "theme": "music recital",
+      "mood": "proud",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "microphone",
+      "pose": "singing with eyes closed",
+      "prompt": "Cute cartoon cat, singing with eyes closed, wearing bow tie, with microphone, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_14",
+      "theme": "winter window",
+      "mood": "peaceful",
+      "outfit": "knit scarf",
+      "accessory": null,
+      "prop": "cocoa mug",
+      "pose": "watching snow with cocoa",
+      "prompt": "Cute cartoon cat, watching snow with cocoa, wearing knit scarf, with cocoa mug, in a winter window setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_15",
+      "theme": "library adventure",
+      "mood": "curious",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "book stack",
+      "pose": "padding along with books",
+      "prompt": "Cute cartoon cat, padding along with books, wearing tiny satchel, with book stack, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_16",
+      "theme": "flower shop day",
+      "mood": "gentle",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "bouquet",
+      "pose": "holding bouquet carefully",
+      "prompt": "Cute cartoon cat, holding bouquet carefully, wearing apron, with bouquet, in a flower shop day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_17",
+      "theme": "kite festival",
+      "mood": "joyful",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite ribbon",
+      "pose": "leaping and holding ribbon",
+      "prompt": "Cute cartoon cat, leaping and holding ribbon, wearing light jacket, with kite ribbon, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_18",
+      "theme": "cozy bakery",
+      "mood": "happy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "cookie tray",
+      "pose": "presenting a tray of cookies",
+      "prompt": "Cute cartoon cat, presenting a tray of cookies, wearing chef hat, with cookie tray, in a cozy bakery setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_19",
+      "theme": "sleepover fun",
+      "mood": "giggly",
+      "outfit": "striped pajamas",
+      "accessory": null,
+      "prop": "flashlight",
+      "pose": "sitting under blanket with flashlight",
+      "prompt": "Cute cartoon cat, sitting under blanket with flashlight, wearing striped pajamas, with flashlight, in a sleepover fun setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cat_20",
+      "theme": "royal parade",
+      "mood": "proud",
+      "outfit": "tiny crown",
+      "accessory": null,
+      "prop": "velvet cushion",
+      "pose": "walking with chin up",
+      "prompt": "Cute cartoon cat, walking with chin up, wearing tiny crown, with velvet cushion, in a royal parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "bunny": [
+    {
+      "id": "bunny_1",
+      "theme": "spring picnic",
+      "mood": "happy",
+      "outfit": "ribbon bow",
+      "accessory": null,
+      "prop": "carrot sandwich",
+      "pose": "sitting and holding sandwich",
+      "prompt": "Cute cartoon bunny, sitting and holding sandwich, wearing ribbon bow, with carrot sandwich, in a spring picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_2",
+      "theme": "magic garden",
+      "mood": "wonder",
+      "outfit": "flower crown",
+      "accessory": null,
+      "prop": "watering can",
+      "pose": "hopping and watering flowers",
+      "prompt": "Cute cartoon bunny, hopping and watering flowers, wearing flower crown, with watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_3",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "balloon",
+      "pose": "hopping and holding balloon",
+      "prompt": "Cute cartoon bunny, hopping and holding balloon, wearing party hat, with balloon, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_4",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "soft pajamas",
+      "accessory": null,
+      "prop": "moon pillow",
+      "pose": "curling up with moon pillow",
+      "prompt": "Cute cartoon bunny, curling up with moon pillow, wearing soft pajamas, with moon pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_5",
+      "theme": "beach day",
+      "mood": "cheerful",
+      "outfit": "sun hat",
+      "accessory": null,
+      "prop": "fruit popsicle",
+      "pose": "sitting and licking popsicle",
+      "prompt": "Cute cartoon bunny, sitting and licking popsicle, wearing sun hat, with fruit popsicle, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_6",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "hoodie",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "standing beside lantern",
+      "prompt": "Cute cartoon bunny, standing beside lantern, wearing hoodie, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_7",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": null,
+      "pose": "standing on tiptoes with paws raised",
+      "prompt": "Cute cartoon bunny, standing on tiptoes with paws raised, wearing cape, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_8",
+      "theme": "rainy day indoors",
+      "mood": "playful",
+      "outfit": "rain boots",
+      "accessory": null,
+      "prop": "paper umbrella",
+      "pose": "twirling umbrella",
+      "prompt": "Cute cartoon bunny, twirling umbrella, wearing rain boots, with paper umbrella, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_9",
+      "theme": "pirate adventure",
+      "mood": "adventurous",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure map",
+      "pose": "hopping while reading map",
+      "prompt": "Cute cartoon bunny, hopping while reading map, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_10",
+      "theme": "space explorer",
+      "mood": "curious",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "moon rock pouch",
+      "pose": "bouncing and holding pouch",
+      "prompt": "Cute cartoon bunny, bouncing and holding pouch, wearing space helmet, with moon rock pouch, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_11",
+      "theme": "garden parade",
+      "mood": "delighted",
+      "outfit": "daisy crown",
+      "accessory": null,
+      "prop": "ribbon wand",
+      "pose": "skipping and waving wand",
+      "prompt": "Cute cartoon bunny, skipping and waving wand, wearing daisy crown, with ribbon wand, in a garden parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_12",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "lace collar",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "sitting neatly with teacup",
+      "prompt": "Cute cartoon bunny, sitting neatly with teacup, wearing lace collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_13",
+      "theme": "music recital",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "tambourine",
+      "pose": "dancing and shaking tambourine",
+      "prompt": "Cute cartoon bunny, dancing and shaking tambourine, wearing bow tie, with tambourine, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_14",
+      "theme": "harvest fair",
+      "mood": "content",
+      "outfit": "overalls",
+      "accessory": null,
+      "prop": "pumpkin basket",
+      "pose": "holding basket with both paws",
+      "prompt": "Cute cartoon bunny, holding basket with both paws, wearing overalls, with pumpkin basket, in a harvest fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_15",
+      "theme": "library nook",
+      "mood": "focused",
+      "outfit": "tiny backpack",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "sitting and reading",
+      "prompt": "Cute cartoon bunny, sitting and reading, wearing tiny backpack, with storybook, in a library nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_16",
+      "theme": "kite day",
+      "mood": "free",
+      "outfit": "light scarf",
+      "accessory": null,
+      "prop": "kite spool",
+      "pose": "running and holding spool",
+      "prompt": "Cute cartoon bunny, running and holding spool, wearing light scarf, with kite spool, in a kite day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_17",
+      "theme": "baker's day",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "bread loaf",
+      "pose": "presenting bread loaf",
+      "prompt": "Cute cartoon bunny, presenting bread loaf, wearing chef hat, with bread loaf, in a baker's day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_18",
+      "theme": "flower market",
+      "mood": "gentle",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "lavender bundle",
+      "pose": "standing and sniffing flowers",
+      "prompt": "Cute cartoon bunny, standing and sniffing flowers, wearing apron, with lavender bundle, in a flower market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_19",
+      "theme": "snow day",
+      "mood": "gleeful",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "mini sled",
+      "pose": "pulling a tiny sled",
+      "prompt": "Cute cartoon bunny, pulling a tiny sled, wearing pom pom hat, with mini sled, in a snow day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "bunny_20",
+      "theme": "moon festival",
+      "mood": "dreamy",
+      "outfit": "star cloak",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "holding lantern close",
+      "prompt": "Cute cartoon bunny, holding lantern close, wearing star cloak, with paper lantern, in a moon festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "fox": [
+    {
+      "id": "fox_1",
+      "theme": "forest explorer",
+      "mood": "curious",
+      "outfit": "scout scarf",
+      "accessory": null,
+      "prop": "magnifying glass",
+      "pose": "crouching and studying tracks",
+      "prompt": "Cute cartoon fox, crouching and studying tracks, wearing scout scarf, with magnifying glass, in a forest explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_2",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "hooded cape",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon fox, sitting beside lantern, wearing hooded cape, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_3",
+      "theme": "pirate adventure",
+      "mood": "clever",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure compass",
+      "pose": "grinning and holding compass",
+      "prompt": "Cute cartoon fox, grinning and holding compass, wearing pirate hat, with treasure compass, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_4",
+      "theme": "superhero moment",
+      "mood": "bold",
+      "outfit": "hero cape",
+      "accessory": null,
+      "prop": "rescue badge",
+      "pose": "standing on a rock with chest out",
+      "prompt": "Cute cartoon fox, standing on a rock with chest out, wearing hero cape, with rescue badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_5",
+      "theme": "autumn picnic",
+      "mood": "content",
+      "outfit": "plaid scarf",
+      "accessory": null,
+      "prop": "apple pie slice",
+      "pose": "sitting and holding pie",
+      "prompt": "Cute cartoon fox, sitting and holding pie, wearing plaid scarf, with apple pie slice, in a autumn picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_6",
+      "theme": "beach day",
+      "mood": "playful",
+      "outfit": "sun visor",
+      "accessory": null,
+      "prop": "shell bucket",
+      "pose": "trotting with shell bucket",
+      "prompt": "Cute cartoon fox, trotting with shell bucket, wearing sun visor, with shell bucket, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_7",
+      "theme": "rainy day indoors",
+      "mood": "cozy",
+      "outfit": "knit sweater",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "curled up and reading",
+      "prompt": "Cute cartoon fox, curled up and reading, wearing knit sweater, with storybook, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_8",
+      "theme": "magic garden",
+      "mood": "mischievous",
+      "outfit": null,
+      "accessory": "leaf crown",
+      "prop": "magic lantern",
+      "pose": "tiptoeing with lantern",
+      "prompt": "Cute cartoon fox, tiptoeing with lantern, with leaf crown and magic lantern, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_9",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star map",
+      "pose": "floating and pointing at map",
+      "prompt": "Cute cartoon fox, floating and pointing at map, wearing space helmet, with star map, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_10",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "confetti popper",
+      "pose": "leaping with confetti popper",
+      "prompt": "Cute cartoon fox, leaping with confetti popper, wearing party hat, with confetti popper, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_11",
+      "theme": "music festival",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "guitar",
+      "pose": "strumming guitar",
+      "prompt": "Cute cartoon fox, strumming guitar, wearing bow tie, with guitar, in a music festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_12",
+      "theme": "winter cocoa",
+      "mood": "peaceful",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "cocoa mug",
+      "pose": "sitting with tail curled around mug",
+      "prompt": "Cute cartoon fox, sitting with tail curled around mug, wearing pom pom hat, with cocoa mug, in a winter cocoa setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_13",
+      "theme": "library adventure",
+      "mood": "focused",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "book stack",
+      "pose": "walking carefully with books",
+      "prompt": "Cute cartoon fox, walking carefully with books, wearing tiny satchel, with book stack, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_14",
+      "theme": "garden market",
+      "mood": "friendly",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "berry basket",
+      "pose": "standing and offering basket",
+      "prompt": "Cute cartoon fox, standing and offering basket, wearing apron, with berry basket, in a garden market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_15",
+      "theme": "stargazing night",
+      "mood": "dreamy",
+      "outfit": "blanket scarf",
+      "accessory": null,
+      "prop": "telescope",
+      "pose": "sitting and peeking through telescope",
+      "prompt": "Cute cartoon fox, sitting and peeking through telescope, wearing blanket scarf, with telescope, in a stargazing night setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_16",
+      "theme": "royal celebration",
+      "mood": "proud",
+      "outfit": "tiny crown",
+      "accessory": null,
+      "prop": "banner",
+      "pose": "standing tall and waving banner",
+      "prompt": "Cute cartoon fox, standing tall and waving banner, wearing tiny crown, with banner, in a royal celebration setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_17",
+      "theme": "lantern walk",
+      "mood": "serene",
+      "outfit": "capelet",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "walking and holding lantern",
+      "prompt": "Cute cartoon fox, walking and holding lantern, wearing capelet, with paper lantern, in a lantern walk setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_18",
+      "theme": "kite festival",
+      "mood": "delighted",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite string",
+      "pose": "running with kite string",
+      "prompt": "Cute cartoon fox, running with kite string, wearing light jacket, with kite string, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_19",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "fox pillow",
+      "pose": "curled up hugging pillow",
+      "prompt": "Cute cartoon fox, curled up hugging pillow, wearing pajamas, with fox pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "fox_20",
+      "theme": "bakery morning",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "pretzel",
+      "pose": "holding pretzel proudly",
+      "prompt": "Cute cartoon fox, holding pretzel proudly, wearing chef hat, with pretzel, in a bakery morning setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "frog": [
+    {
+      "id": "frog_1",
+      "theme": "pond picnic",
+      "mood": "happy",
+      "outfit": "lily pad hat",
+      "accessory": null,
+      "prop": "fruit skewer",
+      "pose": "sitting and holding skewer",
+      "prompt": "Cute cartoon frog, sitting and holding skewer, wearing lily pad hat, with fruit skewer, in a pond picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_2",
+      "theme": "rainy day indoors",
+      "mood": "playful",
+      "outfit": "rain boots",
+      "accessory": null,
+      "prop": "paper boat",
+      "pose": "splashing beside paper boat",
+      "prompt": "Cute cartoon frog, splashing beside paper boat, wearing rain boots, with paper boat, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_3",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "watering can",
+      "pose": "standing on tiptoes and watering",
+      "prompt": "Cute cartoon frog, standing on tiptoes and watering, with flower crown and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_4",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "shield",
+      "pose": "leaping forward with shield",
+      "prompt": "Cute cartoon frog, leaping forward with shield, wearing cape, with shield, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_5",
+      "theme": "beach day",
+      "mood": "sunny",
+      "outfit": "sun hat",
+      "accessory": null,
+      "prop": "juice box",
+      "pose": "lounging and holding juice box",
+      "prompt": "Cute cartoon frog, lounging and holding juice box, wearing sun hat, with juice box, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_6",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting with lantern by side",
+      "prompt": "Cute cartoon frog, sitting with lantern by side, wearing bandana, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_7",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cupcake",
+      "pose": "jumping and holding cupcake",
+      "prompt": "Cute cartoon frog, jumping and holding cupcake, wearing party hat, with cupcake, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_8",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "moon pebble",
+      "pose": "floating with moon pebble",
+      "prompt": "Cute cartoon frog, floating with moon pebble, wearing space helmet, with moon pebble, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_9",
+      "theme": "pirate adventure",
+      "mood": "adventurous",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure map",
+      "pose": "standing and pointing at map",
+      "prompt": "Cute cartoon frog, standing and pointing at map, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_10",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "star pajamas",
+      "accessory": null,
+      "prop": "blanket",
+      "pose": "yawning and wrapped in blanket",
+      "prompt": "Cute cartoon frog, yawning and wrapped in blanket, wearing star pajamas, with blanket, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_11",
+      "theme": "music parade",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "drum",
+      "pose": "marching and tapping drum",
+      "prompt": "Cute cartoon frog, marching and tapping drum, wearing bow tie, with drum, in a music parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_12",
+      "theme": "garden concert",
+      "mood": "proud",
+      "outfit": null,
+      "accessory": "leaf cape",
+      "prop": "microphone",
+      "pose": "singing with eyes closed",
+      "prompt": "Cute cartoon frog, singing with eyes closed, with leaf cape and microphone, in a garden concert setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_13",
+      "theme": "snow day",
+      "mood": "gleeful",
+      "outfit": "knit scarf",
+      "accessory": null,
+      "prop": "sled rope",
+      "pose": "pulling a tiny sled",
+      "prompt": "Cute cartoon frog, pulling a tiny sled, wearing knit scarf, with sled rope, in a snow day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_14",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "frilly collar",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "sitting upright with teacup",
+      "prompt": "Cute cartoon frog, sitting upright with teacup, wearing frilly collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_15",
+      "theme": "library nook",
+      "mood": "focused",
+      "outfit": "tiny backpack",
+      "accessory": null,
+      "prop": "picture book",
+      "pose": "reading with legs tucked in",
+      "prompt": "Cute cartoon frog, reading with legs tucked in, wearing tiny backpack, with picture book, in a library nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_16",
+      "theme": "harvest fair",
+      "mood": "content",
+      "outfit": "overalls",
+      "accessory": null,
+      "prop": "pumpkin",
+      "pose": "hugging a tiny pumpkin",
+      "prompt": "Cute cartoon frog, hugging a tiny pumpkin, wearing overalls, with pumpkin, in a harvest fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_17",
+      "theme": "moon festival",
+      "mood": "dreamy",
+      "outfit": "star cloak",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "holding lantern overhead",
+      "prompt": "Cute cartoon frog, holding lantern overhead, wearing star cloak, with paper lantern, in a moon festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_18",
+      "theme": "sports day",
+      "mood": "energetic",
+      "outfit": "headband",
+      "accessory": null,
+      "prop": "gold ribbon",
+      "pose": "posing with ribbon",
+      "prompt": "Cute cartoon frog, posing with ribbon, wearing headband, with gold ribbon, in a sports day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_19",
+      "theme": "bubble day",
+      "mood": "delighted",
+      "outfit": null,
+      "accessory": "round goggles",
+      "prop": "bubble wand",
+      "pose": "blowing bubbles",
+      "prompt": "Cute cartoon frog, blowing bubbles, with round goggles and bubble wand, in a bubble day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "frog_20",
+      "theme": "garden helper",
+      "mood": "gentle",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "seed packet",
+      "pose": "kneeling and planting seeds",
+      "prompt": "Cute cartoon frog, kneeling and planting seeds, wearing apron, with seed packet, in a garden helper setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "cow": [
+    {
+      "id": "cow_1",
+      "theme": "farm picnic",
+      "mood": "content",
+      "outfit": "checkered bandana",
+      "accessory": null,
+      "prop": "apple basket",
+      "pose": "sitting and holding basket",
+      "prompt": "Cute cartoon cow, sitting and holding basket, wearing checkered bandana, with apple basket, in a farm picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_2",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cake slice",
+      "pose": "standing and presenting cake slice",
+      "prompt": "Cute cartoon cow, standing and presenting cake slice, wearing party hat, with cake slice, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_3",
+      "theme": "beach day",
+      "mood": "happy",
+      "outfit": "sun visor",
+      "accessory": "sunglasses",
+      "prop": "fruit drink",
+      "pose": "lounging and holding drink",
+      "prompt": "Cute cartoon cow, lounging and holding drink, wearing sun visor, with sunglasses and fruit drink, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_4",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "patchwork quilt",
+      "pose": "tucked in and smiling softly",
+      "prompt": "Cute cartoon cow, tucked in and smiling softly, wearing pajamas, with patchwork quilt, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_5",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "hoodie",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon cow, sitting beside lantern, wearing hoodie, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_6",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "star badge",
+      "pose": "standing with chin up",
+      "prompt": "Cute cartoon cow, standing with chin up, wearing cape, with star badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_7",
+      "theme": "rainy day indoors",
+      "mood": "peaceful",
+      "outfit": "knit sweater",
+      "accessory": null,
+      "prop": "cocoa mug",
+      "pose": "sitting and holding cocoa",
+      "prompt": "Cute cartoon cow, sitting and holding cocoa, wearing knit sweater, with cocoa mug, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_8",
+      "theme": "music recital",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "banjo",
+      "pose": "strumming banjo",
+      "prompt": "Cute cartoon cow, strumming banjo, wearing bow tie, with banjo, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_9",
+      "theme": "garden market",
+      "mood": "friendly",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "flower basket",
+      "pose": "standing and offering flowers",
+      "prompt": "Cute cartoon cow, standing and offering flowers, wearing apron, with flower basket, in a garden market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_10",
+      "theme": "magic garden",
+      "mood": "wonder",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "sparkly watering can",
+      "pose": "watering glowing plants",
+      "prompt": "Cute cartoon cow, watering glowing plants, with flower crown and sparkly watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_11",
+      "theme": "pirate adventure",
+      "mood": "playful",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure chest",
+      "pose": "pulling a tiny treasure chest",
+      "prompt": "Cute cartoon cow, pulling a tiny treasure chest, wearing pirate hat, with treasure chest, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_12",
+      "theme": "space explorer",
+      "mood": "curious",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star map",
+      "pose": "floating and pointing at star map",
+      "prompt": "Cute cartoon cow, floating and pointing at star map, wearing space helmet, with star map, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_13",
+      "theme": "harvest fair",
+      "mood": "cheerful",
+      "outfit": "overalls",
+      "accessory": null,
+      "prop": "pumpkin wagon",
+      "pose": "pulling a mini wagon",
+      "prompt": "Cute cartoon cow, pulling a mini wagon, wearing overalls, with pumpkin wagon, in a harvest fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_14",
+      "theme": "library afternoon",
+      "mood": "focused",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "reading while seated neatly",
+      "prompt": "Cute cartoon cow, reading while seated neatly, wearing tiny satchel, with storybook, in a library afternoon setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_15",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "lace collar",
+      "accessory": null,
+      "prop": "teapot",
+      "pose": "pouring from teapot",
+      "prompt": "Cute cartoon cow, pouring from teapot, wearing lace collar, with teapot, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_16",
+      "theme": "winter festival",
+      "mood": "delighted",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "standing in scarf and lantern",
+      "prompt": "Cute cartoon cow, standing in scarf and lantern, wearing pom pom hat, with paper lantern, in a winter festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_17",
+      "theme": "kite day",
+      "mood": "free",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite spool",
+      "pose": "running and holding spool",
+      "prompt": "Cute cartoon cow, running and holding spool, wearing light jacket, with kite spool, in a kite day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_18",
+      "theme": "baker's day",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "bread basket",
+      "pose": "carrying bread basket",
+      "prompt": "Cute cartoon cow, carrying bread basket, wearing chef hat, with bread basket, in a baker's day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_19",
+      "theme": "moonlight lullaby",
+      "mood": "dreamy",
+      "outfit": "nightcap",
+      "accessory": null,
+      "prop": "moon pillow",
+      "pose": "lying down hugging pillow",
+      "prompt": "Cute cartoon cow, lying down hugging pillow, wearing nightcap, with moon pillow, in a moonlight lullaby setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "cow_20",
+      "theme": "parade day",
+      "mood": "joyful",
+      "outfit": "ribbon sash",
+      "accessory": null,
+      "prop": "bell",
+      "pose": "marching and ringing bell",
+      "prompt": "Cute cartoon cow, marching and ringing bell, wearing ribbon sash, with bell, in a parade day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "penguin": [
+    {
+      "id": "penguin_1",
+      "theme": "snow day",
+      "mood": "gleeful",
+      "outfit": "knit hat",
+      "accessory": null,
+      "prop": "mini sled",
+      "pose": "sliding while holding sled rope",
+      "prompt": "Cute cartoon penguin, sliding while holding sled rope, wearing knit hat, with mini sled, in a snow day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_2",
+      "theme": "beach postcard day",
+      "mood": "surprised",
+      "outfit": "sun visor",
+      "accessory": null,
+      "prop": "postcard",
+      "pose": "standing with postcard and tiny shell",
+      "prompt": "Cute cartoon penguin, standing with postcard and tiny shell, wearing sun visor, with postcard, in a beach postcard day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_3",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "balloon",
+      "pose": "waddling and holding balloon",
+      "prompt": "Cute cartoon penguin, waddling and holding balloon, wearing party hat, with balloon, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_4",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star flag",
+      "pose": "floating with flag",
+      "prompt": "Cute cartoon penguin, floating with flag, wearing space helmet, with star flag, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_5",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "striped pajamas",
+      "accessory": null,
+      "prop": "fish pillow",
+      "pose": "curling up with pillow",
+      "prompt": "Cute cartoon penguin, curling up with pillow, wearing striped pajamas, with fish pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_6",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "scarf",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "standing beside lantern",
+      "prompt": "Cute cartoon penguin, standing beside lantern, wearing scarf, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_7",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "snow badge",
+      "pose": "posing with flippers out",
+      "prompt": "Cute cartoon penguin, posing with flippers out, wearing cape, with snow badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_8",
+      "theme": "rainy day indoors",
+      "mood": "cozy",
+      "outfit": "sweater",
+      "accessory": null,
+      "prop": "warm cocoa",
+      "pose": "sitting and holding cocoa",
+      "prompt": "Cute cartoon penguin, sitting and holding cocoa, wearing sweater, with warm cocoa, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_9",
+      "theme": "pirate adventure",
+      "mood": "playful",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure compass",
+      "pose": "waddling with compass",
+      "prompt": "Cute cartoon penguin, waddling with compass, wearing pirate hat, with treasure compass, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_10",
+      "theme": "music recital",
+      "mood": "proud",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "accordion",
+      "pose": "playing accordion",
+      "prompt": "Cute cartoon penguin, playing accordion, wearing bow tie, with accordion, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_11",
+      "theme": "ice cream break",
+      "mood": "happy",
+      "outfit": "sun hat",
+      "accessory": null,
+      "prop": "fruit popsicle",
+      "pose": "licking popsicle",
+      "prompt": "Cute cartoon penguin, licking popsicle, wearing sun hat, with fruit popsicle, in a ice cream break setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_12",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "watering can",
+      "pose": "standing and watering flowers",
+      "prompt": "Cute cartoon penguin, standing and watering flowers, with flower crown and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_13",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "frilly collar",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "sitting neatly with teacup",
+      "prompt": "Cute cartoon penguin, sitting neatly with teacup, wearing frilly collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_14",
+      "theme": "library nook",
+      "mood": "focused",
+      "outfit": "tiny backpack",
+      "accessory": null,
+      "prop": "book",
+      "pose": "reading while sitting upright",
+      "prompt": "Cute cartoon penguin, reading while sitting upright, wearing tiny backpack, with book, in a library nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_15",
+      "theme": "kite festival",
+      "mood": "delighted",
+      "outfit": "light scarf",
+      "accessory": null,
+      "prop": "kite ribbon",
+      "pose": "running with ribbon trailing",
+      "prompt": "Cute cartoon penguin, running with ribbon trailing, wearing light scarf, with kite ribbon, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_16",
+      "theme": "winter lantern walk",
+      "mood": "dreamy",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "holding lantern in both flippers",
+      "prompt": "Cute cartoon penguin, holding lantern in both flippers, wearing pom pom hat, with paper lantern, in a winter lantern walk setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_17",
+      "theme": "bakery day",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "cookie tin",
+      "pose": "carrying cookie tin",
+      "prompt": "Cute cartoon penguin, carrying cookie tin, wearing chef hat, with cookie tin, in a bakery day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_18",
+      "theme": "royal celebration",
+      "mood": "proud",
+      "outfit": "tiny crown",
+      "accessory": null,
+      "prop": "velvet cushion",
+      "pose": "standing tall with cushion",
+      "prompt": "Cute cartoon penguin, standing tall with cushion, wearing tiny crown, with velvet cushion, in a royal celebration setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_19",
+      "theme": "garden picnic",
+      "mood": "content",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "sandwich box",
+      "pose": "sitting and opening lunch box",
+      "prompt": "Cute cartoon penguin, sitting and opening lunch box, wearing bandana, with sandwich box, in a garden picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "penguin_20",
+      "theme": "moon music night",
+      "mood": "serene",
+      "outfit": "star cloak",
+      "accessory": null,
+      "prop": "xylophone",
+      "pose": "playing xylophone softly",
+      "prompt": "Cute cartoon penguin, playing xylophone softly, wearing star cloak, with xylophone, in a moon music night setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "lion": [
+    {
+      "id": "lion_1",
+      "theme": "royal celebration",
+      "mood": "proud",
+      "outfit": "golden cape",
+      "accessory": null,
+      "prop": "crown cushion",
+      "pose": "standing tall beside cushion",
+      "prompt": "Cute cartoon lion, standing tall beside cushion, wearing golden cape, with crown cushion, in a royal celebration setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_2",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "hero cape",
+      "accessory": null,
+      "prop": "shield badge",
+      "pose": "standing with one paw raised",
+      "prompt": "Cute cartoon lion, standing with one paw raised, wearing hero cape, with shield badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_3",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party crown",
+      "accessory": null,
+      "prop": "cake slice",
+      "pose": "roaring happily with cake slice",
+      "prompt": "Cute cartoon lion, roaring happily with cake slice, wearing party crown, with cake slice, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_4",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "hooded scarf",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon lion, sitting beside lantern, wearing hooded scarf, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_5",
+      "theme": "beach day",
+      "mood": "happy",
+      "outfit": "sun visor",
+      "accessory": "sunglasses",
+      "prop": "coconut cup",
+      "pose": "lounging with cup",
+      "prompt": "Cute cartoon lion, lounging with cup, wearing sun visor, with sunglasses and coconut cup, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_6",
+      "theme": "music parade",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "drum",
+      "pose": "marching and beating drum",
+      "prompt": "Cute cartoon lion, marching and beating drum, wearing bow tie, with drum, in a music parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_7",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "mane pillow",
+      "pose": "curling up with pillow",
+      "prompt": "Cute cartoon lion, curling up with pillow, wearing pajamas, with mane pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_8",
+      "theme": "pirate adventure",
+      "mood": "bold",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure map",
+      "pose": "standing and pointing ahead",
+      "prompt": "Cute cartoon lion, standing and pointing ahead, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_9",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star medal",
+      "pose": "floating proudly with medal",
+      "prompt": "Cute cartoon lion, floating proudly with medal, wearing space helmet, with star medal, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_10",
+      "theme": "magic garden",
+      "mood": "gentle",
+      "outfit": null,
+      "accessory": "flower garland",
+      "prop": "watering can",
+      "pose": "carefully watering flowers",
+      "prompt": "Cute cartoon lion, carefully watering flowers, with flower garland and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_11",
+      "theme": "rainy day indoors",
+      "mood": "peaceful",
+      "outfit": "sweater",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "reading with tail curled around paws",
+      "prompt": "Cute cartoon lion, reading with tail curled around paws, wearing sweater, with storybook, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_12",
+      "theme": "picnic feast",
+      "mood": "content",
+      "outfit": "checkered scarf",
+      "accessory": null,
+      "prop": "fruit basket",
+      "pose": "sitting and holding basket",
+      "prompt": "Cute cartoon lion, sitting and holding basket, wearing checkered scarf, with fruit basket, in a picnic feast setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_13",
+      "theme": "sports day",
+      "mood": "victorious",
+      "outfit": "headband",
+      "accessory": null,
+      "prop": "gold ribbon",
+      "pose": "posing with ribbon held high",
+      "prompt": "Cute cartoon lion, posing with ribbon held high, wearing headband, with gold ribbon, in a sports day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_14",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "lace collar",
+      "accessory": null,
+      "prop": "teapot",
+      "pose": "pouring from teapot",
+      "prompt": "Cute cartoon lion, pouring from teapot, wearing lace collar, with teapot, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_15",
+      "theme": "library adventure",
+      "mood": "focused",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "book stack",
+      "pose": "walking slowly with books",
+      "prompt": "Cute cartoon lion, walking slowly with books, wearing tiny satchel, with book stack, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_16",
+      "theme": "kite festival",
+      "mood": "delighted",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite spool",
+      "pose": "running with spool",
+      "prompt": "Cute cartoon lion, running with spool, wearing light jacket, with kite spool, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_17",
+      "theme": "baker's day",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "loaf of bread",
+      "pose": "holding loaf proudly",
+      "prompt": "Cute cartoon lion, holding loaf proudly, wearing chef hat, with loaf of bread, in a baker's day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_18",
+      "theme": "lantern festival",
+      "mood": "dreamy",
+      "outfit": "star cloak",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "looking up while holding lantern",
+      "prompt": "Cute cartoon lion, looking up while holding lantern, wearing star cloak, with paper lantern, in a lantern festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_19",
+      "theme": "garden market",
+      "mood": "friendly",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "flower basket",
+      "pose": "offering a basket of flowers",
+      "prompt": "Cute cartoon lion, offering a basket of flowers, wearing apron, with flower basket, in a garden market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "lion_20",
+      "theme": "winter cocoa",
+      "mood": "cozy",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "cocoa mug",
+      "pose": "sitting and warming paws on mug",
+      "prompt": "Cute cartoon lion, sitting and warming paws on mug, wearing pom pom hat, with cocoa mug, in a winter cocoa setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "elephant": [
+    {
+      "id": "elephant_1",
+      "theme": "rainbow parade",
+      "mood": "joyful",
+      "outfit": "ribbon sash",
+      "accessory": null,
+      "prop": "parade balloon",
+      "pose": "marching and holding balloon",
+      "prompt": "Cute cartoon elephant, marching and holding balloon, wearing ribbon sash, with parade balloon, in a rainbow parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_2",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "scout scarf",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon elephant, sitting beside lantern, wearing scout scarf, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_3",
+      "theme": "beach day",
+      "mood": "happy",
+      "outfit": "sun hat",
+      "accessory": null,
+      "prop": "sand bucket",
+      "pose": "standing and holding bucket",
+      "prompt": "Cute cartoon elephant, standing and holding bucket, wearing sun hat, with sand bucket, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_4",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cupcake tower",
+      "pose": "balancing cupcake tower carefully",
+      "prompt": "Cute cartoon elephant, balancing cupcake tower carefully, wearing party hat, with cupcake tower, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_5",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "patchwork pillow",
+      "pose": "lying down hugging pillow",
+      "prompt": "Cute cartoon elephant, lying down hugging pillow, wearing pajamas, with patchwork pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_6",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "hero cape",
+      "accessory": null,
+      "prop": "rescue badge",
+      "pose": "standing with trunk raised",
+      "prompt": "Cute cartoon elephant, standing with trunk raised, wearing hero cape, with rescue badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_7",
+      "theme": "magic garden",
+      "mood": "gentle",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "watering can",
+      "pose": "watering giant blossoms",
+      "prompt": "Cute cartoon elephant, watering giant blossoms, with flower crown and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_8",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star map",
+      "pose": "floating and reading star map",
+      "prompt": "Cute cartoon elephant, floating and reading star map, wearing space helmet, with star map, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_9",
+      "theme": "pirate adventure",
+      "mood": "adventurous",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure chest",
+      "pose": "pulling a tiny treasure chest",
+      "prompt": "Cute cartoon elephant, pulling a tiny treasure chest, wearing pirate hat, with treasure chest, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_10",
+      "theme": "rainy day indoors",
+      "mood": "peaceful",
+      "outfit": "knit sweater",
+      "accessory": null,
+      "prop": "cocoa mug",
+      "pose": "sitting and holding mug",
+      "prompt": "Cute cartoon elephant, sitting and holding mug, wearing knit sweater, with cocoa mug, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_11",
+      "theme": "music recital",
+      "mood": "proud",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "trumpet",
+      "pose": "playing trumpet",
+      "prompt": "Cute cartoon elephant, playing trumpet, wearing bow tie, with trumpet, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_12",
+      "theme": "picnic day",
+      "mood": "content",
+      "outfit": "checkered scarf",
+      "accessory": null,
+      "prop": "fruit basket",
+      "pose": "sitting and opening basket",
+      "prompt": "Cute cartoon elephant, sitting and opening basket, wearing checkered scarf, with fruit basket, in a picnic day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_13",
+      "theme": "tea party",
+      "mood": "polite",
+      "outfit": "lace collar",
+      "accessory": null,
+      "prop": "teapot",
+      "pose": "pouring tea carefully with trunk",
+      "prompt": "Cute cartoon elephant, pouring tea carefully with trunk, wearing lace collar, with teapot, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_14",
+      "theme": "library adventure",
+      "mood": "focused",
+      "outfit": "tiny backpack",
+      "accessory": null,
+      "prop": "book stack",
+      "pose": "walking gently with books on trunk",
+      "prompt": "Cute cartoon elephant, walking gently with books on trunk, wearing tiny backpack, with book stack, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_15",
+      "theme": "kite festival",
+      "mood": "delighted",
+      "outfit": "light jacket",
+      "accessory": null,
+      "prop": "kite spool",
+      "pose": "running and holding spool",
+      "prompt": "Cute cartoon elephant, running and holding spool, wearing light jacket, with kite spool, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_16",
+      "theme": "harvest fair",
+      "mood": "cheerful",
+      "outfit": "overalls",
+      "accessory": null,
+      "prop": "pumpkin wagon",
+      "pose": "pulling wagon",
+      "prompt": "Cute cartoon elephant, pulling wagon, wearing overalls, with pumpkin wagon, in a harvest fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_17",
+      "theme": "winter festival",
+      "mood": "cozy",
+      "outfit": "pom pom hat",
+      "accessory": null,
+      "prop": "paper lantern",
+      "pose": "holding lantern under trunk",
+      "prompt": "Cute cartoon elephant, holding lantern under trunk, wearing pom pom hat, with paper lantern, in a winter festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_18",
+      "theme": "bakery morning",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "bread tray",
+      "pose": "carrying tray carefully",
+      "prompt": "Cute cartoon elephant, carrying tray carefully, wearing chef hat, with bread tray, in a bakery morning setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_19",
+      "theme": "moonlight lullaby",
+      "mood": "dreamy",
+      "outfit": "nightcap",
+      "accessory": null,
+      "prop": "moon plush",
+      "pose": "swaying and hugging plush",
+      "prompt": "Cute cartoon elephant, swaying and hugging plush, wearing nightcap, with moon plush, in a moonlight lullaby setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "elephant_20",
+      "theme": "garden helper",
+      "mood": "friendly",
+      "outfit": "apron",
+      "accessory": null,
+      "prop": "seed bag",
+      "pose": "kneeling and planting seeds",
+      "prompt": "Cute cartoon elephant, kneeling and planting seeds, wearing apron, with seed bag, in a garden helper setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "panda": [
+    {
+      "id": "panda_1",
+      "theme": "bamboo picnic",
+      "mood": "content",
+      "outfit": "straw hat",
+      "accessory": null,
+      "prop": "bamboo snack",
+      "pose": "sitting and eating",
+      "prompt": "Cute cartoon panda, sitting and eating, wearing straw hat, with bamboo snack, in a bamboo picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_2",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "round pillow",
+      "pose": "lying curled up",
+      "prompt": "Cute cartoon panda, lying curled up, wearing pajamas, with round pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_3",
+      "theme": "rainy day indoors",
+      "mood": "peaceful",
+      "outfit": "hoodie",
+      "accessory": null,
+      "prop": "warm tea",
+      "pose": "sitting and holding cup",
+      "prompt": "Cute cartoon panda, sitting and holding cup, wearing hoodie, with warm tea, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_4",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cake slice",
+      "pose": "standing and presenting cake",
+      "prompt": "Cute cartoon panda, standing and presenting cake, wearing party hat, with cake slice, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_5",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "lantern",
+      "pose": "holding lantern and looking around",
+      "prompt": "Cute cartoon panda, holding lantern and looking around, with flower crown and lantern, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_6",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "scarf",
+      "accessory": null,
+      "prop": "marshmallow stick",
+      "pose": "sitting and toasting marshmallow",
+      "prompt": "Cute cartoon panda, sitting and toasting marshmallow, wearing scarf, with marshmallow stick, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_7",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star chart",
+      "pose": "floating and studying chart",
+      "prompt": "Cute cartoon panda, floating and studying chart, wearing space helmet, with star chart, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_8",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "mask",
+      "pose": "standing with cape fluttering",
+      "prompt": "Cute cartoon panda, standing with cape fluttering, wearing cape, with mask, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_9",
+      "theme": "library nook",
+      "mood": "focused",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "sitting and reading",
+      "prompt": "Cute cartoon panda, sitting and reading, wearing tiny satchel, with storybook, in a library nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "panda_10",
+      "theme": "music recital",
+      "mood": "joyful",
+      "outfit": "bow tie",
+      "accessory": null,
+      "prop": "drum",
+      "pose": "marching and tapping drum",
+      "prompt": "Cute cartoon panda, marching and tapping drum, wearing bow tie, with drum, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "giraffe": [
+    {
+      "id": "giraffe_1",
+      "theme": "garden tea party",
+      "mood": "polite",
+      "outfit": "floral scarf",
+      "accessory": null,
+      "prop": "teacup",
+      "pose": "standing gracefully with teacup",
+      "prompt": "Cute cartoon giraffe, standing gracefully with teacup, wearing floral scarf, with teacup, in a garden tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_2",
+      "theme": "balloon festival",
+      "mood": "delighted",
+      "outfit": "ribbon collar",
+      "accessory": null,
+      "prop": "balloon bunch",
+      "pose": "walking and holding balloons",
+      "prompt": "Cute cartoon giraffe, walking and holding balloons, wearing ribbon collar, with balloon bunch, in a balloon festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_3",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star map",
+      "pose": "floating with neck stretched up",
+      "prompt": "Cute cartoon giraffe, floating with neck stretched up, wearing space helmet, with star map, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_4",
+      "theme": "beach day",
+      "mood": "happy",
+      "outfit": "sun visor",
+      "accessory": null,
+      "prop": "fruit popsicle",
+      "pose": "standing and licking popsicle",
+      "prompt": "Cute cartoon giraffe, standing and licking popsicle, wearing sun visor, with fruit popsicle, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_5",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cupcake",
+      "pose": "bending down and presenting cupcake",
+      "prompt": "Cute cartoon giraffe, bending down and presenting cupcake, wearing party hat, with cupcake, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_6",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "moon pillow",
+      "pose": "curled neck around pillow",
+      "prompt": "Cute cartoon giraffe, curled neck around pillow, wearing pajamas, with moon pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_7",
+      "theme": "magic garden",
+      "mood": "gentle",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "watering can",
+      "pose": "watering tall flowers",
+      "prompt": "Cute cartoon giraffe, watering tall flowers, with flower crown and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_8",
+      "theme": "library adventure",
+      "mood": "curious",
+      "outfit": "tiny satchel",
+      "accessory": null,
+      "prop": "book stack",
+      "pose": "balancing books carefully",
+      "prompt": "Cute cartoon giraffe, balancing books carefully, wearing tiny satchel, with book stack, in a library adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_9",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "gold badge",
+      "pose": "standing tall with cape flowing",
+      "prompt": "Cute cartoon giraffe, standing tall with cape flowing, wearing cape, with gold badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "giraffe_10",
+      "theme": "picnic day",
+      "mood": "content",
+      "outfit": "straw hat",
+      "accessory": null,
+      "prop": "fruit basket",
+      "pose": "kneeling and opening basket",
+      "prompt": "Cute cartoon giraffe, kneeling and opening basket, wearing straw hat, with fruit basket, in a picnic day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "hamster": [
+    {
+      "id": "hamster_1",
+      "theme": "bakery morning",
+      "mood": "busy",
+      "outfit": "chef hat",
+      "accessory": null,
+      "prop": "bread roll",
+      "pose": "carrying bread roll",
+      "prompt": "Cute cartoon hamster, carrying bread roll, wearing chef hat, with bread roll, in a bakery morning setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_2",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "moon pebble",
+      "pose": "floating with pebble",
+      "prompt": "Cute cartoon hamster, floating with pebble, wearing space helmet, with moon pebble, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_3",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "balloon",
+      "pose": "standing and hugging balloon",
+      "prompt": "Cute cartoon hamster, standing and hugging balloon, wearing party hat, with balloon, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_4",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "striped pajamas",
+      "accessory": null,
+      "prop": "tiny pillow",
+      "pose": "curled up with pillow",
+      "prompt": "Cute cartoon hamster, curled up with pillow, wearing striped pajamas, with tiny pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_5",
+      "theme": "pirate adventure",
+      "mood": "playful",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure key",
+      "pose": "tiptoeing with key",
+      "prompt": "Cute cartoon hamster, tiptoeing with key, wearing pirate hat, with treasure key, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_6",
+      "theme": "rainy day indoors",
+      "mood": "cozy",
+      "outfit": "sweater",
+      "accessory": null,
+      "prop": "storybook",
+      "pose": "sitting and reading",
+      "prompt": "Cute cartoon hamster, sitting and reading, wearing sweater, with storybook, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_7",
+      "theme": "magic garden",
+      "mood": "curious",
+      "outfit": null,
+      "accessory": "flower crown",
+      "prop": "watering can",
+      "pose": "watering a tiny flower patch",
+      "prompt": "Cute cartoon hamster, watering a tiny flower patch, with flower crown and watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_8",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "star badge",
+      "pose": "standing with paws on hips",
+      "prompt": "Cute cartoon hamster, standing with paws on hips, wearing cape, with star badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_9",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon hamster, sitting beside lantern, wearing bandana, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "hamster_10",
+      "theme": "picnic day",
+      "mood": "happy",
+      "outfit": "sun hat",
+      "accessory": null,
+      "prop": "berry tart",
+      "pose": "holding berry tart with both paws",
+      "prompt": "Cute cartoon hamster, holding berry tart with both paws, wearing sun hat, with berry tart, in a picnic day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "dinosaur": [
+    {
+      "id": "dinosaur_1",
+      "theme": "fossil explorer",
+      "mood": "curious",
+      "outfit": "explorer hat",
+      "accessory": null,
+      "prop": "magnifying glass",
+      "pose": "crouching and studying a rock",
+      "prompt": "Cute cartoon dinosaur, crouching and studying a rock, wearing explorer hat, with magnifying glass, in a fossil explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dinosaur_2",
+      "theme": "birthday stomp party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "cupcake",
+      "pose": "standing and holding cupcake",
+      "prompt": "Cute cartoon dinosaur, standing and holding cupcake, wearing party hat, with cupcake, in a birthday stomp party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dinosaur_3",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "shield badge",
+      "pose": "standing with tail lifted",
+      "prompt": "Cute cartoon dinosaur, standing with tail lifted, wearing cape, with shield badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dinosaur_4",
+      "theme": "camping",
+      "mood": "calm",
+      "outfit": "scarf",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon dinosaur, sitting beside lantern, wearing scarf, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dinosaur_5",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star crystal",
+      "pose": "floating and holding crystal",
+      "prompt": "Cute cartoon dinosaur, floating and holding crystal, wearing space helmet, with star crystal, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dinosaur_6",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "dino pillow",
+      "pose": "curling up with pillow",
+      "prompt": "Cute cartoon dinosaur, curling up with pillow, wearing pajamas, with dino pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "monkey": [
+    {
+      "id": "monkey_1",
+      "theme": "jungle picnic",
+      "mood": "happy",
+      "outfit": "bandana",
+      "accessory": null,
+      "prop": "banana muffin",
+      "pose": "sitting and holding muffin",
+      "prompt": "Cute cartoon monkey, sitting and holding muffin, wearing bandana, with banana muffin, in a jungle picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "monkey_2",
+      "theme": "pirate adventure",
+      "mood": "mischievous",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure map",
+      "pose": "swinging and holding map",
+      "prompt": "Cute cartoon monkey, swinging and holding map, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "monkey_3",
+      "theme": "superhero moment",
+      "mood": "bold",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "mask",
+      "pose": "standing on tiptoes with fists up",
+      "prompt": "Cute cartoon monkey, standing on tiptoes with fists up, wearing cape, with mask, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "monkey_4",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party hat",
+      "accessory": null,
+      "prop": "balloon",
+      "pose": "jumping and holding balloon",
+      "prompt": "Cute cartoon monkey, jumping and holding balloon, wearing party hat, with balloon, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "monkey_5",
+      "theme": "rainy day indoors",
+      "mood": "playful",
+      "outfit": "sweater",
+      "accessory": null,
+      "prop": "toy drum",
+      "pose": "sitting and tapping drum",
+      "prompt": "Cute cartoon monkey, sitting and tapping drum, wearing sweater, with toy drum, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "monkey_6",
+      "theme": "space explorer",
+      "mood": "curious",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star flag",
+      "pose": "floating and waving flag",
+      "prompt": "Cute cartoon monkey, floating and waving flag, wearing space helmet, with star flag, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "tiger": [
+    {
+      "id": "tiger_1",
+      "theme": "festival parade",
+      "mood": "proud",
+      "outfit": "ribbon sash",
+      "accessory": null,
+      "prop": "parade flag",
+      "pose": "marching and waving flag",
+      "prompt": "Cute cartoon tiger, marching and waving flag, wearing ribbon sash, with parade flag, in a festival parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "tiger_2",
+      "theme": "superhero moment",
+      "mood": "brave",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "star badge",
+      "pose": "standing with chest out",
+      "prompt": "Cute cartoon tiger, standing with chest out, wearing cape, with star badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "tiger_3",
+      "theme": "beach day",
+      "mood": "happy",
+      "outfit": "sun visor",
+      "accessory": "sunglasses",
+      "prop": "fruit drink",
+      "pose": "lounging with drink",
+      "prompt": "Cute cartoon tiger, lounging with drink, wearing sun visor, with sunglasses and fruit drink, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "tiger_4",
+      "theme": "pirate adventure",
+      "mood": "bold",
+      "outfit": "pirate hat",
+      "accessory": null,
+      "prop": "treasure compass",
+      "pose": "standing and pointing ahead",
+      "prompt": "Cute cartoon tiger, standing and pointing ahead, wearing pirate hat, with treasure compass, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "tiger_5",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "pajamas",
+      "accessory": null,
+      "prop": "striped pillow",
+      "pose": "curling up with pillow",
+      "prompt": "Cute cartoon tiger, curling up with pillow, wearing pajamas, with striped pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "tiger_6",
+      "theme": "space explorer",
+      "mood": "wonder",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "moon map",
+      "pose": "floating and reading map",
+      "prompt": "Cute cartoon tiger, floating and reading map, wearing space helmet, with moon map, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "dragon": [
+    {
+      "id": "dragon_1",
+      "theme": "magic garden",
+      "mood": "wonder",
+      "outfit": "star cloak",
+      "accessory": null,
+      "prop": "glowing lantern",
+      "pose": "hovering gently with lantern",
+      "prompt": "Cute cartoon dragon, hovering gently with lantern, wearing star cloak, with glowing lantern, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dragon_2",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party crown",
+      "accessory": null,
+      "prop": "cake slice",
+      "pose": "sitting and presenting cake",
+      "prompt": "Cute cartoon dragon, sitting and presenting cake, wearing party crown, with cake slice, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dragon_3",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "shield badge",
+      "pose": "standing with tiny wings open",
+      "prompt": "Cute cartoon dragon, standing with tiny wings open, wearing cape, with shield badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dragon_4",
+      "theme": "cloud camping",
+      "mood": "calm",
+      "outfit": "scarf",
+      "accessory": null,
+      "prop": "lantern",
+      "pose": "sitting beside lantern",
+      "prompt": "Cute cartoon dragon, sitting beside lantern, wearing scarf, with lantern, in a cloud camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dragon_5",
+      "theme": "space explorer",
+      "mood": "curious",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star crystal",
+      "pose": "floating and holding crystal",
+      "prompt": "Cute cartoon dragon, floating and holding crystal, wearing space helmet, with star crystal, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "dragon_6",
+      "theme": "cozy bedtime",
+      "mood": "sleepy",
+      "outfit": "moon pajamas",
+      "accessory": null,
+      "prop": "cloud pillow",
+      "pose": "curling up on cloud pillow",
+      "prompt": "Cute cartoon dragon, curling up on cloud pillow, wearing moon pajamas, with cloud pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ],
+  "unicorn": [
+    {
+      "id": "unicorn_1",
+      "theme": "rainbow picnic",
+      "mood": "happy",
+      "outfit": "flower crown",
+      "accessory": null,
+      "prop": "fruit tart",
+      "pose": "sitting and holding tart",
+      "prompt": "Cute cartoon unicorn, sitting and holding tart, wearing flower crown, with fruit tart, in a rainbow picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "unicorn_2",
+      "theme": "moonlight bedtime",
+      "mood": "sleepy",
+      "outfit": "star pajamas",
+      "accessory": null,
+      "prop": "moon pillow",
+      "pose": "lying down with moon pillow",
+      "prompt": "Cute cartoon unicorn, lying down with moon pillow, wearing star pajamas, with moon pillow, in a moonlight bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "unicorn_3",
+      "theme": "magic garden",
+      "mood": "wonder",
+      "outfit": null,
+      "accessory": "ribbon mane clip",
+      "prop": "wand",
+      "pose": "standing and twirling wand",
+      "prompt": "Cute cartoon unicorn, standing and twirling wand, with ribbon mane clip and wand, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "unicorn_4",
+      "theme": "birthday party",
+      "mood": "excited",
+      "outfit": "party crown",
+      "accessory": null,
+      "prop": "cupcake",
+      "pose": "prancing and holding cupcake",
+      "prompt": "Cute cartoon unicorn, prancing and holding cupcake, wearing party crown, with cupcake, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "unicorn_5",
+      "theme": "superhero moment",
+      "mood": "proud",
+      "outfit": "cape",
+      "accessory": null,
+      "prop": "gold badge",
+      "pose": "standing with head held high",
+      "prompt": "Cute cartoon unicorn, standing with head held high, wearing cape, with gold badge, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    },
+    {
+      "id": "unicorn_6",
+      "theme": "space explorer",
+      "mood": "dreamy",
+      "outfit": "space helmet",
+      "accessory": null,
+      "prop": "star lantern",
+      "pose": "floating and holding lantern",
+      "prompt": "Cute cartoon unicorn, floating and holding lantern, wearing space helmet, with star lantern, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+    }
+  ]
+}

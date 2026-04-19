@@ -5,9 +5,15 @@
   "type": "module",
   "scripts": {
     "install-skills": "node scripts/install-skills/index.js",
-    "transcript": "node scripts/youtube-transcript/get_transcript.js"
+    "transcript": "node scripts/youtube-transcript/get_transcript.js",
+    "game-asset": "node scripts/game-asset/generate-game-asset-gemini.js",
+    "game-asset:openai": "node scripts/game-asset/generate-game-asset-openai.js",
+    "game-asset:openrouter": "node scripts/game-asset/generate-game-asset-openrouter.js"
   },
   "dependencies": {
+    "@google/genai": "^1.46.0",
+    "openai": "^6.7.0",
+    "sharp": "^0.34.4",
     "youtube-transcript-plus": "^1.2.0"
   }
 }

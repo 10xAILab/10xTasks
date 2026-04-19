@@ -7,6 +7,13 @@
 
 ## 1. Competitor Overview (Medium Depth)
 
+### 1.0 Open source
+
+- https://www.aci.dev
+  - `TODO` Update Main features
+- https://www.activepieces.com
+  - `TODO` Update Main features
+
 ### 1.1 TypingMind (Teams / Enterprise)
 
 **Positioning:** ChatGPT-style UI for teams and enterprises; multi-model chat, knowledge base, and collaboration with enterprise controls.

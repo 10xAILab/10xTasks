@@ -1,0 +1,74 @@
+{
+  "inputPath": "/Users/chico/projects/10x/10xTasks/data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/dinosaur.webp",
+  "outputPaths": {
+    "png": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/dinosaur-clean.png",
+    "webp": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/dinosaur-clean.webp",
+    "metadata": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned/dinosaur-clean.json"
+  },
+  "before": {
+    "width": 567,
+    "height": 672
+  },
+  "after": {
+    "width": 437,
+    "height": 512
+  },
+  "options": {
+    "input": "/Users/chico/projects/10x/10xTasks/data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/dinosaur.webp",
+    "outputDir": "data/teddy-bear-math-lovable/visuals/pets/rosebud.ai/accessories/cleaned",
+    "name": null,
+    "padding": 20,
+    "maxWidth": 512,
+    "maxHeight": 512,
+    "bgFuzz": 18,
+    "alphaThreshold": 8,
+    "minAlpha": 0,
+    "png": true,
+    "webp": true,
+    "webpQuality": 85,
+    "webpAlphaQuality": 100,
+    "webpEffort": 4,
+    "dryRun": false,
+    "metadata": true
+  },
+  "inferredBackgroundColor": {
+    "r": 252,
+    "g": 254,
+    "b": 117,
+    "fromCorner": "top-right"
+  },
+  "cornerSamples": [
+    {
+      "corner": "top-left",
+      "r": 254,
+      "g": 252,
+      "b": 119
+    },
+    {
+      "corner": "top-right",
+      "r": 252,
+      "g": 254,
+      "b": 117
+    },
+    {
+      "corner": "bottom-left",
+      "r": 252,
+      "g": 254,
+      "b": 115
+    },
+    {
+      "corner": "bottom-right",
+      "r": 245,
+      "g": 250,
+      "b": 116
+    }
+  ],
+  "cleanupStats": {
+    "changedPixels": 2213,
+    "forcedTransparent": 113870
+  },
+  "outputsWritten": {
+    "png": true,
+    "webp": true
+  }
+}

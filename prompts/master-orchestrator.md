@@ -27,7 +27,7 @@ When executing a task file from `tasks/todo` or `tasks/review`:
 
 1. **Start/resume**: move the task file to `tasks/wip`.
 2. **Execute** using `prompts/execution.md`:
-   - Non-coding: execute when unblocked; for YouTube summaries use transcript script then `prompts/youtube-summary.md`.
+   - Non-coding: execute when unblocked; for YouTube summaries use transcript script then `prompts/youtube-summary.md`; for book summaries use `prompts/book-summary.md`.
    - Coding: write plan, then pause for human approval before implementing.
 3. **On completion**: move task file to `tasks/completed`; write artifacts under `artifacts/`.
 4. **On needs review**: move task file to `tasks/review`; add/update **Next Steps** in the task file.

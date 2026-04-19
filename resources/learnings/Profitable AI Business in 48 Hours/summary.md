@@ -1,6 +1,7 @@
 # YouTube Summary: Build a Profitable AI Business in 48 Hours
 
 **Link:** https://www.youtube.com/watch?v=yLXTQfnudU4
+**LinkedIn Post:** https://www.linkedin.com/posts/christian-peverelli_we-just-deployed-openclaw-securely-activity-7428874323391836160-tBiz
 
 A timed challenge to build a profitable AI business in 48 hours: from idea and validation through building with AI, getting customers, and turning a profit, with a focus on OpenClaw/RevOps and agency setup.
 
@@ -14,9 +15,9 @@ The presenter starts a timer and commits to building another profitable AI busin
 
 He explains that coming up with an idea often blocks people, and one approach is to focus on trends—especially tech advancement. He focuses on problems emerging around a new tool everyone is talking about: Cloudbot / OpenClaw (an AI “Jarvis” that takes action across your tools). The strategy is to find problems people have with this technology and solve them, since people pay to solve problems.
 
-### Research with Manis on OpenClaw (3:30 - 6:30)
+### Research with Manus on OpenClaw (3:30 - 6:30)
 
-He uses Manis (alternatives: Claude Touchbt, Perplexity) to research the web for people discussing problems with Clawbot/OpenClaw. The report surfaces security and usability issues: people don’t know how to set it up safely, risk cyber attacks and human error, and face a high installation barrier. The idea of providing consulting to help enterprises securely deploy and manage AI agents is framed as an urgent, zero-to-three-month need. He decides to niche down rather than be “something for everyone.”
+He uses Manus (alternatives: Claude Touchbt, Perplexity) to research the web for people discussing problems with Clawbot/OpenClaw. The report surfaces security and usability issues: people don’t know how to set it up safely, risk cyber attacks and human error, and face a high installation barrier. The idea of providing consulting to help enterprises securely deploy and manage AI agents is framed as an urgent, zero-to-three-month need. He decides to niche down rather than be “something for everyone.”
 
 ### Choosing the niche: RevOps (6:30 - 8:45)
 
@@ -45,3 +46,44 @@ He publishes a LinkedIn post showing the CRM use case (e.g., analytics report, c
 ### Sales, costs, learnings and close (32:00 - 33:37)
 
 He breaks down costs (e.g., Nano Banana $10/mo, logo DIY, Outbound $99, Tidycal, Stripe fee $87.30): total $289.30. Total sales $3,000; profit $2,710.70. He notes fulfillment (his time and an assistant) still to come. Learnings: (1) you don’t have to be technical; (2) sales take the longest—start outreach as soon as the offer exists; (3) simplify your stack and use fewer tools; (4) real skills enable action—he points to a video on six skills with big potential for 2027. He closes by asking viewers to subscribe.
+
+### LinkedIn Post
+
+We just deployed OpenClaw --- securely --- inside our GTM stack and holy s#%t...
+
+Revenue operations will never be the same again.
+
+⚡ CRM updates --- happening in real time, no manual entry
+⚡ Call transcripts --- automatically summarized and logged
+⚡ Lead enrichment --- populating fields the moment a new contact hits the pipeline
+⚡ Follow-up triggers --- firing based on actual buyer signals
+
+No spreadsheet jockeys. No duct-taped automations. 
+No "remind me to update Salesforce."
+Just AI actually doing the work. 
+
+But here's where it gets cray cray...
+We connected it to Bond.
+
+Now it doesn't just manage our pipeline --- it builds it.
+
+✅ Finding leads based on real buying signals. 
+✅ Enriching contacts + verifying emails. 
+✅ Researching accounts. 
+✅ Qualifying prospects.
+✅ Personalized copywriting.
+
+All at the same level as a top-tier GTM engineer.
+
+Without the $150K salary. 
+Without the 3-month ramp. 
+Without the tool stack chaos.
+
+One system. Fully connected. Running on autopilot.
+And we're just scratching the surface of what's possible...
+
+2026 will be the year revenue operations changes forever.
+
+Here is a short video with just the basic CRM use case.
+
+Comment "Rev2026" and connect with me if you want a detailed list of the uses cases we uncovered.

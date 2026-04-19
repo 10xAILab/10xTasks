@@ -56,6 +56,7 @@ While in **wip**:
 ### 4. Execution (when running tasks)
 
 - For **YouTube summary** tasks, run `npm run transcript -- "<youtube-url>"` then summarize using `prompts/youtube-summary.md` (chapter-based: `### <name> (<start> - <end>)` + description per chapter, same order; output only valid markdown).
+- For **book summary** tasks, use `prompts/book-summary.md`. If only a title is provided, first find the matching Amazon UK Kindle listing, include the Kindle link + GBP price, then produce the required summary sections.
 - Save execution outputs under `artifacts/` (e.g. `artifacts/<task-slug>/result.md`, `error.md`, `review.md`, `data/`).
 - Use scripts in `scripts/` for deterministic operations.
 

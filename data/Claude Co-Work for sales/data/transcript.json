@@ -1,0 +1,2280 @@
+{
+  "videoId": "EqJoui72QrU",
+  "transcript": [
+    {
+      "startTime": "80",
+      "endTime": "3679",
+      "text": "Claude Co has completely changed the way"
+    },
+    {
+      "startTime": "1839",
+      "endTime": "5600",
+      "text": "me and my team do sales. We can now"
+    },
+    {
+      "startTime": "3679",
+      "endTime": "7600",
+      "text": "automate anything from prospecting to"
+    },
+    {
+      "startTime": "5600",
+      "endTime": "9280",
+      "text": "lead nurturing to sales analytics by"
+    },
+    {
+      "startTime": "7600",
+      "endTime": "10960",
+      "text": "simply prompting Claude. So, in this"
+    },
+    {
+      "startTime": "9280",
+      "endTime": "12800",
+      "text": "video, I&#39;ll show you how to use Co-work"
+    },
+    {
+      "startTime": "10960",
+      "endTime": "14559",
+      "text": "to automate any prospecting, research,"
+    },
+    {
+      "startTime": "12800",
+      "endTime": "16480",
+      "text": "or outreach task. Show you how to"
+    },
+    {
+      "startTime": "14559",
+      "endTime": "18240",
+      "text": "automate lead nurturing and follow-ups,"
+    },
+    {
+      "startTime": "16480",
+      "endTime": "19680",
+      "text": "and show you how to use Claude for"
+    },
+    {
+      "startTime": "18240",
+      "endTime": "20800",
+      "text": "automatic call preps and sales"
+    },
+    {
+      "startTime": "19680",
+      "endTime": "22400",
+      "text": "analytics. Now, if you don&#39;t know it"
+    },
+    {
+      "startTime": "20800",
+      "endTime": "23600",
+      "text": "yet, Claude recently launched co-work,"
+    },
+    {
+      "startTime": "22400",
+      "endTime": "25920",
+      "text": "which is now available on the Cloud"
+    },
+    {
+      "startTime": "23600",
+      "endTime": "27599",
+      "text": "desktop app in the second tab here. And"
+    },
+    {
+      "startTime": "25920",
+      "endTime": "29599",
+      "text": "in co-work, we can now give Claude"
+    },
+    {
+      "startTime": "27599",
+      "endTime": "31279",
+      "text": "access to folders on our computer and"
+    },
+    {
+      "startTime": "29599",
+      "endTime": "33680",
+      "text": "connect Claude to our entire software"
+    },
+    {
+      "startTime": "31279",
+      "endTime": "35760",
+      "text": "stack. But the real unlock is skills."
+    },
+    {
+      "startTime": "33680",
+      "endTime": "37520",
+      "text": "And skills are basically automations we"
+    },
+    {
+      "startTime": "35760",
+      "endTime": "39520",
+      "text": "can create by simply prompting Claude."
+    },
+    {
+      "startTime": "37520",
+      "endTime": "41200",
+      "text": "Now, Entropic has also launched a sales"
+    },
+    {
+      "startTime": "39520",
+      "endTime": "43200",
+      "text": "plugin with pre-made skills which you"
+    },
+    {
+      "startTime": "41200",
+      "endTime": "45600",
+      "text": "can find here in browse plugins. You go"
+    },
+    {
+      "startTime": "43200",
+      "endTime": "47680",
+      "text": "to the bottom and you click on install."
+    },
+    {
+      "startTime": "45600",
+      "endTime": "49200",
+      "text": "You&#39;ll now have the Entropic sales"
+    },
+    {
+      "startTime": "47680",
+      "endTime": "51120",
+      "text": "plugin and they&#39;ll already have some"
+    },
+    {
+      "startTime": "49200",
+      "endTime": "53199",
+      "text": "skills prepared for you like the account"
+    },
+    {
+      "startTime": "51120",
+      "endTime": "55440",
+      "text": "research, the call prep, call summary,"
+    },
+    {
+      "startTime": "53199",
+      "endTime": "56879",
+      "text": "competitive intelligence, etc. Now, some"
+    },
+    {
+      "startTime": "55440",
+      "endTime": "58480",
+      "text": "of these are useful, especially if you"
+    },
+    {
+      "startTime": "56879",
+      "endTime": "60640",
+      "text": "start customizing them, which I&#39;ll show"
+    },
+    {
+      "startTime": "58480",
+      "endTime": "62559",
+      "text": "you uh later. But as these tend to be"
+    },
+    {
+      "startTime": "60640",
+      "endTime": "64559",
+      "text": "more generic, the real unlock is"
+    },
+    {
+      "startTime": "62559",
+      "endTime": "66240",
+      "text": "building or customizing these for your"
+    },
+    {
+      "startTime": "64559",
+      "endTime": "67840",
+      "text": "own specific sales workflows. For"
+    },
+    {
+      "startTime": "66240",
+      "endTime": "69920",
+      "text": "example, we&#39;ve built our entire own"
+    },
+    {
+      "startTime": "67840",
+      "endTime": "71920",
+      "text": "sales plug-in with skills for CRM,"
+    },
+    {
+      "startTime": "69920",
+      "endTime": "73920",
+      "text": "prospect mining, email personalization,"
+    },
+    {
+      "startTime": "71920",
+      "endTime": "76159",
+      "text": "lead intelligence, lead qualification,"
+    },
+    {
+      "startTime": "73920",
+      "endTime": "78080",
+      "text": "LinkedIn post engager, uh pipeline"
+    },
+    {
+      "startTime": "76159",
+      "endTime": "80000",
+      "text": "review, sales rep analyzer, and win loss"
+    },
+    {
+      "startTime": "78080",
+      "endTime": "81360",
+      "text": "analysis. Now, I&#39;ll show you examples of"
+    },
+    {
+      "startTime": "80000",
+      "endTime": "83200",
+      "text": "all of these skills, how we&#39;ve built"
+    },
+    {
+      "startTime": "81360",
+      "endTime": "84960",
+      "text": "them, and which connectors you need for"
+    },
+    {
+      "startTime": "83200",
+      "endTime": "86159",
+      "text": "all of these common sales tasks. And I"
+    },
+    {
+      "startTime": "84960",
+      "endTime": "87759",
+      "text": "think it will give you a good idea on"
+    },
+    {
+      "startTime": "86159",
+      "endTime": "89520",
+      "text": "how to build skills for your own sales"
+    },
+    {
+      "startTime": "87759",
+      "endTime": "90799",
+      "text": "workflows. And if you want access to all"
+    },
+    {
+      "startTime": "89520",
+      "endTime": "92400",
+      "text": "of the skills that me and my team are"
+    },
+    {
+      "startTime": "90799",
+      "endTime": "94159",
+      "text": "building out, including these and"
+    },
+    {
+      "startTime": "92400",
+      "endTime": "95439",
+      "text": "unlimited one-on-one tech help and"
+    },
+    {
+      "startTime": "94159",
+      "endTime": "96960",
+      "text": "workshops where we dive a lot deeper"
+    },
+    {
+      "startTime": "95439",
+      "endTime": "98400",
+      "text": "into these tools, you can also check out"
+    },
+    {
+      "startTime": "96960",
+      "endTime": "100320",
+      "text": "my AI accelerator in the link in the"
+    },
+    {
+      "startTime": "98400",
+      "endTime": "101840",
+      "text": "description below. I also have a full"
+    },
+    {
+      "startTime": "100320",
+      "endTime": "103280",
+      "text": "video breaking down skills if you&#39;re"
+    },
+    {
+      "startTime": "101840",
+      "endTime": "104240",
+      "text": "still unfamiliar with it, which I&#39;ll"
+    },
+    {
+      "startTime": "103280",
+      "endTime": "105520",
+      "text": "make sure to link in the description"
+    },
+    {
+      "startTime": "104240",
+      "endTime": "106960",
+      "text": "below, too. But even if you don&#39;t know"
+    },
+    {
+      "startTime": "105520",
+      "endTime": "108880",
+      "text": "it yet, you should be able to follow"
+    },
+    {
+      "startTime": "106960",
+      "endTime": "110560",
+      "text": "this video. So, let&#39;s start with using"
+    },
+    {
+      "startTime": "108880",
+      "endTime": "112720",
+      "text": "co-work for prospecting, lead"
+    },
+    {
+      "startTime": "110560",
+      "endTime": "114479",
+      "text": "qualification, and research. Now, as"
+    },
+    {
+      "startTime": "112720",
+      "endTime": "116000",
+      "text": "most people have unique prospecting"
+    },
+    {
+      "startTime": "114479",
+      "endTime": "118159",
+      "text": "workflows, I&#39;ll just show you an example"
+    },
+    {
+      "startTime": "116000",
+      "endTime": "120000",
+      "text": "of a prospecting skill we&#39;ve built, how"
+    },
+    {
+      "startTime": "118159",
+      "endTime": "122159",
+      "text": "we&#39;ve built it, and the connectors that"
+    },
+    {
+      "startTime": "120000",
+      "endTime": "123759",
+      "text": "are most useful for prospecting because"
+    },
+    {
+      "startTime": "122159",
+      "endTime": "125759",
+      "text": "I think it will give you a good idea of"
+    },
+    {
+      "startTime": "123759",
+      "endTime": "127280",
+      "text": "how to do this for your own workflows."
+    },
+    {
+      "startTime": "125759",
+      "endTime": "129280",
+      "text": "For example, here I built a skill out of"
+    },
+    {
+      "startTime": "127280",
+      "endTime": "131840",
+      "text": "a workflow that can scrape LinkedIn post"
+    },
+    {
+      "startTime": "129280",
+      "endTime": "134080",
+      "text": "engagers, qualify them against my ICP,"
+    },
+    {
+      "startTime": "131840",
+      "endTime": "136080",
+      "text": "and enrich the qualified leads, and even"
+    },
+    {
+      "startTime": "134080",
+      "endTime": "137920",
+      "text": "do personalized outreach on LinkedIn. So"
+    },
+    {
+      "startTime": "136080",
+      "endTime": "139840",
+      "text": "you see here I called the skill by just"
+    },
+    {
+      "startTime": "137920",
+      "endTime": "141440",
+      "text": "using a slash command here with LinkedIn"
+    },
+    {
+      "startTime": "139840",
+      "endTime": "144080",
+      "text": "post engagers. That&#39;s how we can use"
+    },
+    {
+      "startTime": "141440",
+      "endTime": "145920",
+      "text": "skills by just using the slash and using"
+    },
+    {
+      "startTime": "144080",
+      "endTime": "147440",
+      "text": "the skill here. Then I added someone"
+    },
+    {
+      "startTime": "145920",
+      "endTime": "149280",
+      "text": "else&#39;s LinkedIn post to scrape the"
+    },
+    {
+      "startTime": "147440",
+      "endTime": "151680",
+      "text": "engagers from. And I added the"
+    },
+    {
+      "startTime": "149280",
+      "endTime": "153680",
+      "text": "qualification criteria. And because the"
+    },
+    {
+      "startTime": "151680",
+      "endTime": "156160",
+      "text": "skill already has the workflow on how to"
+    },
+    {
+      "startTime": "153680",
+      "endTime": "158000",
+      "text": "do this embedded, it already went ahead"
+    },
+    {
+      "startTime": "156160",
+      "endTime": "160080",
+      "text": "and found the last LinkedIn post of"
+    },
+    {
+      "startTime": "158000",
+      "endTime": "162959",
+      "text": "Chris Long. It then scraped all the"
+    },
+    {
+      "startTime": "160080",
+      "endTime": "166879",
+      "text": "engagers from that post using Ampify and"
+    },
+    {
+      "startTime": "162959",
+      "endTime": "169280",
+      "text": "identified 127 unique engagers. 17 were"
+    },
+    {
+      "startTime": "166879",
+      "endTime": "171360",
+      "text": "qualified according to my criteria. It"
+    },
+    {
+      "startTime": "169280",
+      "endTime": "173680",
+      "text": "also enriched the data with a company"
+    },
+    {
+      "startTime": "171360",
+      "endTime": "175680",
+      "text": "size, a company description, and the"
+    },
+    {
+      "startTime": "173680",
+      "endTime": "177280",
+      "text": "LinkedIn post they engaged with. And it"
+    },
+    {
+      "startTime": "175680",
+      "endTime": "180000",
+      "text": "gave me the information of those leads"
+    },
+    {
+      "startTime": "177280",
+      "endTime": "181200",
+      "text": "with the enriched data in a CSV sheet as"
+    },
+    {
+      "startTime": "180000",
+      "endTime": "183920",
+      "text": "you can see here. So, we have the"
+    },
+    {
+      "startTime": "181200",
+      "endTime": "185599",
+      "text": "LinkedIn public URL, the about uh the"
+    },
+    {
+      "startTime": "183920",
+      "endTime": "187360",
+      "text": "company size, the company website,"
+    },
+    {
+      "startTime": "185599",
+      "endTime": "189200",
+      "text": "company description, and the post they"
+    },
+    {
+      "startTime": "187360",
+      "endTime": "190879",
+      "text": "engaged with. Now this skill stops here"
+    },
+    {
+      "startTime": "189200",
+      "endTime": "192480",
+      "text": "but we can now run another skill to"
+    },
+    {
+      "startTime": "190879",
+      "endTime": "194319",
+      "text": "actually make personalized outreach"
+    },
+    {
+      "startTime": "192480",
+      "endTime": "196000",
+      "text": "messages and actually do the outreach on"
+    },
+    {
+      "startTime": "194319",
+      "endTime": "197519",
+      "text": "LinkedIn. Now the point of this is you"
+    },
+    {
+      "startTime": "196000",
+      "endTime": "199760",
+      "text": "can build skills like this for any"
+    },
+    {
+      "startTime": "197519",
+      "endTime": "202080",
+      "text": "repetitive prospecting qualification or"
+    },
+    {
+      "startTime": "199760",
+      "endTime": "203519",
+      "text": "research workflow you might have through"
+    },
+    {
+      "startTime": "202080",
+      "endTime": "205360",
+      "text": "building these skills. And I&#39;ll show you"
+    },
+    {
+      "startTime": "203519",
+      "endTime": "207120",
+      "text": "in a second how I built this one. But"
+    },
+    {
+      "startTime": "205360",
+      "endTime": "209680",
+      "text": "whether you get prospects or data from"
+    },
+    {
+      "startTime": "207120",
+      "endTime": "212239",
+      "text": "LinkedIn, Google Maps, Apollo, your CRM"
+    },
+    {
+      "startTime": "209680",
+      "endTime": "213840",
+      "text": "or uh any other social media, we do need"
+    },
+    {
+      "startTime": "212239",
+      "endTime": "215599",
+      "text": "the right connectors to actually let"
+    },
+    {
+      "startTime": "213840",
+      "endTime": "217360",
+      "text": "Claude access the data on these"
+    },
+    {
+      "startTime": "215599",
+      "endTime": "219120",
+      "text": "platforms. So the key connectors you"
+    },
+    {
+      "startTime": "217360",
+      "endTime": "221120",
+      "text": "want to have installed in clockwork for"
+    },
+    {
+      "startTime": "219120",
+      "endTime": "223680",
+      "text": "any prospecting, research or outreach"
+    },
+    {
+      "startTime": "221120",
+      "endTime": "225599",
+      "text": "task is first of all appy. If you don&#39;t"
+    },
+    {
+      "startTime": "223680",
+      "endTime": "227519",
+      "text": "know Appify, Appify is basically a"
+    },
+    {
+      "startTime": "225599",
+      "endTime": "229840",
+      "text": "marketplace with scrapers that can"
+    },
+    {
+      "startTime": "227519",
+      "endTime": "232239",
+      "text": "scrape any social media like LinkedIn"
+    },
+    {
+      "startTime": "229840",
+      "endTime": "234560",
+      "text": "profiles, LinkedIn posts, LinkedIn post"
+    },
+    {
+      "startTime": "232239",
+      "endTime": "236640",
+      "text": "engagers, X, Instagram or any other"
+    },
+    {
+      "startTime": "234560",
+      "endTime": "239040",
+      "text": "social media. They can even scrape some"
+    },
+    {
+      "startTime": "236640",
+      "endTime": "240560",
+      "text": "uh lead databases like Apollo. So this"
+    },
+    {
+      "startTime": "239040",
+      "endTime": "243120",
+      "text": "is really one of the most important to"
+    },
+    {
+      "startTime": "240560",
+      "endTime": "245040",
+      "text": "install for any um lead prospecting or"
+    },
+    {
+      "startTime": "243120",
+      "endTime": "246560",
+      "text": "lead enrichment. Uh you can start for"
+    },
+    {
+      "startTime": "245040",
+      "endTime": "248560",
+      "text": "free with appy and they also have a"
+    },
+    {
+      "startTime": "246560",
+      "endTime": "250319",
+      "text": "native integration with cloud cowork."
+    },
+    {
+      "startTime": "248560",
+      "endTime": "252640",
+      "text": "You can just set up new connections by"
+    },
+    {
+      "startTime": "250319",
+      "endTime": "254319",
+      "text": "going here to the plus sign and go to"
+    },
+    {
+      "startTime": "252640",
+      "endTime": "256560",
+      "text": "browse connections and then I can choose"
+    },
+    {
+      "startTime": "254319",
+      "endTime": "259359",
+      "text": "appy and you can do the setup. You can"
+    },
+    {
+      "startTime": "256560",
+      "endTime": "261280",
+      "text": "also connect it with for example Apollo"
+    },
+    {
+      "startTime": "259359",
+      "endTime": "263600",
+      "text": "or any other lead database you might"
+    },
+    {
+      "startTime": "261280",
+      "endTime": "265600",
+      "text": "use. You can now also connect it uh with"
+    },
+    {
+      "startTime": "263600",
+      "endTime": "267759",
+      "text": "clay as they have a native integration"
+    },
+    {
+      "startTime": "265600",
+      "endTime": "269280",
+      "text": "if you use clay. And another one that&#39;s"
+    },
+    {
+      "startTime": "267759",
+      "endTime": "271440",
+      "text": "really interesting to explore if you&#39;re"
+    },
+    {
+      "startTime": "269280",
+      "endTime": "273840",
+      "text": "looking for lead data is VIP"
+    },
+    {
+      "startTime": "271440",
+      "endTime": "276000",
+      "text": "prospecting, which is an API purely made"
+    },
+    {
+      "startTime": "273840",
+      "endTime": "277840",
+      "text": "to give to AI agents to provide you with"
+    },
+    {
+      "startTime": "276000",
+      "endTime": "279199",
+      "text": "more data on leads. And if you do"
+    },
+    {
+      "startTime": "277840",
+      "endTime": "281280",
+      "text": "outreach, you can connect it to your"
+    },
+    {
+      "startTime": "279199",
+      "endTime": "283440",
+      "text": "email outreach platform like instantly."
+    },
+    {
+      "startTime": "281280",
+      "endTime": "286000",
+      "text": "Or if you do LinkedIn outreach, I"
+    },
+    {
+      "startTime": "283440",
+      "endTime": "288080",
+      "text": "recommend using the Uniow connection,"
+    },
+    {
+      "startTime": "286000",
+      "endTime": "290479",
+      "text": "which can automate outreach on LinkedIn,"
+    },
+    {
+      "startTime": "288080",
+      "endTime": "291600",
+      "text": "WhatsApp, Facebook, and X for you. Of"
+    },
+    {
+      "startTime": "290479",
+      "endTime": "293120",
+      "text": "course, for some of the other sales"
+    },
+    {
+      "startTime": "291600",
+      "endTime": "294960",
+      "text": "skills that I&#39;m going to show you, a"
+    },
+    {
+      "startTime": "293120",
+      "endTime": "296960",
+      "text": "connection with your CRM. In my case,"
+    },
+    {
+      "startTime": "294960",
+      "endTime": "298400",
+      "text": "Ato is of course very important. And"
+    },
+    {
+      "startTime": "296960",
+      "endTime": "299919",
+      "text": "what I highly recommend is to have a"
+    },
+    {
+      "startTime": "298400",
+      "endTime": "301759",
+      "text": "meeting transcriber. In my case,"
+    },
+    {
+      "startTime": "299919",
+      "endTime": "303199",
+      "text": "Fireflies. And lastly, of course, you"
+    },
+    {
+      "startTime": "301759",
+      "endTime": "305680",
+      "text": "want to have it connected to probably"
+    },
+    {
+      "startTime": "303199",
+      "endTime": "307039",
+      "text": "your calendar and your email. So, how"
+    },
+    {
+      "startTime": "305680",
+      "endTime": "308160",
+      "text": "did I build that skill that I showed"
+    },
+    {
+      "startTime": "307039",
+      "endTime": "310160",
+      "text": "you? I basically went through the"
+    },
+    {
+      "startTime": "308160",
+      "endTime": "311520",
+      "text": "workflow once together with Cloud and"
+    },
+    {
+      "startTime": "310160",
+      "endTime": "313199",
+      "text": "then asked it to build a skill out of"
+    },
+    {
+      "startTime": "311520",
+      "endTime": "315600",
+      "text": "it. So, already knows and went through"
+    },
+    {
+      "startTime": "313199",
+      "endTime": "317520",
+      "text": "the process and knows what to save as"
+    },
+    {
+      "startTime": "315600",
+      "endTime": "319759",
+      "text": "the workflow. So here I said I want you"
+    },
+    {
+      "startTime": "317520",
+      "endTime": "321919",
+      "text": "to scrape the most uh recent 10 posts of"
+    },
+    {
+      "startTime": "319759",
+      "endTime": "324240",
+      "text": "Ben&#39;s profile, extract the post"
+    },
+    {
+      "startTime": "321919",
+      "endTime": "326560",
+      "text": "commenters and engagers data and present"
+    },
+    {
+      "startTime": "324240",
+      "endTime": "328720",
+      "text": "them in a CSV along with the link"
+    },
+    {
+      "startTime": "326560",
+      "endTime": "330720",
+      "text": "profile URL, name, headline and the post"
+    },
+    {
+      "startTime": "328720",
+      "endTime": "333600",
+      "text": "that they engaged with. In this case I"
+    },
+    {
+      "startTime": "330720",
+      "endTime": "335680",
+      "text": "specified the specific appy scraper that"
+    },
+    {
+      "startTime": "333600",
+      "endTime": "337520",
+      "text": "it should use but it can figure this out"
+    },
+    {
+      "startTime": "335680",
+      "endTime": "339440",
+      "text": "itself too. In this case I already knew"
+    },
+    {
+      "startTime": "337520",
+      "endTime": "341360",
+      "text": "so I specified it to make the process a"
+    },
+    {
+      "startTime": "339440",
+      "endTime": "343840",
+      "text": "bit quicker. I then gave it my LinkedIn"
+    },
+    {
+      "startTime": "341360",
+      "endTime": "346240",
+      "text": "profile to scrape the post from it. then"
+    },
+    {
+      "startTime": "343840",
+      "endTime": "349360",
+      "text": "went ahead and used the appy uh scraper"
+    },
+    {
+      "startTime": "346240",
+      "endTime": "351520",
+      "text": "to scrape the post engagers and it found"
+    },
+    {
+      "startTime": "349360",
+      "endTime": "353360",
+      "text": "154 uh unique people who engage with"
+    },
+    {
+      "startTime": "351520",
+      "endTime": "356080",
+      "text": "this post. Then of course I want to"
+    },
+    {
+      "startTime": "353360",
+      "endTime": "358320",
+      "text": "qualify these according to my uh ICP"
+    },
+    {
+      "startTime": "356080",
+      "endTime": "359759",
+      "text": "criteria. I then noticed it didn&#39;t"
+    },
+    {
+      "startTime": "358320",
+      "endTime": "361280",
+      "text": "actually use the LinkedIn scraper to"
+    },
+    {
+      "startTime": "359759",
+      "endTime": "364000",
+      "text": "base the qualification on. So I"
+    },
+    {
+      "startTime": "361280",
+      "endTime": "365759",
+      "text": "specified to use an appy scraper to"
+    },
+    {
+      "startTime": "364000",
+      "endTime": "367440",
+      "text": "scrape the LinkedIn and get specific"
+    },
+    {
+      "startTime": "365759",
+      "endTime": "369600",
+      "text": "data points like the about section,"
+    },
+    {
+      "startTime": "367440",
+      "endTime": "371600",
+      "text": "company name, and website. And that&#39;s"
+    },
+    {
+      "startTime": "369600",
+      "endTime": "373600",
+      "text": "the point of giving these instructions."
+    },
+    {
+      "startTime": "371600",
+      "endTime": "375280",
+      "text": "If you do it once, then build a skill,"
+    },
+    {
+      "startTime": "373600",
+      "endTime": "377440",
+      "text": "you will already know how to do it next"
+    },
+    {
+      "startTime": "375280",
+      "endTime": "379120",
+      "text": "time, so you don&#39;t have to correct it."
+    },
+    {
+      "startTime": "377440",
+      "endTime": "381600",
+      "text": "It then actually scraped the LinkedIn"
+    },
+    {
+      "startTime": "379120",
+      "endTime": "383520",
+      "text": "profiles and created an enriched CSV"
+    },
+    {
+      "startTime": "381600",
+      "endTime": "385600",
+      "text": "with potential leads for my business."
+    },
+    {
+      "startTime": "383520",
+      "endTime": "387120",
+      "text": "And then I asked it to build a skill out"
+    },
+    {
+      "startTime": "385600",
+      "endTime": "389199",
+      "text": "of this process and I gave it a little"
+    },
+    {
+      "startTime": "387120",
+      "endTime": "390880",
+      "text": "bit of extra context on how the skill"
+    },
+    {
+      "startTime": "389199",
+      "endTime": "392479",
+      "text": "should be built. Claude then built the"
+    },
+    {
+      "startTime": "390880",
+      "endTime": "394240",
+      "text": "skill, as you can see here, which you"
+    },
+    {
+      "startTime": "392479",
+      "endTime": "395840",
+      "text": "can add to your library. And as you can"
+    },
+    {
+      "startTime": "394240",
+      "endTime": "398000",
+      "text": "see here in the skill itself, which is"
+    },
+    {
+      "startTime": "395840",
+      "endTime": "400160",
+      "text": "just an MD file in this case, it&#39;s just"
+    },
+    {
+      "startTime": "398000",
+      "endTime": "402479",
+      "text": "a step-by-step process on how to do this"
+    },
+    {
+      "startTime": "400160",
+      "endTime": "404960",
+      "text": "and which scrapers from API to use. For"
+    },
+    {
+      "startTime": "402479",
+      "endTime": "407199",
+      "text": "example, you can see step one scrape"
+    },
+    {
+      "startTime": "404960",
+      "endTime": "409759",
+      "text": "post with engagement data, use this appy"
+    },
+    {
+      "startTime": "407199",
+      "endTime": "412880",
+      "text": "actor. Step two, extract and dduplicate"
+    },
+    {
+      "startTime": "409759",
+      "endTime": "414960",
+      "text": "engagers. Step three, ICP qualification."
+    },
+    {
+      "startTime": "412880",
+      "endTime": "417039",
+      "text": "And step four, full LinkedIn profile"
+    },
+    {
+      "startTime": "414960",
+      "endTime": "419039",
+      "text": "scrape. And step five, company LinkedIn"
+    },
+    {
+      "startTime": "417039",
+      "endTime": "421280",
+      "text": "profile scrape. And lastly, the final"
+    },
+    {
+      "startTime": "419039",
+      "endTime": "423120",
+      "text": "output, which is in a CSV. You can, of"
+    },
+    {
+      "startTime": "421280",
+      "endTime": "424639",
+      "text": "course, add steps here where you"
+    },
+    {
+      "startTime": "423120",
+      "endTime": "426240",
+      "text": "actually generate personalized outreach"
+    },
+    {
+      "startTime": "424639",
+      "endTime": "428160",
+      "text": "messages, but we have these separated"
+    },
+    {
+      "startTime": "426240",
+      "endTime": "430160",
+      "text": "into different skills. Now, the second"
+    },
+    {
+      "startTime": "428160",
+      "endTime": "432160",
+      "text": "use case we&#39;ve been using it for is lead"
+    },
+    {
+      "startTime": "430160",
+      "endTime": "434080",
+      "text": "nurturing and follow-ups. Often, some of"
+    },
+    {
+      "startTime": "432160",
+      "endTime": "436000",
+      "text": "the lowhanging fruit are just leads that"
+    },
+    {
+      "startTime": "434080",
+      "endTime": "438000",
+      "text": "were lost or not properly followed up"
+    },
+    {
+      "startTime": "436000",
+      "endTime": "439919",
+      "text": "with before. So, we built a skill that&#39;s"
+    },
+    {
+      "startTime": "438000",
+      "endTime": "442080",
+      "text": "called uh prospect miner, and it"
+    },
+    {
+      "startTime": "439919",
+      "endTime": "444639",
+      "text": "basically goes through uh the last lead"
+    },
+    {
+      "startTime": "442080",
+      "endTime": "446720",
+      "text": "column of our CRM. It researches all of"
+    },
+    {
+      "startTime": "444639",
+      "endTime": "449039",
+      "text": "these leads, scrapes their LinkedIn and"
+    },
+    {
+      "startTime": "446720",
+      "endTime": "451120",
+      "text": "prioritizes them based on our ICP"
+    },
+    {
+      "startTime": "449039",
+      "endTime": "453039",
+      "text": "criteria and checks all the email"
+    },
+    {
+      "startTime": "451120",
+      "endTime": "454800",
+      "text": "communications we had with this lead to"
+    },
+    {
+      "startTime": "453039",
+      "endTime": "457120",
+      "text": "understand how we could follow up. So"
+    },
+    {
+      "startTime": "454800",
+      "endTime": "459199",
+      "text": "here I said run the CRM prospect mining"
+    },
+    {
+      "startTime": "457120",
+      "endTime": "460639",
+      "text": "scale for my CRM. It then asked me for"
+    },
+    {
+      "startTime": "459199",
+      "endTime": "462479",
+      "text": "my criteria to find potential"
+    },
+    {
+      "startTime": "460639",
+      "endTime": "464960",
+      "text": "opportunities. I gave it the criteria."
+    },
+    {
+      "startTime": "462479",
+      "endTime": "467360",
+      "text": "It then found 160 records in that"
+    },
+    {
+      "startTime": "464960",
+      "endTime": "469360",
+      "text": "column. It then researched these leads"
+    },
+    {
+      "startTime": "467360",
+      "endTime": "471440",
+      "text": "and found their LinkedIn profile and"
+    },
+    {
+      "startTime": "469360",
+      "endTime": "473520",
+      "text": "started scraping their LinkedIn profiles"
+    },
+    {
+      "startTime": "471440",
+      "endTime": "475199",
+      "text": "with Apify again. And then it went"
+    },
+    {
+      "startTime": "473520",
+      "endTime": "476879",
+      "text": "through the email communications to"
+    },
+    {
+      "startTime": "475199",
+      "endTime": "478639",
+      "text": "identify the last communications with"
+    },
+    {
+      "startTime": "476879",
+      "endTime": "481599",
+      "text": "each of these clients. And it gave me a"
+    },
+    {
+      "startTime": "478639",
+      "endTime": "483599",
+      "text": "CSV sheet um prioritizing the loss lease"
+    },
+    {
+      "startTime": "481599",
+      "endTime": "486160",
+      "text": "based on company size and my ICP"
+    },
+    {
+      "startTime": "483599",
+      "endTime": "488720",
+      "text": "criteria and the comm&#39;s communication"
+    },
+    {
+      "startTime": "486160",
+      "endTime": "490800",
+      "text": "summary. Again, based on this, of"
+    },
+    {
+      "startTime": "488720",
+      "endTime": "492800",
+      "text": "course, we can start drafting potential"
+    },
+    {
+      "startTime": "490800",
+      "endTime": "495039",
+      "text": "follow-up messages and actually send"
+    },
+    {
+      "startTime": "492800",
+      "endTime": "496639",
+      "text": "them out through the Gmail connector. So"
+    },
+    {
+      "startTime": "495039",
+      "endTime": "499680",
+      "text": "for this one specifically, we use the"
+    },
+    {
+      "startTime": "496639",
+      "endTime": "502160",
+      "text": "Gmail app and our CRM connector, which"
+    },
+    {
+      "startTime": "499680",
+      "endTime": "504000",
+      "text": "is in our case. So how do we build this"
+    },
+    {
+      "startTime": "502160",
+      "endTime": "505680",
+      "text": "one? Again, same thing. We just did the"
+    },
+    {
+      "startTime": "504000",
+      "endTime": "507360",
+      "text": "process once together with cloud and"
+    },
+    {
+      "startTime": "505680",
+      "endTime": "509680",
+      "text": "asked it to create a scale around it."
+    },
+    {
+      "startTime": "507360",
+      "endTime": "511520",
+      "text": "So, I just told it here to go through a"
+    },
+    {
+      "startTime": "509680",
+      "endTime": "513599",
+      "text": "my CRM. It&#39;s wrongly spelled, but it"
+    },
+    {
+      "startTime": "511520",
+      "endTime": "515599",
+      "text": "understood. Told it what to do. And I"
+    },
+    {
+      "startTime": "513599",
+      "endTime": "518320",
+      "text": "also told it to launch sub agents for"
+    },
+    {
+      "startTime": "515599",
+      "endTime": "520159",
+      "text": "this and give each sub agent 15 leads to"
+    },
+    {
+      "startTime": "518320",
+      "endTime": "522320",
+      "text": "analyze. Now, this is important when"
+    },
+    {
+      "startTime": "520159",
+      "endTime": "524640",
+      "text": "you&#39;re running bulk tasks. You can now"
+    },
+    {
+      "startTime": "522320",
+      "endTime": "526080",
+      "text": "run sub agents also in cloud co-work."
+    },
+    {
+      "startTime": "524640",
+      "endTime": "528399",
+      "text": "And the big advantage of this is these"
+    },
+    {
+      "startTime": "526080",
+      "endTime": "530160",
+      "text": "sub aents can run in parallel. And this"
+    },
+    {
+      "startTime": "528399",
+      "endTime": "532000",
+      "text": "means that the context window here"
+    },
+    {
+      "startTime": "530160",
+      "endTime": "533680",
+      "text": "doesn&#39;t get overloaded because they a"
+    },
+    {
+      "startTime": "532000",
+      "endTime": "535440",
+      "text": "lot of the research is done by these sub"
+    },
+    {
+      "startTime": "533680",
+      "endTime": "537760",
+      "text": "agents. And because they run in"
+    },
+    {
+      "startTime": "535440",
+      "endTime": "539120",
+      "text": "parallel, it can be done far faster. And"
+    },
+    {
+      "startTime": "537760",
+      "endTime": "541040",
+      "text": "this is a big advantage we have in"
+    },
+    {
+      "startTime": "539120",
+      "endTime": "544560",
+      "text": "co-work now too. We can actually run"
+    },
+    {
+      "startTime": "541040",
+      "endTime": "546000",
+      "text": "bulk tasks on lead list of 100 to 200"
+    },
+    {
+      "startTime": "544560",
+      "endTime": "548160",
+      "text": "which was previously hard to do with the"
+    },
+    {
+      "startTime": "546000",
+      "endTime": "550080",
+      "text": "normal cloud chat. But you do sometimes"
+    },
+    {
+      "startTime": "548160",
+      "endTime": "552959",
+      "text": "have to specifically mention to use sub"
+    },
+    {
+      "startTime": "550080",
+      "endTime": "554959",
+      "text": "agents when you&#39;re running bulb tasks."
+    },
+    {
+      "startTime": "552959",
+      "endTime": "556800",
+      "text": "And then again I asked it here to I need"
+    },
+    {
+      "startTime": "554959",
+      "endTime": "559040",
+      "text": "to create a skill around this process"
+    },
+    {
+      "startTime": "556800",
+      "endTime": "560880",
+      "text": "with some extra context and it gave me"
+    },
+    {
+      "startTime": "559040",
+      "endTime": "563600",
+      "text": "the CRM prospect mining skill which I"
+    },
+    {
+      "startTime": "560880",
+      "endTime": "564959",
+      "text": "can just copy to my uh library. Now the"
+    },
+    {
+      "startTime": "563600",
+      "endTime": "566720",
+      "text": "third use case that I think is very"
+    },
+    {
+      "startTime": "564959",
+      "endTime": "568720",
+      "text": "useful especially with the new feature"
+    },
+    {
+      "startTime": "566720",
+      "endTime": "570880",
+      "text": "in coowwork of scheduled task which I&#39;ll"
+    },
+    {
+      "startTime": "568720",
+      "endTime": "573200",
+      "text": "show you in a second is a call"
+    },
+    {
+      "startTime": "570880",
+      "endTime": "575440",
+      "text": "preparation skill which is uh one we"
+    },
+    {
+      "startTime": "573200",
+      "endTime": "577360",
+      "text": "customized from enthropic skills. So you"
+    },
+    {
+      "startTime": "575440",
+      "endTime": "579120",
+      "text": "can see here I run the call prep for my"
+    },
+    {
+      "startTime": "577360",
+      "endTime": "581600",
+      "text": "meeting with a client on Monday. The"
+    },
+    {
+      "startTime": "579120",
+      "endTime": "583839",
+      "text": "skill then used my CRM to find the lead"
+    },
+    {
+      "startTime": "581600",
+      "endTime": "585920",
+      "text": "and then uh started researching the"
+    },
+    {
+      "startTime": "583839",
+      "endTime": "588560",
+      "text": "email communications with this lead uh"
+    },
+    {
+      "startTime": "585920",
+      "endTime": "590240",
+      "text": "any uh past Firefly transcripts and"
+    },
+    {
+      "startTime": "588560",
+      "endTime": "591920",
+      "text": "researching the lead on the web. And"
+    },
+    {
+      "startTime": "590240",
+      "endTime": "594720",
+      "text": "then based on the research it did, it"
+    },
+    {
+      "startTime": "591920",
+      "endTime": "597040",
+      "text": "gave me a call prep brief in HTML format"
+    },
+    {
+      "startTime": "594720",
+      "endTime": "598880",
+      "text": "which is a nice sort of dashboard uh"
+    },
+    {
+      "startTime": "597040",
+      "endTime": "601600",
+      "text": "here with the company overview, an"
+    },
+    {
+      "startTime": "598880",
+      "endTime": "603760",
+      "text": "account snapshot uh what they do, the"
+    },
+    {
+      "startTime": "601600",
+      "endTime": "605680",
+      "text": "interaction history, the suggested"
+    },
+    {
+      "startTime": "603760",
+      "endTime": "607040",
+      "text": "agenda and discovery question"
+    },
+    {
+      "startTime": "605680",
+      "endTime": "608640",
+      "text": "suggestions. Now, of course, we can"
+    },
+    {
+      "startTime": "607040",
+      "endTime": "610080",
+      "text": "customize the skill from Entropic by"
+    },
+    {
+      "startTime": "608640",
+      "endTime": "612080",
+      "text": "adding more data on how you want your"
+    },
+    {
+      "startTime": "610080",
+      "endTime": "613279",
+      "text": "call preps to be structured, what data"
+    },
+    {
+      "startTime": "612080",
+      "endTime": "615519",
+      "text": "points he should look for in the"
+    },
+    {
+      "startTime": "613279",
+      "endTime": "617120",
+      "text": "research, etc. Now, you can customize"
+    },
+    {
+      "startTime": "615519",
+      "endTime": "618720",
+      "text": "these entropic built-in skills really"
+    },
+    {
+      "startTime": "617120",
+      "endTime": "619920",
+      "text": "easily by just telling Claude. For"
+    },
+    {
+      "startTime": "618720",
+      "endTime": "622480",
+      "text": "example, you can say, I want to"
+    },
+    {
+      "startTime": "619920",
+      "endTime": "625120",
+      "text": "customize the entropic uh call prep"
+    },
+    {
+      "startTime": "622480",
+      "endTime": "628000",
+      "text": "skill according to my how my company"
+    },
+    {
+      "startTime": "625120",
+      "endTime": "630160",
+      "text": "does um call preps. You can then give it"
+    },
+    {
+      "startTime": "628000",
+      "endTime": "631839",
+      "text": "all the context uh you need and what you"
+    },
+    {
+      "startTime": "630160",
+      "endTime": "633440",
+      "text": "want to change and CL can then instantly"
+    },
+    {
+      "startTime": "631839",
+      "endTime": "635200",
+      "text": "create a new skill that&#39;s adapted and"
+    },
+    {
+      "startTime": "633440",
+      "endTime": "636880",
+      "text": "customized to your specific way of"
+    },
+    {
+      "startTime": "635200",
+      "endTime": "638720",
+      "text": "working. Now these kinds of use cases"
+    },
+    {
+      "startTime": "636880",
+      "endTime": "640959",
+      "text": "become especially powerful now that we"
+    },
+    {
+      "startTime": "638720",
+      "endTime": "643120",
+      "text": "have scheduled tasks here in the sidebar"
+    },
+    {
+      "startTime": "640959",
+      "endTime": "645920",
+      "text": "in uh co-work and here we can basically"
+    },
+    {
+      "startTime": "643120",
+      "endTime": "647760",
+      "text": "schedule our skills or task to run at a"
+    },
+    {
+      "startTime": "645920",
+      "endTime": "650000",
+      "text": "specific time interval. For example,"
+    },
+    {
+      "startTime": "647760",
+      "endTime": "652320",
+      "text": "every morning at 7 a.m. So for this one"
+    },
+    {
+      "startTime": "650000",
+      "endTime": "655920",
+      "text": "I could say something like um every"
+    },
+    {
+      "startTime": "652320",
+      "endTime": "658160",
+      "text": "morning at 7 a.m. check my CRM and go"
+    },
+    {
+      "startTime": "655920",
+      "endTime": "660800",
+      "text": "through all of the meetings I have today"
+    },
+    {
+      "startTime": "658160",
+      "endTime": "663360",
+      "text": "and use the call prep scale for each of"
+    },
+    {
+      "startTime": "660800",
+      "endTime": "665760",
+      "text": "the meetings I have today. present all"
+    },
+    {
+      "startTime": "663360",
+      "endTime": "667440",
+      "text": "the call prep briefs in a nice HTML"
+    },
+    {
+      "startTime": "665760",
+      "endTime": "670399",
+      "text": "dashboard for me to go through every"
+    },
+    {
+      "startTime": "667440",
+      "endTime": "673680",
+      "text": "morning. I can then decide the frequency"
+    },
+    {
+      "startTime": "670399",
+      "endTime": "675440",
+      "text": "daily at 7 am and as soon as you will"
+    },
+    {
+      "startTime": "673680",
+      "endTime": "677440",
+      "text": "open your co-work in the morning it&#39;ll"
+    },
+    {
+      "startTime": "675440",
+      "endTime": "679600",
+      "text": "start running this skill and preparing"
+    },
+    {
+      "startTime": "677440",
+      "endTime": "681279",
+      "text": "all your calls for today. Then for sales"
+    },
+    {
+      "startTime": "679600",
+      "endTime": "683120",
+      "text": "analytics cloud co-work can become"
+    },
+    {
+      "startTime": "681279",
+      "endTime": "685760",
+      "text": "really powerful too. For example, we&#39;ve"
+    },
+    {
+      "startTime": "683120",
+      "endTime": "687680",
+      "text": "used it for win loss analysis and sales"
+    },
+    {
+      "startTime": "685760",
+      "endTime": "689600",
+      "text": "rep performance analysis. You can see"
+    },
+    {
+      "startTime": "687680",
+      "endTime": "691680",
+      "text": "here I run it by calling the win loss"
+    },
+    {
+      "startTime": "689600",
+      "endTime": "693680",
+      "text": "analysis scale. And this scale basically"
+    },
+    {
+      "startTime": "691680",
+      "endTime": "695200",
+      "text": "goes through all of our leads in our win"
+    },
+    {
+      "startTime": "693680",
+      "endTime": "697600",
+      "text": "column and in our loss column in our"
+    },
+    {
+      "startTime": "695200",
+      "endTime": "699440",
+      "text": "CRM. It researches both of these types"
+    },
+    {
+      "startTime": "697600",
+      "endTime": "701200",
+      "text": "of leads, but also the meeting"
+    },
+    {
+      "startTime": "699440",
+      "endTime": "703360",
+      "text": "transcripts from all of these leads and"
+    },
+    {
+      "startTime": "701200",
+      "endTime": "704720",
+      "text": "the email communication. And based on"
+    },
+    {
+      "startTime": "703360",
+      "endTime": "707360",
+      "text": "that, it makes an extremely"
+    },
+    {
+      "startTime": "704720",
+      "endTime": "709279",
+      "text": "comprehensive win loss analysis report"
+    },
+    {
+      "startTime": "707360",
+      "endTime": "711519",
+      "text": "in a Google Docs that gives us an"
+    },
+    {
+      "startTime": "709279",
+      "endTime": "713519",
+      "text": "overview of the win rate, the key"
+    },
+    {
+      "startTime": "711519",
+      "endTime": "715760",
+      "text": "findings of our best and worst"
+    },
+    {
+      "startTime": "713519",
+      "endTime": "718240",
+      "text": "performing customer profiles, common"
+    },
+    {
+      "startTime": "715760",
+      "endTime": "720240",
+      "text": "objections, patterns on actions we tend"
+    },
+    {
+      "startTime": "718240",
+      "endTime": "722640",
+      "text": "to take with converted leads like"
+    },
+    {
+      "startTime": "720240",
+      "endTime": "725040",
+      "text": "engagement depth, predicts outcomes. It"
+    },
+    {
+      "startTime": "722640",
+      "endTime": "727600",
+      "text": "shows us deals won and lost by company"
+    },
+    {
+      "startTime": "725040",
+      "endTime": "729600",
+      "text": "type and by pricing. Gives us case"
+    },
+    {
+      "startTime": "727600",
+      "endTime": "732240",
+      "text": "studies on one leads and why they were"
+    },
+    {
+      "startTime": "729600",
+      "endTime": "734720",
+      "text": "won. It does a full analysis on lost"
+    },
+    {
+      "startTime": "732240",
+      "endTime": "736560",
+      "text": "deals and you can see that we have to"
+    },
+    {
+      "startTime": "734720",
+      "endTime": "738399",
+      "text": "get far better at follow-ups which"
+    },
+    {
+      "startTime": "736560",
+      "endTime": "740560",
+      "text": "co-work will hopefully help us with."
+    },
+    {
+      "startTime": "738399",
+      "endTime": "743279",
+      "text": "Then the key differentiators between one"
+    },
+    {
+      "startTime": "740560",
+      "endTime": "745519",
+      "text": "versus lost deals and red flags and"
+    },
+    {
+      "startTime": "743279",
+      "endTime": "747680",
+      "text": "early disqualification criteria for us."
+    },
+    {
+      "startTime": "745519",
+      "endTime": "749440",
+      "text": "Honestly, this was extremely insightful"
+    },
+    {
+      "startTime": "747680",
+      "endTime": "751279",
+      "text": "and pretty impressive to read this"
+    },
+    {
+      "startTime": "749440",
+      "endTime": "752959",
+      "text": "report. And of course, we can now run"
+    },
+    {
+      "startTime": "751279",
+      "endTime": "754880",
+      "text": "this through scheduled task on a monthly"
+    },
+    {
+      "startTime": "752959",
+      "endTime": "756880",
+      "text": "basis to analyze our wins and losses"
+    },
+    {
+      "startTime": "754880",
+      "endTime": "758720",
+      "text": "over the last month. And again, this one"
+    },
+    {
+      "startTime": "756880",
+      "endTime": "760480",
+      "text": "was built by just doing the process once"
+    },
+    {
+      "startTime": "758720",
+      "endTime": "762720",
+      "text": "manually with cloud and then saving it"
+    },
+    {
+      "startTime": "760480",
+      "endTime": "764639",
+      "text": "as a skill at the end. And one more"
+    },
+    {
+      "startTime": "762720",
+      "endTime": "766560",
+      "text": "sales analysis skill we built is for a"
+    },
+    {
+      "startTime": "764639",
+      "endTime": "769200",
+      "text": "sales rep performance analytics by going"
+    },
+    {
+      "startTime": "766560",
+      "endTime": "771279",
+      "text": "through past transcripts, CRM data, and"
+    },
+    {
+      "startTime": "769200",
+      "endTime": "772720",
+      "text": "their email communication. So here I ran"
+    },
+    {
+      "startTime": "771279",
+      "endTime": "774240",
+      "text": "that skill on one of our sales reps, and"
+    },
+    {
+      "startTime": "772720",
+      "endTime": "776560",
+      "text": "it gave me a full Google Docs with a"
+    },
+    {
+      "startTime": "774240",
+      "endTime": "778160",
+      "text": "full uh performance report. So it gives"
+    },
+    {
+      "startTime": "776560",
+      "endTime": "779680",
+      "text": "an overall grade, the top three"
+    },
+    {
+      "startTime": "778160",
+      "endTime": "782160",
+      "text": "strengths, the top three improvement"
+    },
+    {
+      "startTime": "779680",
+      "endTime": "784800",
+      "text": "areas, and a full performance scorecard"
+    },
+    {
+      "startTime": "782160",
+      "endTime": "786880",
+      "text": "per client. It also grades across"
+    },
+    {
+      "startTime": "784800",
+      "endTime": "789279",
+      "text": "different stages in the sales pipeline"
+    },
+    {
+      "startTime": "786880",
+      "endTime": "792880",
+      "text": "like discovery, demo, objection"
+    },
+    {
+      "startTime": "789279",
+      "endTime": "794639",
+      "text": "handling, pricing, follow-ups, etc. And"
+    },
+    {
+      "startTime": "792880",
+      "endTime": "796320",
+      "text": "the top five recommendations for this"
+    },
+    {
+      "startTime": "794639",
+      "endTime": "798480",
+      "text": "sales rep to start focusing on"
+    },
+    {
+      "startTime": "796320",
+      "endTime": "800720",
+      "text": "improving. Then lastly, I think another"
+    },
+    {
+      "startTime": "798480",
+      "endTime": "803120",
+      "text": "very useful one for most sales reps is"
+    },
+    {
+      "startTime": "800720",
+      "endTime": "804800",
+      "text": "the review sales pipeline skill, which"
+    },
+    {
+      "startTime": "803120",
+      "endTime": "806959",
+      "text": "we also customized from Entropics"
+    },
+    {
+      "startTime": "804800",
+      "endTime": "808880",
+      "text": "built-in skills. Now, this can be very"
+    },
+    {
+      "startTime": "806959",
+      "endTime": "810160",
+      "text": "useful to run on a daily basis too with"
+    },
+    {
+      "startTime": "808880",
+      "endTime": "811600",
+      "text": "scheduled tasks because you can"
+    },
+    {
+      "startTime": "810160",
+      "endTime": "813680",
+      "text": "basically check your pipeline on a"
+    },
+    {
+      "startTime": "811600",
+      "endTime": "815519",
+      "text": "day-to-day basis and give you a brief on"
+    },
+    {
+      "startTime": "813680",
+      "endTime": "817839",
+      "text": "all the important leads to focus on"
+    },
+    {
+      "startTime": "815519",
+      "endTime": "819200",
+      "text": "today by analyzing your sales pipeline,"
+    },
+    {
+      "startTime": "817839",
+      "endTime": "820880",
+      "text": "email communication, and past"
+    },
+    {
+      "startTime": "819200",
+      "endTime": "822399",
+      "text": "transcripts. So, you see why these"
+    },
+    {
+      "startTime": "820880",
+      "endTime": "824320",
+      "text": "connectors become so important because"
+    },
+    {
+      "startTime": "822399",
+      "endTime": "826639",
+      "text": "you give God all the context it needs to"
+    },
+    {
+      "startTime": "824320",
+      "endTime": "828800",
+      "text": "actually come up with really strategic"
+    },
+    {
+      "startTime": "826639",
+      "endTime": "830480",
+      "text": "advice for you. So here I ran it with"
+    },
+    {
+      "startTime": "828800",
+      "endTime": "832240",
+      "text": "the pipeline review command and then it"
+    },
+    {
+      "startTime": "830480",
+      "endTime": "833839",
+      "text": "asked me questions on which pipeline it"
+    },
+    {
+      "startTime": "832240",
+      "endTime": "835839",
+      "text": "should review, what stage I want to"
+    },
+    {
+      "startTime": "833839",
+      "endTime": "837600",
+      "text": "focus on and where to send the pipeline"
+    },
+    {
+      "startTime": "835839",
+      "endTime": "839600",
+      "text": "summary. In this case, I told it to DM"
+    },
+    {
+      "startTime": "837600",
+      "endTime": "841760",
+      "text": "me on Slack. It then send me a full"
+    },
+    {
+      "startTime": "839600",
+      "endTime": "843839",
+      "text": "report to Slack and also presented here"
+    },
+    {
+      "startTime": "841760",
+      "endTime": "845519",
+      "text": "in the chat and it basically gives me an"
+    },
+    {
+      "startTime": "843839",
+      "endTime": "847680",
+      "text": "overview of the leads I have to focus on"
+    },
+    {
+      "startTime": "845519",
+      "endTime": "849519",
+      "text": "today because they&#39;re hot or uh we might"
+    },
+    {
+      "startTime": "847680",
+      "endTime": "851360",
+      "text": "risk losing them. You can also adapt"
+    },
+    {
+      "startTime": "849519",
+      "endTime": "853279",
+      "text": "this to even include uh pipeline"
+    },
+    {
+      "startTime": "851360",
+      "endTime": "855199",
+      "text": "hygiene. Uh so it can automatically"
+    },
+    {
+      "startTime": "853279",
+      "endTime": "856639",
+      "text": "start updating your pipeline which is of"
+    },
+    {
+      "startTime": "855199",
+      "endTime": "859040",
+      "text": "course a big pain point for anyone who&#39;s"
+    },
+    {
+      "startTime": "856639",
+      "endTime": "860480",
+      "text": "in sales because it can now analyze your"
+    },
+    {
+      "startTime": "859040",
+      "endTime": "862959",
+      "text": "uh email communications, your"
+    },
+    {
+      "startTime": "860480",
+      "endTime": "864800",
+      "text": "transcripts and the pipeline itself. It"
+    },
+    {
+      "startTime": "862959",
+      "endTime": "867199",
+      "text": "can make your pipeline automatically"
+    },
+    {
+      "startTime": "864800",
+      "endTime": "868399",
+      "text": "update itself when changes happen. But I"
+    },
+    {
+      "startTime": "867199",
+      "endTime": "870240",
+      "text": "think you get the point. You can really"
+    },
+    {
+      "startTime": "868399",
+      "endTime": "872240",
+      "text": "start automating any repetitive tasks"
+    },
+    {
+      "startTime": "870240",
+      "endTime": "873920",
+      "text": "you have around sales. Uh, I really"
+    },
+    {
+      "startTime": "872240",
+      "endTime": "875360",
+      "text": "highly recommend starting to experiment"
+    },
+    {
+      "startTime": "873920",
+      "endTime": "876880",
+      "text": "more and more with co-work and building"
+    },
+    {
+      "startTime": "875360",
+      "endTime": "878880",
+      "text": "skills because it&#39;s really going to make"
+    },
+    {
+      "startTime": "876880",
+      "endTime": "880399",
+      "text": "a big impact on your productivity. Now,"
+    },
+    {
+      "startTime": "878880",
+      "endTime": "882000",
+      "text": "again, if you want to use or customize"
+    },
+    {
+      "startTime": "880399",
+      "endTime": "883519",
+      "text": "some of the skills we&#39;ve built, uh, you"
+    },
+    {
+      "startTime": "882000",
+      "endTime": "885360",
+      "text": "can check out my AI accelerator in the"
+    },
+    {
+      "startTime": "883519",
+      "endTime": "886959",
+      "text": "link in description below. Besides, uh,"
+    },
+    {
+      "startTime": "885360",
+      "endTime": "889120",
+      "text": "these skills, we also do, uh, weekly"
+    },
+    {
+      "startTime": "886959",
+      "endTime": "890399",
+      "text": "Q&amp;As with me and my team. We do AI"
+    },
+    {
+      "startTime": "889120",
+      "endTime": "892320",
+      "text": "workshops where we dive a lot deeper"
+    },
+    {
+      "startTime": "890399",
+      "endTime": "894639",
+      "text": "into these tools, and we have unlimited"
+    },
+    {
+      "startTime": "892320",
+      "endTime": "896160",
+      "text": "live one-on-one tech help available uh,"
+    },
+    {
+      "startTime": "894639",
+      "endTime": "898079",
+      "text": "to help you out with any issues you"
+    },
+    {
+      "startTime": "896160",
+      "endTime": "899519",
+      "text": "might have. Also, we have blueprints on"
+    },
+    {
+      "startTime": "898079",
+      "endTime": "901040",
+      "text": "starting your own AI business. So, if"
+    },
+    {
+      "startTime": "899519",
+      "endTime": "902639",
+      "text": "any of that&#39;s interesting to you, I"
+    },
+    {
+      "startTime": "901040",
+      "endTime": "905600",
+      "text": "highly recommend checking it out. Thank"
+    },
+    {
+      "startTime": "902639",
+      "endTime": "905600",
+      "text": "you so much for watching."
+    }
+  ]
+}
