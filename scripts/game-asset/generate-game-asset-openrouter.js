@@ -6,7 +6,7 @@ import sharp from 'sharp'
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 const DEFAULT_MODEL = 'black-forest-labs/flux.2-klein-4b'
 const DEFAULT_STYLE_SPEC =
-  'Cute 2D kids-game illustration, soft rounded shapes, clean outline, gentle shading, warm pastel-friendly palette, toy-like aesthetic, simple readable forms, non-realistic.'
+  'Cute 2D kids-game illustration, soft rounded shapes, clean outline, gentle shading but no shadows outside the outline, warm pastel-friendly palette, toy-like aesthetic, simple readable forms, non-realistic.'
 const VALID_MODES = new Set(['variation', 'overlay', 'background', 'composed'])
 
 function parseArgs(argv) {
@@ -205,6 +205,7 @@ function buildOverlayPrompt(options) {
     'Center the asset with minimal padding for reusable layering across different animals.',
     'Front-facing or simple readable perspective.',
     'Soft rounded shapes, clean outlines, simple shading, cute 2D kids-game readability.',
+    'No shadows outside the character outline.',
     `Style spec: ${buildStyleSpec(options)}`,
   ]
   pushIf(lines, 'Category', options.category)
@@ -392,13 +393,15 @@ async function saveAuxFiles({
     await writeFile(`${basePath}.prompt.txt`, prompt, 'utf8')
   }
   if (!options.metadata) return
+  const parsedOptions = { ...options }
+  delete parsedOptions.apiKey
   const data = {
     mode: options.mode || null,
     model: options.model,
     inputPath: options.input ? path.resolve(options.input) : null,
     output,
     prompt,
-    parsedOptions: options,
+    parsedOptions,
     usedReferenceImage,
   }
   await writeFile(`${basePath}.metadata.json`, JSON.stringify(data, null, 2), 'utf8')

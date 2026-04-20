@@ -5,6 +5,11 @@
  */
 import path from 'node:path'
 import sharp from 'sharp'
+import {
+  horizontalAlphaBounds,
+  horizontalCenterOffsetX,
+  shiftRgbaHorizontally,
+} from './horizontal-center-rgba.js'
 
 const DEFAULTS = {
   alphaThreshold: 8,
@@ -48,46 +53,6 @@ function asNumber(value, fallback) {
   if (value === undefined || value === null || value === '') return fallback
   const n = Number(value)
   return Number.isFinite(n) ? n : fallback
-}
-
-function horizontalAlphaBounds(data, width, height, alphaThreshold) {
-  let minX = width
-  let maxX = -1
-  for (let y = 0; y < height; y += 1) {
-    const row = y * width * 4
-    for (let x = 0; x < width; x += 1) {
-      const a = data[row + x * 4 + 3]
-      if (a > alphaThreshold) {
-        if (x < minX) minX = x
-        if (x > maxX) maxX = x
-      }
-    }
-  }
-  if (maxX < 0) return null
-  return { minX, maxX }
-}
-
-function horizontalOffset(width, minX, maxX) {
-  const mid = (minX + maxX) / 2
-  return Math.round(width / 2 - mid)
-}
-
-function shiftHorizontallyRgba(data, width, height, offsetX) {
-  const out = Buffer.alloc(width * height * 4, 0)
-  for (let y = 0; y < height; y += 1) {
-    const row = y * width * 4
-    for (let x = 0; x < width; x += 1) {
-      const sx = x - offsetX
-      if (sx < 0 || sx >= width) continue
-      const si = row + sx * 4
-      const di = row + x * 4
-      out[di] = data[si]
-      out[di + 1] = data[si + 1]
-      out[di + 2] = data[si + 2]
-      out[di + 3] = data[si + 3]
-    }
-  }
-  return out
 }
 
 async function main() {
@@ -139,8 +104,8 @@ async function main() {
     process.exit(1)
   }
 
-  const offsetX = horizontalOffset(width, bounds.minX, bounds.maxX)
-  const shifted = shiftHorizontallyRgba(data, width, height, offsetX)
+  const offsetX = horizontalCenterOffsetX(width, bounds.minX, bounds.maxX)
+  const shifted = shiftRgbaHorizontally(data, width, height, offsetX)
 
   let outSharp = sharp(shifted, {
     raw: { width, height, channels: 4 },

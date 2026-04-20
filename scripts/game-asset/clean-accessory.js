@@ -2,6 +2,7 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import sharp from 'sharp'
+import { centerBufferHorizontallyAsPng } from './horizontal-center-rgba.js'
 
 const DEFAULTS = {
   padding: 24,
@@ -35,6 +36,9 @@ function parseArgs(argv) {
 
 function usage() {
   return [
+    'Removes edge-connected background-like pixels, trims to opaque bounds, pads,',
+    'resizes to fit inside max dimensions, then horizontally centers content (alpha bbox).',
+    '',
     'Usage:',
     '  node scripts/game-asset/clean-accessory.js \\',
     '    --input <path-to-image> \\',
@@ -454,6 +458,11 @@ async function main() {
 
   const cleaned = await removeBackgroundByCornerSampling(options.input, options)
   const processed = await trimPadResize(cleaned.buffer, options)
+  const centered = await centerBufferHorizontallyAsPng(
+    processed.buffer,
+    options.alphaThreshold,
+  )
+  const outputBuffer = centered.pngBuffer
 
   const wouldWrite = []
   if (options.png) wouldWrite.push(pngPath)
@@ -467,6 +476,9 @@ async function main() {
     console.log(`Inferred background: ${JSON.stringify(cleaned.inferredBackgroundColor)}`)
     console.log(`Size before: ${cleaned.width}x${cleaned.height}`)
     console.log(`Size after: ${processed.width}x${processed.height}`)
+    console.log(
+      `Horizontal center: offsetX=${centered.offsetX} bounds=${JSON.stringify(centered.bounds)}`,
+    )
     console.log('Would write:')
     for (const outputPath of wouldWrite) console.log(`  - ${outputPath}`)
     return
@@ -474,8 +486,8 @@ async function main() {
 
   await mkdir(options.outputDir, { recursive: true })
 
-  if (options.png) await savePng(processed.buffer, pngPath)
-  if (options.webp) await saveWebp(processed.buffer, webpPath, options)
+  if (options.png) await savePng(outputBuffer, pngPath)
+  if (options.webp) await saveWebp(outputBuffer, webpPath, options)
 
   if (options.metadata) {
     const metadata = {
@@ -492,6 +504,10 @@ async function main() {
       after: {
         width: processed.width,
         height: processed.height,
+      },
+      horizontalCenter: {
+        offsetX: centered.offsetX,
+        bounds: centered.bounds,
       },
       options,
       inferredBackgroundColor: cleaned.inferredBackgroundColor,
@@ -511,6 +527,9 @@ async function main() {
   console.log(`Cleaned accessory: ${options.input}`)
   console.log(`Size before: ${cleaned.width}x${cleaned.height}`)
   console.log(`Size after: ${processed.width}x${processed.height}`)
+  console.log(
+    `Horizontal center: offsetX=${centered.offsetX} bounds=${JSON.stringify(centered.bounds)}`,
+  )
   console.log(`Inferred background: ${JSON.stringify(cleaned.inferredBackgroundColor)}`)
   if (options.png) console.log(`PNG: ${pngPath}`)
   if (options.webp) console.log(`WebP: ${webpPath}`)

@@ -122,27 +122,27 @@
     },
     {
       "id": "bear_13",
-      "theme": "kite festival",
+      "theme": "rainbow-hills",
       "mood": "delighted",
       "outfit": "light jacket",
       "accessory": null,
-      "prop": "kite spool",
-      "pose": "running and holding kite spool",
-      "prompt": "Cute cartoon bear, running and holding kite spool, wearing light jacket, with kite spool, in a kite festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "purple kite",
+      "pose": "holding kite",
+      "prompt": "Cute cartoon bear, holding purple kite, wearing light jacket, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bear_14",
-      "theme": "pajama movie night",
+      "theme": "bedroom",
       "mood": "relaxed",
       "outfit": "star pajamas",
       "accessory": null,
       "prop": "popcorn bowl",
       "pose": "sitting cross-legged with popcorn",
-      "prompt": "Cute cartoon bear, sitting cross-legged with popcorn, wearing star pajamas, with popcorn bowl, in a pajama movie night setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prompt": "Cute cartoon bear, sitting cross-legged with popcorn, wearing star pajamas, with popcorn bowl, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bear_15",
-      "theme": "baker's day",
+      "theme": "kitchen",
       "mood": "focused",
       "outfit": "chef hat",
       "accessory": null,
