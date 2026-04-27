@@ -4,6 +4,12 @@ import path from 'node:path'
 import sharp from 'sharp'
 
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
+// Models
+// - black-forest-labs/flux.2-klein-4b
+// - black-forest-labs/flux.2-pro
+// - google/gemini-2.5-flash-image
+// - google/gemini-3.1-flash-image-preview
+// - openai/gpt-5-image-mini
 const DEFAULT_MODEL = 'black-forest-labs/flux.2-klein-4b'
 const DEFAULT_STYLE_SPEC =
   'Cute 2D kids-game illustration, soft rounded shapes, clean outline, gentle shading but no shadows outside the outline, warm pastel-friendly palette, toy-like aesthetic, simple readable forms, non-realistic.'
@@ -185,6 +191,7 @@ function buildVariationPrompt(options) {
   const lines = [
     'Generate exactly one image variation.',
     'Preserve original style and palette while introducing requested changes.',
+    'If holding an item, animal appendages to be used always.',
     `Style spec: ${buildStyleSpec(options)}`,
   ]
   pushIf(lines, 'Variation request', options.item)
