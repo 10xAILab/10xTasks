@@ -10,7 +10,8 @@ const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 // - google/gemini-2.5-flash-image
 // - google/gemini-3.1-flash-image-preview
 // - openai/gpt-5-image-mini
-const DEFAULT_MODEL = 'black-forest-labs/flux.2-klein-4b'
+// const DEFAULT_MODEL = 'black-forest-labs/flux.2-klein-4b'
+const DEFAULT_MODEL = 'google/gemini-2.5-flash-image'
 const DEFAULT_STYLE_SPEC =
   'Cute 2D kids-game illustration, soft rounded shapes, clean outline, gentle shading but no shadows outside the outline, warm pastel-friendly palette, toy-like aesthetic, simple readable forms, non-realistic.'
 const VALID_MODES = new Set(['variation', 'overlay', 'background', 'composed'])

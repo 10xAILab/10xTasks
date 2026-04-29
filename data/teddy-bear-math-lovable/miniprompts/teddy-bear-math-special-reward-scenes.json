@@ -608,203 +608,203 @@
   "bunny": [
     {
       "id": "bunny_1",
-      "theme": "spring picnic",
+      "theme": "garden",
       "mood": "happy",
       "outfit": "ribbon bow",
       "accessory": null,
       "prop": "carrot sandwich",
-      "pose": "sitting and holding sandwich",
-      "prompt": "Cute cartoon bunny, sitting and holding sandwich, wearing ribbon bow, with carrot sandwich, in a spring picnic setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding carrot sandwich with both paws",
+      "prompt": "Cute cartoon bunny, holding carrot sandwich with both paws, wearing ribbon bow, in a garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_2",
-      "theme": "magic garden",
+      "theme": "fairy-garden",
       "mood": "wonder",
       "outfit": "flower crown",
       "accessory": null,
       "prop": "watering can",
-      "pose": "hopping and watering flowers",
-      "prompt": "Cute cartoon bunny, hopping and watering flowers, wearing flower crown, with watering can, in a magic garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding watering can with both paws",
+      "prompt": "Cute cartoon bunny, holding watering can with both paws, wearing flower crown, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_3",
-      "theme": "birthday party",
+      "theme": "candy-land",
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
       "prop": "balloon",
-      "pose": "hopping and holding balloon",
-      "prompt": "Cute cartoon bunny, hopping and holding balloon, wearing party hat, with balloon, in a birthday party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding balloon string with one paw",
+      "prompt": "Cute cartoon bunny, holding balloon string with one paw, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_4",
-      "theme": "cozy bedtime",
+      "theme": "bedroom",
       "mood": "sleepy",
       "outfit": "soft pajamas",
       "accessory": null,
       "prop": "moon pillow",
-      "pose": "curling up with moon pillow",
-      "prompt": "Cute cartoon bunny, curling up with moon pillow, wearing soft pajamas, with moon pillow, in a cozy bedtime setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "hugging moon pillow with both paws",
+      "prompt": "Cute cartoon bunny, hugging moon pillow with both paws, wearing soft pajamas, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_5",
-      "theme": "beach day",
+      "theme": "beach",
       "mood": "cheerful",
       "outfit": "sun hat",
       "accessory": null,
       "prop": "fruit popsicle",
-      "pose": "sitting and licking popsicle",
-      "prompt": "Cute cartoon bunny, sitting and licking popsicle, wearing sun hat, with fruit popsicle, in a beach day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding fruit popsicle with one paw",
+      "prompt": "Cute cartoon bunny, holding fruit popsicle with one paw, wearing sun hat, in a beach setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_6",
-      "theme": "camping",
+      "theme": "forest",
       "mood": "calm",
       "outfit": "hoodie",
       "accessory": null,
       "prop": "lantern",
-      "pose": "standing beside lantern",
-      "prompt": "Cute cartoon bunny, standing beside lantern, wearing hoodie, with lantern, in a camping setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding lantern with one paw",
+      "prompt": "Cute cartoon bunny, holding lantern with one paw, wearing hoodie, in a forest setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_7",
-      "theme": "superhero moment",
+      "theme": "sky",
       "mood": "brave",
       "outfit": "cape",
       "accessory": null,
       "prop": null,
       "pose": "standing on tiptoes with paws raised",
-      "prompt": "Cute cartoon bunny, standing on tiptoes with paws raised, wearing cape, in a superhero moment setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prompt": "Cute cartoon bunny, standing on tiptoes with paws raised, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_8",
-      "theme": "rainy day indoors",
+      "theme": "art-studio",
       "mood": "playful",
       "outfit": "rain boots",
       "accessory": null,
       "prop": "paper umbrella",
-      "pose": "twirling umbrella",
-      "prompt": "Cute cartoon bunny, twirling umbrella, wearing rain boots, with paper umbrella, in a rainy day indoors setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding paper umbrella with both paws",
+      "prompt": "Cute cartoon bunny, holding paper umbrella with both paws, wearing rain boots, in an art-studio setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_9",
-      "theme": "pirate adventure",
+      "theme": "pirate-ship",
       "mood": "adventurous",
       "outfit": "pirate hat",
       "accessory": null,
       "prop": "treasure map",
-      "pose": "hopping while reading map",
-      "prompt": "Cute cartoon bunny, hopping while reading map, wearing pirate hat, with treasure map, in a pirate adventure setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding treasure map with both paws",
+      "prompt": "Cute cartoon bunny, holding treasure map with both paws, wearing pirate hat, in a pirate-ship setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_10",
-      "theme": "space explorer",
+      "theme": "space",
       "mood": "curious",
       "outfit": "space helmet",
       "accessory": null,
       "prop": "moon rock pouch",
-      "pose": "bouncing and holding pouch",
-      "prompt": "Cute cartoon bunny, bouncing and holding pouch, wearing space helmet, with moon rock pouch, in a space explorer setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding moon rock pouch with both paws",
+      "prompt": "Cute cartoon bunny, holding moon rock pouch with both paws, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_11",
-      "theme": "garden parade",
+      "theme": "garden",
       "mood": "delighted",
       "outfit": "daisy crown",
       "accessory": null,
       "prop": "ribbon wand",
-      "pose": "skipping and waving wand",
-      "prompt": "Cute cartoon bunny, skipping and waving wand, wearing daisy crown, with ribbon wand, in a garden parade setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "waving ribbon wand with one paw",
+      "prompt": "Cute cartoon bunny, waving ribbon wand with one paw, wearing daisy crown, in a garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_12",
-      "theme": "tea party",
+      "theme": "kitchen",
       "mood": "polite",
       "outfit": "lace collar",
       "accessory": null,
       "prop": "teacup",
-      "pose": "sitting neatly with teacup",
-      "prompt": "Cute cartoon bunny, sitting neatly with teacup, wearing lace collar, with teacup, in a tea party setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding teacup with both paws",
+      "prompt": "Cute cartoon bunny, holding teacup with both paws, wearing lace collar, in a kitchen setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_13",
-      "theme": "music recital",
+      "theme": "art-studio",
       "mood": "joyful",
       "outfit": "bow tie",
       "accessory": null,
       "prop": "tambourine",
-      "pose": "dancing and shaking tambourine",
-      "prompt": "Cute cartoon bunny, dancing and shaking tambourine, wearing bow tie, with tambourine, in a music recital setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "shaking tambourine with both paws",
+      "prompt": "Cute cartoon bunny, shaking tambourine with both paws, wearing bow tie, in an art-studio setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_14",
-      "theme": "harvest fair",
+      "theme": "garden",
       "mood": "content",
       "outfit": "overalls",
       "accessory": null,
       "prop": "pumpkin basket",
       "pose": "holding basket with both paws",
-      "prompt": "Cute cartoon bunny, holding basket with both paws, wearing overalls, with pumpkin basket, in a harvest fair setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prompt": "Cute cartoon bunny, holding basket with both paws, wearing overalls, in a garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_15",
-      "theme": "library nook",
+      "theme": "bedroom",
       "mood": "focused",
       "outfit": "tiny backpack",
       "accessory": null,
       "prop": "storybook",
-      "pose": "sitting and reading",
-      "prompt": "Cute cartoon bunny, sitting and reading, wearing tiny backpack, with storybook, in a library nook setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding storybook with both paws",
+      "prompt": "Cute cartoon bunny, holding storybook with both paws, wearing tiny backpack, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_16",
-      "theme": "kite day",
+      "theme": "sky",
       "mood": "free",
       "outfit": "light scarf",
       "accessory": null,
       "prop": "kite spool",
-      "pose": "running and holding spool",
-      "prompt": "Cute cartoon bunny, running and holding spool, wearing light scarf, with kite spool, in a kite day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding kite spool with both paws",
+      "prompt": "Cute cartoon bunny, holding kite spool with both paws, wearing light scarf, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_17",
-      "theme": "baker's day",
+      "theme": "kitchen",
       "mood": "busy",
       "outfit": "chef hat",
       "accessory": null,
       "prop": "bread loaf",
-      "pose": "presenting bread loaf",
-      "prompt": "Cute cartoon bunny, presenting bread loaf, wearing chef hat, with bread loaf, in a baker's day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding bread loaf with both paws",
+      "prompt": "Cute cartoon bunny, holding bread loaf with both paws, wearing chef hat, in a kitchen setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_18",
-      "theme": "flower market",
+      "theme": "fairy-garden",
       "mood": "gentle",
       "outfit": "apron",
       "accessory": null,
       "prop": "lavender bundle",
-      "pose": "standing and sniffing flowers",
-      "prompt": "Cute cartoon bunny, standing and sniffing flowers, wearing apron, with lavender bundle, in a flower market setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding lavender bundle with both paws",
+      "prompt": "Cute cartoon bunny, holding lavender bundle with both paws, wearing apron, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_19",
-      "theme": "snow day",
+      "theme": "snow-world",
       "mood": "gleeful",
       "outfit": "pom pom hat",
       "accessory": null,
       "prop": "mini sled",
-      "pose": "pulling a tiny sled",
-      "prompt": "Cute cartoon bunny, pulling a tiny sled, wearing pom pom hat, with mini sled, in a snow day setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "pulling mini sled rope with one paw",
+      "prompt": "Cute cartoon bunny, pulling mini sled rope with one paw, wearing pom pom hat, in a snow-world setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "bunny_20",
-      "theme": "moon festival",
+      "theme": "sky",
       "mood": "dreamy",
       "outfit": "star cloak",
       "accessory": null,
       "prop": "paper lantern",
-      "pose": "holding lantern close",
-      "prompt": "Cute cartoon bunny, holding lantern close, wearing star cloak, with paper lantern, in a moon festival setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding paper lantern with both paws",
+      "prompt": "Cute cartoon bunny, holding paper lantern with both paws, wearing star cloak, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     }
   ],
   "fox": [
