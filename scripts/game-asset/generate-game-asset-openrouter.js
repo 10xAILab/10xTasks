@@ -191,7 +191,8 @@ function buildVariationPrompt(options) {
   const lines = [
     'Generate exactly one image variation.',
     'Preserve original style and palette while introducing requested changes.',
-    'If holding an item, animal appendages to be used always.',
+    'Enforce realistic anatomy: no extra or duplicated limbs, tails, or appendages. Maintain correct limb count.',
+    'If holding an item, objects must be held naturally using existing limbs only.',
     `Style spec: ${buildStyleSpec(options)}`,
   ]
   pushIf(lines, 'Variation request', options.item)

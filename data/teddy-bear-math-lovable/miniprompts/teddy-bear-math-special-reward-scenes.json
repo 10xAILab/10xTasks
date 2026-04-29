@@ -421,8 +421,8 @@
       "outfit": "paint smock",
       "accessory": null,
       "prop": "paintbrush",
-      "pose": "sitting",
-      "prompt": "Cute cartoon cat, sitting, wearing paint smock, with paintbrush, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "sitting and holding paintbrush with one paw",
+      "prompt": "Cute cartoon cat, sitting and holding paintbrush with one paw, wearing paint smock, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "cat_3",
@@ -430,9 +430,9 @@
       "mood": "playful",
       "outfit": null,
       "accessory": "sunglasses",
-      "prop": "sand bucket",
-      "pose": "holding sand bucket with one paw",
-      "prompt": "Cute cartoon cat, holding sand bucket with one paw, wearing sunglasses, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "bucket with sand",
+      "pose": "holding bucket by handle with one paw",
+      "prompt": "Cute cartoon cat, holding bucket by handle with one paw, wearing sunglasses, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "cat_4",
@@ -461,8 +461,8 @@
       "outfit": "black pirate hat with white paw logo",
       "accessory": null,
       "prop": "spyglass",
-      "pose": "peeking through spyglass",
-      "prompt": "Cute cartoon cat, peeking through spyglass, wearing black pirate hat with white paw logo, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "holding spyglass with both paws",
+      "prompt": "Cute cartoon cat, holding spyglass with both paws, wearing black pirate hat with white paw logo, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "cat_7",
@@ -471,8 +471,8 @@
       "outfit": "space helmet",
       "accessory": null,
       "prop": null,
-      "pose": "floating with paws stretched out",
-      "prompt": "Cute cartoon cat, floating with paws stretched out, wearing space helmet around whole face, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "pose": "floating with all paws stretched out, front paws up and back legs down",
+      "prompt": "Cute cartoon cat, floating with all paws stretched out, front paws up and back legs down, wearing space helmet around whole face, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "cat_8",
