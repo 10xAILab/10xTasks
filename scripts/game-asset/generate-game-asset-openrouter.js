@@ -9,6 +9,7 @@ const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 // - black-forest-labs/flux.2-pro
 // - google/gemini-2.5-flash-image
 // - google/gemini-3.1-flash-image-preview
+// - google/gemini-3-pro-image-preview
 // - openai/gpt-5-image-mini
 // const DEFAULT_MODEL = 'black-forest-labs/flux.2-klein-4b'
 const DEFAULT_MODEL = 'google/gemini-2.5-flash-image'
