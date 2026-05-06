@@ -2056,9 +2056,9 @@
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
-      "prop": "cake slice",
-      "pose": "holding cake slice with one limb",
-      "prompt": "Cute cartoon panda, holding cake slice with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "jam bun",
+      "pose": "holding jam bun with one limb",
+      "prompt": "Cute cartoon panda, holding jam bun with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "panda_5",
@@ -2066,9 +2066,9 @@
       "mood": "curious",
       "outfit": null,
       "accessory": "flower crown",
-      "prop": "lantern",
-      "pose": "holding lantern with one limb",
-      "prompt": "Cute cartoon panda, holding lantern with one limb, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "firefly jar",
+      "pose": "holding firefly jar with one limb",
+      "prompt": "Cute cartoon panda, holding firefly jar with one limb, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "panda_6",
@@ -2096,9 +2096,9 @@
       "mood": "proud",
       "outfit": "cape",
       "accessory": null,
-      "prop": "mask",
-      "pose": "holding mask with one limb",
-      "prompt": "Cute cartoon panda, holding mask with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "cape pin",
+      "pose": "holding cape pin with one limb",
+      "prompt": "Cute cartoon panda, holding cape pin with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "panda_9",
@@ -2106,9 +2106,9 @@
       "mood": "focused",
       "outfit": "tiny satchel",
       "accessory": null,
-      "prop": "storybook",
-      "pose": "holding storybook with one limb",
-      "prompt": "Cute cartoon panda, holding storybook with one limb, wearing tiny satchel, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "comic book",
+      "pose": "holding comic book with one limb",
+      "prompt": "Cute cartoon panda, holding comic book with one limb, wearing tiny satchel, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "panda_10",
@@ -2138,9 +2138,9 @@
       "mood": "delighted",
       "outfit": "ribbon collar",
       "accessory": null,
-      "prop": "balloon bunch",
-      "pose": "holding balloon bunch with one limb",
-      "prompt": "Cute cartoon giraffe, holding balloon bunch with one limb, wearing ribbon collar, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "three balloons",
+      "pose": "holding three balloons with one limb",
+      "prompt": "Cute cartoon giraffe, holding three balloons with one limb, wearing ribbon collar, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_3",
@@ -2148,9 +2148,9 @@
       "mood": "wonder",
       "outfit": "space helmet",
       "accessory": null,
-      "prop": "star map",
-      "pose": "holding star map with one limb",
-      "prompt": "Cute cartoon giraffe, holding star map with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "planet postcard",
+      "pose": "holding planet postcard with one limb",
+      "prompt": "Cute cartoon giraffe, holding planet postcard with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_4",
@@ -2168,9 +2168,9 @@
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
-      "prop": "cupcake",
-      "pose": "holding cupcake with one limb",
-      "prompt": "Cute cartoon giraffe, holding cupcake with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "donut",
+      "pose": "holding donut with one limb",
+      "prompt": "Cute cartoon giraffe, holding donut with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_6",
@@ -2178,9 +2178,9 @@
       "mood": "sleepy",
       "outfit": "pajamas",
       "accessory": null,
-      "prop": "moon pillow",
-      "pose": "holding moon pillow with both limbs",
-      "prompt": "Cute cartoon giraffe, holding moon pillow with both limbs, wearing pajamas, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "cloud blanket",
+      "pose": "holding cloud blanket with both limbs",
+      "prompt": "Cute cartoon giraffe, holding cloud blanket with both limbs, wearing pajamas, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_7",
@@ -2188,9 +2188,9 @@
       "mood": "gentle",
       "outfit": null,
       "accessory": "flower crown",
-      "prop": "watering can",
-      "pose": "holding watering can with both limbs",
-      "prompt": "Cute cartoon giraffe, holding watering can with both limbs, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "spray bottle",
+      "pose": "holding spray bottle with both limbs",
+      "prompt": "Cute cartoon giraffe, holding spray bottle with both limbs, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_8",
@@ -2198,9 +2198,9 @@
       "mood": "curious",
       "outfit": "tiny satchel",
       "accessory": null,
-      "prop": "book stack",
-      "pose": "holding book stack with one limb",
-      "prompt": "Cute cartoon giraffe, holding book stack with one limb, wearing tiny satchel, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "notebook",
+      "pose": "holding notebook with one limb",
+      "prompt": "Cute cartoon giraffe, holding notebook with one limb, wearing tiny satchel, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_9",
@@ -2208,9 +2208,9 @@
       "mood": "proud",
       "outfit": "cape",
       "accessory": null,
-      "prop": "gold badge",
-      "pose": "holding gold badge with one limb",
-      "prompt": "Cute cartoon giraffe, holding gold badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "silver badge",
+      "pose": "holding silver badge with one limb",
+      "prompt": "Cute cartoon giraffe, holding silver badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "giraffe_10",
@@ -2218,9 +2218,9 @@
       "mood": "content",
       "outfit": "straw hat",
       "accessory": null,
-      "prop": "fruit basket",
-      "pose": "holding fruit basket with both limbs",
-      "prompt": "Cute cartoon giraffe, holding fruit basket with both limbs, wearing straw hat, in a garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "apple crate",
+      "pose": "holding apple crate with both limbs",
+      "prompt": "Cute cartoon giraffe, holding apple crate with both limbs, wearing straw hat, in a garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     }
   ],
   "hamster": [
@@ -2250,9 +2250,9 @@
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
-      "prop": "balloon",
-      "pose": "holding balloon with one limb",
-      "prompt": "Cute cartoon hamster, holding balloon with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "pinwheel",
+      "pose": "holding pinwheel with one limb",
+      "prompt": "Cute cartoon hamster, holding pinwheel with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "hamster_4",
@@ -2280,9 +2280,9 @@
       "mood": "cozy",
       "outfit": "sweater",
       "accessory": null,
-      "prop": "storybook",
-      "pose": "holding storybook with one limb",
-      "prompt": "Cute cartoon hamster, holding storybook with one limb, wearing sweater, in a art-studio setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "sketch pad",
+      "pose": "holding sketch pad with one limb",
+      "prompt": "Cute cartoon hamster, holding sketch pad with one limb, wearing sweater, in a art-studio setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "hamster_7",
@@ -2290,9 +2290,9 @@
       "mood": "curious",
       "outfit": null,
       "accessory": "flower crown",
-      "prop": "watering can",
-      "pose": "holding watering can with both limbs",
-      "prompt": "Cute cartoon hamster, holding watering can with both limbs, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "tiny shovel",
+      "pose": "holding tiny shovel with both limbs",
+      "prompt": "Cute cartoon hamster, holding tiny shovel with both limbs, in a fairy-garden setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "hamster_8",
@@ -2300,9 +2300,9 @@
       "mood": "brave",
       "outfit": "cape",
       "accessory": null,
-      "prop": "star badge",
-      "pose": "holding star badge with one limb",
-      "prompt": "Cute cartoon hamster, holding star badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "hero whistle",
+      "pose": "holding hero whistle with one limb",
+      "prompt": "Cute cartoon hamster, holding hero whistle with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "hamster_9",
@@ -2310,9 +2310,9 @@
       "mood": "calm",
       "outfit": "bandana",
       "accessory": null,
-      "prop": "lantern",
-      "pose": "holding lantern with one limb",
-      "prompt": "Cute cartoon hamster, holding lantern with one limb, wearing bandana, in a forest setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "acorn lamp",
+      "pose": "holding acorn lamp with one limb",
+      "prompt": "Cute cartoon hamster, holding acorn lamp with one limb, wearing bandana, in a forest setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "hamster_10",
@@ -2342,9 +2342,9 @@
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
-      "prop": "cupcake",
-      "pose": "holding cupcake with one limb",
-      "prompt": "Cute cartoon dinosaur, holding cupcake with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "lollipop",
+      "pose": "holding lollipop with one limb",
+      "prompt": "Cute cartoon dinosaur, holding lollipop with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dinosaur_3",
@@ -2352,9 +2352,9 @@
       "mood": "proud",
       "outfit": "cape",
       "accessory": null,
-      "prop": "shield badge",
-      "pose": "holding shield badge with both limbs",
-      "prompt": "Cute cartoon dinosaur, holding shield badge with both limbs, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "helmet crest",
+      "pose": "holding helmet crest with both limbs",
+      "prompt": "Cute cartoon dinosaur, holding helmet crest with both limbs, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dinosaur_4",
@@ -2362,9 +2362,9 @@
       "mood": "calm",
       "outfit": "scarf",
       "accessory": null,
-      "prop": "lantern",
-      "pose": "holding lantern with one limb",
-      "prompt": "Cute cartoon dinosaur, holding lantern with one limb, wearing scarf, in a forest setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "camp torch",
+      "pose": "holding camp torch with one limb",
+      "prompt": "Cute cartoon dinosaur, holding camp torch with one limb, wearing scarf, in a forest setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dinosaur_5",
@@ -2372,9 +2372,9 @@
       "mood": "wonder",
       "outfit": "space helmet",
       "accessory": null,
-      "prop": "star crystal",
-      "pose": "holding star crystal with one limb",
-      "prompt": "Cute cartoon dinosaur, holding star crystal with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "meteor pebble",
+      "pose": "holding meteor pebble with one limb",
+      "prompt": "Cute cartoon dinosaur, holding meteor pebble with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dinosaur_6",
@@ -2414,9 +2414,9 @@
       "mood": "bold",
       "outfit": "cape",
       "accessory": null,
-      "prop": "mask",
-      "pose": "holding mask with one limb",
-      "prompt": "Cute cartoon monkey, holding mask with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "cape buckle",
+      "pose": "holding cape buckle with one limb",
+      "prompt": "Cute cartoon monkey, holding cape buckle with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "monkey_4",
@@ -2424,9 +2424,9 @@
       "mood": "excited",
       "outfit": "party hat",
       "accessory": null,
-      "prop": "balloon",
-      "pose": "holding balloon with one limb",
-      "prompt": "Cute cartoon monkey, holding balloon with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "party horn",
+      "pose": "holding party horn with one limb",
+      "prompt": "Cute cartoon monkey, holding party horn with one limb, wearing party hat, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "monkey_5",
@@ -2466,9 +2466,9 @@
       "mood": "brave",
       "outfit": "cape",
       "accessory": null,
-      "prop": "star badge",
-      "pose": "holding star badge with one limb",
-      "prompt": "Cute cartoon tiger, holding star badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "wing patch",
+      "pose": "holding wing patch with one limb",
+      "prompt": "Cute cartoon tiger, holding wing patch with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "tiger_3",
@@ -2528,9 +2528,9 @@
       "mood": "excited",
       "outfit": "party crown",
       "accessory": null,
-      "prop": "cake slice",
-      "pose": "holding cake slice with one limb",
-      "prompt": "Cute cartoon dragon, holding cake slice with one limb, wearing party crown, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "toffee bar",
+      "pose": "holding toffee bar with one limb",
+      "prompt": "Cute cartoon dragon, holding toffee bar with one limb, wearing party crown, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dragon_3",
@@ -2538,9 +2538,9 @@
       "mood": "proud",
       "outfit": "cape",
       "accessory": null,
-      "prop": "shield badge",
-      "pose": "holding shield badge with both limbs",
-      "prompt": "Cute cartoon dragon, holding shield badge with both limbs, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "scale shield",
+      "pose": "holding scale shield with both limbs",
+      "prompt": "Cute cartoon dragon, holding scale shield with both limbs, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dragon_4",
@@ -2548,9 +2548,9 @@
       "mood": "calm",
       "outfit": "scarf",
       "accessory": null,
-      "prop": "lantern",
-      "pose": "holding lantern with one limb",
-      "prompt": "Cute cartoon dragon, holding lantern with one limb, wearing scarf, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "glow orb",
+      "pose": "holding glow orb with one limb",
+      "prompt": "Cute cartoon dragon, holding glow orb with one limb, wearing scarf, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dragon_5",
@@ -2558,9 +2558,9 @@
       "mood": "curious",
       "outfit": "space helmet",
       "accessory": null,
-      "prop": "star crystal",
-      "pose": "holding star crystal with one limb",
-      "prompt": "Cute cartoon dragon, holding star crystal with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "comet stone",
+      "pose": "holding comet stone with one limb",
+      "prompt": "Cute cartoon dragon, holding comet stone with one limb, wearing space helmet, in a space setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "dragon_6",
@@ -2590,9 +2590,9 @@
       "mood": "sleepy",
       "outfit": "star pajamas",
       "accessory": null,
-      "prop": "moon pillow",
-      "pose": "holding moon pillow with both limbs",
-      "prompt": "Cute cartoon unicorn, holding moon pillow with both limbs, wearing star pajamas, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "star pillow",
+      "pose": "holding star pillow with both limbs",
+      "prompt": "Cute cartoon unicorn, holding star pillow with both limbs, wearing star pajamas, in a bedroom setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "unicorn_3",
@@ -2610,9 +2610,9 @@
       "mood": "excited",
       "outfit": "party crown",
       "accessory": null,
-      "prop": "cupcake",
-      "pose": "holding cupcake with one limb",
-      "prompt": "Cute cartoon unicorn, holding cupcake with one limb, wearing party crown, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "marshmallow pop",
+      "pose": "holding marshmallow pop with one limb",
+      "prompt": "Cute cartoon unicorn, holding marshmallow pop with one limb, wearing party crown, in a candy-land setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "unicorn_5",
@@ -2620,9 +2620,9 @@
       "mood": "proud",
       "outfit": "cape",
       "accessory": null,
-      "prop": "gold badge",
-      "pose": "holding gold badge with one limb",
-      "prompt": "Cute cartoon unicorn, holding gold badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
+      "prop": "rainbow badge",
+      "pose": "holding rainbow badge with one limb",
+      "prompt": "Cute cartoon unicorn, holding rainbow badge with one limb, wearing cape, in a sky setting, soft pastel colors, rounded shapes, clean outline, kids game illustration style"
     },
     {
       "id": "unicorn_6",

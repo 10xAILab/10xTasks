@@ -1,0 +1,17 @@
+<json prompt from data/teddy-bear-math-lovable/miniprompts/teddy-bear-math-special-reward-scenes.json>.
+
+BACKGROUND: solid plain white only (no gradients, no vignette, no texture).
+
+HARD CONSTRAINTS:
+- Character-only overlay asset: no scenery, no ground plane, no sky, no distant landscape, no interior rooms.
+- No shadows outside the character outline.
+
+STRICT POSE LOCK:
+- Use the original giraffe limb anatomy.
+- Keep neck and head placement natural.
+- Both hind limbs remain unchanged and visible.
+
+FORBIDDEN:
+- No additional limbs or duplicate limbs.
+- No floating or detached limb.
+- Prop should be included in full view and not cropped
