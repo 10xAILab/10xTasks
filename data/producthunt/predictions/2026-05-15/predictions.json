@@ -1,0 +1,2242 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T09:57:34.167Z",
+  "fetched_at": "2026-05-15T09:57:34.167Z",
+  "timezone": "America/Los_Angeles (Product Hunt RSS feed updated 2026-05-15T00:01:00-07:00)",
+  "fetch_method": "Product Hunt RSS feed",
+  "source_urls": [
+    "https://www.producthunt.com/feed?category=undefined"
+  ],
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-15/rss.xml",
+  "prediction_target": "final end-of-day Product Hunt leaderboard rank among launches from this Product Hunt launch day",
+  "scoring_method": "weighted sum per prompts/producthunt/predict.md (clarity 15%, novelty 8%, usefulness 18%, shareability 18%, product_hunt_audience_fit 12%, credibility_effective 8%, launch_momentum_potential 12%, broad_vote_appeal 15%) plus documented calibration adjustments",
+  "feed_composition": {
+    "launch_count": 50,
+    "saturated_archetype_count": 22,
+    "saturated_archetypes": [
+      "AI agents",
+      "computer use",
+      "MCP",
+      "agent builders",
+      "memory/RAG layers",
+      "local LLM tooling"
+    ]
+  },
+  "rules": {
+    "excluded_fields_verified": true,
+    "excluded_signals": [
+      "upvotes",
+      "comments",
+      "current ranking",
+      "leaderboard position",
+      "featured position",
+      "featured badges",
+      "trending labels",
+      "top product metadata",
+      "Product Hunt popularity signals",
+      "external Product Hunt traction discussions"
+    ]
+  },
+  "predictions": [
+    {
+      "predicted_rank": 1,
+      "product_hunt_slug": "cats-lock-keyboard-lock-for-cat-people",
+      "product_name": "Cats Lock",
+      "tagline": "Lock your Mac keyboard so your cat can walk on it.",
+      "product_hunt_url": "https://www.producthunt.com/products/cats-lock-keyboard-lock-for-cat-people",
+      "website_url": "https://catslock.app",
+      "category": "macOS utility / pet humor",
+      "rss_item_snapshot": {
+        "title": "Cats Lock",
+        "link": "https://www.producthunt.com/products/cats-lock-keyboard-lock-for-cat-people",
+        "guid": "tag:www.producthunt.com,2005:Post/1142697",
+        "published_at": "2026-05-08T17:29:06-07:00",
+        "description": "Lock your Mac keyboard so your cat can walk on it.",
+        "author": "Todd Alexander",
+        "updated_at": "2026-05-15T02:50:49-07:00"
+      },
+      "scores": {
+        "clarity": 10,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 10,
+        "product_hunt_audience_fit": 9,
+        "credibility": 7,
+        "launch_momentum_potential": 8,
+        "broad_vote_appeal": 10,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0.6
+      },
+      "predicted_success_score": 10,
+      "confidence": "high",
+      "reasoning": "Hilarious, instant problem/solution, App Store purchase, promo video—classic PH viral Mac utility. Calibration: broad appeal +0.6.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://catslock.app"
+      ]
+    },
+    {
+      "predicted_rank": 2,
+      "product_hunt_slug": "atlas-navigation",
+      "product_name": "Atlas Navigation",
+      "tagline": "Predicts your TSA wait before you leave for the airport",
+      "product_hunt_url": "https://www.producthunt.com/products/atlas-navigation",
+      "website_url": "https://atlas-navigation.com",
+      "category": "Travel / TSA wait prediction",
+      "rss_item_snapshot": {
+        "title": "Atlas Navigation",
+        "link": "https://www.producthunt.com/products/atlas-navigation",
+        "guid": "tag:www.producthunt.com,2005:Post/1144744",
+        "published_at": "2026-05-11T15:24:50-07:00",
+        "description": "Predicts your TSA wait before you leave for the airport",
+        "author": "TJ Clayton",
+        "updated_at": "2026-05-15T02:50:48-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 9,
+        "shareability": 8,
+        "product_hunt_audience_fit": 9,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 9,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 9.62,
+      "confidence": "high",
+      "reasoning": "Universal airport pain with obvious before/after; travelers grasp value in seconds. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://atlas-navigation.com"
+      ]
+    },
+    {
+      "predicted_rank": 3,
+      "product_hunt_slug": "crystal-7",
+      "product_name": "Crystal",
+      "tagline": "Identify rocks, crystals & gemstones instantly with AI",
+      "product_hunt_url": "https://www.producthunt.com/products/crystal-7",
+      "website_url": "https://crystal.h2adigital.com",
+      "category": "Rock/crystal identification app",
+      "rss_item_snapshot": {
+        "title": "Crystal",
+        "link": "https://www.producthunt.com/products/crystal-7",
+        "guid": "tag:www.producthunt.com,2005:Post/1146490",
+        "published_at": "2026-05-13T16:42:49-07:00",
+        "description": "Identify rocks, crystals & gemstones instantly with AI",
+        "author": "Hakim",
+        "updated_at": "2026-05-15T02:50:15-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 9,
+        "product_hunt_audience_fit": 9,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 9,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 9.54,
+      "confidence": "high",
+      "reasoning": "Photo → identify rocks is visual, fun, and App Store friendly—strong broad demo. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://crystal.h2adigital.com"
+      ]
+    },
+    {
+      "predicted_rank": 4,
+      "product_hunt_slug": "riffly",
+      "product_name": "Riffly",
+      "tagline": "Describe a deck and AI builds it + Exports to PowerPoint",
+      "product_hunt_url": "https://www.producthunt.com/products/riffly",
+      "website_url": "https://tryriffly.app",
+      "category": "AI presentation builder",
+      "rss_item_snapshot": {
+        "title": "Riffly",
+        "link": "https://www.producthunt.com/products/riffly",
+        "guid": "tag:www.producthunt.com,2005:Post/1141676",
+        "published_at": "2026-05-07T11:37:20-07:00",
+        "description": "Describe a deck and AI builds it + Exports to PowerPoint",
+        "author": "Justin Duvanced",
+        "updated_at": "2026-05-15T02:50:36-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 8,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 9.02,
+      "confidence": "high",
+      "reasoning": "Describe deck → editable PPTX is instantly valuable to founders and PMs; strong demo. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://tryriffly.app"
+      ]
+    },
+    {
+      "predicted_rank": 5,
+      "product_hunt_slug": "gluten-app",
+      "product_name": "Gluten App",
+      "tagline": "Find gluten-free places by city and travel destination",
+      "product_hunt_url": "https://www.producthunt.com/products/gluten-app",
+      "website_url": "https://gluten.app",
+      "category": "Travel / celiac dining discovery",
+      "rss_item_snapshot": {
+        "title": "Gluten App",
+        "link": "https://www.producthunt.com/products/gluten-app",
+        "guid": "tag:www.producthunt.com,2005:Post/1145368",
+        "published_at": "2026-05-12T08:03:27-07:00",
+        "description": "Find gluten-free places by city and travel destination",
+        "author": "Sumit Chhabra",
+        "updated_at": "2026-05-15T02:50:52-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 5,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 8.79,
+      "confidence": "high",
+      "reasoning": "Instantly relatable problem for travelers; city/country search is easy to grasp. Crowded travel apps but strong broad appeal. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://gluten.app"
+      ]
+    },
+    {
+      "predicted_rank": 6,
+      "product_hunt_slug": "whiteout",
+      "product_name": "Whiteout",
+      "tagline": "Auto-redact sensitive info from Mac screenshots",
+      "product_hunt_url": "https://www.producthunt.com/products/whiteout",
+      "website_url": "https://getwhiteout.vercel.app",
+      "category": "macOS screenshot redaction",
+      "rss_item_snapshot": {
+        "title": "Whiteout",
+        "link": "https://www.producthunt.com/products/whiteout",
+        "guid": "tag:www.producthunt.com,2005:Post/1147252",
+        "published_at": "2026-05-14T14:06:42-07:00",
+        "description": "Auto-redact sensitive info from Mac screenshots",
+        "author": "Andrew Khalil",
+        "updated_at": "2026-05-15T02:50:38-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 8.79,
+      "confidence": "high",
+      "reasoning": "Instant security use case for Mac users sharing screenshots; easy before/after. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://getwhiteout.vercel.app"
+      ]
+    },
+    {
+      "predicted_rank": 7,
+      "product_hunt_slug": "lumox-mirror-ios-to-mac",
+      "product_name": "Lumox",
+      "tagline": "Mirror iOS to Mac",
+      "product_hunt_url": "https://www.producthunt.com/products/lumox-mirror-ios-to-mac",
+      "website_url": "https://lumox.app",
+      "category": "iOS screen mirror to Mac",
+      "rss_item_snapshot": {
+        "title": "Lumox",
+        "link": "https://www.producthunt.com/products/lumox-mirror-ios-to-mac",
+        "guid": "tag:www.producthunt.com,2005:Post/1143226",
+        "published_at": "2026-05-09T12:51:36-07:00",
+        "description": "Mirror iOS to Mac",
+        "author": "Max Wesel",
+        "updated_at": "2026-05-15T02:50:46-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 8.79,
+      "confidence": "high",
+      "reasoning": "Mirror iPhone to Mac is immediately useful for Apple ecosystem users. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://lumox.app"
+      ]
+    },
+    {
+      "predicted_rank": 8,
+      "product_hunt_slug": "atter-ai-ai-transcription-for-meetings",
+      "product_name": "Atter AI",
+      "tagline": "AI transcription app that turns meetings into action items",
+      "product_hunt_url": "https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings",
+      "website_url": "https://transcription.atter-ai.com/en",
+      "category": "Meeting transcription / action items",
+      "rss_item_snapshot": {
+        "title": "Atter AI",
+        "link": "https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings",
+        "guid": "tag:www.producthunt.com,2005:Post/1146814",
+        "published_at": "2026-05-14T03:15:38-07:00",
+        "description": "AI transcription app that turns meetings into action items",
+        "author": "ha zhang",
+        "updated_at": "2026-05-15T02:50:37-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 5,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 8.68,
+      "confidence": "high",
+      "reasoning": "Meetings → actions is universally understood; crowded but broad_vote_appeal exempts novelty penalty. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://transcription.atter-ai.com"
+      ]
+    },
+    {
+      "predicted_rank": 9,
+      "product_hunt_slug": "docentpro",
+      "product_name": "SpotFetch by DocentPro",
+      "tagline": "Turn the posts you save into an organized list of places",
+      "product_hunt_url": "https://www.producthunt.com/products/docentpro",
+      "website_url": "https://www.docentpro.com/download",
+      "category": "Saved-posts to places list",
+      "rss_item_snapshot": {
+        "title": "SpotFetch by DocentPro",
+        "link": "https://www.producthunt.com/products/docentpro",
+        "guid": "tag:www.producthunt.com,2005:Post/1142008",
+        "published_at": "2026-05-07T22:30:30-07:00",
+        "description": "Turn the posts you save into an organized list of places",
+        "author": "Jake",
+        "updated_at": "2026-05-15T02:50:32-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "predicted_success_score": 8.64,
+      "confidence": "high",
+      "reasoning": "Turn saved social posts into trip lists—clear traveler workflow with broad appeal. Calibration: broad appeal +0.6, outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.docentpro.com"
+      ]
+    },
+    {
+      "predicted_rank": 10,
+      "product_hunt_slug": "write-lint",
+      "product_name": "Write Lint",
+      "tagline": "Your Mac's built-in proofreader, summoned by ⌘⇧L.",
+      "product_hunt_url": "https://www.producthunt.com/products/write-lint",
+      "website_url": "https://www.writelint.app",
+      "category": "macOS writing proofreader hotkey",
+      "rss_item_snapshot": {
+        "title": "Write Lint",
+        "link": "https://www.producthunt.com/products/write-lint",
+        "guid": "tag:www.producthunt.com,2005:Post/1146334",
+        "published_at": "2026-05-13T11:23:38-07:00",
+        "description": "Your Mac's built-in proofreader, summoned by ⌘⇧L.",
+        "author": "Alex Bilozor",
+        "updated_at": "2026-05-15T02:50:40-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0.6
+      },
+      "predicted_success_score": 8.49,
+      "confidence": "high",
+      "reasoning": "Built-in Mac proofreader via hotkey is clear productivity win for writers. Calibration: broad appeal +0.6.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.writelint.app"
+      ]
+    },
+    {
+      "predicted_rank": 11,
+      "product_hunt_slug": "repaint-ai-website-builder",
+      "product_name": "Repaint",
+      "tagline": "Rebuild your existing website with AI",
+      "product_hunt_url": "https://www.producthunt.com/products/repaint-ai-website-builder",
+      "website_url": "https://repaint.com",
+      "category": "AI website rebuild",
+      "rss_item_snapshot": {
+        "title": "Repaint",
+        "link": "https://www.producthunt.com/products/repaint-ai-website-builder",
+        "guid": "tag:www.producthunt.com,2005:Post/1131131",
+        "published_at": "2026-04-23T19:44:57-07:00",
+        "description": "Rebuild your existing website with AI",
+        "author": "Ben Shumaker",
+        "updated_at": "2026-05-15T02:50:46-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0.6,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0.6
+      },
+      "predicted_success_score": 8.34,
+      "confidence": "high",
+      "reasoning": "Rebuild existing site with AI is easy to understand for founders and marketers. Calibration: broad appeal +0.6.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://repaint.com"
+      ]
+    },
+    {
+      "predicted_rank": 12,
+      "product_hunt_slug": "resemble-clone",
+      "product_name": "DramaBox by Resemble AI",
+      "tagline": "AI turns scene descriptions into vocal performances",
+      "product_hunt_url": "https://www.producthunt.com/products/resemble-clone",
+      "website_url": "https://www.resemble.ai",
+      "category": "AI vocal performance from scenes",
+      "rss_item_snapshot": {
+        "title": "DramaBox by Resemble AI",
+        "link": "https://www.producthunt.com/products/resemble-clone",
+        "guid": "tag:www.producthunt.com,2005:Post/1147211",
+        "published_at": "2026-05-14T12:55:25-07:00",
+        "description": "AI turns scene descriptions into vocal performances",
+        "author": "Tedi P",
+        "updated_at": "2026-05-15T02:50:47-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 8,
+        "product_hunt_audience_fit": 8,
+        "credibility": 8,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.95,
+      "confidence": "high",
+      "reasoning": "Resemble AI credibility; creative demo of scene → voice is shareable.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.resemble.ai"
+      ]
+    },
+    {
+      "predicted_rank": 13,
+      "product_hunt_slug": "wowable",
+      "product_name": "Wowable",
+      "tagline": "Paste a link and get a live website",
+      "product_hunt_url": "https://www.producthunt.com/products/wowable",
+      "website_url": "https://wowable.ai",
+      "category": "Link to live website",
+      "rss_item_snapshot": {
+        "title": "Wowable",
+        "link": "https://www.producthunt.com/products/wowable",
+        "guid": "tag:www.producthunt.com,2005:Post/1131424",
+        "published_at": "2026-04-24T03:30:55-07:00",
+        "description": "Paste a link and get a live website",
+        "author": "Josh Bennett",
+        "updated_at": "2026-05-15T02:50:38-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.3
+      },
+      "predicted_success_score": 7.86,
+      "confidence": "high",
+      "reasoning": "Paste link → site is easy magic for non-devs; crowded AI site category. Calibration: outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://wowable.ai"
+      ]
+    },
+    {
+      "predicted_rank": 14,
+      "product_hunt_slug": "lychee-4",
+      "product_name": "Lychee",
+      "tagline": "Lyrics in menu bar",
+      "product_hunt_url": "https://www.producthunt.com/products/lychee-4",
+      "website_url": "https://lycheee.vercel.app",
+      "category": "Menu bar lyrics",
+      "rss_item_snapshot": {
+        "title": "Lychee",
+        "link": "https://www.producthunt.com/products/lychee-4",
+        "guid": "tag:www.producthunt.com,2005:Post/1146402",
+        "published_at": "2026-05-13T13:29:34-07:00",
+        "description": "Lyrics in menu bar",
+        "author": "Rishabh Gangwar",
+        "updated_at": "2026-05-15T02:49:03-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 5,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0.3,
+        "hardware_boost": 0,
+        "total_adjustment": 0.3
+      },
+      "predicted_success_score": 7.81,
+      "confidence": "high",
+      "reasoning": "Tiny delightful Mac utility—lyrics in menu bar is instant get for music fans. Calibration: outcome +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://lycheee.vercel.app"
+      ]
+    },
+    {
+      "predicted_rank": 15,
+      "product_hunt_slug": "magic-notebook",
+      "product_name": "Magic Notebook",
+      "tagline": "A calm writing app with no complexity and no AI",
+      "product_hunt_url": "https://www.producthunt.com/products/magic-notebook",
+      "website_url": "https://www.magic-notebook.com",
+      "category": "Calm writing app (no AI)",
+      "rss_item_snapshot": {
+        "title": "Magic Notebook",
+        "link": "https://www.producthunt.com/products/magic-notebook",
+        "guid": "tag:www.producthunt.com,2005:Post/1131813",
+        "published_at": "2026-04-24T14:39:35-07:00",
+        "description": "A calm writing app with no complexity and no AI",
+        "author": "Vladimir Nikishin",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.79,
+      "confidence": "high",
+      "reasoning": "Anti-complexity writing resonates on PH; clear positioning vs. AI slop.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.magic-notebook.com"
+      ]
+    },
+    {
+      "predicted_rank": 16,
+      "product_hunt_slug": "online-3d-editor",
+      "product_name": "Online 3D Editor",
+      "tagline": "Blender-style 3D editing in your browser",
+      "product_hunt_url": "https://www.producthunt.com/products/online-3d-editor",
+      "website_url": "https://www.3d-editor.com",
+      "category": "Browser 3D editing",
+      "rss_item_snapshot": {
+        "title": "Online 3D Editor",
+        "link": "https://www.producthunt.com/products/online-3d-editor",
+        "guid": "tag:www.producthunt.com,2005:Post/1146386",
+        "published_at": "2026-05-13T13:00:08-07:00",
+        "description": "Blender-style 3D editing in your browser",
+        "author": "David Najaryan",
+        "updated_at": "2026-05-15T02:50:00-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.67,
+      "confidence": "high",
+      "reasoning": "Blender-like in browser is visually compelling for makers and designers.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.3d-editor.com"
+      ]
+    },
+    {
+      "predicted_rank": 17,
+      "product_hunt_slug": "vela-terminal",
+      "product_name": "PHBench",
+      "tagline": "Predict the next Series A from a ProductHunt launch",
+      "product_hunt_url": "https://www.producthunt.com/products/vela-terminal",
+      "website_url": "https://vela.partners",
+      "category": "PH / venture prediction meta-tool",
+      "rss_item_snapshot": {
+        "title": "PHBench",
+        "link": "https://www.producthunt.com/products/vela-terminal",
+        "guid": "tag:www.producthunt.com,2005:Post/1144544",
+        "published_at": "2026-05-11T11:22:01-07:00",
+        "description": "Predict the next Series A from a ProductHunt launch",
+        "author": "Rajiv Ayyangar",
+        "updated_at": "2026-05-15T02:50:41-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 6,
+        "shareability": 7,
+        "product_hunt_audience_fit": 9,
+        "credibility": 8,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.56,
+      "confidence": "high",
+      "reasoning": "PHBench meta appeal on Product Hunt itself; Rajiv Ayyangar credibility but niche utility.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://vela.partners"
+      ]
+    },
+    {
+      "predicted_rank": 18,
+      "product_hunt_slug": "autograph-video-beta",
+      "product_name": "Autograph.video Beta",
+      "tagline": "A drag and drop Motion Design tool to swap creatives quickly",
+      "product_hunt_url": "https://www.producthunt.com/products/autograph-video-beta",
+      "website_url": "https://www.autograph.video",
+      "category": "Motion design / creative tooling",
+      "rss_item_snapshot": {
+        "title": "Autograph.video Beta",
+        "link": "https://www.producthunt.com/products/autograph-video-beta",
+        "guid": "tag:www.producthunt.com,2005:Post/1147292",
+        "published_at": "2026-05-14T15:33:43-07:00",
+        "description": "A drag and drop Motion Design tool to swap creatives quickly",
+        "author": "Yomi Adebayo",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.49,
+      "confidence": "high",
+      "reasoning": "Clear drag-and-drop motion swap for marketers; visual demo helps but niche vs. mass utilities.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.autograph.video"
+      ]
+    },
+    {
+      "predicted_rank": 19,
+      "product_hunt_slug": "glance-native-macos-markdown-viewer",
+      "product_name": "Glance",
+      "tagline": "Preview .md files instantly with quick look",
+      "product_hunt_url": "https://www.producthunt.com/products/glance-native-macos-markdown-viewer",
+      "website_url": "https://glance.md",
+      "category": "macOS Quick Look markdown",
+      "rss_item_snapshot": {
+        "title": "Glance",
+        "link": "https://www.producthunt.com/products/glance-native-macos-markdown-viewer",
+        "guid": "tag:www.producthunt.com,2005:Post/1146969",
+        "published_at": "2026-05-14T07:10:53-07:00",
+        "description": "Preview .md files instantly with quick look",
+        "author": "Klim Falkenberg",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.38,
+      "confidence": "high",
+      "reasoning": "Tiny utility with obvious Mac benefit; modest shareability vs. viral hooks.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://glance.md"
+      ]
+    },
+    {
+      "predicted_rank": 20,
+      "product_hunt_slug": "resend",
+      "product_name": "Resend Automations",
+      "tagline": "Build event-driven email flows",
+      "product_hunt_url": "https://www.producthunt.com/products/resend",
+      "website_url": "https://resend.com",
+      "category": "Developer email automations (incumbent)",
+      "rss_item_snapshot": {
+        "title": "Resend Automations",
+        "link": "https://www.producthunt.com/products/resend",
+        "guid": "tag:www.producthunt.com,2005:Post/1146210",
+        "published_at": "2026-05-13T08:22:21-07:00",
+        "description": "Build event-driven email flows",
+        "author": "fmerian",
+        "updated_at": "2026-05-15T02:49:15-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 5,
+        "usefulness": 9,
+        "shareability": 6,
+        "product_hunt_audience_fit": 9,
+        "credibility": 10,
+        "launch_momentum_potential": 8,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": -0.4,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.4
+      },
+      "predicted_success_score": 7.33,
+      "confidence": "high",
+      "reasoning": "Resend loved by devs but incremental automations launch; incumbent cap limits #1 potential. Calibration: incumbent -0.4.",
+      "likely_ai_bias_or_risk": "Major-brand extension may earn dev upvotes but underperformed #1 predictions on 2026-05-14.",
+      "research_sources": [
+        "https://resend.com/docs/dashboard/automations/introduction"
+      ]
+    },
+    {
+      "predicted_rank": 21,
+      "product_hunt_slug": "standboy",
+      "product_name": "Standboy",
+      "tagline": "A Game Boy that wakes up while your agent works",
+      "product_hunt_url": "https://www.producthunt.com/products/standboy",
+      "website_url": "https://github.com/mfbz/standboy",
+      "category": "Hardware Game Boy agent toy",
+      "rss_item_snapshot": {
+        "title": "Standboy",
+        "link": "https://www.producthunt.com/products/standboy",
+        "guid": "tag:www.producthunt.com,2005:Post/1146927",
+        "published_at": "2026-05-14T06:02:59-07:00",
+        "description": "A Game Boy that wakes up while your agent works",
+        "author": "Michael",
+        "updated_at": "2026-05-15T02:50:37-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 8,
+        "usefulness": 5,
+        "shareability": 9,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0.4,
+        "total_adjustment": -0.4
+      },
+      "predicted_success_score": 7.29,
+      "confidence": "medium",
+      "reasoning": "Delightful hardware demo story; physical product boost though agent angle is saturated. Calibration: saturation -0.8, hardware +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://github.com/mfbz/standboy"
+      ]
+    },
+    {
+      "predicted_rank": 22,
+      "product_hunt_slug": "findable-4",
+      "product_name": "Crustimate",
+      "tagline": "Fix your LinkedIn to get found by AI recruiters",
+      "product_hunt_url": "https://www.producthunt.com/products/findable-4",
+      "website_url": "https://tools.crustdata.com/crustimate",
+      "category": "LinkedIn / recruiter visibility",
+      "rss_item_snapshot": {
+        "title": "Crustimate",
+        "link": "https://www.producthunt.com/products/findable-4",
+        "guid": "tag:www.producthunt.com,2005:Post/1146151",
+        "published_at": "2026-05-13T07:11:17-07:00",
+        "description": "Fix your LinkedIn to get found by AI recruiters",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-15T02:50:45-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.19,
+      "confidence": "high",
+      "reasoning": "Job-seeker pain is relatable; “AI recruiters” angle is timely though B2B-leaning.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://tools.crustdata.com/crustimate"
+      ]
+    },
+    {
+      "predicted_rank": 23,
+      "product_hunt_slug": "cline-4",
+      "product_name": "Cline SDK",
+      "tagline": "Build coding agents with a plugin-based open-source runtime",
+      "product_hunt_url": "https://www.producthunt.com/products/cline-4",
+      "website_url": "https://cline.bot",
+      "category": "Coding agent SDK / open-source runtime",
+      "rss_item_snapshot": {
+        "title": "Cline SDK",
+        "link": "https://www.producthunt.com/products/cline-4",
+        "guid": "tag:www.producthunt.com,2005:Post/1146268",
+        "published_at": "2026-05-13T09:45:13-07:00",
+        "description": "Build coding agents with a plugin-based open-source runtime",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-15T02:50:48-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 9,
+        "shareability": 7,
+        "product_hunt_audience_fit": 9,
+        "credibility": 8,
+        "launch_momentum_potential": 8,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 7.12,
+      "confidence": "medium",
+      "reasoning": "Strong dev credibility (known Cline brand) but agent-builder saturation; low general voter appeal. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://cline.bot"
+      ]
+    },
+    {
+      "predicted_rank": 24,
+      "product_hunt_slug": "just-the-tips",
+      "product_name": "Just The Tips",
+      "tagline": "A stablecoin tip-jar bot for Discord, Telegram, Twitch, & X",
+      "product_hunt_url": "https://www.producthunt.com/products/just-the-tips",
+      "website_url": "https://justthetips.dev",
+      "category": "Stablecoin tip jar bot",
+      "rss_item_snapshot": {
+        "title": "Just The Tips",
+        "link": "https://www.producthunt.com/products/just-the-tips",
+        "guid": "tag:www.producthunt.com,2005:Post/1139042",
+        "published_at": "2026-05-04T14:02:33-07:00",
+        "description": "A stablecoin tip-jar bot for Discord, Telegram, Twitch, & X",
+        "author": "Shanecalder",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 6,
+        "shareability": 7,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.04,
+      "confidence": "high",
+      "reasoning": "Fun crypto creator angle; crypto friction limits mass appeal.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://justthetips.dev"
+      ]
+    },
+    {
+      "predicted_rank": 25,
+      "product_hunt_slug": "c15t",
+      "product_name": "c15t 2.0",
+      "tagline": "Dev-first cookie banners that don't slow your site",
+      "product_hunt_url": "https://www.producthunt.com/products/c15t",
+      "website_url": "https://c15t.com",
+      "category": "Dev-first cookie consent",
+      "rss_item_snapshot": {
+        "title": "c15t 2.0",
+        "link": "https://www.producthunt.com/products/c15t",
+        "guid": "tag:www.producthunt.com,2005:Post/1145142",
+        "published_at": "2026-05-12T03:53:02-07:00",
+        "description": "Dev-first cookie banners that don't slow your site",
+        "author": "fmerian",
+        "updated_at": "2026-05-15T02:46:09-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 5,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 7.01,
+      "confidence": "high",
+      "reasoning": "Practical compliance for devs; useful but not emotionally viral.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://c15t.com"
+      ]
+    },
+    {
+      "predicted_rank": 26,
+      "product_hunt_slug": "mantel-color-coded-macos-terminal",
+      "product_name": "Mantel",
+      "tagline": "Stop confusing your Claude Code sessions & terminal windows",
+      "product_hunt_url": "https://www.producthunt.com/products/mantel-color-coded-macos-terminal",
+      "website_url": "https://getmantel.app",
+      "category": "macOS terminal UX",
+      "rss_item_snapshot": {
+        "title": "Mantel",
+        "link": "https://www.producthunt.com/products/mantel-color-coded-macos-terminal",
+        "guid": "tag:www.producthunt.com,2005:Post/1147163",
+        "published_at": "2026-05-14T11:46:16-07:00",
+        "description": "Stop confusing your Claude Code sessions & terminal windows",
+        "author": "Robert Clemens",
+        "updated_at": "2026-05-15T02:50:39-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.84,
+      "confidence": "medium",
+      "reasoning": "Color-coded terminals solve a real Claude Code pain; still dev-centric. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://getmantel.app"
+      ]
+    },
+    {
+      "predicted_rank": 27,
+      "product_hunt_slug": "higgsfield",
+      "product_name": "Higgsfield Supercomputer",
+      "tagline": "Run your entire creative pipeline from one chat agent",
+      "product_hunt_url": "https://www.producthunt.com/products/higgsfield",
+      "website_url": "https://higgsfield.ai",
+      "category": "Creative AI pipeline agent",
+      "rss_item_snapshot": {
+        "title": "Higgsfield Supercomputer",
+        "link": "https://www.producthunt.com/products/higgsfield",
+        "guid": "tag:www.producthunt.com,2005:Post/1146428",
+        "published_at": "2026-05-13T14:15:33-07:00",
+        "description": "Run your entire creative pipeline from one chat agent",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-15T02:50:29-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.59,
+      "confidence": "medium",
+      "reasoning": "Creative pipeline in one chat is cool for creators but still agent-shaped. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://higgsfield.ai"
+      ]
+    },
+    {
+      "predicted_rank": 28,
+      "product_hunt_slug": "sleek-analytics",
+      "product_name": "Sleek Analytics v3",
+      "tagline": "Track flows, Telegram pings, and global traffic in realtime",
+      "product_hunt_url": "https://www.producthunt.com/products/sleek-analytics",
+      "website_url": "https://getsleek.io",
+      "category": "Analytics / Telegram alerts",
+      "rss_item_snapshot": {
+        "title": "Sleek Analytics v3",
+        "link": "https://www.producthunt.com/products/sleek-analytics",
+        "guid": "tag:www.producthunt.com,2005:Post/1147384",
+        "published_at": "2026-05-14T20:17:45-07:00",
+        "description": "Track flows, Telegram pings, and global traffic in realtime",
+        "author": "Abbas Aga",
+        "updated_at": "2026-05-15T02:50:48-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 6.48,
+      "confidence": "medium",
+      "reasoning": "Useful for indie hackers tracking flows; more builder than consumer.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://getsleek.io"
+      ]
+    },
+    {
+      "predicted_rank": 29,
+      "product_hunt_slug": "planora-3",
+      "product_name": "Planora",
+      "tagline": "A digital workspace for creative collaboration",
+      "product_hunt_url": "https://www.producthunt.com/products/planora-3",
+      "website_url": "https://planora.today",
+      "category": "Creative collaboration workspace",
+      "rss_item_snapshot": {
+        "title": "Planora",
+        "link": "https://www.producthunt.com/products/planora-3",
+        "guid": "tag:www.producthunt.com,2005:Post/1147273",
+        "published_at": "2026-05-14T14:33:41-07:00",
+        "description": "A digital workspace for creative collaboration",
+        "author": "Bugnotto",
+        "updated_at": "2026-05-15T02:50:49-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 6.43,
+      "confidence": "low",
+      "reasoning": "Another collaboration canvas; value clear to creatives but crowded and lightly verified.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://planora.today"
+      ]
+    },
+    {
+      "predicted_rank": 30,
+      "product_hunt_slug": "gradient-bang",
+      "product_name": "Gradient Bang",
+      "tagline": "Massively multi-player game played by talking to an LLM",
+      "product_hunt_url": "https://www.producthunt.com/products/gradient-bang",
+      "website_url": "https://www.gradient-bang.com",
+      "category": "LLM multiplayer game",
+      "rss_item_snapshot": {
+        "title": "Gradient Bang",
+        "link": "https://www.producthunt.com/products/gradient-bang",
+        "guid": "tag:www.producthunt.com,2005:Post/1146488",
+        "published_at": "2026-05-13T16:38:02-07:00",
+        "description": "Massively multi-player game played by talking to an LLM",
+        "author": "Kwindla Kramer",
+        "updated_at": "2026-05-15T02:50:50-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 8,
+        "usefulness": 5,
+        "shareability": 8,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.37,
+      "confidence": "medium",
+      "reasoning": "Novel social game hook but requires understanding LLM gameplay; more curiosity than utility. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.gradient-bang.com"
+      ]
+    },
+    {
+      "predicted_rank": 31,
+      "product_hunt_slug": "asteroid-3",
+      "product_name": "Asteroid",
+      "tagline": "Build Browser, Linux and Windows AI agents in seconds",
+      "product_hunt_url": "https://www.producthunt.com/products/asteroid-3",
+      "website_url": "https://asteroid.ai",
+      "category": "Browser/OS AI agents platform",
+      "rss_item_snapshot": {
+        "title": "Asteroid",
+        "link": "https://www.producthunt.com/products/asteroid-3",
+        "guid": "tag:www.producthunt.com,2005:Post/1143373",
+        "published_at": "2026-05-09T21:12:54-07:00",
+        "description": "Build Browser, Linux and Windows AI agents in seconds",
+        "author": "Garry Tan",
+        "updated_at": "2026-05-15T02:50:09-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 8,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.37,
+      "confidence": "medium",
+      "reasoning": "Garry Tan association adds buzz but agent platforms underperformed in prior calibration. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://asteroid.ai"
+      ]
+    },
+    {
+      "predicted_rank": 32,
+      "product_hunt_slug": "replit",
+      "product_name": "AURIXA",
+      "tagline": "Your AI companion that is always present and deeply attuned",
+      "product_hunt_url": "https://www.producthunt.com/products/replit",
+      "website_url": "https://replit.com",
+      "category": "Replit AI companion (incumbent)",
+      "rss_item_snapshot": {
+        "title": "AURIXA",
+        "link": "https://www.producthunt.com/products/replit",
+        "guid": "tag:www.producthunt.com,2005:Post/1145866",
+        "published_at": "2026-05-13T00:51:08-07:00",
+        "description": "Your AI companion that is always present and deeply attuned",
+        "author": "Luke Cartright",
+        "updated_at": "2026-05-15T02:49:04-07:00"
+      },
+      "scores": {
+        "clarity": 6,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 8,
+        "credibility": 9,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": -0.4,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.4
+      },
+      "predicted_success_score": 6.33,
+      "confidence": "medium",
+      "reasoning": "AURIXA on Replit benefits brand but vague “always present” companion; incumbent penalty. Calibration: incumbent -0.4.",
+      "likely_ai_bias_or_risk": "Major-brand extension may earn dev upvotes but underperformed #1 predictions on 2026-05-14.",
+      "research_sources": [
+        "https://replit.com"
+      ]
+    },
+    {
+      "predicted_rank": 33,
+      "product_hunt_slug": "devrecorder",
+      "product_name": "DevRecorder",
+      "tagline": "Screen recorder with console, network, errors & annotations",
+      "product_hunt_url": "https://www.producthunt.com/products/devrecorder",
+      "website_url": "https://www.devrecorder.com",
+      "category": "Developer screen recording",
+      "rss_item_snapshot": {
+        "title": "DevRecorder",
+        "link": "https://www.producthunt.com/products/devrecorder",
+        "guid": "tag:www.producthunt.com,2005:Post/1147004",
+        "published_at": "2026-05-14T08:15:30-07:00",
+        "description": "Screen recorder with console, network, errors & annotations",
+        "author": "Shakil Hossain",
+        "updated_at": "2026-05-15T02:50:51-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.31,
+      "confidence": "medium",
+      "reasoning": "Strong dev bug-report workflow; console/network overlay is clear to builders only. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://www.devrecorder.com"
+      ]
+    },
+    {
+      "predicted_rank": 34,
+      "product_hunt_slug": "mobius-3",
+      "product_name": "Mobius",
+      "tagline": "Describe a trade and Mobius builds, backtests, and runs it",
+      "product_hunt_url": "https://www.producthunt.com/products/mobius-3",
+      "website_url": "https://joinmobius.com",
+      "category": "Quant / trading automation",
+      "rss_item_snapshot": {
+        "title": "Mobius",
+        "link": "https://www.producthunt.com/products/mobius-3",
+        "guid": "tag:www.producthunt.com,2005:Post/1147436",
+        "published_at": "2026-05-14T23:07:23-07:00",
+        "description": "Describe a trade and Mobius builds, backtests, and runs it",
+        "author": "Dheeraj Tallapragada",
+        "updated_at": "2026-05-15T02:50:52-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 6.29,
+      "confidence": "medium",
+      "reasoning": "Powerful for traders but opaque to general voters; finance niche limits PH ceiling.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://joinmobius.com"
+      ]
+    },
+    {
+      "predicted_rank": 35,
+      "product_hunt_slug": "lensmor-2",
+      "product_name": "Lensmor",
+      "tagline": "Turn exhibitor data into pre-booked sales meetings",
+      "product_hunt_url": "https://www.producthunt.com/products/lensmor-2",
+      "website_url": "https://www.lensmor.com",
+      "category": "B2B exhibitor sales",
+      "rss_item_snapshot": {
+        "title": "Lensmor",
+        "link": "https://www.producthunt.com/products/lensmor-2",
+        "guid": "tag:www.producthunt.com,2005:Post/1142876",
+        "published_at": "2026-05-09T01:19:13-07:00",
+        "description": "Turn exhibitor data into pre-booked sales meetings",
+        "author": "Justin Jincaid",
+        "updated_at": "2026-05-15T02:50:41-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 5,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": 0
+      },
+      "predicted_success_score": 6.24,
+      "confidence": "medium",
+      "reasoning": "Clear ROI for event sales teams but vertical B2B limits broad votes.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.lensmor.com"
+      ]
+    },
+    {
+      "predicted_rank": 36,
+      "product_hunt_slug": "mia-8",
+      "product_name": "mia",
+      "tagline": "Cursor for Product Managers",
+      "product_hunt_url": "https://www.producthunt.com/products/mia-8",
+      "website_url": "https://www.gomia.ai",
+      "category": "Cursor for product managers",
+      "rss_item_snapshot": {
+        "title": "mia",
+        "link": "https://www.producthunt.com/products/mia-8",
+        "guid": "tag:www.producthunt.com,2005:Post/1147422",
+        "published_at": "2026-05-14T22:29:32-07:00",
+        "description": "Cursor for Product Managers",
+        "author": "Sevil Kubilay",
+        "updated_at": "2026-05-15T02:50:43-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.19,
+      "confidence": "medium",
+      "reasoning": "PM-focused coding agent variant; clearer than infra but still builder audience. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://www.gomia.ai"
+      ]
+    },
+    {
+      "predicted_rank": 37,
+      "product_hunt_slug": "composio",
+      "product_name": "TrustClaw by Composio",
+      "tagline": "Your AI that does things while you sleep. Securely.",
+      "product_hunt_url": "https://www.producthunt.com/products/composio",
+      "website_url": "https://composio.dev",
+      "category": "TrustClaw autonomous agent",
+      "rss_item_snapshot": {
+        "title": "TrustClaw by Composio",
+        "link": "https://www.producthunt.com/products/composio",
+        "guid": "tag:www.producthunt.com,2005:Post/1146408",
+        "published_at": "2026-05-13T13:37:54-07:00",
+        "description": "Your AI that does things while you sleep. Securely.",
+        "author": "Sharath Kuruganty",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 8,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.11,
+      "confidence": "medium",
+      "reasoning": "Composio has community cred but overnight agent is saturated archetype. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://composio.dev"
+      ]
+    },
+    {
+      "predicted_rank": 38,
+      "product_hunt_slug": "agentic-website-builder-2-0-by-lokuma",
+      "product_name": "Agentic Website Builder 2.0 by Lokuma",
+      "tagline": "Design, build, and run your site with a design agent harness",
+      "product_hunt_url": "https://www.producthunt.com/products/agentic-website-builder-2-0-by-lokuma",
+      "website_url": "https://lokuma.ai/website-builder",
+      "category": "Agentic website builder",
+      "rss_item_snapshot": {
+        "title": "Agentic Website Builder 2.0 by Lokuma",
+        "link": "https://www.producthunt.com/products/agentic-website-builder-2-0-by-lokuma",
+        "guid": "tag:www.producthunt.com,2005:Post/1146556",
+        "published_at": "2026-05-13T19:51:00-07:00",
+        "description": "Design, build, and run your site with a design agent harness",
+        "author": "Justin Jincaid",
+        "updated_at": "2026-05-15T02:50:34-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 6.01,
+      "confidence": "medium",
+      "reasoning": "Design agent for sites is understandable but competes with many AI site builders. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://lokuma.ai/website-builder"
+      ]
+    },
+    {
+      "predicted_rank": 39,
+      "product_hunt_slug": "picsart",
+      "product_name": "Picsart MCP",
+      "tagline": "One connection for 140+ AI models for images and video",
+      "product_hunt_url": "https://www.producthunt.com/products/picsart",
+      "website_url": "https://picsart.com",
+      "category": "Major brand MCP for creative AI",
+      "rss_item_snapshot": {
+        "title": "Picsart MCP",
+        "link": "https://www.producthunt.com/products/picsart",
+        "guid": "tag:www.producthunt.com,2005:Post/1146756",
+        "published_at": "2026-05-14T01:53:53-07:00",
+        "description": "One connection for 140+ AI models for images and video",
+        "author": "Lora",
+        "updated_at": "2026-05-15T02:50:31-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 5,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 10,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": -0.4,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -1.2
+      },
+      "predicted_success_score": 5.96,
+      "confidence": "medium",
+      "reasoning": "Picsart brand cred but MCP launch is infra; incumbent cap and saturation penalties. Calibration: saturation -0.8, incumbent -0.4.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://picsart.com"
+      ]
+    },
+    {
+      "predicted_rank": 40,
+      "product_hunt_slug": "kimi-ai-assistant",
+      "product_name": "Kimi WebBridge",
+      "tagline": "A bridge connecting AI agents to the live web",
+      "product_hunt_url": "https://www.producthunt.com/products/kimi-ai-assistant",
+      "website_url": "https://Kimi.ai",
+      "category": "Major AI web bridge for agents",
+      "rss_item_snapshot": {
+        "title": "Kimi WebBridge",
+        "link": "https://www.producthunt.com/products/kimi-ai-assistant",
+        "guid": "tag:www.producthunt.com,2005:Post/1147419",
+        "published_at": "2026-05-14T22:16:54-07:00",
+        "description": "A bridge connecting AI agents to the live web",
+        "author": "Zac Zuo",
+        "updated_at": "2026-05-15T02:50:52-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 9,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": -0.4,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -1.2
+      },
+      "predicted_success_score": 5.89,
+      "confidence": "medium",
+      "reasoning": "Kimi/Moonshot brand draw but agent-web bridge is saturated; incumbent penalties apply. Calibration: saturation -0.8, incumbent -0.4.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://kimi.ai"
+      ]
+    },
+    {
+      "predicted_rank": 41,
+      "product_hunt_slug": "nimbus-10",
+      "product_name": "Nimbus",
+      "tagline": "Agentic Browser with Claude Code UX",
+      "product_hunt_url": "https://www.producthunt.com/products/nimbus-10",
+      "website_url": "https://usenimbus.app",
+      "category": "Agentic browser",
+      "rss_item_snapshot": {
+        "title": "Nimbus",
+        "link": "https://www.producthunt.com/products/nimbus-10",
+        "guid": "tag:www.producthunt.com,2005:Post/1147415",
+        "published_at": "2026-05-14T21:58:07-07:00",
+        "description": "Agentic Browser with Claude Code UX",
+        "author": "syllogismos",
+        "updated_at": "2026-05-15T02:50:47-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 5,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.83,
+      "confidence": "low",
+      "reasoning": "Claude Code UX browser is dev-leaning agent browser; crowded category. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://usenimbus.app"
+      ]
+    },
+    {
+      "predicted_rank": 42,
+      "product_hunt_slug": "basedash",
+      "product_name": "Basedash MCP Connectors",
+      "tagline": "Connect any app. Take action anywhere.",
+      "product_hunt_url": "https://www.producthunt.com/products/basedash",
+      "website_url": "https://www.basedash.com",
+      "category": "MCP connectors / data platform",
+      "rss_item_snapshot": {
+        "title": "Basedash MCP Connectors",
+        "link": "https://www.producthunt.com/products/basedash",
+        "guid": "tag:www.producthunt.com,2005:Post/1147255",
+        "published_at": "2026-05-14T14:09:07-07:00",
+        "description": "Connect any app. Take action anywhere.",
+        "author": "Max Musing",
+        "updated_at": "2026-05-15T02:50:47-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 5,
+        "product_hunt_audience_fit": 8,
+        "credibility": 9,
+        "launch_momentum_potential": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": -0.4,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -1.2
+      },
+      "predicted_success_score": 5.71,
+      "confidence": "medium",
+      "reasoning": "Credible data tool but MCP connector launch in a saturated feed; incumbent extension. Calibration: saturation -0.8, incumbent -0.4.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://www.basedash.com"
+      ]
+    },
+    {
+      "predicted_rank": 43,
+      "product_hunt_slug": "promptscout",
+      "product_name": "PromptScout",
+      "tagline": "Track your brand visibility across AI models",
+      "product_hunt_url": "https://www.producthunt.com/products/promptscout",
+      "website_url": "https://www.promptscout.app",
+      "category": "AI brand visibility tracking",
+      "rss_item_snapshot": {
+        "title": "PromptScout",
+        "link": "https://www.producthunt.com/products/promptscout",
+        "guid": "tag:www.producthunt.com,2005:Post/1146935",
+        "published_at": "2026-05-14T06:13:48-07:00",
+        "description": "Track your brand visibility across AI models",
+        "author": "Łukasz Starosta",
+        "updated_at": "2026-05-15T02:50:39-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.68,
+      "confidence": "medium",
+      "reasoning": "GEO/visibility tracking is marketer-relevant but another AI-analytics launch. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://www.promptscout.app"
+      ]
+    },
+    {
+      "predicted_rank": 44,
+      "product_hunt_slug": "noeth",
+      "product_name": "Noeth",
+      "tagline": "The coding interview AI that lets you bring your own API key",
+      "product_hunt_url": "https://www.producthunt.com/products/noeth",
+      "website_url": "https://noeth.dev",
+      "category": "Coding interview AI",
+      "rss_item_snapshot": {
+        "title": "Noeth",
+        "link": "https://www.producthunt.com/products/noeth",
+        "guid": "tag:www.producthunt.com,2005:Post/1146746",
+        "published_at": "2026-05-14T01:31:20-07:00",
+        "description": "The coding interview AI that lets you bring your own API key",
+        "author": "mario ruci",
+        "updated_at": "2026-05-15T02:50:47-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.68,
+      "confidence": "medium",
+      "reasoning": "BYOK interview prep is niche and ethically fuzzy for broad voters. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://noeth.dev"
+      ]
+    },
+    {
+      "predicted_rank": 45,
+      "product_hunt_slug": "agentrail",
+      "product_name": "AgentRail",
+      "tagline": "A local control plane for AI coding agents",
+      "product_hunt_url": "https://www.producthunt.com/products/agentrail",
+      "website_url": "https://agentrail.app",
+      "category": "Local control plane for coding agents",
+      "rss_item_snapshot": {
+        "title": "AgentRail",
+        "link": "https://www.producthunt.com/products/agentrail",
+        "guid": "tag:www.producthunt.com,2005:Post/1146987",
+        "published_at": "2026-05-14T07:51:39-07:00",
+        "description": "A local control plane for AI coding agents",
+        "author": "Onyeka Nwamba",
+        "updated_at": "2026-05-15T02:50:35-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 3,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.56,
+      "confidence": "medium",
+      "reasoning": "Agent ops layer for developers; low broad appeal despite usefulness. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://agentrail.app"
+      ]
+    },
+    {
+      "predicted_rank": 46,
+      "product_hunt_slug": "hasdata",
+      "product_name": "HasData",
+      "tagline": "The scraping service AI agents run on",
+      "product_hunt_url": "https://www.producthunt.com/products/hasdata",
+      "website_url": "https://hasdata.com",
+      "category": "Scraping infra for AI agents",
+      "rss_item_snapshot": {
+        "title": "HasData",
+        "link": "https://www.producthunt.com/products/hasdata",
+        "guid": "tag:www.producthunt.com,2005:Post/1141227",
+        "published_at": "2026-05-07T02:34:26-07:00",
+        "description": "The scraping service AI agents run on",
+        "author": "fmerian",
+        "updated_at": "2026-05-15T02:50:40-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 5,
+        "usefulness": 8,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 3,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.48,
+      "confidence": "medium",
+      "reasoning": "Infrastructure for agents; useful to devs, not demo-friendly for general voters. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://hasdata.com"
+      ]
+    },
+    {
+      "predicted_rank": 47,
+      "product_hunt_slug": "openhuman",
+      "product_name": "OpenHuman",
+      "tagline": "An open source AI harness built with the human in mind",
+      "product_hunt_url": "https://www.producthunt.com/products/openhuman",
+      "website_url": "https://tinyhumans.ai/openhuman",
+      "category": "Open-source AI harness",
+      "rss_item_snapshot": {
+        "title": "OpenHuman",
+        "link": "https://www.producthunt.com/products/openhuman",
+        "guid": "tag:www.producthunt.com,2005:Post/1136902",
+        "published_at": "2026-05-01T09:39:53-07:00",
+        "description": "An open source AI harness built with the human in mind",
+        "author": "Ben Lang",
+        "updated_at": "2026-05-15T02:50:35-07:00"
+      },
+      "scores": {
+        "clarity": 6,
+        "novelty": 6,
+        "usefulness": 6,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 6,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.46,
+      "confidence": "medium",
+      "reasoning": "Ben Lang association helps credibility but “harness” is abstract vs. consumer wins. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://tinyhumans.ai/openhuman"
+      ]
+    },
+    {
+      "predicted_rank": 48,
+      "product_hunt_slug": "relay-15",
+      "product_name": "Relay",
+      "tagline": "Stop repeating yourself to every AI",
+      "product_hunt_url": "https://www.producthunt.com/products/relay-15",
+      "website_url": "https://onrelay.app",
+      "category": "Cross-AI memory / context",
+      "rss_item_snapshot": {
+        "title": "Relay",
+        "link": "https://www.producthunt.com/products/relay-15",
+        "guid": "tag:www.producthunt.com,2005:Post/1126723",
+        "published_at": "2026-04-18T05:32:01-07:00",
+        "description": "Stop repeating yourself to every AI",
+        "author": "Alimkhan Yergebayev",
+        "updated_at": "2026-05-15T02:50:33-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.33,
+      "confidence": "low",
+      "reasoning": "Memory layer across AI tools is crowded; benefits power users mainly. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://onrelay.app"
+      ]
+    },
+    {
+      "predicted_rank": 49,
+      "product_hunt_slug": "cleo-ai",
+      "product_name": "Cleo AI",
+      "tagline": "AI Product Operator for AI-native teams",
+      "product_hunt_url": "https://www.producthunt.com/products/cleo-ai",
+      "website_url": "https://cleo.axcelner.com",
+      "category": "AI product operator",
+      "rss_item_snapshot": {
+        "title": "Cleo AI",
+        "link": "https://www.producthunt.com/products/cleo-ai",
+        "guid": "tag:www.producthunt.com,2005:Post/1147126",
+        "published_at": "2026-05-14T11:03:05-07:00",
+        "description": "AI Product Operator for AI-native teams",
+        "author": "Yashas Gunderia",
+        "updated_at": "2026-05-15T02:50:46-07:00"
+      },
+      "scores": {
+        "clarity": 6,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.18,
+      "confidence": "low",
+      "reasoning": "Abstract “AI product operator” for AI-native teams; hard to demo quickly. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://cleo.axcelner.com"
+      ]
+    },
+    {
+      "predicted_rank": 50,
+      "product_hunt_slug": "agent-sin",
+      "product_name": "Agent-Sin",
+      "tagline": "AI agent that handles repeated tasks through reusable skills",
+      "product_hunt_url": "https://www.producthunt.com/products/agent-sin",
+      "website_url": "https://agent.shingoirie.com/?lang=en",
+      "category": "Reusable-skills AI agent",
+      "rss_item_snapshot": {
+        "title": "Agent-Sin",
+        "link": "https://www.producthunt.com/products/agent-sin",
+        "guid": "tag:www.producthunt.com,2005:Post/1147371",
+        "published_at": "2026-05-14T19:36:56-07:00",
+        "description": "AI agent that handles repeated tasks through reusable skills",
+        "author": "Shingo Irie",
+        "updated_at": "2026-05-15T02:50:42-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 5,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "broad_vote_appeal": 3,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.8,
+        "incumbent_penalty": 0,
+        "broad_appeal_boost": 0,
+        "outcome_boost": 0,
+        "hardware_boost": 0,
+        "total_adjustment": -0.8
+      },
+      "predicted_success_score": 5.18,
+      "confidence": "low",
+      "reasoning": "Agent plumbing with skills abstraction; real for builders, opaque otherwise. Calibration: saturation -0.8.",
+      "likely_ai_bias_or_risk": "Saturated agent/MCP/dev archetype in an AI-heavy feed; prior calibration showed these over-ranked vs. broad prosumer utilities.",
+      "research_sources": [
+        "https://agent.shingoirie.com"
+      ]
+    }
+  ]
+}

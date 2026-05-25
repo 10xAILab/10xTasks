@@ -4,7 +4,7 @@ Use this prompt for the daily operating loop.
 
 ## Objective
 
-Process new local tasks into `tasks/todo` (as markdown files). Do **not** auto-create Linear tasks from local intake. Then review and list todo/review tasks and suggest a task plan.
+Process new local tasks into `tasks/todo` (as markdown files). Do **not** auto-create Linear tasks from local intake. Unless explicitly told not to execute, then run todo tasks sequentially (one at a time) using the task lifecycle and execution rules.
 
 ## Inputs
 
@@ -33,9 +33,10 @@ Do not create Linear issues from these items.
 
 - **Review** tasks in `tasks/todo` (all subdirs) and `tasks/review`.
 - **List** tasks in `tasks/todo` and `tasks/review` (by directory and file).
-- **Suggest a task plan**, for example:
-  - Human can kick off tasks in `tasks/todo/10xTasks` in this or a new Cursor chat.
-  - Concise instructions for tasks in `tasks/todo/<repo_id>`: open that repo in Cursor, run or attach the task file to the agent in a separate terminal/session.
+- **Suggest and apply the default plan**:
+  - Unless explicitly instructed not to execute tasks, immediately start executing tasks from `tasks/todo` sequentially (one task at a time), following Steps 3 and 4.
+  - Continue until all executable todo tasks are processed or a stop condition is reached.
+  - If explicitly instructed not to execute, provide only the review/list plus concise kickoff instructions.
 
 ### 3. Task lifecycle (when working on a task)
 
@@ -44,6 +45,11 @@ See `prompts/task-lifecycle.md` for full rules.
 When a **todo** or **review** task is **started or resumed**:
 
 - **Move** the task file to `tasks/wip` (same filename or keep a consistent name). For **goal** tasks, move the whole subfolder to `tasks/wip/<goal-slug>/` or move individual subtask files as you work on them.
+
+For default daily runs (when execution is not explicitly disabled):
+
+- Pick the next task from `tasks/todo` and process it end-to-end before starting another task.
+- Do not run tasks in parallel.
 
 While in **wip**:
 
@@ -55,7 +61,12 @@ While in **wip**:
 
 ### 4. Execution (when running tasks)
 
-- For **YouTube summary** tasks, run `npm run transcript -- "<youtube-url>"` then summarize using `prompts/youtube-summary.md` (chapter-based: `### <name> (<start> - <end>)` + description per chapter, same order; output only valid markdown).
+- For **YouTube summary** tasks, run **one video at a time** and follow `prompts/youtube-summary.md` end-to-end for that task only:
+  1. Run `npm run transcript -- "<youtube-url>"` and save the raw transcript under `artifacts/<task-slug>/data/` (e.g. `transcript.json`).
+  2. **Re-read** that task’s saved transcript before writing the summary. Do not reuse another video’s transcript, a prior summary, or a generic template.
+  3. Write `artifacts/<task-slug>/result.md` from that transcript only (chapter-based: `### <name> (<start> - <end>)` + description per chapter, same order; output only valid markdown).
+  4. **Re-check** `result.md` against the same transcript: topic, title, brief, chapter count/order, time ranges, and claims must match what was actually said. If anything is generic, wrong, or misaligned, revise before moving the task out of `tasks/wip`.
+  5. If transcript fetch fails or the summary cannot be aligned after revision, save notes under `artifacts/<task-slug>/` and move the task to `tasks/review` with **Next Steps** instead of marking it completed.
 - For **book summary** tasks, use `prompts/book-summary.md`. If only a title is provided, first find the matching Amazon UK Kindle listing, include the Kindle link + GBP price, then produce the required summary sections.
 - Save execution outputs under `artifacts/` (e.g. `artifacts/<task-slug>/result.md`, `error.md`, `review.md`, `data/`).
 - Use scripts in `scripts/` for deterministic operations.

@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:www.producthunt.com,2005:/feed?category=undefined</id>
+  <link rel="alternate" type="text/html" href="https://www.producthunt.com"/>
+  <link rel="self" type="application/atom+xml" href="https://www.producthunt.com/feed?category=undefined"/>
+  <title>Product Hunt — The best new products, every day</title>
+  <updated>2026-05-14T00:01:00-07:00</updated>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145890</id>
+    <published>2026-05-13T01:20:31-07:00</published>
+    <updated>2026-05-14T00:29:11-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/open-computer-use"/>
+    <title>Open Computer Use</title>
+    <content type="html">          &lt;p&gt;
+            Open-source Computer Use MCP for AI agents
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/open-computer-use?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145890?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Leo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146225</id>
+    <published>2026-05-13T08:42:22-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/slop-goggles"/>
+    <title>Slop Goggles</title>
+    <content type="html">          &lt;p&gt;
+            Detect AI-generated comments and posts on Reddit
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/slop-goggles?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146225?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Tice Kralt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146477</id>
+    <published>2026-05-13T15:57:53-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tenure"/>
+    <title>Tenure</title>
+    <content type="html">          &lt;p&gt;
+            Local AI memory that knows what you chose and why
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/tenure?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146477?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Jeff Flynt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1140630</id>
+    <published>2026-05-06T09:26:10-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/naptick-ai-sleep-companion"/>
+    <title>Naptick AI</title>
+    <content type="html">          &lt;p&gt;
+            Al sleep companion that helps fall asleep without struggle
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/naptick-ai-sleep-companion?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1140630?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rohan Chaubey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145469</id>
+    <published>2026-05-12T10:45:00-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/robrain"/>
+    <title>RoBrain</title>
+    <content type="html">          &lt;p&gt;
+            Shared AI memory that stops agents from repeating mistakes
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/robrain?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145469?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Adelina Martiniuc</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1144925</id>
+    <published>2026-05-11T23:06:05-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/sherloq-2"/>
+    <title>Sherloq</title>
+    <content type="html">          &lt;p&gt;
+            Know which LinkedIn prospect is warm - right now
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/sherloq-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1144925?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Eduard Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1143373</id>
+    <published>2026-05-09T21:12:54-07:00</published>
+    <updated>2026-05-14T00:29:11-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/asteroid-3"/>
+    <title>Asteroid</title>
+    <content type="html">          &lt;p&gt;
+            Computer use agent builder for Browser, Linux and Windows
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/asteroid-3?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1143373?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Garry Tan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146672</id>
+    <published>2026-05-13T23:50:48-07:00</published>
+    <updated>2026-05-14T00:29:11-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/raindrop"/>
+    <title>Raindrop Workshop</title>
+    <content type="html">          &lt;p&gt;
+            Open source, free, local debugger for AI agents.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/raindrop?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146672?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Alexis Gauba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145312</id>
+    <published>2026-05-12T06:53:55-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ansvisor"/>
+    <title>Ansvisor</title>
+    <content type="html">          &lt;p&gt;
+            Scale your brand visibility across AI answer engines
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/ansvisor?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145312?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Gökhan Geyik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1140851</id>
+    <published>2026-05-06T14:23:37-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tendem-by-toloka"/>
+    <title>Tendem by Toloka</title>
+    <content type="html">          &lt;p&gt;
+            Behind every AI: a human expert
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/tendem-by-toloka?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1140851?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Ben Lang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146614</id>
+    <published>2026-05-13T22:01:57-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/indigo-2"/>
+    <title>Indigo</title>
+    <content type="html">          &lt;p&gt;
+            Stay in touch with your people on Bluesky and Mastodon
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/indigo-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146614?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Chris Messina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146646</id>
+    <published>2026-05-13T23:09:16-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/comie-dev"/>
+    <title>Comie.dev</title>
+    <content type="html">          &lt;p&gt;
+            Production context for AI with logs, DBs, and error tracking
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/comie-dev?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146646?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Yutish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1122138</id>
+    <published>2026-04-12T12:42:14-07:00</published>
+    <updated>2026-05-14T00:29:08-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/woleet-sign"/>
+    <title>Woleet</title>
+    <content type="html">          &lt;p&gt;
+            Bitcoin-anchored proof that documents are authentic
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/woleet-sign?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1122138?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145142</id>
+    <published>2026-05-12T03:53:02-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/c15t"/>
+    <title>c15t 2.0</title>
+    <content type="html">          &lt;p&gt;
+            Dev-first cookie banners that don't slow your site.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/c15t?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145142?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>fmerian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1144965</id>
+    <published>2026-05-12T00:19:28-07:00</published>
+    <updated>2026-05-14T00:29:10-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/lineage-lens"/>
+    <title>LineageLens</title>
+    <content type="html">          &lt;p&gt;
+            AI wrote it. LineageLens proves it.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/lineage-lens?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1144965?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Praveen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146067</id>
+    <published>2026-05-13T05:13:14-07:00</published>
+    <updated>2026-05-14T00:29:00-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/stagent"/>
+    <title>Stagent</title>
+    <content type="html">          &lt;p&gt;
+            Drive Claude Code through long tasks it would otherwise drop
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/stagent?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146067?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Jie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145927</id>
+    <published>2026-05-13T02:12:57-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/open-browser-use"/>
+    <title>Open Browser Use</title>
+    <content type="html">          &lt;p&gt;
+            Open-source browser automation for local AI agents
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/open-browser-use?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145927?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Leo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1140478</id>
+    <published>2026-05-06T06:30:22-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising"/>
+    <title>Causo for Fundraising</title>
+    <content type="html">          &lt;p&gt;
+            Pitch the right VCs, skip the grind
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1140478?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Dawid Baranowski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146175</id>
+    <published>2026-05-13T07:40:33-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/designmd-2"/>
+    <title>DesignMD </title>
+    <content type="html">          &lt;p&gt;
+            Turn any website into an AI-ready design system
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/designmd-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146175?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Aditya Raj</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1076108</id>
+    <published>2026-02-08T11:24:58-08:00</published>
+    <updated>2026-05-14T00:29:09-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/chronicle-ai-voice-memory"/>
+    <title>Chronicle</title>
+    <content type="html">          &lt;p&gt;
+            Create your personal memex through voice for total recall
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/chronicle-ai-voice-memory?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1076108?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>z33b0t</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146430</id>
+    <published>2026-05-13T14:18:06-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/pip-cue"/>
+    <title>PiP Cue</title>
+    <content type="html">          &lt;p&gt;
+            PIP video controls and captions for any site
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/pip-cue?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146430?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Naveen Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1139893</id>
+    <published>2026-05-05T13:07:29-07:00</published>
+    <updated>2026-05-14T00:29:07-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/autonomyai"/>
+    <title>Fei Design Mode </title>
+    <content type="html">          &lt;p&gt;
+            The OS for Building in Production
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/autonomyai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1139893?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Ben Lang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146563</id>
+    <published>2026-05-13T20:14:47-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/notion"/>
+    <title>Notion Developer Platform</title>
+    <content type="html">          &lt;p&gt;
+            Build on Notion, not just inside it
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/notion?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146563?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Zac Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146678</id>
+    <published>2026-05-13T23:54:40-07:00</published>
+    <updated>2026-05-14T00:28:59-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/storecraft"/>
+    <title>Storecraft</title>
+    <content type="html">          &lt;p&gt;
+            Rapidly build AI-powered, Headless e-commerce backends
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/storecraft?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146678?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Tomer shalev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145896</id>
+    <published>2026-05-13T01:27:28-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/edit-mind-3"/>
+    <title>Edit Mind</title>
+    <content type="html">          &lt;p&gt;
+            Search video moments like you'd describe to a friend
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/edit-mind-3?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145896?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rohan Chaubey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145844</id>
+    <published>2026-05-13T00:21:03-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/thesys"/>
+    <title>Openclaw OS</title>
+    <content type="html">          &lt;p&gt;
+            Turn one-off chats into persistent, usable apps
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/thesys?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145844?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Parikshit Deshmukh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146559</id>
+    <published>2026-05-13T20:01:38-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/enjo-help-center"/>
+    <title>Enjo Help Center</title>
+    <content type="html">          &lt;p&gt;
+            AI auto-builds your help centers that learn from your team
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/enjo-help-center?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146559?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rashmi Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1058199</id>
+    <published>2026-01-04T09:04:53-08:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/spellar"/>
+    <title>Spellar 3.0</title>
+    <content type="html">          &lt;p&gt;
+            AI Meeting companion with cross-meeting memory
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/spellar?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1058199?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Zino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146432</id>
+    <published>2026-05-13T14:20:35-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/instagram"/>
+    <title>Instants by Instagram</title>
+    <content type="html">          &lt;p&gt;
+            Send disappearing, unedited photos to Close Friends
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/instagram?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146432?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rohan Chaubey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1140897</id>
+    <published>2026-05-06T16:07:27-07:00</published>
+    <updated>2026-05-14T00:29:05-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ptoflow"/>
+    <title>PTOFlow</title>
+    <content type="html">          &lt;p&gt;
+            Manage PTO in Slack and Google Calendar
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/ptoflow?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1140897?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Derek Skaletsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145853</id>
+    <published>2026-05-13T00:32:48-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/quietly-5"/>
+    <title>Quietly</title>
+    <content type="html">          &lt;p&gt;
+            Offline AI IDE &amp; local Chat
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/quietly-5?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145853?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Muhammad Ibrahim Zarar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1130988</id>
+    <published>2026-04-23T13:39:18-07:00</published>
+    <updated>2026-05-14T00:29:11-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/otamiser"/>
+    <title>Otamiser</title>
+    <content type="html">          &lt;p&gt;
+            Ranking management solution that boosts your OTA visibility 
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/otamiser?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1130988?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146615</id>
+    <published>2026-05-13T22:03:02-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ym-dat"/>
+    <title>YM.dat</title>
+    <content type="html">          &lt;p&gt;
+            Read old Yahoo! Messenger .dat archives locally
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/ym-dat?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146615?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Priyank Sharma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1145866</id>
+    <published>2026-05-13T00:51:08-07:00</published>
+    <updated>2026-05-14T00:29:14-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/replit"/>
+    <title>AURIXA</title>
+    <content type="html">          &lt;p&gt;
+            Your AI companion. Always present, deeply attuned.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/replit?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1145866?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Luke Cartright</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146210</id>
+    <published>2026-05-13T08:22:21-07:00</published>
+    <updated>2026-05-14T00:29:11-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/resend"/>
+    <title>Resend Automations</title>
+    <content type="html">          &lt;p&gt;
+            Build event-driven email flows
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/resend?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146210?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>fmerian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1143226</id>
+    <published>2026-05-09T12:51:36-07:00</published>
+    <updated>2026-05-14T00:29:10-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/lumox-mirror-ios-to-mac"/>
+    <title>Lumox</title>
+    <content type="html">          &lt;p&gt;
+            Mirror iOS to Mac
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/lumox-mirror-ios-to-mac?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1143226?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Max Wesel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1146334</id>
+    <published>2026-05-13T11:23:38-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/write-lint"/>
+    <title>Write Lint</title>
+    <content type="html">          &lt;p&gt;
+             Your Mac's built-in proofreader, summoned by ⌘⇧L.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/write-lint?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1146334?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Alex Bilozor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137058</id>
+    <published>2026-05-01T13:52:42-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/bling"/>
+    <title>Bling</title>
+    <content type="html">          &lt;p&gt;
+            Run enterprise hiring loops autonomously
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/bling?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137058?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1142463</id>
+    <published>2026-05-08T10:02:10-07:00</published>
+    <updated>2026-05-14T00:29:06-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/blueberries-2"/>
+    <title>Blueberries.</title>
+    <content type="html">          &lt;p&gt;
+            FP&amp;A automation and forecasting for finance teams
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/blueberries-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1142463?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137067</id>
+    <published>2026-05-01T13:53:05-07:00</published>
+    <updated>2026-05-14T00:29:00-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/optimizegeo-ai"/>
+    <title>OptimizeGEO.ai</title>
+    <content type="html">          &lt;p&gt;
+            Agentic GEO platform for AI search visibility
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/optimizegeo-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137067?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137044</id>
+    <published>2026-05-01T13:52:08-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/parahubxm"/>
+    <title>ParaHubXM</title>
+    <content type="html">          &lt;p&gt;
+            Parametric weather insurance for agriculture
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/parahubxm?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137044?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137071</id>
+    <published>2026-05-01T13:53:13-07:00</published>
+    <updated>2026-05-14T00:29:02-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/best-technicians-technologies-ltd"/>
+    <title>Best Technicians Technologies LTD</title>
+    <content type="html">          &lt;p&gt;
+            Home services marketplace for local technicians
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/best-technicians-technologies-ltd?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137071?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137066</id>
+    <published>2026-05-01T13:53:03-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/pressmaster-ai"/>
+    <title>Pressmaster.ai</title>
+    <content type="html">          &lt;p&gt;
+            Thought leadership AI for founders and teams
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/pressmaster-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137066?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1142465</id>
+    <published>2026-05-08T10:02:15-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tabsense"/>
+    <title>TabSense</title>
+    <content type="html">          &lt;p&gt;
+            AI POS and ordering suite for restaurants
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/tabsense?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1142465?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137048</id>
+    <published>2026-05-01T13:52:19-07:00</published>
+    <updated>2026-05-14T00:29:13-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/sun-3"/>
+    <title>SUN</title>
+    <content type="html">          &lt;p&gt;
+            AI audio courses and book summaries on demand
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/sun-3?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137048?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1142462</id>
+    <published>2026-05-08T10:02:06-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tellme-4"/>
+    <title>Tellme</title>
+    <content type="html">          &lt;p&gt;
+            The conversational layer for the real world
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/tellme-4?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1142462?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137061</id>
+    <published>2026-05-01T13:52:49-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/foodfix-tech-ltd"/>
+    <title>FoodFix</title>
+    <content type="html">          &lt;p&gt;
+            Fixing the broken journey for homecooks, creators &amp; brands.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/foodfix-tech-ltd?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137061?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137055</id>
+    <published>2026-05-01T13:52:35-07:00</published>
+    <updated>2026-05-14T00:29:08-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/klava-ai"/>
+    <title>Klava AI</title>
+    <content type="html">          &lt;p&gt;
+            AI bid comparison for construction tenders
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/klava-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137055?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137062</id>
+    <published>2026-05-01T13:52:52-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/smart-bricks"/>
+    <title>Smart Bricks</title>
+    <content type="html">          &lt;p&gt;
+            AI real estate investing platform
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/smart-bricks?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137062?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1137045</id>
+    <published>2026-05-01T13:52:12-07:00</published>
+    <updated>2026-05-14T00:29:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/comfi-2"/>
+    <title>Comfi</title>
+    <content type="html">          &lt;p&gt;
+            B2B financing for SME suppliers in the UAE
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/comfi-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1137045?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Rajiv Ayyangar</name>
+    </author>
+  </entry>
+</feed>

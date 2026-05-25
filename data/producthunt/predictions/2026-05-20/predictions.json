@@ -1,0 +1,1413 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-21T08:44:37.819Z",
+  "fetched_at": "2026-05-21T08:44:37.819Z",
+  "timezone": "America/Los_Angeles (Product Hunt RSS feed updated 2026-05-20T00:01:00-07:00)",
+  "fetch_method": "Product Hunt RSS feed",
+  "source_urls": [
+    "https://www.producthunt.com/feed?category=undefined"
+  ],
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-20/rss.xml",
+  "launch_eligibility_file": "data/producthunt/predictions/2026-05-20/launch-eligibility.json",
+  "products_file": "data/producthunt/predictions/2026-05-20/products-with-urls.json",
+  "rss_entry_count": 50,
+  "launching_today_filter": {
+    "method": "Product Hunt product page via scripts/product-hunt/scrape-product.js (launchingToday / Launching Today label)",
+    "included_count": 23,
+    "excluded_count": 27
+  },
+  "prediction_target": "final end-of-day Product Hunt leaderboard rank among launches from this Product Hunt launch day",
+  "scoring_method": "weighted sum per prompts/producthunt/predict.md (clarity 13%, novelty 7%, usefulness 16%, shareability 14%, product_hunt_audience_fit 14%, credibility_effective 8%, launch_momentum_potential 14%, ph_core_voter_appeal 14%, broad_vote_appeal 10%) plus documented calibration adjustments",
+  "feed_composition": {
+    "launch_count": 23,
+    "saturated_archetype_count": 15,
+    "broad_trap_archetype_count": 2,
+    "saturated_archetypes": [
+      "AI agents",
+      "computer use",
+      "MCP",
+      "agent builders",
+      "memory/RAG layers",
+      "local LLM tooling"
+    ],
+    "broad_trap_archetypes": [
+      "Mac novelty utilities",
+      "travel/local discovery",
+      "photo-ID gimmicks",
+      "menu-bar trivia"
+    ]
+  },
+  "rules": {
+    "excluded_fields_verified": true,
+    "excluded_signals": [
+      "upvotes",
+      "comments",
+      "current ranking",
+      "leaderboard position",
+      "featured position",
+      "featured badges",
+      "trending labels",
+      "top product metadata",
+      "Product Hunt popularity signals",
+      "external Product Hunt traction discussions"
+    ]
+  },
+  "predictions": [
+    {
+      "predicted_rank": 1,
+      "product_hunt_slug": "emdash",
+      "product_name": "Emdash",
+      "tagline": "One app. Every coding agent. Open-source.",
+      "product_hunt_url": "https://www.producthunt.com/products/emdash",
+      "website_url": "https://www.emdash.sh/",
+      "category": "Open-source multi-agent coding dashboard",
+      "rss_item_snapshot": {
+        "title": "Emdash",
+        "link": "https://www.producthunt.com/products/emdash",
+        "guid": "tag:www.producthunt.com,2005:Post/1150124",
+        "published_at": "2026-05-18T11:26:05-07:00",
+        "description": "One app. Every coding agent. Open-source.",
+        "author": "Garry Tan",
+        "updated_at": "2026-05-20T09:41:13-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 8,
+        "usefulness": 9,
+        "shareability": 9,
+        "product_hunt_audience_fit": 10,
+        "credibility": 8,
+        "launch_momentum_potential": 9,
+        "ph_core_voter_appeal": 10,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10.83,
+      "confidence": "medium",
+      "reasoning": "Garry Tan plus 4.5k-star OSS agent orchestration with parallel worktrees; peak practical-builder fit for PH makers. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Calibration: ph-core +0.5, maker +0.2, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.emdash.sh/",
+        "https://github.com/generalaction/emdash"
+      ]
+    },
+    {
+      "predicted_rank": 2,
+      "product_hunt_slug": "runtime",
+      "product_name": "Runtime",
+      "tagline": "Sandboxed coding agents for everyone on your team",
+      "product_hunt_url": "https://www.producthunt.com/products/runtime",
+      "website_url": "https://www.runtm.com/",
+      "category": "Team agent runtime / sandboxed coding agents (YC P26)",
+      "rss_item_snapshot": {
+        "title": "Runtime",
+        "link": "https://www.producthunt.com/products/runtime",
+        "guid": "tag:www.producthunt.com,2005:Post/1151120",
+        "published_at": "2026-05-19T13:22:13-07:00",
+        "description": "Sandboxed coding agents for everyone on your team",
+        "author": "Garry Tan",
+        "updated_at": "2026-05-20T09:41:37-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 8,
+        "usefulness": 9,
+        "shareability": 9,
+        "product_hunt_audience_fit": 10,
+        "credibility": 9,
+        "launch_momentum_potential": 9,
+        "ph_core_voter_appeal": 10,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1.4
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 11.23,
+      "confidence": "medium",
+      "reasoning": "Garry Tan hunt plus YC P26 team-agent runtime with ship-today Slack/GitHub integrations; capped hunter boost per 05-19 lesson. Pre-save review: demoted from #1 — total_adjustment >= 1.2 without incumbent/relaunch/prior-winner proof. Calibration: ph-core +0.5, maker +0.2, outcome +0.4, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.runtm.com/"
+      ]
+    },
+    {
+      "predicted_rank": 3,
+      "product_hunt_slug": "manus",
+      "product_name": "Manus Scheduled Tasks 2.0",
+      "tagline": "Run recurring Manus work inside the same task context",
+      "product_hunt_url": "https://www.producthunt.com/products/manus",
+      "website_url": "https://manus.im/",
+      "category": "Scheduled agent tasks (relaunch)",
+      "rss_item_snapshot": {
+        "title": "Manus Scheduled Tasks 2.0",
+        "link": "https://www.producthunt.com/products/manus",
+        "guid": "tag:www.producthunt.com,2005:Post/1150068",
+        "published_at": "2026-05-18T09:54:36-07:00",
+        "description": "Run recurring Manus work inside the same task context",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-20T09:37:39-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0.5,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1.2
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 9.37,
+      "confidence": "medium",
+      "reasoning": "Manus 2.0 scheduled tasks; Rohan hunt with relaunch boost in saturated agent feed. Calibration: ph-core +0.5, maker +0.5, relaunch +0.2.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://manus.im/"
+      ]
+    },
+    {
+      "predicted_rank": 4,
+      "product_hunt_slug": "gemini-omni-4",
+      "product_name": "Gemini Omni",
+      "tagline": "Create anything from any input – starting with video",
+      "product_hunt_url": "https://www.producthunt.com/products/gemini-omni-4",
+      "website_url": "https://deepmind.google/models/gemini-omni/",
+      "category": "Google multimodal model (incumbent)",
+      "rss_item_snapshot": {
+        "title": "Gemini Omni",
+        "link": "https://www.producthunt.com/products/gemini-omni-4",
+        "guid": "tag:www.producthunt.com,2005:Post/1151095",
+        "published_at": "2026-05-19T12:39:26-07:00",
+        "description": "Create anything from any input – starting with video",
+        "author": "Ankit Sharma",
+        "updated_at": "2026-05-20T09:41:44-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 8,
+        "usefulness": 8,
+        "shareability": 8,
+        "product_hunt_audience_fit": 8,
+        "credibility": 10,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": -0.2,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0.3,
+        "total_adjustment": -0.1
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": true,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": true
+      },
+      "predicted_success_score": 8.56,
+      "confidence": "medium",
+      "reasoning": "Google incumbent extension; credibility cap and incumbent penalty limit launch-day rank. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Calibration: saturation -0.5, incumbent -0.2, combo +0.3, tier1 +0.3.",
+      "likely_ai_bias_or_risk": "Major-brand extension may land top 10 but underperformed #1 predictions historically.",
+      "research_sources": [
+        "https://deepmind.google/models/gemini-omni/"
+      ]
+    },
+    {
+      "predicted_rank": 5,
+      "product_hunt_slug": "tophat",
+      "product_name": "Tophat by Shopify",
+      "tagline": "Test mobile CI builds on any device without building locally",
+      "product_hunt_url": "https://www.producthunt.com/products/tophat",
+      "website_url": "https://github.com/Shopify/tophat",
+      "category": "Mobile CI testing (Shopify OSS)",
+      "rss_item_snapshot": {
+        "title": "Tophat by Shopify",
+        "link": "https://www.producthunt.com/products/tophat",
+        "guid": "tag:www.producthunt.com,2005:Post/1114679",
+        "published_at": "2026-04-02T18:02:02-07:00",
+        "description": "Test mobile CI builds on any device without building locally",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-20T09:04:18-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 9,
+        "shareability": 8,
+        "product_hunt_audience_fit": 9,
+        "credibility": 9,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 9,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10,
+      "confidence": "medium",
+      "reasoning": "Shopify OSS with 1k+ stars; Rohan hunt; mobile test CI is ship-today builder utility. Pre-save review: demoted from top 5 — small feed practical-builder cluster cap (2026-05-20). Calibration: ph-core +0.5, maker +0.2, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://github.com/Shopify/tophat"
+      ]
+    },
+    {
+      "predicted_rank": 6,
+      "product_hunt_slug": "mailx-by-mailwarm-yc-s20",
+      "product_name": "mailX by mailwarm",
+      "tagline": "Email deliverability toolkit for humans and AI agents",
+      "product_hunt_url": "https://www.producthunt.com/products/mailx-by-mailwarm-yc-s20",
+      "website_url": "https://themailx.com/",
+      "category": "Email deliverability / MCP for agents (YC S20)",
+      "rss_item_snapshot": {
+        "title": "mailX by mailwarm",
+        "link": "https://www.producthunt.com/products/mailx-by-mailwarm-yc-s20",
+        "guid": "tag:www.producthunt.com,2005:Post/1134267",
+        "published_at": "2026-04-28T04:51:53-07:00",
+        "description": "Email deliverability toolkit for humans and AI agents",
+        "author": "Garry Tan",
+        "updated_at": "2026-05-20T09:42:50-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 9,
+        "shareability": 8,
+        "product_hunt_audience_fit": 9,
+        "credibility": 8,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 9,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1.4
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10.5,
+      "confidence": "high",
+      "reasoning": "Garry Tan plus YC mailwarm; free MCP/API toolkit founders use today beats generic agents. Pre-save review: demoted from top 5 — small feed practical-builder cluster cap (2026-05-20). Calibration: ph-core +0.5, maker +0.2, outcome +0.4, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://themailx.com/"
+      ]
+    },
+    {
+      "predicted_rank": 7,
+      "product_hunt_slug": "storeclaw",
+      "product_name": "StoreClaw",
+      "tagline": "Grow your store profits with agents that know how to sell",
+      "product_hunt_url": "https://www.producthunt.com/products/storeclaw",
+      "website_url": "https://www.storeclaw.ai/?utm_source=ph&utm_medium=ph&utm_campaign=visitwebsite&ref=producthunt",
+      "category": "Ecommerce AI growth agents",
+      "rss_item_snapshot": {
+        "title": "StoreClaw",
+        "link": "https://www.producthunt.com/products/storeclaw",
+        "guid": "tag:www.producthunt.com,2005:Post/1144771",
+        "published_at": "2026-05-11T17:00:55-07:00",
+        "description": "Grow your store profits with agents that know how to sell",
+        "author": "Chris Messina",
+        "updated_at": "2026-05-20T09:42:40-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 8,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": true,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 9.27,
+      "confidence": "medium",
+      "reasoning": "Chris Messina hunt; clear ecommerce outcome but lower PH-core than dev infra winners. Calibration: maker +0.2, outcome +0.4, ecommerce +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.storeclaw.ai/"
+      ]
+    },
+    {
+      "predicted_rank": 8,
+      "product_hunt_slug": "multi-claude",
+      "product_name": "Multi-Claude",
+      "tagline": "Run multiple Claude accounts side by side on your Mac",
+      "product_hunt_url": "https://www.producthunt.com/products/multi-claude",
+      "website_url": "https://multiclaude.app/",
+      "category": "Multi Claude accounts on Mac",
+      "rss_item_snapshot": {
+        "title": "Multi-Claude",
+        "link": "https://www.producthunt.com/products/multi-claude",
+        "guid": "tag:www.producthunt.com,2005:Post/1150372",
+        "published_at": "2026-05-18T20:49:40-07:00",
+        "description": "Run multiple Claude accounts side by side on your Mac",
+        "author": "Bryan Parker",
+        "updated_at": "2026-05-20T09:16:29-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.8
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.68,
+      "confidence": "medium",
+      "reasoning": "Power-user Mac utility for Claude builders; strong ph-core among AI-heavy voters. Calibration: ph-core +0.5, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://multiclaude.app/"
+      ]
+    },
+    {
+      "predicted_rank": 9,
+      "product_hunt_slug": "invenio",
+      "product_name": "Invenio",
+      "product_hunt_url": "https://www.producthunt.com/products/invenio",
+      "website_url": "https://getinvenio.com/",
+      "category": "Mac AI video search for editors",
+      "rss_item_snapshot": {
+        "title": "Invenio",
+        "link": "https://www.producthunt.com/products/invenio",
+        "guid": "tag:www.producthunt.com,2005:Post/1150854",
+        "published_at": "2026-05-19T07:28:34-07:00",
+        "author": "Igor Yusupov",
+        "updated_at": "2026-05-20T09:25:00-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 8,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.49,
+      "confidence": "medium",
+      "reasoning": "Strong local-first outcome for video pros; narrower electorate than dev tools. Calibration: outcome +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://getinvenio.com/"
+      ]
+    },
+    {
+      "predicted_rank": 10,
+      "product_hunt_slug": "skilled-2",
+      "product_name": "Skilled",
+      "tagline": "Dashboard to find agent skills you no longer need",
+      "product_hunt_url": "https://www.producthunt.com/products/skilled-2",
+      "website_url": "https://github.com/av/skilled",
+      "category": "OSS agent skills dashboard",
+      "rss_item_snapshot": {
+        "title": "Skilled",
+        "link": "https://www.producthunt.com/products/skilled-2",
+        "guid": "tag:www.producthunt.com,2005:Post/1150222",
+        "published_at": "2026-05-18T14:23:04-07:00",
+        "description": "Dashboard to find agent skills you no longer need",
+        "author": "Ivan Charapanau",
+        "updated_at": "2026-05-20T09:30:21-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.3
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.37,
+      "confidence": "medium",
+      "reasoning": "GitHub OSS skill cleanup for agent builders; practical utility in MCP-heavy feed. Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://github.com/av/skilled"
+      ]
+    },
+    {
+      "predicted_rank": 11,
+      "product_hunt_slug": "owlish",
+      "product_name": "Owlish",
+      "tagline": "Reduce support volume with AI agents trained on your docs",
+      "product_hunt_url": "https://www.producthunt.com/products/owlish",
+      "website_url": "https://owlish.bot/",
+      "category": "Support AI agents on docs",
+      "rss_item_snapshot": {
+        "title": "Owlish",
+        "link": "https://www.producthunt.com/products/owlish",
+        "guid": "tag:www.producthunt.com,2005:Post/1150627",
+        "published_at": "2026-05-19T02:29:18-07:00",
+        "description": "Reduce support volume with AI agents trained on your docs",
+        "author": "Mithun Rathinasamy",
+        "updated_at": "2026-05-20T09:28:27-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.86,
+      "confidence": "medium",
+      "reasoning": "Clear support-bot outcome but crowded docs-trained agent category. Calibration: outcome +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://owlish.bot/"
+      ]
+    },
+    {
+      "predicted_rank": 12,
+      "product_hunt_slug": "insta-360",
+      "product_name": "Insta360 Mic Pro",
+      "tagline": "Pro audio with a customizable color E-Ink face",
+      "product_hunt_url": "https://www.producthunt.com/products/insta-360",
+      "website_url": "https://www.insta360.com/fr/product/insta360-mic-pro",
+      "category": "Hardware microphone (E-Ink face)",
+      "rss_item_snapshot": {
+        "title": "Insta360 Mic Pro",
+        "link": "https://www.producthunt.com/products/insta-360",
+        "guid": "tag:www.producthunt.com,2005:Post/1151347",
+        "published_at": "2026-05-19T22:03:21-07:00",
+        "description": "Pro audio with a customizable color E-Ink face",
+        "author": "Zac Zuo",
+        "updated_at": "2026-05-20T09:24:32-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 8,
+        "product_hunt_audience_fit": 6,
+        "credibility": 9,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 5,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": -0.4,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.1
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": true,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.63,
+      "confidence": "medium",
+      "reasoning": "Insta360 hardware story gets hardware boost but low ph-core vs dev winners. Calibration: incumbent -0.4, hardware +0.3.",
+      "likely_ai_bias_or_risk": "Major-brand extension may land top 10 but underperformed #1 predictions historically.",
+      "research_sources": [
+        "https://www.insta360.com/fr/product/insta360-mic-pro"
+      ]
+    },
+    {
+      "predicted_rank": 13,
+      "product_hunt_slug": "re_gent",
+      "product_name": "Re_gent",
+      "tagline": "Version Control for AI agent Activity",
+      "product_hunt_url": "https://www.producthunt.com/products/re_gent",
+      "website_url": "https://www.re-gent.dev/",
+      "category": "Version control for agent activity",
+      "rss_item_snapshot": {
+        "title": "Re_gent",
+        "link": "https://www.producthunt.com/products/re_gent",
+        "guid": "tag:www.producthunt.com,2005:Post/1146902",
+        "published_at": "2026-05-14T05:19:20-07:00",
+        "description": "Version Control for AI agent Activity",
+        "author": "SHY",
+        "updated_at": "2026-05-20T09:35:26-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.27,
+      "confidence": "medium",
+      "reasoning": "Agent VCS is interesting but another meta-agent layer without maker signal.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.re-gent.dev/"
+      ]
+    },
+    {
+      "predicted_rank": 14,
+      "product_hunt_slug": "viberia",
+      "product_name": "Viberia",
+      "tagline": "Command AI agents like you're playing Civilization",
+      "product_hunt_url": "https://www.producthunt.com/products/viberia",
+      "website_url": "https://getviberia.com/",
+      "category": "Gamified multi-agent command UI",
+      "rss_item_snapshot": {
+        "title": "Viberia",
+        "link": "https://www.producthunt.com/products/viberia",
+        "guid": "tag:www.producthunt.com,2005:Post/1150430",
+        "published_at": "2026-05-18T22:50:33-07:00",
+        "description": "Command AI agents like you're playing Civilization",
+        "author": "Emre Barut",
+        "updated_at": "2026-05-20T09:42:55-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 8,
+        "usefulness": 7,
+        "shareability": 8,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.09,
+      "confidence": "medium",
+      "reasoning": "Novel Civ-style agent UI is shareable but not ship-today infra. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://getviberia.com/"
+      ]
+    },
+    {
+      "predicted_rank": 15,
+      "product_hunt_slug": "ghostsnap",
+      "product_name": "GhostSnap",
+      "tagline": "Take multiple screenshots that are auto compressed for AI",
+      "product_hunt_url": "https://www.producthunt.com/products/ghostsnap",
+      "website_url": "https://ghostsnap.app/",
+      "category": "Screenshot compression for AI",
+      "rss_item_snapshot": {
+        "title": "GhostSnap",
+        "link": "https://www.producthunt.com/products/ghostsnap",
+        "guid": "tag:www.producthunt.com,2005:Post/1150797",
+        "published_at": "2026-05-19T06:13:18-07:00",
+        "description": "Take multiple screenshots that are auto compressed for AI",
+        "author": "nitin sm",
+        "updated_at": "2026-05-20T09:28:27-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.98,
+      "confidence": "medium",
+      "reasoning": "Small dev utility for AI context windows; useful but low launch narrative.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://ghostsnap.app/"
+      ]
+    },
+    {
+      "predicted_rank": 16,
+      "product_hunt_slug": "supercut",
+      "product_name": "Supercut for Agents",
+      "tagline": "Permission-aware AI access to recordings and metadata",
+      "product_hunt_url": "https://www.producthunt.com/products/supercut",
+      "website_url": "https://supercut.ai/agents",
+      "category": "Agent access to recordings",
+      "rss_item_snapshot": {
+        "title": "Supercut for Agents",
+        "link": "https://www.producthunt.com/products/supercut",
+        "guid": "tag:www.producthunt.com,2005:Post/1150811",
+        "published_at": "2026-05-19T06:42:30-07:00",
+        "description": "Permission-aware AI access to recordings and metadata",
+        "author": "David OKuniev",
+        "updated_at": "2026-05-20T09:30:58-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.86,
+      "confidence": "medium",
+      "reasoning": "Permission-aware recording access is niche; moderate ph-core.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://supercut.ai/agents"
+      ]
+    },
+    {
+      "predicted_rank": 17,
+      "product_hunt_slug": "retina-2",
+      "product_name": "Retina",
+      "tagline": "Screen recorder w/ auto-zoom, smooth cursors, + AI graphics",
+      "product_hunt_url": "https://www.producthunt.com/products/retina-2",
+      "website_url": "https://blendpixel.com/products/retina",
+      "category": "Screen recorder with AI graphics",
+      "rss_item_snapshot": {
+        "title": "Retina",
+        "link": "https://www.producthunt.com/products/retina-2",
+        "guid": "tag:www.producthunt.com,2005:Post/1148072",
+        "published_at": "2026-05-15T18:00:18-07:00",
+        "description": "Screen recorder w/ auto-zoom, smooth cursors, + AI graphics",
+        "author": "Mourtaza Ali",
+        "updated_at": "2026-05-20T09:41:57-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.83,
+      "confidence": "medium",
+      "reasoning": "Prosumer screen recorder competes with saturated creative-AI launches. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://blendpixel.com/products/retina"
+      ]
+    },
+    {
+      "predicted_rank": 18,
+      "product_hunt_slug": "contextberg",
+      "product_name": "Contextberg",
+      "tagline": "Turn your work into AI agent memory, served over MCP",
+      "product_hunt_url": "https://www.producthunt.com/products/contextberg",
+      "website_url": "https://contextberg.com/",
+      "category": "Work memory over MCP",
+      "rss_item_snapshot": {
+        "title": "Contextberg",
+        "link": "https://www.producthunt.com/products/contextberg",
+        "guid": "tag:www.producthunt.com,2005:Post/1143265",
+        "published_at": "2026-05-09T14:52:22-07:00",
+        "description": "Turn your work into AI agent memory, served over MCP",
+        "author": "Tiger",
+        "updated_at": "2026-05-20T09:36:02-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.54,
+      "confidence": "medium",
+      "reasoning": "MCP memory layer faces saturation penalty in AI-heavy feed. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://contextberg.com/"
+      ]
+    },
+    {
+      "predicted_rank": 19,
+      "product_hunt_slug": "type-switch-3-0-for-macos",
+      "product_name": "Type Switch 3.0 for macOS",
+      "tagline": "Instant language switching for multilingual Mac users",
+      "product_hunt_url": "https://www.producthunt.com/products/type-switch-3-0-for-macos",
+      "website_url": "https://apps.apple.com/us/app/type-switch/id6737172560?mt=12&at=1000l6eA",
+      "category": "Mac language switching utility",
+      "rss_item_snapshot": {
+        "title": "Type Switch 3.0 for macOS",
+        "link": "https://www.producthunt.com/products/type-switch-3-0-for-macos",
+        "guid": "tag:www.producthunt.com,2005:Post/1149892",
+        "published_at": "2026-05-18T06:25:04-07:00",
+        "description": "Instant language switching for multilingual Mac users",
+        "author": "Maxym Babenko",
+        "updated_at": "2026-05-20T09:30:11-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 5,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 5,
+        "credibility": 6,
+        "launch_momentum_potential": 5,
+        "ph_core_voter_appeal": 5,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": -0.4,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.2
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": true,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.53,
+      "confidence": "low",
+      "reasoning": "Type Switch 3.0 broad-trap Mac utility; relaunch does not overcome ph-core cap. Calibration: broad-trap -0.4, relaunch +0.2.",
+      "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked.",
+      "research_sources": [
+        "https://apps.apple.com/us/app/type-switch/id6737172560"
+      ]
+    },
+    {
+      "predicted_rank": 20,
+      "product_hunt_slug": "glia-2",
+      "product_name": "Glia",
+      "tagline": "Local-first AI memory bridge between browser chats and IDEs",
+      "product_hunt_url": "https://www.producthunt.com/products/glia-2",
+      "website_url": "https://glia-ai.vercel.app/",
+      "category": "Local-first AI memory bridge",
+      "rss_item_snapshot": {
+        "title": "Glia",
+        "link": "https://www.producthunt.com/products/glia-2",
+        "guid": "tag:www.producthunt.com,2005:Post/1150840",
+        "published_at": "2026-05-19T07:12:55-07:00",
+        "description": "Local-first AI memory bridge between browser chats and IDEs",
+        "author": "Eshaan",
+        "updated_at": "2026-05-20T09:41:34-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.32,
+      "confidence": "medium",
+      "reasoning": "Local memory bridge is credible but generic second-brain positioning. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://glia-ai.vercel.app/"
+      ]
+    },
+    {
+      "predicted_rank": 21,
+      "product_hunt_slug": "layerproof-social-content-generation",
+      "product_name": "LayerProof Kraft",
+      "tagline": "Co-write insightful long form content",
+      "product_hunt_url": "https://www.producthunt.com/products/layerproof-social-content-generation",
+      "website_url": "https://layerproof.app/kraft?utm_source=producthunt&ref=producthunt",
+      "category": "Long-form content co-writing",
+      "rss_item_snapshot": {
+        "title": "LayerProof Kraft",
+        "link": "https://www.producthunt.com/products/layerproof-social-content-generation",
+        "guid": "tag:www.producthunt.com,2005:Post/1151316",
+        "published_at": "2026-05-19T20:44:43-07:00",
+        "description": "Co-write insightful long form content",
+        "author": "Nathan Tran",
+        "updated_at": "2026-05-20T09:04:18-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 5,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.25,
+      "confidence": "medium",
+      "reasoning": "Content co-writing is crowded; moderate fit for PH marketers not builders. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://layerproof.app/kraft"
+      ]
+    },
+    {
+      "predicted_rank": 22,
+      "product_hunt_slug": "tether-10",
+      "product_name": "Tether",
+      "tagline": "The companion who comes to life in your messages",
+      "product_hunt_url": "https://www.producthunt.com/products/tether-10",
+      "website_url": "https://therealtether.com/",
+      "category": "AI companion messaging",
+      "rss_item_snapshot": {
+        "title": "Tether",
+        "link": "https://www.producthunt.com/products/tether-10",
+        "guid": "tag:www.producthunt.com,2005:Post/1150909",
+        "published_at": "2026-05-19T08:23:27-07:00",
+        "description": "The companion who comes to life in your messages",
+        "author": "Eze Ndzie",
+        "updated_at": "2026-05-20T09:38:51-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 7,
+        "usefulness": 6,
+        "shareability": 7,
+        "product_hunt_audience_fit": 5,
+        "credibility": 5,
+        "launch_momentum_potential": 5,
+        "ph_core_voter_appeal": 4,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 5.9,
+      "confidence": "medium",
+      "reasoning": "Consumer companion app with low ph-core voter appeal. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://therealtether.com/"
+      ]
+    },
+    {
+      "predicted_rank": 23,
+      "product_hunt_slug": "chromtuner-chromatic-tuner-for-macos",
+      "product_name": "Chromtuner",
+      "tagline": "A chromatic tuner for macOS. ±1¢ accuracy",
+      "product_hunt_url": "https://www.producthunt.com/products/chromtuner-chromatic-tuner-for-macos",
+      "website_url": "https://chromtuner.com/",
+      "category": "Mac chromatic tuner",
+      "rss_item_snapshot": {
+        "title": "Chromtuner",
+        "link": "https://www.producthunt.com/products/chromtuner-chromatic-tuner-for-macos",
+        "guid": "tag:www.producthunt.com,2005:Post/1148546",
+        "published_at": "2026-05-16T11:09:36-07:00",
+        "description": "A chromatic tuner for macOS. ±1¢ accuracy",
+        "author": "Clemens Posch",
+        "updated_at": "2026-05-20T09:04:18-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 5,
+        "usefulness": 6,
+        "shareability": 5,
+        "product_hunt_audience_fit": 4,
+        "credibility": 6,
+        "launch_momentum_potential": 4,
+        "ph_core_voter_appeal": 4,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": -0.4,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": true,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 5.51,
+      "confidence": "low",
+      "reasoning": "Broad-trap Mac tuner utility per calibration rules. Calibration: broad-trap -0.4.",
+      "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked.",
+      "research_sources": [
+        "https://chromtuner.com/"
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@
   "scripts": {
     "install-skills": "node scripts/install-skills/index.js",
     "transcript": "node scripts/youtube-transcript/get_transcript.js",
+    "product-hunt:scrape": "node scripts/product-hunt/scrape-product.js",
     "game-asset": "node scripts/game-asset/generate-game-asset-gemini.js",
     "game-asset:openai": "node scripts/game-asset/generate-game-asset-openai.js",
     "game-asset:openrouter": "node scripts/game-asset/generate-game-asset-openrouter.js"

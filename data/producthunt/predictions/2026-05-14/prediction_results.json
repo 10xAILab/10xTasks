@@ -1,0 +1,2130 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-15T08:54:19.930Z",
+  "prediction_file": "data/producthunt/predictions/2026-05-14/predictions.json",
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-14/rss.xml",
+  "actuals_source": "Product Hunt product pages scraped with scripts/product-hunt/scrape-product.js",
+  "metrics": {
+    "prediction_count": 50,
+    "scraped_count": 50,
+    "scrape_failed_count": 0,
+    "rank_error_mean": 18.72,
+    "rank_error_median": 14,
+    "rank_error_max": 67,
+    "signed_rank_error_mean": 10.4,
+    "top_3_hits": 0,
+    "top_3_precision": 0,
+    "top_3_recall": 0,
+    "top_5_hits": 1,
+    "top_5_precision": 0.2,
+    "top_5_recall": 0.25,
+    "upvote_rank_error_mean": 11.2,
+    "upvote_rank_error_median": 10
+  },
+  "results": [
+    {
+      "product_hunt_slug": "notion",
+      "product_name": "Notion Developer Platform",
+      "prediction": {
+        "predicted_rank": 1,
+        "product_hunt_url": "https://www.producthunt.com/products/notion",
+        "website_url": "https://developers.notion.com/",
+        "category": "Developer platform / workspace API",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 10,
+          "launch_momentum_potential": 9
+        },
+        "predicted_success_score": 8.71,
+        "confidence": "high",
+        "reasoning": "Very credible developer platform expansion with APIs, agents, CLI and governance.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 7,
+        "actual_day_rank_label": "#7",
+        "actual_upvotes": 167,
+        "actual_upvote_rank": 6,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": 5,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "open-computer-use",
+      "product_name": "Open Computer Use",
+      "prediction": {
+        "predicted_rank": 2,
+        "product_hunt_url": "https://www.producthunt.com/products/open-computer-use",
+        "website_url": "https://github.com/Yambr/open-computer-use",
+        "category": "Open-source MCP server / agent computer environment",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8.14,
+        "confidence": "high",
+        "reasoning": "Strong developer appeal: isolated browser, terminal, code execution and documents for AI agents.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 18,
+        "actual_day_rank_label": "#18",
+        "actual_upvotes": 88,
+        "actual_upvote_rank": 17,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 16,
+        "absolute_rank_error": 16,
+        "upvote_rank_error": 15,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "resend",
+      "product_name": "Resend Automations",
+      "prediction": {
+        "predicted_rank": 3,
+        "product_hunt_url": "https://www.producthunt.com/products/resend",
+        "website_url": "https://resend.com/docs/dashboard/automations/introduction",
+        "category": "Developer email automation",
+        "scores": {
+          "clarity": 9,
+          "novelty": 6,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 9,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8.14,
+        "confidence": "high",
+        "reasoning": "Clear event-driven email workflow product from a credible developer brand.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 8,
+        "actual_day_rank_label": "#8",
+        "actual_upvotes": 150,
+        "actual_upvote_rank": 7,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": 4,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "asteroid-3",
+      "product_name": "Asteroid",
+      "prediction": {
+        "predicted_rank": 4,
+        "product_hunt_url": "https://www.producthunt.com/products/asteroid-3",
+        "website_url": "https://asteroid.ai/",
+        "category": "AI agent automation platform",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8.14,
+        "confidence": "high",
+        "reasoning": "Strong high-value automation wedge with browser, Linux and Windows computer-use environments.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 10,
+        "actual_day_rank_label": "#10",
+        "actual_upvotes": 141,
+        "actual_upvote_rank": 9,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "tendem-by-toloka",
+      "product_name": "Tendem by Toloka",
+      "prediction": {
+        "predicted_rank": 5,
+        "product_hunt_url": "https://www.producthunt.com/products/tendem-by-toloka",
+        "website_url": "https://tendem.ai/",
+        "category": "AI task delegation with human expert QA",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8.14,
+        "confidence": "high",
+        "reasoning": "Clear AI accountability pain with Toloka credibility and human-expert MCP workflow.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 3,
+        "actual_day_rank_label": "#3",
+        "actual_upvotes": 243,
+        "actual_upvote_rank": 3,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": -2,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": true,
+        "top_5_hit": true
+      }
+    },
+    {
+      "product_hunt_slug": "edit-mind-3",
+      "product_name": "Edit Mind",
+      "prediction": {
+        "predicted_rank": 6,
+        "product_hunt_url": "https://www.producthunt.com/products/edit-mind-3",
+        "website_url": "https://edit-mind.com/",
+        "category": "Video / creator tools",
+        "scores": {
+          "clarity": 9,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8.14,
+        "confidence": "high",
+        "reasoning": "Natural-language local video search is easy to grasp, useful and demo-friendly.",
+        "likely_ai_bias_or_risk": "Community reactions ignored."
+      },
+      "actuals": {
+        "actual_rank": 13,
+        "actual_day_rank_label": "#13",
+        "actual_upvotes": 102,
+        "actual_upvote_rank": 13,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 7,
+        "absolute_rank_error": 7,
+        "upvote_rank_error": 7,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "designmd-2",
+      "product_name": "DesignMD",
+      "prediction": {
+        "predicted_rank": 7,
+        "product_hunt_url": "https://www.producthunt.com/products/designmd-2",
+        "website_url": "https://designmd.ai/",
+        "category": "AI design systems",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8,
+        "confidence": "high",
+        "reasoning": "AI-native design-system format is timely, developer-friendly and shareable.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 23,
+        "actual_day_rank_label": "#23",
+        "actual_upvotes": 78,
+        "actual_upvote_rank": 20,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 16,
+        "absolute_rank_error": 16,
+        "upvote_rank_error": 13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "c15t",
+      "product_name": "c15t 2.0",
+      "prediction": {
+        "predicted_rank": 8,
+        "product_hunt_url": "https://www.producthunt.com/products/c15t",
+        "website_url": "https://c15t.com/",
+        "category": "Developer privacy / consent management",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8,
+        "confidence": "high",
+        "reasoning": "Dev-first consent tooling has a clear painkiller and strong open-source/developer fit.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 22,
+        "actual_day_rank_label": "#22",
+        "actual_upvotes": 78,
+        "actual_upvote_rank": 21,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 14,
+        "absolute_rank_error": 14,
+        "upvote_rank_error": 13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "comie-dev",
+      "product_name": "Comie.dev",
+      "prediction": {
+        "predicted_rank": 9,
+        "product_hunt_url": "https://www.producthunt.com/products/comie-dev",
+        "website_url": "https://comie.dev/",
+        "category": "Developer tools / AI infrastructure",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 8,
+        "confidence": "high",
+        "reasoning": "Strong agentic-coding wedge: production context for logs, DBs and error tracking.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 25,
+        "actual_day_rank_label": "#25",
+        "actual_upvotes": 74,
+        "actual_upvote_rank": 23,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 16,
+        "absolute_rank_error": 16,
+        "upvote_rank_error": 14,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "open-browser-use",
+      "product_name": "Open Browser Use",
+      "prediction": {
+        "predicted_rank": 10,
+        "product_hunt_url": "https://www.producthunt.com/products/open-browser-use",
+        "website_url": "https://docs.browser-use.com/open-source/introduction",
+        "category": "AI browser automation",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.86,
+        "confidence": "high",
+        "reasoning": "Very useful local/self-hosted browser automation for AI agents; category is crowded.",
+        "likely_ai_bias_or_risk": "Docs include GitHub star metadata; ignored."
+      },
+      "actuals": {
+        "actual_rank": 15,
+        "actual_day_rank_label": "#15",
+        "actual_upvotes": 102,
+        "actual_upvote_rank": 14,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": 4,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "autonomyai",
+      "product_name": "Fei Design Mode",
+      "prediction": {
+        "predicted_rank": 11,
+        "product_hunt_url": "https://www.producthunt.com/products/autonomyai",
+        "website_url": "https://autonomyai.io/",
+        "category": "AI product development",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.86,
+        "confidence": "high",
+        "reasoning": "Strong design-to-production positioning for product and engineering teams.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 11,
+        "actual_day_rank_label": "#11",
+        "actual_upvotes": 140,
+        "actual_upvote_rank": 10,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 0,
+        "absolute_rank_error": 0,
+        "upvote_rank_error": -1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "lineage-lens",
+      "product_name": "LineageLens",
+      "prediction": {
+        "predicted_rank": 12,
+        "product_hunt_url": "https://www.producthunt.com/products/lineage-lens",
+        "website_url": "https://lineage-website.vercel.app/solo",
+        "category": "AI code provenance",
+        "scores": {
+          "clarity": 9,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.86,
+        "confidence": "medium",
+        "reasoning": "Timely AI-code audit trail for prompts, models and sessions with local VS Code workflow.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 79,
+        "actual_day_rank_label": "#79",
+        "actual_upvotes": 56,
+        "actual_upvote_rank": 45,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 67,
+        "absolute_rank_error": 67,
+        "upvote_rank_error": 33,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "thesys",
+      "product_name": "Openclaw OS",
+      "prediction": {
+        "predicted_rank": 13,
+        "product_hunt_url": "https://www.producthunt.com/products/thesys",
+        "website_url": "https://github.com/thesysdev/openclaw-os",
+        "category": "AI agent workspace / generative UI",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 7,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 6,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.71,
+        "confidence": "medium",
+        "reasoning": "PH-native concept turning disposable chats into persistent app-like workspaces.",
+        "likely_ai_bias_or_risk": "GitHub popularity metadata ignored."
+      },
+      "actuals": {
+        "actual_rank": 12,
+        "actual_day_rank_label": "#12",
+        "actual_upvotes": 111,
+        "actual_upvote_rank": 11,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": -2,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "storecraft",
+      "product_name": "Storecraft",
+      "prediction": {
+        "predicted_rank": 14,
+        "product_hunt_url": "https://www.producthunt.com/products/storecraft",
+        "website_url": "https://storecraft.app/",
+        "category": "Headless commerce backend",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.71,
+        "confidence": "medium",
+        "reasoning": "Clear open-source TypeScript commerce backend with AI and flexible deployment story.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 54,
+        "actual_day_rank_label": "#54",
+        "actual_upvotes": 64,
+        "actual_upvote_rank": 37,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 40,
+        "absolute_rank_error": 40,
+        "upvote_rank_error": 23,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "enjo-help-center",
+      "product_name": "Enjo Help Center",
+      "prediction": {
+        "predicted_rank": 15,
+        "product_hunt_url": "https://www.producthunt.com/products/enjo-help-center",
+        "website_url": "https://www.enjo.ai/product/help-center",
+        "category": "AI customer support / help center",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.57,
+        "confidence": "high",
+        "reasoning": "Strong support-team usefulness: generates and improves help centers from existing knowledge.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 19,
+        "actual_day_rank_label": "#19",
+        "actual_upvotes": 83,
+        "actual_upvote_rank": 18,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 4,
+        "absolute_rank_error": 4,
+        "upvote_rank_error": 3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "indigo-2",
+      "product_name": "Indigo",
+      "prediction": {
+        "predicted_rank": 16,
+        "product_hunt_url": "https://www.producthunt.com/products/indigo-2",
+        "website_url": "https://apps.apple.com/us/app/indigo-for-bluesky-mastodon/id6763755310",
+        "category": "Open social client",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 7,
+          "credibility": 8,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.57,
+        "confidence": "high",
+        "reasoning": "Concrete pain around fragmented Bluesky/Mastodon usage; App Store ratings ignored.",
+        "likely_ai_bias_or_risk": "App Store page includes ratings; ignored for scoring."
+      },
+      "actuals": {
+        "actual_rank": 17,
+        "actual_day_rank_label": "#17",
+        "actual_upvotes": 92,
+        "actual_upvote_rank": 16,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": 0,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "optimizegeo-ai",
+      "product_name": "OptimizeGEO.ai",
+      "prediction": {
+        "predicted_rank": 17,
+        "product_hunt_url": "https://www.producthunt.com/products/optimizegeo-ai",
+        "website_url": "https://www.optimizegeo.ai/",
+        "category": "GEO / AI search visibility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.43,
+        "confidence": "high",
+        "reasoning": "Timely AI search visibility category with reports, citation tracking, recommendations and analytics.",
+        "likely_ai_bias_or_risk": "Heuristic may overvalue AI-search marketing tools because the category is currently fashionable."
+      },
+      "actuals": {
+        "actual_rank": 14,
+        "actual_day_rank_label": "#14",
+        "actual_upvotes": 104,
+        "actual_upvote_rank": 12,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": -5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "smart-bricks",
+      "product_name": "Smart Bricks",
+      "prediction": {
+        "predicted_rank": 18,
+        "product_hunt_url": "https://www.producthunt.com/products/smart-bricks",
+        "website_url": "https://www.smart-bricks.com/",
+        "category": "AI real estate investing",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 8,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.43,
+        "confidence": "high",
+        "reasoning": "High-value real estate investing platform with polished AI/data positioning and proptech appeal.",
+        "likely_ai_bias_or_risk": "Official marketing source; performance, backing and recognition claims were not independently verified here."
+      },
+      "actuals": {
+        "actual_rank": 37,
+        "actual_day_rank_label": "#37",
+        "actual_upvotes": 70,
+        "actual_upvote_rank": 31,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 19,
+        "absolute_rank_error": 19,
+        "upvote_rank_error": 13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "tenure",
+      "product_name": "Tenure",
+      "prediction": {
+        "predicted_rank": 19,
+        "product_hunt_url": "https://www.producthunt.com/products/tenure",
+        "website_url": "https://arxiv.org/html/2605.11325",
+        "category": "Local LLM memory",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 8,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.43,
+        "confidence": "medium",
+        "reasoning": "Research-backed local-first memory for stack choices and beliefs; technical but differentiated.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 76,
+        "actual_day_rank_label": "#76",
+        "actual_upvotes": 56,
+        "actual_upvote_rank": 46,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 57,
+        "absolute_rank_error": 57,
+        "upvote_rank_error": 27,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "raindrop",
+      "product_name": "Raindrop Workshop",
+      "prediction": {
+        "predicted_rank": 20,
+        "product_hunt_url": "https://www.producthunt.com/products/raindrop",
+        "website_url": "https://raindrop.ai/",
+        "category": "AI agent debugging / observability",
+        "scores": {
+          "clarity": 7,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 5,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.29,
+        "confidence": "low",
+        "reasoning": "Agent debugging is timely, but exact Workshop/open-source/local positioning was not verified.",
+        "likely_ai_bias_or_risk": "Official source does not clearly verify Workshop/open-source/local claims."
+      },
+      "actuals": {
+        "actual_rank": 6,
+        "actual_day_rank_label": "#6",
+        "actual_upvotes": 169,
+        "actual_upvote_rank": 5,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -14,
+        "absolute_rank_error": 14,
+        "upvote_rank_error": -15,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "stagent",
+      "product_name": "Stagent",
+      "prediction": {
+        "predicted_rank": 21,
+        "product_hunt_url": "https://www.producthunt.com/products/stagent",
+        "website_url": "https://ainative.business/docs/",
+        "category": "AI agent operations workspace",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.29,
+        "confidence": "medium",
+        "reasoning": "Long-running agent ops is relevant, though source confirms broader product than tagline.",
+        "likely_ai_bias_or_risk": "Source confirms broader agent ops product, not only tagline use case."
+      },
+      "actuals": {
+        "actual_rank": 67,
+        "actual_day_rank_label": "#67",
+        "actual_upvotes": 59,
+        "actual_upvote_rank": 40,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 46,
+        "absolute_rank_error": 46,
+        "upvote_rank_error": 19,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "causo-hub-free-tools-for-fundraising",
+      "product_name": "Causo for Fundraising",
+      "prediction": {
+        "predicted_rank": 22,
+        "product_hunt_url": "https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising",
+        "website_url": "https://hub.causo.ai/",
+        "category": "Fundraising tools",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.29,
+        "confidence": "high",
+        "reasoning": "Founder-facing fundraising tools and templates are easy to understand and PH-relevant.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 5,
+        "actual_day_rank_label": "#5",
+        "actual_upvotes": 175,
+        "actual_upvote_rank": 4,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -17,
+        "absolute_rank_error": 17,
+        "upvote_rank_error": -18,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "chronicle-ai-voice-memory",
+      "product_name": "Chronicle",
+      "prediction": {
+        "predicted_rank": 23,
+        "product_hunt_url": "https://www.producthunt.com/products/chronicle-ai-voice-memory",
+        "website_url": "https://chronicle.chat/",
+        "category": "Voice-first personal memory / memex",
+        "scores": {
+          "clarity": 9,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.29,
+        "confidence": "high",
+        "reasoning": "Easy-to-explain voice capture and recall use case; crowded personal memory space.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 77,
+        "actual_day_rank_label": "#77",
+        "actual_upvotes": 56,
+        "actual_upvote_rank": 47,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 54,
+        "absolute_rank_error": 54,
+        "upvote_rank_error": 24,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "instagram",
+      "product_name": "Instants by Instagram",
+      "prediction": {
+        "predicted_rank": 24,
+        "product_hunt_url": "https://www.producthunt.com/products/instagram",
+        "website_url": "https://about.instagram.com/blog/announcements/introducing-instants-for-sharing-in-the-moment",
+        "category": "Social / photo sharing",
+        "scores": {
+          "clarity": 9,
+          "novelty": 4,
+          "usefulness": 7,
+          "shareability": 8,
+          "product_hunt_audience_fit": 5,
+          "credibility": 9,
+          "launch_momentum_potential": 8
+        },
+        "predicted_success_score": 7.14,
+        "confidence": "high",
+        "reasoning": "Very credible and shareable ephemeral photo mechanic, but weaker PH maker-audience fit.",
+        "likely_ai_bias_or_risk": "Official Instagram source; distribution scale not used as traction."
+      },
+      "actuals": {
+        "actual_rank": 9,
+        "actual_day_rank_label": "#9",
+        "actual_upvotes": 147,
+        "actual_upvote_rank": 8,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -15,
+        "absolute_rank_error": 15,
+        "upvote_rank_error": -16,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "tellme-4",
+      "product_name": "Tellme",
+      "prediction": {
+        "predicted_rank": 25,
+        "product_hunt_url": "https://www.producthunt.com/products/tellme-4",
+        "website_url": "https://www.tell-me.ai/",
+        "category": "AI visitor experience / venue guide",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 7,
+          "shareability": 8,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.14,
+        "confidence": "medium",
+        "reasoning": "Strong real-world AI demo: visitors point phones at exhibits and get governed conversational answers without app install.",
+        "likely_ai_bias_or_risk": "Tellme name is ambiguous; matched to tell-me.ai based on product positioning. Official metrics not used."
+      },
+      "actuals": {
+        "actual_rank": 31,
+        "actual_day_rank_label": "#31",
+        "actual_upvotes": 72,
+        "actual_upvote_rank": 26,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "foodfix-tech-ltd",
+      "product_name": "FoodFix",
+      "prediction": {
+        "predicted_rank": 26,
+        "product_hunt_url": "https://www.producthunt.com/products/foodfix-tech-ltd",
+        "website_url": "https://foodfix.tech/",
+        "category": "Food, meal planning, creator commerce",
+        "scores": {
+          "clarity": 9,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 6,
+          "credibility": 7,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7.14,
+        "confidence": "high",
+        "reasoning": "Strong consumer workflow: watch, plan, shop and cook, with creator and brand marketplace potential.",
+        "likely_ai_bias_or_risk": "Official page includes self-reported usage and creator counts; not independently verified."
+      },
+      "actuals": {
+        "actual_rank": 27,
+        "actual_day_rank_label": "#27",
+        "actual_upvotes": 73,
+        "actual_upvote_rank": 25,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": -1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "sun-3",
+      "product_name": "SUN",
+      "prediction": {
+        "predicted_rank": 27,
+        "product_hunt_url": "https://www.producthunt.com/products/sun-3",
+        "website_url": "https://sunapp.ai/",
+        "category": "AI audio learning",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 5,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7,
+        "confidence": "medium",
+        "reasoning": "Clear AI audio-learning promise with on-demand generation and good consumer productivity fit.",
+        "likely_ai_bias_or_risk": "Official landing page is thin; notes lean partly on frozen RSS tagline."
+      },
+      "actuals": {
+        "actual_rank": 63,
+        "actual_day_rank_label": "#63",
+        "actual_upvotes": 62,
+        "actual_upvote_rank": 38,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 36,
+        "absolute_rank_error": 36,
+        "upvote_rank_error": 11,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "pressmaster-ai",
+      "product_name": "Pressmaster.ai",
+      "prediction": {
+        "predicted_rank": 28,
+        "product_hunt_url": "https://www.producthunt.com/products/pressmaster-ai",
+        "website_url": "https://www.pressmaster.ai/",
+        "category": "Marketing / thought leadership AI",
+        "scores": {
+          "clarity": 8,
+          "novelty": 5,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7,
+        "confidence": "medium",
+        "reasoning": "Founder thought-leadership content workflow is useful and PH-relevant, but crowded.",
+        "likely_ai_bias_or_risk": "Customer/results claims ignored."
+      },
+      "actuals": {
+        "actual_rank": 16,
+        "actual_day_rank_label": "#16",
+        "actual_upvotes": 100,
+        "actual_upvote_rank": 15,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -12,
+        "absolute_rank_error": 12,
+        "upvote_rank_error": -13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "naptick-ai-sleep-companion",
+      "product_name": "Naptick AI",
+      "prediction": {
+        "predicted_rank": 29,
+        "product_hunt_url": "https://www.producthunt.com/products/naptick-ai-sleep-companion",
+        "website_url": "https://launch.naptick.com/",
+        "category": "Health / sleep hardware",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 7,
+        "confidence": "medium",
+        "reasoning": "Consumer sleep hardware with AI coaching and phone-free wind-down has clear demo potential.",
+        "likely_ai_bias_or_risk": "Outcome/testimonial claims ignored."
+      },
+      "actuals": {
+        "actual_rank": 2,
+        "actual_day_rank_label": "#2",
+        "actual_upvotes": 442,
+        "actual_upvote_rank": 2,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -27,
+        "absolute_rank_error": 27,
+        "upvote_rank_error": -27,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "robrain",
+      "product_name": "RoBrain",
+      "prediction": {
+        "predicted_rank": 30,
+        "product_hunt_url": "https://www.producthunt.com/products/robrain",
+        "website_url": "",
+        "category": "Shared AI agent memory",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 3,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 6.86,
+        "confidence": "low",
+        "reasoning": "Clear PH-relevant shared agent memory story, but no reliable source was found.",
+        "likely_ai_bias_or_risk": "No reliable non-leaky source found."
+      },
+      "actuals": {
+        "actual_rank": 47,
+        "actual_day_rank_label": "#47",
+        "actual_upvotes": 65,
+        "actual_upvote_rank": 36,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 17,
+        "absolute_rank_error": 17,
+        "upvote_rank_error": 6,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "sherloq-2",
+      "product_name": "Sherloq",
+      "prediction": {
+        "predicted_rank": 31,
+        "product_hunt_url": "https://www.producthunt.com/products/sherloq-2",
+        "website_url": "https://gosherloq.com/",
+        "category": "Sales / GTM intelligence",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 6.86,
+        "confidence": "medium",
+        "reasoning": "LinkedIn timing/personalization signals are useful for founders and sales teams.",
+        "likely_ai_bias_or_risk": "Vendor outcome/social-proof claims ignored."
+      },
+      "actuals": {
+        "actual_rank": 28,
+        "actual_day_rank_label": "#28",
+        "actual_upvotes": 74,
+        "actual_upvote_rank": 24,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": -7,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "lumox-mirror-ios-to-mac",
+      "product_name": "Lumox",
+      "prediction": {
+        "predicted_rank": 32,
+        "product_hunt_url": "https://www.producthunt.com/products/lumox-mirror-ios-to-mac",
+        "website_url": "https://lumox.app/",
+        "category": "Design / developer utility",
+        "scores": {
+          "clarity": 9,
+          "novelty": 4,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.86,
+        "confidence": "high",
+        "reasoning": "Focused iOS-to-Mac mirroring utility for demos, QA and creators.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 24,
+        "actual_day_rank_label": "#24",
+        "actual_upvotes": 75,
+        "actual_upvote_rank": 22,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": -10,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "woleet-sign",
+      "product_name": "Woleet",
+      "prediction": {
+        "predicted_rank": 33,
+        "product_hunt_url": "https://www.producthunt.com/products/woleet-sign",
+        "website_url": "https://woleet.io/EN/electronic-signature.html",
+        "category": "Document authenticity / e-signature",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 6,
+          "credibility": 8,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.86,
+        "confidence": "medium",
+        "reasoning": "Bitcoin anchoring is distinctive for document proof, but less PH-viral.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 33,
+        "actual_day_rank_label": "#33",
+        "actual_upvotes": 72,
+        "actual_upvote_rank": 27,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 0,
+        "absolute_rank_error": 0,
+        "upvote_rank_error": -6,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "comfi-2",
+      "product_name": "Comfi",
+      "prediction": {
+        "predicted_rank": 34,
+        "product_hunt_url": "https://www.producthunt.com/products/comfi-2",
+        "website_url": "https://comfi.ai/",
+        "category": "B2B fintech / SME financing",
+        "scores": {
+          "clarity": 9,
+          "novelty": 5,
+          "usefulness": 9,
+          "shareability": 5,
+          "product_hunt_audience_fit": 6,
+          "credibility": 8,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.86,
+        "confidence": "high",
+        "reasoning": "Very clear UAE SME supplier financing painkiller with concrete invoice and BNPL products.",
+        "likely_ai_bias_or_risk": "Official source; customer counts, invoice volume and impact metrics are self-reported."
+      },
+      "actuals": {
+        "actual_rank": 88,
+        "actual_day_rank_label": "#88",
+        "actual_upvotes": 14,
+        "actual_upvote_rank": 50,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 54,
+        "absolute_rank_error": 54,
+        "upvote_rank_error": 16,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "slop-goggles",
+      "product_name": "Slop Goggles",
+      "prediction": {
+        "predicted_rank": 35,
+        "product_hunt_url": "https://www.producthunt.com/products/slop-goggles",
+        "website_url": "",
+        "category": "AI-generated social content detector",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 9,
+          "product_hunt_audience_fit": 7,
+          "credibility": 3,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 6.71,
+        "confidence": "low",
+        "reasoning": "Timely and highly shareable anti-AI-slop concept with uncertain product verification.",
+        "likely_ai_bias_or_risk": "Related category/comparator source only; exact product website not found."
+      },
+      "actuals": {
+        "actual_rank": 71,
+        "actual_day_rank_label": "#71",
+        "actual_upvotes": 58,
+        "actual_upvote_rank": 43,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 36,
+        "absolute_rank_error": 36,
+        "upvote_rank_error": 8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ansvisor",
+      "product_name": "Ansvisor",
+      "prediction": {
+        "predicted_rank": 36,
+        "product_hunt_url": "https://www.producthunt.com/products/ansvisor",
+        "website_url": "https://www.ansvisor.com/",
+        "category": "AI visibility / answer engine optimization",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.71,
+        "confidence": "medium",
+        "reasoning": "Clear emerging marketing budget category, but increasingly competitive.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 42,
+        "actual_day_rank_label": "#42",
+        "actual_upvotes": 67,
+        "actual_upvote_rank": 33,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": -3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ym-dat",
+      "product_name": "YM.dat",
+      "prediction": {
+        "predicted_rank": 37,
+        "product_hunt_url": "https://www.producthunt.com/products/ym-dat",
+        "website_url": "",
+        "category": "Local archive reader / nostalgia utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 6,
+          "shareability": 8,
+          "product_hunt_audience_fit": 6,
+          "credibility": 4,
+          "launch_momentum_potential": 7
+        },
+        "predicted_success_score": 6.57,
+        "confidence": "low",
+        "reasoning": "Niche but emotionally strong Yahoo Messenger archive recovery concept; exact source unavailable.",
+        "likely_ai_bias_or_risk": "Neutral source validates .dat archive decoding need, not exact product."
+      },
+      "actuals": {
+        "actual_rank": 70,
+        "actual_day_rank_label": "#70",
+        "actual_upvotes": 59,
+        "actual_upvote_rank": 41,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 33,
+        "absolute_rank_error": 33,
+        "upvote_rank_error": 4,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "tabsense",
+      "product_name": "TabSense",
+      "prediction": {
+        "predicted_rank": 38,
+        "product_hunt_url": "https://www.producthunt.com/products/tabsense",
+        "website_url": "https://tabsense.ai/",
+        "category": "Restaurant POS / AI ordering operations",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.57,
+        "confidence": "high",
+        "reasoning": "Clear restaurant AI POS suite, though restaurant ops is less PH-native.",
+        "likely_ai_bias_or_risk": "Promotional business claims ignored."
+      },
+      "actuals": {
+        "actual_rank": 65,
+        "actual_day_rank_label": "#65",
+        "actual_upvotes": 60,
+        "actual_upvote_rank": 39,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 27,
+        "absolute_rank_error": 27,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "otamiser",
+      "product_name": "Otamiser",
+      "prediction": {
+        "predicted_rank": 39,
+        "product_hunt_url": "https://www.producthunt.com/products/otamiser",
+        "website_url": "https://www.otamiser.com/",
+        "category": "Hospitality OTA ranking management",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 5,
+          "credibility": 7,
+          "launch_momentum_potential": 5
+        },
+        "predicted_success_score": 6.57,
+        "confidence": "medium",
+        "reasoning": "Clear vertical SaaS value proposition, but less natural fit for maker-heavy PH audience.",
+        "likely_ai_bias_or_risk": "Vendor result claims treated as positioning only."
+      },
+      "actuals": {
+        "actual_rank": 72,
+        "actual_day_rank_label": "#72",
+        "actual_upvotes": 57,
+        "actual_upvote_rank": 44,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 33,
+        "absolute_rank_error": 33,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "spellar",
+      "product_name": "Spellar 3.0",
+      "prediction": {
+        "predicted_rank": 40,
+        "product_hunt_url": "https://www.producthunt.com/products/spellar",
+        "website_url": "https://www.spellar.ai/",
+        "category": "AI meeting assistant",
+        "scores": {
+          "clarity": 7,
+          "novelty": 5,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.43,
+        "confidence": "medium",
+        "reasoning": "Useful meeting assistant with cross-meeting memory, but differentiation is weaker in a crowded category.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 1,
+        "actual_day_rank_label": "#1",
+        "actual_upvotes": 501,
+        "actual_upvote_rank": 1,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -39,
+        "absolute_rank_error": 39,
+        "upvote_rank_error": -39,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "bling",
+      "product_name": "Bling",
+      "prediction": {
+        "predicted_rank": 41,
+        "product_hunt_url": "https://www.producthunt.com/products/bling",
+        "website_url": "https://www.bling.cloud/",
+        "category": "Enterprise recruiting automation",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 5,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 6
+        },
+        "predicted_success_score": 6.43,
+        "confidence": "high",
+        "reasoning": "Clear enterprise high-volume recruiting automation, but category is crowded.",
+        "likely_ai_bias_or_risk": "Outcome/compliance claims treated as vendor claims."
+      },
+      "actuals": {
+        "actual_rank": 38,
+        "actual_day_rank_label": "#38",
+        "actual_upvotes": 71,
+        "actual_upvote_rank": 29,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": -12,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ptoflow",
+      "product_name": "PTOFlow",
+      "prediction": {
+        "predicted_rank": 42,
+        "product_hunt_url": "https://www.producthunt.com/products/ptoflow",
+        "website_url": "https://ptoflow.com/",
+        "category": "HR / team operations",
+        "scores": {
+          "clarity": 9,
+          "novelty": 4,
+          "usefulness": 8,
+          "shareability": 5,
+          "product_hunt_audience_fit": 6,
+          "credibility": 7,
+          "launch_momentum_potential": 5
+        },
+        "predicted_success_score": 6.29,
+        "confidence": "high",
+        "reasoning": "Straightforward Slack and Google Calendar PTO workflow; useful but not very novel.",
+        "likely_ai_bias_or_risk": "Heuristic score may overvalue AI/developer products because the feed is unusually AI-heavy and the prompt forbids traction signals."
+      },
+      "actuals": {
+        "actual_rank": 31,
+        "actual_day_rank_label": "#31",
+        "actual_upvotes": 72,
+        "actual_upvote_rank": 28,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -11,
+        "absolute_rank_error": 11,
+        "upvote_rank_error": -14,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "quietly-5",
+      "product_name": "Quietly",
+      "prediction": {
+        "predicted_rank": 43,
+        "product_hunt_url": "https://www.producthunt.com/products/quietly-5",
+        "website_url": "",
+        "category": "Developer tools / local AI",
+        "scores": {
+          "clarity": 8,
+          "novelty": 5,
+          "usefulness": 8,
+          "shareability": 5,
+          "product_hunt_audience_fit": 8,
+          "credibility": 3,
+          "launch_momentum_potential": 5
+        },
+        "predicted_success_score": 6,
+        "confidence": "low",
+        "reasoning": "Privacy-first offline AI IDE promise is clear but not corroborated.",
+        "likely_ai_bias_or_risk": "No matching source found; scored from tagline only."
+      },
+      "actuals": {
+        "actual_rank": 68,
+        "actual_day_rank_label": "#68",
+        "actual_upvotes": 59,
+        "actual_upvote_rank": 42,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 25,
+        "absolute_rank_error": 25,
+        "upvote_rank_error": -1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "write-lint",
+      "product_name": "Write Lint",
+      "prediction": {
+        "predicted_rank": 44,
+        "product_hunt_url": "https://www.producthunt.com/products/write-lint",
+        "website_url": "",
+        "category": "Mac writing utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 4,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 3,
+          "launch_momentum_potential": 5
+        },
+        "predicted_success_score": 5.71,
+        "confidence": "low",
+        "reasoning": "Simple keyboard-shortcut proofreader value prop; product not independently verified.",
+        "likely_ai_bias_or_risk": "No non-leaky source found matching product and shortcut."
+      },
+      "actuals": {
+        "actual_rank": 43,
+        "actual_day_rank_label": "#43",
+        "actual_upvotes": 67,
+        "actual_upvote_rank": 34,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": -10,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "pip-cue",
+      "product_name": "PiP Cue",
+      "prediction": {
+        "predicted_rank": 45,
+        "product_hunt_url": "https://www.producthunt.com/products/pip-cue",
+        "website_url": "",
+        "category": "Browser video productivity / PiP captions",
+        "scores": {
+          "clarity": 8,
+          "novelty": 5,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 6,
+          "credibility": 3,
+          "launch_momentum_potential": 5
+        },
+        "predicted_success_score": 5.71,
+        "confidence": "low",
+        "reasoning": "Practical video utility with accessibility angle, but exact product website was not found.",
+        "likely_ai_bias_or_risk": "Neutral category/API source only; exact product source not found."
+      },
+      "actuals": {
+        "actual_rank": 79,
+        "actual_day_rank_label": "#79",
+        "actual_upvotes": 56,
+        "actual_upvote_rank": 48,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 34,
+        "absolute_rank_error": 34,
+        "upvote_rank_error": 3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "best-technicians-technologies-ltd",
+      "product_name": "Best Technicians Technologies LTD",
+      "prediction": {
+        "predicted_rank": 46,
+        "product_hunt_url": "https://www.producthunt.com/products/best-technicians-technologies-ltd",
+        "website_url": "",
+        "category": "Automotive AI damage assessment",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 5,
+          "product_hunt_audience_fit": 5,
+          "credibility": 3,
+          "launch_momentum_potential": 4
+        },
+        "predicted_success_score": 5.57,
+        "confidence": "low",
+        "reasoning": "Useful, concrete workflow if real; source confirms company identity but not the AI damage-assessment product.",
+        "likely_ai_bias_or_risk": "Registry source confirms company identity only, not the product claim."
+      },
+      "actuals": {
+        "actual_rank": 87,
+        "actual_day_rank_label": "#87",
+        "actual_upvotes": 15,
+        "actual_upvote_rank": 49,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 41,
+        "absolute_rank_error": 41,
+        "upvote_rank_error": 3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "klava-ai",
+      "product_name": "Klava AI",
+      "prediction": {
+        "predicted_rank": 47,
+        "product_hunt_url": "https://www.producthunt.com/products/klava-ai",
+        "website_url": "https://klava.ai/",
+        "category": "Construction procurement / tender bid comparison",
+        "scores": {
+          "clarity": 6,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 4,
+          "product_hunt_audience_fit": 5,
+          "credibility": 2,
+          "launch_momentum_potential": 3
+        },
+        "predicted_success_score": 4.86,
+        "confidence": "low",
+        "reasoning": "Specific construction tender pain, but public verification is weak.",
+        "likely_ai_bias_or_risk": "Source is a placeholder; exact positioning could not be verified."
+      },
+      "actuals": {
+        "actual_rank": 34,
+        "actual_day_rank_label": "#34",
+        "actual_upvotes": 71,
+        "actual_upvote_rank": 30,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -13,
+        "absolute_rank_error": 13,
+        "upvote_rank_error": -17,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "blueberries-2",
+      "product_name": "Blueberries.",
+      "prediction": {
+        "predicted_rank": 48,
+        "product_hunt_url": "https://www.producthunt.com/products/blueberries-2",
+        "website_url": "https://www.blueberrypos.com/",
+        "category": "Restaurant POS / business payments",
+        "scores": {
+          "clarity": 6,
+          "novelty": 3,
+          "usefulness": 7,
+          "shareability": 4,
+          "product_hunt_audience_fit": 4,
+          "credibility": 5,
+          "launch_momentum_potential": 4
+        },
+        "predicted_success_score": 4.71,
+        "confidence": "low",
+        "reasoning": "Likely restaurant POS match, but the source name differs and the zero-up-front management claim is not fully verified.",
+        "likely_ai_bias_or_risk": "Name mismatch: source is Blueberry/Blueberry POS, not explicitly 'Blueberries.'"
+      },
+      "actuals": {
+        "actual_rank": 46,
+        "actual_day_rank_label": "#46",
+        "actual_upvotes": 66,
+        "actual_upvote_rank": 35,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": -13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "replit",
+      "product_name": "AURIXA",
+      "prediction": {
+        "predicted_rank": 49,
+        "product_hunt_url": "https://www.producthunt.com/products/replit",
+        "website_url": "",
+        "category": "AI companion",
+        "scores": {
+          "clarity": 5,
+          "novelty": 4,
+          "usefulness": 5,
+          "shareability": 5,
+          "product_hunt_audience_fit": 5,
+          "credibility": 2,
+          "launch_momentum_potential": 4
+        },
+        "predicted_success_score": 4.29,
+        "confidence": "low",
+        "reasoning": "Emotionally broad AI companion promise; slug/product mismatch and no corroborating source create risk.",
+        "likely_ai_bias_or_risk": "No non-leaky source found matching AURIXA plus tagline."
+      },
+      "actuals": {
+        "actual_rank": 21,
+        "actual_day_rank_label": "#21",
+        "actual_upvotes": 80,
+        "actual_upvote_rank": 19,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -28,
+        "absolute_rank_error": 28,
+        "upvote_rank_error": -30,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "parahubxm",
+      "product_name": "ParaHubXM",
+      "prediction": {
+        "predicted_rank": 50,
+        "product_hunt_url": "https://www.producthunt.com/products/parahubxm",
+        "website_url": "",
+        "category": "Travel software / AI modular platform",
+        "scores": {
+          "clarity": 5,
+          "novelty": 4,
+          "usefulness": 6,
+          "shareability": 4,
+          "product_hunt_audience_fit": 4,
+          "credibility": 2,
+          "launch_momentum_potential": 3
+        },
+        "predicted_success_score": 4,
+        "confidence": "low",
+        "reasoning": "Travel AI category is plausible, but the product claim is broad and exact identity was not verified.",
+        "likely_ai_bias_or_risk": "Only neutral source found was an inaccessible F6S profile; not used beyond identity hint."
+      },
+      "actuals": {
+        "actual_rank": 41,
+        "actual_day_rank_label": "#41",
+        "actual_upvotes": 68,
+        "actual_upvote_rank": 32,
+        "scraped_at": "2026-05-15T08:54:05.624Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -9,
+        "absolute_rank_error": 9,
+        "upvote_rank_error": -18,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    }
+  ],
+  "notes": [
+    "Rank and upvotes are scraped from Product Hunt product pages after prediction time.",
+    "Scraped values can drift if the comparison is run before Product Hunt's launch day is fully settled."
+  ]
+}
