@@ -1,0 +1,1380 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-28T09:09:35.173Z",
+  "prediction_file": "data/producthunt/predictions/2026-05-27/predictions.json",
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-27/rss.xml",
+  "actuals_source": "Product Hunt product pages scraped with scripts/product-hunt/scrape-product.js",
+  "metrics": {
+    "prediction_count": 30,
+    "scraped_count": 30,
+    "scrape_failed_count": 0,
+    "rank_error_mean": 9.87,
+    "rank_error_median": 8,
+    "rank_error_max": 26,
+    "signed_rank_error_mean": 0,
+    "top_3_hits": 1,
+    "top_3_precision": 0.33,
+    "top_3_recall": 0.33,
+    "top_5_hits": 1,
+    "top_5_precision": 0.2,
+    "top_5_recall": 0.2,
+    "upvote_rank_error_mean": 9.73,
+    "upvote_rank_error_median": 8.5
+  },
+  "results": [
+    {
+      "product_hunt_slug": "circleci",
+      "product_name": "Chunk sidecars",
+      "prediction": {
+        "predicted_rank": 1,
+        "product_hunt_url": "https://www.producthunt.com/products/circleci",
+        "website_url": "https://circleci.com/blog/chunk-sidecars/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 9.19,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: ph-core +0.5, maker +0.2, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 24,
+        "actual_day_rank_label": "#24",
+        "actual_upvotes": 72,
+        "actual_upvote_rank": 24,
+        "scraped_at": "2026-05-28T09:09:02.710Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 23,
+        "absolute_rank_error": 23,
+        "upvote_rank_error": 23,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "bluedot-2",
+      "product_name": "Bluedot 2.1",
+      "prediction": {
+        "predicted_rank": 2,
+        "product_hunt_url": "https://www.producthunt.com/products/bluedot-2",
+        "website_url": "https://www.bluedothq.com/",
+        "category": "Outcome-focused productivity tool",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 8,
+          "product_hunt_audience_fit": 7,
+          "credibility": 9,
+          "launch_momentum_potential": 9,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 8.92,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: incumbent -0.2, maker +0.5, outcome +0.4, relaunch +0.2.",
+        "likely_ai_bias_or_risk": "Major-brand extension may land top 10 but underperformed #1 predictions historically."
+      },
+      "actuals": {
+        "actual_rank": 2,
+        "actual_day_rank_label": "#2",
+        "actual_upvotes": 405,
+        "actual_upvote_rank": 2,
+        "scraped_at": "2026-05-28T09:09:03.650Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 0,
+        "absolute_rank_error": 0,
+        "upvote_rank_error": 0,
+        "predicted_top_3": true,
+        "actual_top_3": true,
+        "top_3_hit": true,
+        "predicted_top_5": true,
+        "actual_top_5": true,
+        "top_5_hit": true
+      }
+    },
+    {
+      "product_hunt_slug": "agenticcalling-ai",
+      "product_name": "AgenticCalling AI",
+      "prediction": {
+        "predicted_rank": 3,
+        "product_hunt_url": "https://www.producthunt.com/products/agenticcalling-ai",
+        "website_url": "https://agenticcalling.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.33,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 29,
+        "actual_day_rank_label": "#29",
+        "actual_upvotes": 67,
+        "actual_upvote_rank": 29,
+        "scraped_at": "2026-05-28T09:09:05.305Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 26,
+        "absolute_rank_error": 26,
+        "upvote_rank_error": 26,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "cometchat-skills",
+      "product_name": "Calling Skills for AI Agents",
+      "prediction": {
+        "predicted_rank": 4,
+        "product_hunt_url": "https://www.producthunt.com/products/cometchat-skills",
+        "website_url": "https://www.cometchat.com/agent-chat-skills",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.33,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 10,
+        "actual_day_rank_label": "#10",
+        "actual_upvotes": 110,
+        "actual_upvote_rank": 9,
+        "scraped_at": "2026-05-28T09:09:06.441Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "octolane",
+      "product_name": "Octolane",
+      "prediction": {
+        "predicted_rank": 5,
+        "product_hunt_url": "https://www.producthunt.com/products/octolane",
+        "website_url": "https://www.octolane.com/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.33,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 6,
+        "actual_day_rank_label": "#6",
+        "actual_upvotes": 163,
+        "actual_upvote_rank": 6,
+        "scraped_at": "2026-05-28T09:09:06.898Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "bankstatementlab",
+      "product_name": "BankStatementLab",
+      "prediction": {
+        "predicted_rank": 6,
+        "product_hunt_url": "https://www.producthunt.com/products/bankstatementlab",
+        "website_url": "https://www.bankstatementlab.com/fr",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.33,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 23,
+        "actual_day_rank_label": "#23",
+        "actual_upvotes": 74,
+        "actual_upvote_rank": 22,
+        "scraped_at": "2026-05-28T09:09:07.434Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 17,
+        "absolute_rank_error": 17,
+        "upvote_rank_error": 16,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "phasr-2",
+      "product_name": "Phasr",
+      "prediction": {
+        "predicted_rank": 7,
+        "product_hunt_url": "https://www.producthunt.com/products/phasr-2",
+        "website_url": "https://phasr.sh/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.27,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 16,
+        "actual_day_rank_label": "#16",
+        "actual_upvotes": 84,
+        "actual_upvote_rank": 16,
+        "scraped_at": "2026-05-28T09:09:08.407Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 9,
+        "absolute_rank_error": 9,
+        "upvote_rank_error": 9,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "powabase",
+      "product_name": "Powabase",
+      "prediction": {
+        "predicted_rank": 8,
+        "product_hunt_url": "https://www.producthunt.com/products/powabase",
+        "website_url": "https://powabase.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.27,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 1,
+        "actual_day_rank_label": "#1",
+        "actual_upvotes": 414,
+        "actual_upvote_rank": 1,
+        "scraped_at": "2026-05-28T09:09:09.439Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -7,
+        "absolute_rank_error": 7,
+        "upvote_rank_error": -7,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "bob-s-workshop",
+      "product_name": "BobCA",
+      "prediction": {
+        "predicted_rank": 9,
+        "product_hunt_url": "https://www.producthunt.com/products/bob-s-workshop",
+        "website_url": "https://bobs-workshop.web.app/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.27,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 21,
+        "actual_day_rank_label": "#21",
+        "actual_upvotes": 75,
+        "actual_upvote_rank": 21,
+        "scraped_at": "2026-05-28T09:09:10.945Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 12,
+        "absolute_rank_error": 12,
+        "upvote_rank_error": 12,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "habor",
+      "product_name": "Harbor",
+      "prediction": {
+        "predicted_rank": 10,
+        "product_hunt_url": "https://www.producthunt.com/products/habor",
+        "website_url": "https://github.com/av/harbor",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.27,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 30,
+        "actual_day_rank_label": "#30",
+        "actual_upvotes": 67,
+        "actual_upvote_rank": 30,
+        "scraped_at": "2026-05-28T09:09:11.263Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 20,
+        "absolute_rank_error": 20,
+        "upvote_rank_error": 20,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "quicksheet-light-spreadsheet",
+      "product_name": "QuickSheet v1.2",
+      "prediction": {
+        "predicted_rank": 11,
+        "product_hunt_url": "https://www.producthunt.com/products/quicksheet-light-spreadsheet",
+        "website_url": "https://apps.apple.com/us/app/quicksheet-light-spreadsheet/id6748457063?mt=12&at=1000l6eA",
+        "category": "Consumer / novelty utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 4,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 8.22,
+        "confidence": "low",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: broad-trap -0.4, maker +0.5, practical-builder +0.3, relaunch +0.2.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 19,
+        "actual_day_rank_label": "#19",
+        "actual_upvotes": 78,
+        "actual_upvote_rank": 19,
+        "scraped_at": "2026-05-28T09:09:12.262Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": 8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "kahana",
+      "product_name": "Oasis Browser for Mac",
+      "prediction": {
+        "predicted_rank": 12,
+        "product_hunt_url": "https://www.producthunt.com/products/kahana",
+        "website_url": "https://kahana.co/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.94,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: maker +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 4,
+        "actual_day_rank_label": "#4",
+        "actual_upvotes": 244,
+        "actual_upvote_rank": 4,
+        "scraped_at": "2026-05-28T09:09:13.468Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": -8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "netfox",
+      "product_name": "Netfox",
+      "prediction": {
+        "predicted_rank": 13,
+        "product_hunt_url": "https://www.producthunt.com/products/netfox",
+        "website_url": "https://netfox.app/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.45,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: maker +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 15,
+        "actual_day_rank_label": "#15",
+        "actual_upvotes": 86,
+        "actual_upvote_rank": 15,
+        "scraped_at": "2026-05-28T09:09:15.302Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": 2,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "jott-before-you-forget",
+      "product_name": "Jott",
+      "prediction": {
+        "predicted_rank": 14,
+        "product_hunt_url": "https://www.producthunt.com/products/jott-before-you-forget",
+        "website_url": "https://jott.harshachaganti.com/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.45,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: maker +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 22,
+        "actual_day_rank_label": "#22",
+        "actual_upvotes": 73,
+        "actual_upvote_rank": 23,
+        "scraped_at": "2026-05-28T09:09:16.517Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": 9,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "gengo-2",
+      "product_name": "GenGo",
+      "prediction": {
+        "predicted_rank": 15,
+        "product_hunt_url": "https://www.producthunt.com/products/gengo-2",
+        "website_url": "https://tetsuakibaba.github.io/GenGo/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.45,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: maker +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 26,
+        "actual_day_rank_label": "#26",
+        "actual_upvotes": 70,
+        "actual_upvote_rank": 26,
+        "scraped_at": "2026-05-28T09:09:17.761Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 11,
+        "absolute_rank_error": 11,
+        "upvote_rank_error": 11,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "layers-8",
+      "product_name": "Layers",
+      "prediction": {
+        "predicted_rank": 16,
+        "product_hunt_url": "https://www.producthunt.com/products/layers-8",
+        "website_url": "https://www.newcreative.studio/layers",
+        "category": "Consumer / novelty utility",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 4,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.3,
+        "confidence": "low",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: broad-trap -0.4, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 8,
+        "actual_day_rank_label": "#8",
+        "actual_upvotes": 113,
+        "actual_upvote_rank": 8,
+        "scraped_at": "2026-05-28T09:09:18.779Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": -8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "archi-flow",
+      "product_name": "Archi-Flow",
+      "prediction": {
+        "predicted_rank": 17,
+        "product_hunt_url": "https://www.producthunt.com/products/archi-flow",
+        "website_url": "https://archi-flow.onrender.com/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 18,
+        "actual_day_rank_label": "#18",
+        "actual_upvotes": 82,
+        "actual_upvote_rank": 18,
+        "scraped_at": "2026-05-28T09:09:19.100Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "bazaar-2",
+      "product_name": "baz.studio",
+      "prediction": {
+        "predicted_rank": 18,
+        "product_hunt_url": "https://www.producthunt.com/products/bazaar-2",
+        "website_url": "https://baz.studio/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 14,
+        "actual_day_rank_label": "#14",
+        "actual_upvotes": 91,
+        "actual_upvote_rank": 14,
+        "scraped_at": "2026-05-28T09:09:19.455Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -4,
+        "absolute_rank_error": 4,
+        "upvote_rank_error": -4,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "circadiaos",
+      "product_name": "CircadiaOS",
+      "prediction": {
+        "predicted_rank": 19,
+        "product_hunt_url": "https://www.producthunt.com/products/circadiaos",
+        "website_url": "https://circadiaos.com/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 13,
+        "actual_day_rank_label": "#13",
+        "actual_upvotes": 94,
+        "actual_upvote_rank": 13,
+        "scraped_at": "2026-05-28T09:09:20.811Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": -6,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "mojito-2",
+      "product_name": "Mojito",
+      "prediction": {
+        "predicted_rank": 20,
+        "product_hunt_url": "https://www.producthunt.com/products/mojito-2",
+        "website_url": "https://mojito.wells.ee/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 7,
+        "actual_day_rank_label": "#7",
+        "actual_upvotes": 147,
+        "actual_upvote_rank": 7,
+        "scraped_at": "2026-05-28T09:09:22.015Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -13,
+        "absolute_rank_error": 13,
+        "upvote_rank_error": -13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "basebuddy",
+      "product_name": "BaseBuddy",
+      "prediction": {
+        "predicted_rank": 21,
+        "product_hunt_url": "https://www.producthunt.com/products/basebuddy",
+        "website_url": "https://basebuddycms.com/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 12,
+        "actual_day_rank_label": "#12",
+        "actual_upvotes": 99,
+        "actual_upvote_rank": 12,
+        "scraped_at": "2026-05-28T09:09:23.256Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -9,
+        "absolute_rank_error": 9,
+        "upvote_rank_error": -9,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "aviquill",
+      "product_name": "Aviquill",
+      "prediction": {
+        "predicted_rank": 22,
+        "product_hunt_url": "https://www.producthunt.com/products/aviquill",
+        "website_url": "https://aviquill.net/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 25,
+        "actual_day_rank_label": "#25",
+        "actual_upvotes": 72,
+        "actual_upvote_rank": 25,
+        "scraped_at": "2026-05-28T09:09:23.542Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": 3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "local-panel",
+      "product_name": "Local Panel",
+      "prediction": {
+        "predicted_rank": 23,
+        "product_hunt_url": "https://www.producthunt.com/products/local-panel",
+        "website_url": "https://nesdzo.com/localpanel/",
+        "category": "General productivity tool",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.03,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 20,
+        "actual_day_rank_label": "#20",
+        "actual_upvotes": 78,
+        "actual_upvote_rank": 20,
+        "scraped_at": "2026-05-28T09:09:24.522Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": -3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "krater-ai",
+      "product_name": "Krater",
+      "prediction": {
+        "predicted_rank": 24,
+        "product_hunt_url": "https://www.producthunt.com/products/krater-ai",
+        "website_url": "https://krater.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.02,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 11,
+        "actual_day_rank_label": "#11",
+        "actual_upvotes": 100,
+        "actual_upvote_rank": 11,
+        "scraped_at": "2026-05-28T09:09:25.404Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -13,
+        "absolute_rank_error": 13,
+        "upvote_rank_error": -13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "coworker-ai",
+      "product_name": "Coworker AI",
+      "prediction": {
+        "predicted_rank": 25,
+        "product_hunt_url": "https://www.producthunt.com/products/coworker-ai",
+        "website_url": "https://coworker.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.02,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 5,
+        "actual_day_rank_label": "#5",
+        "actual_upvotes": 205,
+        "actual_upvote_rank": 5,
+        "scraped_at": "2026-05-28T09:09:27.144Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -20,
+        "absolute_rank_error": 20,
+        "upvote_rank_error": -20,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "zero-xyz",
+      "product_name": "zero.xyz",
+      "prediction": {
+        "predicted_rank": 26,
+        "product_hunt_url": "https://www.producthunt.com/products/zero-xyz",
+        "website_url": "https://www.zero.xyz/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.02,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 3,
+        "actual_day_rank_label": "#3",
+        "actual_upvotes": 279,
+        "actual_upvote_rank": 3,
+        "scraped_at": "2026-05-28T09:09:28.562Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -23,
+        "absolute_rank_error": 23,
+        "upvote_rank_error": -23,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "curlo",
+      "product_name": "Curlo",
+      "prediction": {
+        "predicted_rank": 27,
+        "product_hunt_url": "https://www.producthunt.com/products/curlo",
+        "website_url": "https://apps.apple.com/us/app/curlo-audio-asset-manager/id6759231617?mt=12&at=1000l6eA",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.02,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 28,
+        "actual_day_rank_label": "#28",
+        "actual_upvotes": 68,
+        "actual_upvote_rank": 27,
+        "scraped_at": "2026-05-28T09:09:29.966Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": 0,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "extend-2",
+      "product_name": "Extend",
+      "prediction": {
+        "predicted_rank": 28,
+        "product_hunt_url": "https://www.producthunt.com/products/extend-2",
+        "website_url": "https://www.extend.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.02,
+        "confidence": "medium",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 17,
+        "actual_day_rank_label": "#17",
+        "actual_upvotes": 84,
+        "actual_upvote_rank": 17,
+        "scraped_at": "2026-05-28T09:09:31.065Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -11,
+        "absolute_rank_error": 11,
+        "upvote_rank_error": -11,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "mac-screen-simulator-studio-practice",
+      "product_name": "MacSIM by Studio Practice",
+      "prediction": {
+        "predicted_rank": 29,
+        "product_hunt_url": "https://www.producthunt.com/products/mac-screen-simulator-studio-practice",
+        "website_url": "https://studiopractice.io/special-projects/macsim",
+        "category": "Consumer / novelty utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 4,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 6.97,
+        "confidence": "low",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: broad-trap -0.4, maker +0.2.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 27,
+        "actual_day_rank_label": "#27",
+        "actual_upvotes": 68,
+        "actual_upvote_rank": 28,
+        "scraped_at": "2026-05-28T09:09:32.932Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": -1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "pawse-ai",
+      "product_name": "Pawse.ai",
+      "prediction": {
+        "predicted_rank": 30,
+        "product_hunt_url": "https://www.producthunt.com/products/pawse-ai",
+        "website_url": "https://beta.pawse.ai/",
+        "category": "AI builder / agent utility",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 6.54,
+        "confidence": "low",
+        "reasoning": "Heuristic scoring from launch title/tagline and resolved website; calibrated to Product Hunt maker-heavy electorate while avoiding traction leakage. Calibration: saturation -0.5, broad-trap -0.4.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 9,
+        "actual_day_rank_label": "#9",
+        "actual_upvotes": 106,
+        "actual_upvote_rank": 10,
+        "scraped_at": "2026-05-28T09:09:33.928Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -21,
+        "absolute_rank_error": 21,
+        "upvote_rank_error": -20,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    }
+  ],
+  "notes": [
+    "Rank and upvotes are scraped from Product Hunt product pages after prediction time.",
+    "Scraped values can drift if the comparison is run before Product Hunt's launch day is fully settled."
+  ]
+}

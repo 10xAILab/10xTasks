@@ -1,0 +1,1245 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-27T13:27:57.461Z",
+  "prediction_file": "data/producthunt/predictions/2026-05-26/predictions.json",
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-26/rss.xml",
+  "actuals_source": "Product Hunt product pages scraped with scripts/product-hunt/scrape-product.js",
+  "metrics": {
+    "prediction_count": 27,
+    "scraped_count": 27,
+    "scrape_failed_count": 0,
+    "rank_error_mean": 7.26,
+    "rank_error_median": 5,
+    "rank_error_max": 22,
+    "signed_rank_error_mean": 0,
+    "top_3_hits": 1,
+    "top_3_precision": 0.33,
+    "top_3_recall": 0.33,
+    "top_5_hits": 1,
+    "top_5_precision": 0.2,
+    "top_5_recall": 0.2,
+    "upvote_rank_error_mean": 7.19,
+    "upvote_rank_error_median": 6
+  },
+  "results": [
+    {
+      "product_hunt_slug": "willow-voice",
+      "product_name": "Willow Scribe",
+      "prediction": {
+        "predicted_rank": 1,
+        "product_hunt_url": "https://www.producthunt.com/products/willow-voice",
+        "website_url": "https://willowvoice.com/",
+        "category": "AI voice dictation / Willow Scribe (Garry Tan hunt, YC X25)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 10,
+          "credibility": 9,
+          "launch_momentum_potential": 9,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 11.85,
+        "confidence": "medium",
+        "reasoning": "Garry Tan hunt on a prior PH winner (YC X25, 50k+ users, Uber enterprise)—Scribe extends ship-today voice-to-text for makers in Cursor/Slack; workflow outcome with full maker boost, not generic saturated agent. Calibration: ph-core +0.5, maker +0.5, outcome +0.4, combo +0.3, practical-builder +0.3, relaunch +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 7,
+        "actual_day_rank_label": "#7",
+        "actual_upvotes": 145,
+        "actual_upvote_rank": 7,
+        "scraped_at": "2026-05-27T13:27:22.422Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 6,
+        "absolute_rank_error": 6,
+        "upvote_rank_error": 6,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "brew-5",
+      "product_name": "Brew",
+      "prediction": {
+        "predicted_rank": 2,
+        "product_hunt_url": "https://www.producthunt.com/products/brew-5",
+        "website_url": "https://brew.new/",
+        "category": "AI-native ESP / email marketing (Rohan Chaubey hunt)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 9,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 7,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 10.29,
+        "confidence": "medium",
+        "reasoning": "Rohan hunt on agent-native ESP (“Lovable for email”) with brand extraction and ship-today free tier—founder GTM outcome, not MCP; capped +0.2 maker boost vs full +0.5. Calibration: ph-core +0.5, maker +0.2, outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 1,
+        "actual_day_rank_label": "#1",
+        "actual_upvotes": 680,
+        "actual_upvote_rank": 1,
+        "scraped_at": "2026-05-27T13:27:22.935Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": -1,
+        "predicted_top_3": true,
+        "actual_top_3": true,
+        "top_3_hit": true,
+        "predicted_top_5": true,
+        "actual_top_5": true,
+        "top_5_hit": true
+      }
+    },
+    {
+      "product_hunt_slug": "trace-27",
+      "product_name": "Trace",
+      "prediction": {
+        "predicted_rank": 3,
+        "product_hunt_url": "https://www.producthunt.com/products/trace-27",
+        "website_url": "https://traceapp.info/",
+        "category": "Offline Mac meeting transcripts (vertical agent utility)",
+        "scores": {
+          "clarity": 10,
+          "novelty": 8,
+          "usefulness": 9,
+          "shareability": 8,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 7,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 10.22,
+        "confidence": "medium",
+        "reasoning": "Meeting outcome with obvious JTBD—on-device transcription, no cloud/bots; 2026-05-20 calibration: vertical agent utilities with usefulness ≥8 beat generic agent penalties. Calibration: ph-core +0.5, outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 25,
+        "actual_day_rank_label": "#25",
+        "actual_upvotes": 82,
+        "actual_upvote_rank": 25,
+        "scraped_at": "2026-05-27T13:27:23.350Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 22,
+        "absolute_rank_error": 22,
+        "upvote_rank_error": 22,
+        "predicted_top_3": true,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ferrari-luce-2",
+      "product_name": "Ferrari Luce",
+      "prediction": {
+        "predicted_rank": 4,
+        "product_hunt_url": "https://www.producthunt.com/products/ferrari-luce-2",
+        "website_url": "https://www.ferrari.com/auto/ferrari-luce",
+        "category": "Hardware — first electric Ferrari (LoveFrom, Chris Messina hunt)",
+        "scores": {
+          "clarity": 10,
+          "novelty": 9,
+          "usefulness": 6,
+          "shareability": 10,
+          "product_hunt_audience_fit": 7,
+          "credibility": 10,
+          "launch_momentum_potential": 10,
+          "ph_core_voter_appeal": 5,
+          "broad_vote_appeal": 10,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 9.51,
+        "confidence": "medium",
+        "reasoning": "Chris Messina + once-in-a-generation brand/hardware story drives day-rank via shareability; weak ph-core for dev electorate caps #1 vs Garry workflow hunts but belongs top 5 on a 27-launch feed. Calibration: maker +0.2, hardware +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 9,
+        "actual_day_rank_label": "#9",
+        "actual_upvotes": 132,
+        "actual_upvote_rank": 9,
+        "scraped_at": "2026-05-27T13:27:24.904Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "dnsimple",
+      "product_name": "DNSimple CLI",
+      "prediction": {
+        "predicted_rank": 5,
+        "product_hunt_url": "https://www.producthunt.com/products/dnsimple",
+        "website_url": "https://dnsimple.com/",
+        "category": "DNS management CLI v3 (established DNSimple brand)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 9,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 9.26,
+        "confidence": "high",
+        "reasoning": "Ship-today CLI for domains/DNS aimed at agentic dev workflows—credible incumbent extension with practical-builder boost; incumbent cap keeps below hunter-led #1. Calibration: incumbent -0.4, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": "Major-brand extension may land top 10 but underperformed #1 predictions historically."
+      },
+      "actuals": {
+        "actual_rank": 18,
+        "actual_day_rank_label": "#18",
+        "actual_upvotes": 92,
+        "actual_upvote_rank": 17,
+        "scraped_at": "2026-05-27T13:27:26.356Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 13,
+        "absolute_rank_error": 13,
+        "upvote_rank_error": 12,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": true,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "selectprism",
+      "product_name": "SelectPrism",
+      "prediction": {
+        "predicted_rank": 6,
+        "product_hunt_url": "https://www.producthunt.com/products/selectprism",
+        "website_url": "https://selectprism.ai/agentic-ai-interview",
+        "category": "Agentic AI hiring interviews (Chris Messina hunt)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 9,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 9.26,
+        "confidence": "medium",
+        "reasoning": "Chris Messina hunt with visceral demo (AI-led L1 interviews, 50 free trials)—clear hiring outcome for startup founders; hunter visibility beats undifferentiated infra despite saturated HR-tech label. Calibration: maker +0.2, outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 8,
+        "actual_day_rank_label": "#8",
+        "actual_upvotes": 136,
+        "actual_upvote_rank": 8,
+        "scraped_at": "2026-05-27T13:27:26.629Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": 2,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "blokdots",
+      "product_name": "blokdots 3.0",
+      "prediction": {
+        "predicted_rank": 7,
+        "product_hunt_url": "https://www.producthunt.com/products/blokdots",
+        "website_url": "https://blokdots.com/",
+        "category": "Hardware prototyping — blokdots 3.0 (prior PH, exports C++)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 8,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 9.09,
+        "confidence": "medium",
+        "reasoning": "Prior PH winner (2023) shipping 3.0 with visual hardware→C++ export—hardware boost + relaunch pattern; strong demo for designers/makers but not Chris/Garry hunter tier. Calibration: hardware +0.3, relaunch +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 19,
+        "actual_day_rank_label": "#19",
+        "actual_upvotes": 91,
+        "actual_upvote_rank": 18,
+        "scraped_at": "2026-05-27T13:27:28.030Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 12,
+        "absolute_rank_error": 12,
+        "upvote_rank_error": 11,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "portia-ai",
+      "product_name": "Rezonant",
+      "prediction": {
+        "predicted_rank": 8,
+        "product_hunt_url": "https://www.producthunt.com/products/portia-ai",
+        "website_url": "https://www.rezonant.app/",
+        "category": "Product workspace — talk/spec/ship to Jira (Rezonant)",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 9.07,
+        "confidence": "medium",
+        "reasoning": "Clear PM/founder outcome (ideas→Jira tickets + coding agent) but crowded “AI product manager” archetype without top-tier hunter. Calibration: ph-core +0.5, outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 3,
+        "actual_day_rank_label": "#3",
+        "actual_upvotes": 292,
+        "actual_upvote_rank": 3,
+        "scraped_at": "2026-05-27T13:27:29.732Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": -5,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "outbond",
+      "product_name": "Bond",
+      "prediction": {
+        "predicted_rank": 9,
+        "product_hunt_url": "https://www.producthunt.com/products/outbond",
+        "website_url": "https://www.askbond.ai/",
+        "category": "Outbound campaigns from buying signals (Bond)",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 9.07,
+        "confidence": "medium",
+        "reasoning": "Founder GTM outcome (signal-based outbound) without famous hunter—solid mid-pack vs Chris/Garry hunts. Calibration: ph-core +0.5, outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 2,
+        "actual_day_rank_label": "#2",
+        "actual_upvotes": 395,
+        "actual_upvote_rank": 2,
+        "scraped_at": "2026-05-27T13:27:31.773Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -7,
+        "absolute_rank_error": 7,
+        "upvote_rank_error": -7,
+        "predicted_top_3": false,
+        "actual_top_3": true,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "crunr-run-it-ghost-it",
+      "product_name": "crunr",
+      "prediction": {
+        "predicted_rank": 10,
+        "product_hunt_url": "https://www.producthunt.com/products/crunr-run-it-ghost-it",
+        "website_url": "https://www.crunr.com/",
+        "category": "One-command AWS compute jobs CLI",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 4,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.98,
+        "confidence": "medium",
+        "reasoning": "Clear ship-today infra for running GPU/training jobs on AWS—strong ph-core, no hunter to break into top 5. Calibration: ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 15,
+        "actual_day_rank_label": "#15",
+        "actual_upvotes": 103,
+        "actual_upvote_rank": 15,
+        "scraped_at": "2026-05-27T13:27:32.098Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "replylessai",
+      "product_name": "ReplylessAI Sequences",
+      "prediction": {
+        "predicted_rank": 11,
+        "product_hunt_url": "https://www.producthunt.com/products/replylessai",
+        "website_url": "https://www.replyless.ai/features/email-sequences",
+        "category": "Lean outbound email sequences",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.98,
+        "confidence": "high",
+        "reasoning": "Anti-bloat sales sequences for indie founders—practical builder tool in a crowded outbound cluster. Calibration: ph-core +0.5, outcome +0.4, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 27,
+        "actual_day_rank_label": "#27",
+        "actual_upvotes": 68,
+        "actual_upvote_rank": 27,
+        "scraped_at": "2026-05-27T13:27:33.246Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 16,
+        "absolute_rank_error": 16,
+        "upvote_rank_error": 16,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "marpy-io-python-first-ai-dev-platform",
+      "product_name": "marpy.io",
+      "prediction": {
+        "predicted_rank": 12,
+        "product_hunt_url": "https://www.producthunt.com/products/marpy-io-python-first-ai-dev-platform",
+        "website_url": "https://marpy.io/",
+        "category": "Python-first AI coding platform",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 9,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 7,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 8.95,
+        "confidence": "medium",
+        "reasoning": "Ship-today Python stack IDE for AI builders—practical-builder slot on a 27-launch feed (not ≤25 small-feed cap cluster). Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 14,
+        "actual_day_rank_label": "#14",
+        "actual_upvotes": 105,
+        "actual_upvote_rank": 13,
+        "scraped_at": "2026-05-27T13:27:34.666Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "kept-ai-on-your-local-conversations",
+      "product_name": "Kept",
+      "prediction": {
+        "predicted_rank": 13,
+        "product_hunt_url": "https://www.producthunt.com/products/kept-ai-on-your-local-conversations",
+        "website_url": "https://kept.work/",
+        "category": "Local Markdown export for AI chats",
+        "scores": {
+          "clarity": 9,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.28,
+        "confidence": "medium",
+        "reasoning": "Privacy-first local archive for ChatGPT/Claude threads—narrow but instant try for makers; saturated memory-adjacent archetype. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 13,
+        "actual_day_rank_label": "#13",
+        "actual_upvotes": 104,
+        "actual_upvote_rank": 14,
+        "scraped_at": "2026-05-27T13:27:36.077Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 0,
+        "absolute_rank_error": 0,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "avaturn-live-2",
+      "product_name": "AVTR-1 Real-Time Open Weights Model",
+      "prediction": {
+        "predicted_rank": 14,
+        "product_hunt_url": "https://www.producthunt.com/products/avaturn-live-2",
+        "website_url": "https://avaturn.live/",
+        "category": "Open-weights real-time avatar model (Chris Messina hunt)",
+        "scores": {
+          "clarity": 8,
+          "novelty": 9,
+          "usefulness": 7,
+          "shareability": 9,
+          "product_hunt_audience_fit": 8,
+          "credibility": 8,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 7,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 8.95,
+        "confidence": "medium",
+        "reasoning": "Chris Messina + open-weights avatar release—high shareability for AI/dev Twitter; differentiated from generic agent layers via open model hook. Calibration: maker +0.2.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 6,
+        "actual_day_rank_label": "#6",
+        "actual_upvotes": 174,
+        "actual_upvote_rank": 6,
+        "scraped_at": "2026-05-27T13:27:36.376Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": -8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "minicpm-4-0",
+      "product_name": "MiniCPM5-1B",
+      "prediction": {
+        "predicted_rank": 15,
+        "product_hunt_url": "https://www.producthunt.com/products/minicpm-4-0",
+        "website_url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "category": "MiniCPM5-1B compact open model (edge SOTA)",
+        "scores": {
+          "clarity": 9,
+          "novelty": 9,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 9,
+          "credibility": 8,
+          "launch_momentum_potential": 8,
+          "ph_core_voter_appeal": 9,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 8
+        },
+        "predicted_success_score": 8.84,
+        "confidence": "medium",
+        "reasoning": "OpenBMB edge-model ship with Hugging Face weights—strong ph-core for ML makers; saturated local-LLM feed limits top-3 without hunter. Calibration: saturation -0.5, ph-core +0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 16,
+        "actual_day_rank_label": "#16",
+        "actual_upvotes": 95,
+        "actual_upvote_rank": 16,
+        "scraped_at": "2026-05-27T13:27:37.958Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 1,
+        "absolute_rank_error": 1,
+        "upvote_rank_error": 1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "notecove",
+      "product_name": "NoteCove",
+      "prediction": {
+        "predicted_rank": 16,
+        "product_hunt_url": "https://www.producthunt.com/products/notecove",
+        "website_url": "https://notecove.io/",
+        "category": "Offline-first notes/tasks with AI",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.75,
+        "confidence": "medium",
+        "reasoning": "Anti-SaaS offline notes for builders—practical-builder mid-pack on large feed. Calibration: ph-core +0.5, practical-builder +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 24,
+        "actual_day_rank_label": "#24",
+        "actual_upvotes": 83,
+        "actual_upvote_rank": 24,
+        "scraped_at": "2026-05-27T13:27:39.103Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": 8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "tesserac",
+      "product_name": "Tesserac",
+      "prediction": {
+        "predicted_rank": 17,
+        "product_hunt_url": "https://www.producthunt.com/products/tesserac",
+        "website_url": "https://lucidbit.app/Tesserac/tesserac.html",
+        "category": "Spatial macOS window switcher",
+        "scores": {
+          "clarity": 8,
+          "novelty": 8,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 8,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.66,
+        "confidence": "medium",
+        "reasoning": "Mac productivity utility with clear demo for makers—not broad-trap (dev-focused Cmd+Tab alternative). Calibration: ph-core +0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 21,
+        "actual_day_rank_label": "#21",
+        "actual_upvotes": 86,
+        "actual_upvote_rank": 22,
+        "scraped_at": "2026-05-27T13:27:40.569Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 4,
+        "absolute_rank_error": 4,
+        "upvote_rank_error": 5,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "dodoform",
+      "product_name": "DodoForm",
+      "prediction": {
+        "predicted_rank": 18,
+        "product_hunt_url": "https://www.producthunt.com/products/dodoform",
+        "website_url": "https://www.dodoform.com/",
+        "category": "Multimodal input → structured form data",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 8.31,
+        "confidence": "medium",
+        "reasoning": "Clear before/after for field teams—broad appeal moderate; no hunter signal for top 10. Calibration: combo +0.3.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 10,
+        "actual_day_rank_label": "#10",
+        "actual_upvotes": 119,
+        "actual_upvote_rank": 10,
+        "scraped_at": "2026-05-27T13:27:42.080Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -8,
+        "absolute_rank_error": 8,
+        "upvote_rank_error": -8,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "quakpit",
+      "product_name": "QuakPit",
+      "prediction": {
+        "predicted_rank": 19,
+        "product_hunt_url": "https://www.producthunt.com/products/quakpit",
+        "website_url": "https://quakpit.app/",
+        "category": "Playful Mac meeting reminders",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 9,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 6,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.99,
+        "confidence": "low",
+        "reasoning": "High shareability Mac novelty with weak ph-core—broad-trap penalty; meeting-adjacent but not outcome winner like Trace. Calibration: broad-trap -0.4, outcome +0.4.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 4,
+        "actual_day_rank_label": "#4",
+        "actual_upvotes": 220,
+        "actual_upvote_rank": 4,
+        "scraped_at": "2026-05-27T13:27:43.488Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -15,
+        "absolute_rank_error": 15,
+        "upvote_rank_error": -15,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "likepulse",
+      "product_name": "LikePulse",
+      "prediction": {
+        "predicted_rank": 20,
+        "product_hunt_url": "https://www.producthunt.com/products/likepulse",
+        "website_url": "https://likepulse.app/",
+        "category": "YouTube audience reaction heatmaps",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 7,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 7,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.91,
+        "confidence": "medium",
+        "reasoning": "Creator analytics with instant visual hook—growth/creator sleeper to scan below rank 12 per 2026-05-22 calibration.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 20,
+        "actual_day_rank_label": "#20",
+        "actual_upvotes": 91,
+        "actual_upvote_rank": 19,
+        "scraped_at": "2026-05-27T13:27:45.346Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 0,
+        "absolute_rank_error": 0,
+        "upvote_rank_error": -1,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "parrot-speech-to-text-api",
+      "product_name": "Parrot Speech-to-text API",
+      "prediction": {
+        "predicted_rank": 21,
+        "product_hunt_url": "https://www.producthunt.com/products/parrot-speech-to-text-api",
+        "website_url": "https://www.ringg.ai/models/speech-to-text/v1?utm_source=producthunt&utm_medium=launch&utm_campaign=parrot_stt&ref=producthunt",
+        "category": "Production STT API for voice agents",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 8,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 8,
+          "broad_vote_appeal": 4,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.76,
+        "confidence": "medium",
+        "reasoning": "Useful voice-agent infra but B2B API without hunter—2026-05-22 pattern: demote B2B infra without famous hunter from top 5. Calibration: saturation -0.5, ph-core +0.5.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 5,
+        "actual_day_rank_label": "#5",
+        "actual_upvotes": 184,
+        "actual_upvote_rank": 5,
+        "scraped_at": "2026-05-27T13:27:47.634Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -16,
+        "absolute_rank_error": 16,
+        "upvote_rank_error": -16,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": true,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ormedo",
+      "product_name": "Ormedo",
+      "prediction": {
+        "predicted_rank": 22,
+        "product_hunt_url": "https://www.producthunt.com/products/ormedo",
+        "website_url": "https://www.ormedo.tech/",
+        "category": "AI agents for outbound pipeline",
+        "scores": {
+          "clarity": 8,
+          "novelty": 6,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 6,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 5,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 7.74,
+        "confidence": "medium",
+        "reasoning": "Generic saturated outbound-agent positioning—outcome hook present but undifferentiated vs Bond/Replyless in same feed. Calibration: outcome +0.4.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 17,
+        "actual_day_rank_label": "#17",
+        "actual_upvotes": 91,
+        "actual_upvote_rank": 20,
+        "scraped_at": "2026-05-27T13:27:49.215Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": -2,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "parsewise",
+      "product_name": "Parsewise API",
+      "prediction": {
+        "predicted_rank": 23,
+        "product_hunt_url": "https://www.producthunt.com/products/parsewise",
+        "website_url": "https://www.parsewise.ai/api",
+        "category": "Agentic multi-document processing API",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 8,
+          "shareability": 6,
+          "product_hunt_audience_fit": 7,
+          "credibility": 7,
+          "launch_momentum_potential": 7,
+          "ph_core_voter_appeal": 7,
+          "broad_vote_appeal": 4,
+          "credibility_effective": 7
+        },
+        "predicted_success_score": 7.55,
+        "confidence": "medium",
+        "reasoning": "B2B doc API in saturated agentic-doc cluster—best_in_feed_infra alone caps top ~12 on prior calibration.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 11,
+        "actual_day_rank_label": "#11",
+        "actual_upvotes": 117,
+        "actual_upvote_rank": 11,
+        "scraped_at": "2026-05-27T13:27:50.631Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -12,
+        "absolute_rank_error": 12,
+        "upvote_rank_error": -12,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ai-shadowing",
+      "product_name": "AI Shadowing",
+      "prediction": {
+        "predicted_rank": 24,
+        "product_hunt_url": "https://www.producthunt.com/products/ai-shadowing",
+        "website_url": "https://aishadowing.net/",
+        "category": "YouTube → language shadowing lessons",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 5,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 6.89,
+        "confidence": "low",
+        "reasoning": "Consumer language-learning from YouTube—broad-trap archetype (high broad, low ph-core). Calibration: broad-trap -0.4.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 26,
+        "actual_day_rank_label": "#26",
+        "actual_upvotes": 76,
+        "actual_upvote_rank": 26,
+        "scraped_at": "2026-05-27T13:27:52.430Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": 2,
+        "absolute_rank_error": 2,
+        "upvote_rank_error": 2,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "langpanda",
+      "product_name": "LangPanda",
+      "prediction": {
+        "predicted_rank": 25,
+        "product_hunt_url": "https://www.producthunt.com/products/langpanda",
+        "website_url": "https://langpanda.com/",
+        "category": "Learn languages from TV shows",
+        "scores": {
+          "clarity": 8,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 7,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 5,
+          "broad_vote_appeal": 8,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 6.89,
+        "confidence": "low",
+        "reasoning": "Entertainment-language broad trap—unlikely top 10 on maker-heavy PH day. Calibration: broad-trap -0.4.",
+        "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked."
+      },
+      "actuals": {
+        "actual_rank": 12,
+        "actual_day_rank_label": "#12",
+        "actual_upvotes": 113,
+        "actual_upvote_rank": 12,
+        "scraped_at": "2026-05-27T13:27:53.832Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -13,
+        "absolute_rank_error": 13,
+        "upvote_rank_error": -13,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "hayley-your-thinking-companion",
+      "product_name": "Hayley",
+      "prediction": {
+        "predicted_rank": 26,
+        "product_hunt_url": "https://www.producthunt.com/products/hayley-your-thinking-companion",
+        "website_url": "https://apps.apple.com/us/app/hayley/id6767863655?at=1000l6eA",
+        "category": "iOS thinking companion app",
+        "scores": {
+          "clarity": 7,
+          "novelty": 7,
+          "usefulness": 7,
+          "shareability": 6,
+          "product_hunt_audience_fit": 6,
+          "credibility": 6,
+          "launch_momentum_potential": 6,
+          "ph_core_voter_appeal": 5,
+          "broad_vote_appeal": 7,
+          "credibility_effective": 6
+        },
+        "predicted_success_score": 6.42,
+        "confidence": "medium",
+        "reasoning": "Consumer companion app with thin maker angle—mid/lower pack without verified traction claims. Calibration: saturation -0.5.",
+        "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed."
+      },
+      "actuals": {
+        "actual_rank": 23,
+        "actual_day_rank_label": "#23",
+        "actual_upvotes": 84,
+        "actual_upvote_rank": 23,
+        "scraped_at": "2026-05-27T13:27:55.317Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -3,
+        "absolute_rank_error": 3,
+        "upvote_rank_error": -3,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    },
+    {
+      "product_hunt_slug": "ajar",
+      "product_name": "Ajar",
+      "prediction": {
+        "predicted_rank": 27,
+        "product_hunt_url": "https://www.producthunt.com/products/ajar",
+        "website_url": "https://parcse.com/ajar",
+        "category": "Parcse Ajar — workspace/productivity (parcse.com)",
+        "scores": {
+          "clarity": 6,
+          "novelty": 6,
+          "usefulness": 6,
+          "shareability": 5,
+          "product_hunt_audience_fit": 6,
+          "credibility": 5,
+          "launch_momentum_potential": 5,
+          "ph_core_voter_appeal": 5,
+          "broad_vote_appeal": 6,
+          "credibility_effective": 5
+        },
+        "predicted_success_score": 6.1,
+        "confidence": "low",
+        "reasoning": "Limited public positioning beyond PH listing—credibility capped; low confidence.",
+        "likely_ai_bias_or_risk": ""
+      },
+      "actuals": {
+        "actual_rank": 22,
+        "actual_day_rank_label": "#22",
+        "actual_upvotes": 87,
+        "actual_upvote_rank": 21,
+        "scraped_at": "2026-05-27T13:27:55.848Z",
+        "actuals_error": null
+      },
+      "comparison": {
+        "signed_rank_error": -5,
+        "absolute_rank_error": 5,
+        "upvote_rank_error": -6,
+        "predicted_top_3": false,
+        "actual_top_3": false,
+        "top_3_hit": false,
+        "predicted_top_5": false,
+        "actual_top_5": false,
+        "top_5_hit": false
+      }
+    }
+  ],
+  "notes": [
+    "Rank and upvotes are scraped from Product Hunt product pages after prediction time.",
+    "Scraped values can drift if the comparison is run before Product Hunt's launch day is fully settled."
+  ]
+}

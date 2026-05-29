@@ -5,7 +5,7 @@
  */
 import fs from 'node:fs'
 import path from 'node:path'
-import { SCORES } from './scores-2026-05-22.js'
+import { SCORES } from './scores-2026-05-29.js'
 
 const RUN_DIR = process.argv[2]
 if (!RUN_DIR) {
@@ -64,7 +64,9 @@ function saturationPenalty(meta) {
     meta.outcome_differentiated ||
     meta.ecommerce_outcome ||
     meta.best_in_feed_infra ||
-    meta.vertical_agent_utility
+    meta.vertical_agent_utility ||
+    meta.rohan_mcp_hunter ||
+    meta.creator_page_builder
   )
     return 0
   if (saturatedCount >= 8) return -0.5
@@ -82,13 +84,21 @@ function calibrate(meta, scores, credEff) {
       : -0.4
     : 0
   const broadTrapPen =
-    meta.broad_trap && scores.ph_core_voter_appeal <= 6 ? -0.4 : 0
+    meta.broad_trap &&
+    !meta.creator_page_builder &&
+    scores.ph_core_voter_appeal <= 6
+      ? -0.4
+      : 0
+  const tier1ConsumerPen =
+    meta.tier1_consumer_incumbent && scores.ph_core_voter_appeal <= 5 ? -0.5 : 0
   const phCoreBoost =
     scores.ph_core_voter_appeal >= 8 && scores.usefulness >= 8 ? 0.5 : 0
   const outcomeBoost =
     meta.outcome_differentiated && scores.clarity >= 8 ? 0.4 : 0
   let makerBoost = 0
-  if (meta.maker_signal) {
+  if (meta.rohan_mcp_hunter && scores.clarity >= 9) {
+    makerBoost = 0.5
+  } else if (meta.maker_signal) {
     makerBoost =
       meta.incumbent || meta.relaunch || meta.prior_ph_winner ? 0.5 : 0.2
   }
@@ -105,10 +115,16 @@ function calibrate(meta, scores, credEff) {
     meta.ecommerce_outcome && meta.scores.clarity >= 8 && meta.scores.shareability >= 8
       ? 0.4
       : 0
+  const creatorBoost =
+    meta.creator_page_builder && scores.clarity >= 8 ? 0.3 : 0
+  const microUtilBoost =
+    meta.llm_workflow_micro_utility && scores.clarity >= 9 ? 0.2 : 0
   const tier1Boost =
     meta.tier1_incumbent &&
-    meta.scores.broad_vote_appeal >= 7 &&
-    meta.scores.shareability >= 8
+    !meta.tier1_consumer_incumbent &&
+    scores.ph_core_voter_appeal >= 6 &&
+    scores.broad_vote_appeal >= 7 &&
+    scores.shareability >= 8
       ? 0.3
       : 0
 
@@ -116,6 +132,7 @@ function calibrate(meta, scores, credEff) {
     satPen +
     incPen +
     broadTrapPen +
+    tier1ConsumerPen +
     phCoreBoost +
     outcomeBoost +
     makerBoost +
@@ -125,12 +142,15 @@ function calibrate(meta, scores, credEff) {
     practicalBoost +
     relaunchBoost +
     ecommerceBoost +
-    tier1Boost
+    tier1Boost +
+    creatorBoost +
+    microUtilBoost
 
   return {
     saturation_penalty: satPen,
     incumbent_penalty: incPen,
     broad_trap_penalty: broadTrapPen,
+    tier1_consumer_penalty: tier1ConsumerPen,
     ph_core_boost: phCoreBoost,
     maker_signal_boost: makerBoost,
     outcome_boost: outcomeBoost,
@@ -141,6 +161,8 @@ function calibrate(meta, scores, credEff) {
     relaunch_boost: relaunchBoost,
     ecommerce_outcome_boost: ecommerceBoost,
     tier1_incumbent_boost: tier1Boost,
+    creator_page_builder_boost: creatorBoost,
+    llm_workflow_micro_utility_boost: microUtilBoost,
     total_adjustment: Math.round(total * 100) / 100,
     base: Math.round(base * 100) / 100,
     adjusted: Math.round((base + total) * 100) / 100,
@@ -310,6 +332,8 @@ for (const r of ranked) {
   if (
     idx >= 7 &&
     r.meta.tier1_incumbent &&
+    !r.meta.tier1_consumer_incumbent &&
+    r.meta.scores.ph_core_voter_appeal >= 6 &&
     r.meta.scores.broad_vote_appeal >= 7
   ) {
     promoteIntoRank(r, tier1Target)
@@ -380,6 +404,81 @@ if (smallFeed) {
       ranked.splice(idx, 1)
       ranked.splice(Math.min(5, ranked.length), 0, r)
       r.demotedInfraHype = true
+    }
+  }
+
+  // OSS stars-only: never in predicted top 5 on feeds ≤25 (2026-05-22: whosthere)
+  for (const r of [...ranked.slice(0, 5)]) {
+    if (r.meta.oss_stars_only_maker) {
+      const idx = ranked.indexOf(r)
+      ranked.splice(idx, 1)
+      ranked.splice(5, 0, r)
+      r.demotedOssStarsOnly = true
+    }
+  }
+}
+
+// prior PH winner + relaunch: #1 only when no meta-PH or rohan MCP hunter (2026-05-25)
+const rohanMcpLeader = ranked.find((r) => r.meta.rohan_mcp_hunter)
+if (rohanMcpLeader && ranked.indexOf(rohanMcpLeader) > 2) {
+  promoteIntoRank(rohanMcpLeader, 0)
+}
+if (!metaPhLeader && !rohanMcpLeader) {
+  const relaunchWinner = ranked.find(
+    (r) => r.meta.prior_ph_winner && r.meta.relaunch,
+  )
+  if (relaunchWinner && ranked.indexOf(relaunchWinner) > 0) {
+    promoteIntoRank(relaunchWinner, 0)
+  }
+} else if (!metaPhLeader && rohanMcpLeader) {
+  const relaunchWinner = ranked.find(
+    (r) => r.meta.prior_ph_winner && r.meta.relaunch && r !== rohanMcpLeader,
+  )
+  if (relaunchWinner && ranked.indexOf(relaunchWinner) < 3) {
+    /* already top 3 */
+  } else if (relaunchWinner) {
+    promoteIntoRank(relaunchWinner, Math.min(3, ranked.length - 1))
+  }
+}
+
+// tier1 consumer incumbent: cap out of top 10 (2026-05-25: Meta Forum)
+for (const r of [...ranked.slice(0, 10)]) {
+  if (r.meta.tier1_consumer_incumbent) {
+    const idx = ranked.indexOf(r)
+    ranked.splice(idx, 1)
+    ranked.splice(Math.min(10, ranked.length), 0, r)
+    r.demotedTier1Consumer = true
+  }
+}
+
+// creator page builder below rank 12 → top 5
+for (const r of ranked) {
+  if (r.meta.creator_page_builder && ranked.indexOf(r) >= 11) {
+    promoteIntoRank(r, Math.min(4, ranked.length - 1))
+  }
+}
+
+// llm workflow micro-utility below rank 12 → top 8
+for (const r of ranked) {
+  if (r.meta.llm_workflow_micro_utility && ranked.indexOf(r) >= 11) {
+    promoteIntoRank(r, Math.min(7, ranked.length - 1))
+  }
+}
+
+// feeds ≤20: max one practical_builder_tool in top 3
+if (ranked.length <= 20) {
+  const top3Practical = ranked
+    .slice(0, 3)
+    .filter((r) => r.meta.practical_builder_tool)
+  if (top3Practical.length > 1) {
+    const demote = top3Practical
+      .slice(1)
+      .sort((a, b) => a.cal.adjusted - b.cal.adjusted)
+    for (const r of demote) {
+      const idx = ranked.indexOf(r)
+      ranked.splice(idx, 1)
+      ranked.splice(3, 0, r)
+      r.demotedPracticalTop3 = true
     }
   }
 }
@@ -480,6 +579,8 @@ const output = {
     if (adj.saturation_penalty) parts.push(`saturation ${adj.saturation_penalty}`)
     if (adj.incumbent_penalty) parts.push(`incumbent ${adj.incumbent_penalty}`)
     if (adj.broad_trap_penalty) parts.push(`broad-trap ${adj.broad_trap_penalty}`)
+    if (adj.tier1_consumer_penalty)
+      parts.push(`tier1-consumer ${adj.tier1_consumer_penalty}`)
     if (adj.ph_core_boost) parts.push(`ph-core +${adj.ph_core_boost}`)
     if (adj.maker_signal_boost) parts.push(`maker +${adj.maker_signal_boost}`)
     if (adj.outcome_boost) parts.push(`outcome +${adj.outcome_boost}`)
@@ -498,6 +599,18 @@ const output = {
     if (r.demotedInfraHype) {
       reasoning +=
         ' Pre-save review: demoted from top 5 — best_in_feed_infra without prior PH win on feeds ≤25 (2026-05-21).'
+    }
+    if (r.demotedOssStarsOnly) {
+      reasoning +=
+        ' Pre-save review: demoted from top 5 — OSS GitHub stars without famous PH hunter (2026-05-22).'
+    }
+    if (r.demotedTier1Consumer) {
+      reasoning +=
+        ' Pre-save review: demoted from top 10 — tier-1 consumer/social incumbent (2026-05-25).'
+    }
+    if (r.demotedPracticalTop3) {
+      reasoning +=
+        ' Pre-save review: demoted from top 3 — max one practical-builder on feeds ≤20 (2026-05-25).'
     }
     if (parts.length) reasoning += ` Calibration: ${parts.join(', ')}.`
 
@@ -543,6 +656,10 @@ const output = {
         practical_builder_tool: r.meta.practical_builder_tool ?? false,
         ecommerce_outcome: r.meta.ecommerce_outcome ?? false,
         tier1_incumbent: r.meta.tier1_incumbent ?? false,
+        creator_page_builder: r.meta.creator_page_builder ?? false,
+        tier1_consumer_incumbent: r.meta.tier1_consumer_incumbent ?? false,
+        rohan_mcp_hunter: r.meta.rohan_mcp_hunter ?? false,
+        llm_workflow_micro_utility: r.meta.llm_workflow_micro_utility ?? false,
       },
       predicted_success_score: adj.adjusted,
       confidence: r.confidence,

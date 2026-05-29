@@ -1,0 +1,1 @@
+A self-improving AI loop consists of a sensor layer (data input), a policy layer (rules/decisions), a tool layer (APIs/skills), a quality gate (evaluations, human review), and a learning mechanism. When executed with minimal human intervention, this loop allows the system to continuously get better.

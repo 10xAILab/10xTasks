@@ -1,0 +1,1002 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T12:19:12.202Z",
+  "fetched_at": "2026-05-25T12:19:12.202Z",
+  "timezone": "America/Los_Angeles (Product Hunt RSS feed updated 2026-05-25T00:01:00-07:00)",
+  "fetch_method": "Product Hunt RSS feed",
+  "source_urls": [
+    "https://www.producthunt.com/feed?category=undefined"
+  ],
+  "rss_snapshot_file": "data/producthunt/predictions/2026-05-25/rss.xml",
+  "launch_eligibility_file": "data/producthunt/predictions/2026-05-25/launch-eligibility.json",
+  "products_file": "data/producthunt/predictions/2026-05-25/products-with-urls.json",
+  "rss_entry_count": 50,
+  "launching_today_filter": {
+    "method": "Product Hunt product page via scripts/product-hunt/scrape-product.js (launchingToday / Launching Today label)",
+    "included_count": 16,
+    "excluded_count": 34
+  },
+  "prediction_target": "final end-of-day Product Hunt leaderboard rank among launches from this Product Hunt launch day",
+  "scoring_method": "weighted sum per prompts/producthunt/predict.md (clarity 13%, novelty 7%, usefulness 16%, shareability 14%, product_hunt_audience_fit 14%, credibility_effective 8%, launch_momentum_potential 14%, ph_core_voter_appeal 14%, broad_vote_appeal 10%) plus documented calibration adjustments",
+  "feed_composition": {
+    "launch_count": 16,
+    "saturated_archetype_count": 8,
+    "broad_trap_archetype_count": 2,
+    "saturated_archetypes": [
+      "AI agents",
+      "computer use",
+      "MCP",
+      "agent builders",
+      "memory/RAG layers",
+      "local LLM tooling"
+    ],
+    "broad_trap_archetypes": [
+      "Mac novelty utilities",
+      "travel/local discovery",
+      "photo-ID gimmicks",
+      "menu-bar trivia"
+    ]
+  },
+  "rules": {
+    "excluded_fields_verified": true,
+    "excluded_signals": [
+      "upvotes",
+      "comments",
+      "current ranking",
+      "leaderboard position",
+      "featured position",
+      "featured badges",
+      "trending labels",
+      "top product metadata",
+      "Product Hunt popularity signals",
+      "external Product Hunt traction discussions"
+    ]
+  },
+  "predictions": [
+    {
+      "predicted_rank": 1,
+      "product_hunt_slug": "supaboard-ai",
+      "product_name": "Supaboard 3.0",
+      "tagline": "AI data analysts that understand your business",
+      "product_hunt_url": "https://www.producthunt.com/products/supaboard-ai",
+      "website_url": "https://supaboard.ai/",
+      "category": "AI data analysts / governed BI (Supaboard 3.0 relaunch)",
+      "rss_item_snapshot": {
+        "title": "Supaboard 3.0",
+        "link": "https://www.producthunt.com/products/supaboard-ai",
+        "guid": "tag:www.producthunt.com,2005:Post/1145066",
+        "published_at": "2026-05-12T02:29:52-07:00",
+        "description": "AI data analysts that understand your business",
+        "author": "fmerian",
+        "updated_at": "2026-05-25T05:09:17-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 9,
+        "shareability": 8,
+        "product_hunt_audience_fit": 9,
+        "credibility": 9,
+        "launch_momentum_potential": 9,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1.1
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10.2,
+      "confidence": "medium",
+      "reasoning": "Prior PH #2 of day (Apr 2025) shipping 3.0 with trainable agents, MCP, and governed analytics—relaunch + prior-winner pattern fits small-feed top slot better than generic MCP layers. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Calibration: ph-core +0.5, outcome +0.4, relaunch +0.2.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://supaboard.ai/",
+        "https://www.producthunt.com/products/supaboard-ai/reviews"
+      ]
+    },
+    {
+      "predicted_rank": 2,
+      "product_hunt_slug": "llmtest-2",
+      "product_name": "LLMTest",
+      "tagline": "Use the right LLMs in your apps. Setup fallbacks. Be happy.",
+      "product_hunt_url": "https://www.producthunt.com/products/llmtest-2",
+      "website_url": "https://llmtest.io/",
+      "category": "LLM routing, fallbacks, autopilot prompt optimization",
+      "rss_item_snapshot": {
+        "title": "LLMTest",
+        "link": "https://www.producthunt.com/products/llmtest-2",
+        "guid": "tag:www.producthunt.com,2005:Post/1153173",
+        "published_at": "2026-05-22T01:28:23-07:00",
+        "description": "Use the right LLMs in your apps. Setup fallbacks. Be happy.",
+        "author": "Tom Jacquesson",
+        "updated_at": "2026-05-25T05:09:22-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 8,
+        "usefulness": 9,
+        "shareability": 8,
+        "product_hunt_audience_fit": 9,
+        "credibility": 7,
+        "launch_momentum_potential": 9,
+        "ph_core_voter_appeal": 9,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 1.2
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10.33,
+      "confidence": "medium",
+      "reasoning": "Ship-today utility for teams running AI in prod—340+ models, automatic fallbacks, MCP for Cursor/Claude Code, and Autopilot on real traffic; clear cost/quality outcome for makers. Pre-save review: demoted from #1 — total_adjustment >= 1.2 without incumbent/relaunch/prior-winner proof. Calibration: ph-core +0.5, outcome +0.4, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://llmtest.io/"
+      ]
+    },
+    {
+      "predicted_rank": 3,
+      "product_hunt_slug": "yansu",
+      "product_name": "Yansu",
+      "tagline": "AI that learns how you work and turns it into software",
+      "product_hunt_url": "https://www.producthunt.com/products/yansu",
+      "website_url": "https://yansu.app/",
+      "category": "Proactive AI app builder (observes workflows, ships tools)",
+      "rss_item_snapshot": {
+        "title": "Yansu",
+        "link": "https://www.producthunt.com/products/yansu",
+        "guid": "tag:www.producthunt.com,2005:Post/1154343",
+        "published_at": "2026-05-23T18:28:56-07:00",
+        "description": "AI that learns how you work and turns it into software",
+        "author": "Justin Jincaid",
+        "updated_at": "2026-05-25T05:10:50-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 8,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 8,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.9
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 9.32,
+      "confidence": "medium",
+      "reasoning": "Founder-operator outcome (proactive desktop agent, SOC2/ISO27001)—“AI builds before you ask” narrative; review for top 5 when ranked low on score alone. Calibration: ph-core +0.5, outcome +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://yansu.app/",
+        "https://isoform.ai/"
+      ]
+    },
+    {
+      "predicted_rank": 4,
+      "product_hunt_slug": "the-incident-challenge",
+      "product_name": "The Incident Challenge",
+      "tagline": "Production Debugging Games for Software Engineers",
+      "product_hunt_url": "https://www.producthunt.com/products/the-incident-challenge",
+      "website_url": "https://theincidentchallenge.com/",
+      "category": "Live production-debugging challenge game for engineers",
+      "rss_item_snapshot": {
+        "title": "The Incident Challenge",
+        "link": "https://www.producthunt.com/products/the-incident-challenge",
+        "guid": "tag:www.producthunt.com,2005:Post/1154500",
+        "published_at": "2026-05-24T01:08:15-07:00",
+        "description": "Production Debugging Games for Software Engineers",
+        "author": "Avi (Avihai) CT",
+        "updated_at": "2026-05-25T05:09:34-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 8,
+        "usefulness": 7,
+        "shareability": 9,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.85,
+      "confidence": "medium",
+      "reasoning": "Bi-weekly timed incident puzzles with logs/code/architecture—high shareability for dev Twitter, strong ph-core fit without being a pure novelty trap (ph_core ≥ 8). Calibration: outcome +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://theincidentchallenge.com/"
+      ]
+    },
+    {
+      "predicted_rank": 5,
+      "product_hunt_slug": "meta",
+      "product_name": "Forum",
+      "tagline": "Dedicated space for Facebook groups",
+      "product_hunt_url": "https://www.producthunt.com/products/meta",
+      "website_url": "https://apps.apple.com/us/app/forum-a-facebook-app/id6758308862?at=1000l6eA",
+      "category": "Meta Forum — standalone Facebook Groups / Reddit-style app (tier-1 incumbent)",
+      "rss_item_snapshot": {
+        "title": "Forum",
+        "link": "https://www.producthunt.com/products/meta",
+        "guid": "tag:www.producthunt.com,2005:Post/1154121",
+        "published_at": "2026-05-23T08:32:02-07:00",
+        "description": "Dedicated space for Facebook groups",
+        "author": "Zac Zuo",
+        "updated_at": "2026-05-25T05:10:07-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 8,
+        "product_hunt_audience_fit": 6,
+        "credibility": 10,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 4,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": -0.2,
+        "broad_trap_penalty": -0.4,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.3
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": true,
+        "incumbent_extension": true,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": true
+      },
+      "predicted_success_score": 7.43,
+      "confidence": "low",
+      "reasoning": "Quiet Meta tier-1 consumer launch (US iOS) with AI Ask tab—strong brand demo but weak PH maker electorate fit; belongs top ~5 on small feeds via tier-1 incumbent rules, not #1. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Calibration: incumbent -0.2, broad-trap -0.4, tier1 +0.3.",
+      "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked.",
+      "research_sources": [
+        "https://techcrunch.com/2026/05/22/meta-quietly-launches-a-new-reddit-like-app-called-forum/"
+      ]
+    },
+    {
+      "predicted_rank": 6,
+      "product_hunt_slug": "pi-coding-agent-3",
+      "product_name": "Pi Coding Agent",
+      "tagline": "The coding-agent harness you can make your own",
+      "product_hunt_url": "https://www.producthunt.com/products/pi-coding-agent-3",
+      "website_url": "https://pi.dev/",
+      "category": "Minimal terminal coding-agent harness (OpenClaw / earendil-works/pi)",
+      "rss_item_snapshot": {
+        "title": "Pi Coding Agent",
+        "link": "https://www.producthunt.com/products/pi-coding-agent-3",
+        "guid": "tag:www.producthunt.com,2005:Post/1155059",
+        "published_at": "2026-05-24T20:24:52-07:00",
+        "description": "The coding-agent harness you can make your own",
+        "author": "Zac Zuo",
+        "updated_at": "2026-05-25T05:09:20-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 9,
+        "usefulness": 10,
+        "shareability": 8,
+        "product_hunt_audience_fit": 10,
+        "credibility": 9,
+        "launch_momentum_potential": 10,
+        "ph_core_voter_appeal": 10,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 8
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 10.26,
+      "confidence": "medium",
+      "reasoning": "Massive OSS momentum (~54k★, 950k weekly npm downloads) on a hackable harness makers will try today—but OSS-stars-only cap keeps it out of predicted top 5 on this ≤25 launch feed. Pre-save review: promoted per calibration (differentiated launch, stacked-boost guardrail, or practical-builder scan). Pre-save review: demoted from top 5 — OSS GitHub stars without famous PH hunter (2026-05-22). Calibration: saturation -0.5, ph-core +0.5, practical-builder +0.3, relaunch +0.2.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://pi.dev/",
+        "https://github.com/earendil-works/pi"
+      ]
+    },
+    {
+      "predicted_rank": 7,
+      "product_hunt_slug": "mashupack",
+      "product_name": "MashuPack",
+      "tagline": "Turn codebases into a clean file for Claude and ChatGPT",
+      "product_hunt_url": "https://www.producthunt.com/products/mashupack",
+      "website_url": "https://mashupack.com/",
+      "category": "Browser codebase → clean text export for Claude/ChatGPT",
+      "rss_item_snapshot": {
+        "title": "MashuPack",
+        "link": "https://www.producthunt.com/products/mashupack",
+        "guid": "tag:www.producthunt.com,2005:Post/1155138",
+        "published_at": "2026-05-24T23:30:11-07:00",
+        "description": "Turn codebases into a clean file for Claude and ChatGPT",
+        "author": "Spencer Nunamaker",
+        "updated_at": "2026-05-25T05:09:59-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.8
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.71,
+      "confidence": "medium",
+      "reasoning": "Local-first context packing for web-UI LLM workflows—narrow but ship-today JTBD for makers still on ChatGPT/Claude tabs; practical-builder slot behind relaunch BI and LLMTest. Calibration: ph-core +0.5, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://mashupack.com/"
+      ]
+    },
+    {
+      "predicted_rank": 8,
+      "product_hunt_slug": "databerry",
+      "product_name": "Databerry",
+      "tagline": "Track all your business data in a single dashboard",
+      "product_hunt_url": "https://www.producthunt.com/products/databerry",
+      "website_url": "https://www.databerry.app/",
+      "category": "Founder dashboard unifying Stripe, PostHog, GA, Sentry",
+      "rss_item_snapshot": {
+        "title": "Databerry",
+        "link": "https://www.producthunt.com/products/databerry",
+        "guid": "tag:www.producthunt.com,2005:Post/1133651",
+        "published_at": "2026-04-27T11:11:26-07:00",
+        "description": "Track all your business data in a single dashboard",
+        "author": "Drew",
+        "updated_at": "2026-05-25T05:09:32-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.7
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.71,
+      "confidence": "medium",
+      "reasoning": "Read-only founder ops cockpit (MRR, funnels, errors) without SDK—clear outcome for indie founders juggling too many dashboards. Calibration: outcome +0.4, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://www.databerry.app/"
+      ]
+    },
+    {
+      "predicted_rank": 9,
+      "product_hunt_slug": "unabyss",
+      "product_name": "Unabyss",
+      "tagline": "MCP-native self-updating context layer for your AI",
+      "product_hunt_url": "https://www.producthunt.com/products/unabyss",
+      "website_url": "https://unabyss.com/",
+      "category": "MCP-native self-updating personal context layer",
+      "rss_item_snapshot": {
+        "title": "Unabyss",
+        "link": "https://www.producthunt.com/products/unabyss",
+        "guid": "tag:www.producthunt.com,2005:Post/1140898",
+        "published_at": "2026-05-06T16:16:51-07:00",
+        "description": "MCP-native self-updating context layer for your AI",
+        "author": "Rohan Chaubey",
+        "updated_at": "2026-05-25T05:10:51-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 8,
+        "ph_core_voter_appeal": 7,
+        "broad_vote_appeal": 5,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0.2,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.5
+      },
+      "maker_signal": true,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.7,
+      "confidence": "medium",
+      "reasoning": "Rohan Chaubey launch on a saturated memory/MCP archetype—hunter helps visibility but capped maker boost vs prior-PH relaunches; differentiated retrieval story vs generic RAG dumps. Calibration: maker +0.2, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://unabyss.com/"
+      ]
+    },
+    {
+      "predicted_rank": 10,
+      "product_hunt_slug": "tldx",
+      "product_name": "tldx",
+      "product_hunt_url": "https://www.producthunt.com/products/tldx",
+      "website_url": "https://github.com/brandonyoungdev/tldx",
+      "category": "Bulk domain availability CLI (RDAP/DNS/WHOIS, MCP)",
+      "rss_item_snapshot": {
+        "title": "tldx",
+        "link": "https://www.producthunt.com/products/tldx",
+        "guid": "tag:www.producthunt.com,2005:Post/1154745",
+        "published_at": "2026-05-24T07:53:43-07:00",
+        "author": "Brandon Young",
+        "updated_at": "2026-05-25T05:09:37-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 8,
+        "credibility": 7,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 3,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0.5,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.8
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.53,
+      "confidence": "medium",
+      "reasoning": "~1.8k★ OSS domain CLI with MCP—maker-adjacent OSS momentum but stars-only pattern caps top-5 on small feeds. Calibration: ph-core +0.5, practical-builder +0.3.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://github.com/brandonyoungdev/tldx"
+      ]
+    },
+    {
+      "predicted_rank": 11,
+      "product_hunt_slug": "tiny-cv",
+      "product_name": "Tiny CV",
+      "tagline": "Resume builder that fits on one page",
+      "product_hunt_url": "https://www.producthunt.com/products/tiny-cv",
+      "website_url": "https://tiny.cv/",
+      "category": "One-page markdown resume builder with hosted links",
+      "rss_item_snapshot": {
+        "title": "Tiny CV",
+        "link": "https://www.producthunt.com/products/tiny-cv",
+        "guid": "tag:www.producthunt.com,2005:Post/1155045",
+        "published_at": "2026-05-24T19:35:30-07:00",
+        "description": "Resume builder that fits on one page",
+        "author": "Andrew Jiang",
+        "updated_at": "2026-05-25T05:10:50-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 6,
+        "usefulness": 8,
+        "shareability": 7,
+        "product_hunt_audience_fit": 7,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 8,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 8.33,
+      "confidence": "medium",
+      "reasoning": "Clear job-hunt outcome with agent/OpenAPI story—broad appeal for applicants but moderate ph-core vs coding-agent launches. Calibration: outcome +0.4.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://tiny.cv/"
+      ]
+    },
+    {
+      "predicted_rank": 12,
+      "product_hunt_slug": "tweet-md",
+      "product_name": "tweet.md",
+      "tagline": "X posts as clean Markdown",
+      "product_hunt_url": "https://www.producthunt.com/products/tweet-md",
+      "website_url": "https://tweet.md/",
+      "category": "X/Twitter posts as clean Markdown for LLM workflows",
+      "rss_item_snapshot": {
+        "title": "tweet.md",
+        "link": "https://www.producthunt.com/products/tweet-md",
+        "guid": "tag:www.producthunt.com,2005:Post/1153202",
+        "published_at": "2026-05-22T01:55:53-07:00",
+        "description": "X posts as clean Markdown",
+        "author": "Lars",
+        "updated_at": "2026-05-25T05:09:19-07:00"
+      },
+      "scores": {
+        "clarity": 9,
+        "novelty": 7,
+        "usefulness": 7,
+        "shareability": 7,
+        "product_hunt_audience_fit": 8,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 8,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": true,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.86,
+      "confidence": "medium",
+      "reasoning": "URL-swap utility (x.com → tweet.md) with agent skill—token-saving research ingest for builders; useful but narrow vs infra winners.",
+      "likely_ai_bias_or_risk": "",
+      "research_sources": [
+        "https://tweet.md/"
+      ]
+    },
+    {
+      "predicted_rank": 13,
+      "product_hunt_slug": "fred-the-uxr-shepherd",
+      "product_name": "Fred",
+      "tagline": "AI-orchestrated UX research with behavioural tracking",
+      "product_hunt_url": "https://www.producthunt.com/products/fred-the-uxr-shepherd",
+      "website_url": "https://meet-fred.com/",
+      "category": "AI-orchestrated UX research platform",
+      "rss_item_snapshot": {
+        "title": "Fred",
+        "link": "https://www.producthunt.com/products/fred-the-uxr-shepherd",
+        "guid": "tag:www.producthunt.com,2005:Post/1150675",
+        "published_at": "2026-05-19T03:30:23-07:00",
+        "description": "AI-orchestrated UX research with behavioural tracking",
+        "author": "Imre Guaglianone",
+        "updated_at": "2026-05-25T05:09:45-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 7,
+        "usefulness": 8,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 7,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 4,
+        "credibility_effective": 7
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0.4,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": 0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": true,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 7.67,
+      "confidence": "medium",
+      "reasoning": "Differentiated UXR outcome (moderated sessions, gaze/sentiment evidence) but enterprise pricing and niche buyer limit day-rank vs dev-tool launches. Calibration: outcome +0.4.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://meet-fred.com/"
+      ]
+    },
+    {
+      "predicted_rank": 14,
+      "product_hunt_slug": "orchestria",
+      "product_name": "Orchestria",
+      "tagline": "AI music engine with granular stem control",
+      "product_hunt_url": "https://www.producthunt.com/products/orchestria",
+      "website_url": "https://www.orchestria.tech/",
+      "category": "AI multi-agent music production studio",
+      "rss_item_snapshot": {
+        "title": "Orchestria",
+        "link": "https://www.producthunt.com/products/orchestria",
+        "guid": "tag:www.producthunt.com,2005:Post/1153461",
+        "published_at": "2026-05-22T08:00:33-07:00",
+        "description": "AI music engine with granular stem control",
+        "author": "Batu Akdoğan",
+        "updated_at": "2026-05-25T05:09:23-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 8,
+        "usefulness": 7,
+        "shareability": 8,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 7,
+        "ph_core_voter_appeal": 4,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.9,
+      "confidence": "medium",
+      "reasoning": "Strong demo/audio shareability for creators but low ph-core voter fit on a maker-heavy launch day dominated by dev/agent tools. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://www.orchestria.tech/"
+      ]
+    },
+    {
+      "predicted_rank": 15,
+      "product_hunt_slug": "own-page",
+      "product_name": "own.page",
+      "tagline": "Make your own personal website with bento tiles",
+      "product_hunt_url": "https://www.producthunt.com/products/own-page",
+      "website_url": "https://own.page/",
+      "category": "Bento link-in-bio / personal website builder",
+      "rss_item_snapshot": {
+        "title": "own.page",
+        "link": "https://www.producthunt.com/products/own-page",
+        "guid": "tag:www.producthunt.com,2005:Post/1152782",
+        "published_at": "2026-05-21T11:24:54-07:00",
+        "description": "Make your own personal website with bento tiles",
+        "author": "Aleksandar Blazhev",
+        "updated_at": "2026-05-25T05:09:15-07:00"
+      },
+      "scores": {
+        "clarity": 8,
+        "novelty": 5,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 6,
+        "credibility": 6,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 5,
+        "broad_vote_appeal": 7,
+        "credibility_effective": 6
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": 0,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": -0.4,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.4
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": false,
+        "broad_trap": true,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.51,
+      "confidence": "low",
+      "reasoning": "Polished no-code page builder (6k+ creators) but link-in-bio category is broad-trap-adjacent for PH day rank without maker hook. Calibration: broad-trap -0.4.",
+      "likely_ai_bias_or_risk": "Broad-trap archetype; 2026-05-15 calibration showed high broad_vote_appeal alone over-ranked.",
+      "research_sources": [
+        "https://own.page/"
+      ]
+    },
+    {
+      "predicted_rank": 16,
+      "product_hunt_slug": "rixx",
+      "product_name": "Rixx",
+      "tagline": "The Perplexity alternative that organizes your research",
+      "product_hunt_url": "https://www.producthunt.com/products/rixx",
+      "website_url": "https://rixx.app/",
+      "category": "Perplexity-style research organizer",
+      "rss_item_snapshot": {
+        "title": "Rixx",
+        "link": "https://www.producthunt.com/products/rixx",
+        "guid": "tag:www.producthunt.com,2005:Post/1150773",
+        "published_at": "2026-05-19T05:51:38-07:00",
+        "description": "The Perplexity alternative that organizes your research",
+        "author": "hitendra singh choudhary",
+        "updated_at": "2026-05-25T05:10:09-07:00"
+      },
+      "scores": {
+        "clarity": 7,
+        "novelty": 6,
+        "usefulness": 7,
+        "shareability": 6,
+        "product_hunt_audience_fit": 7,
+        "credibility": 5,
+        "launch_momentum_potential": 6,
+        "ph_core_voter_appeal": 6,
+        "broad_vote_appeal": 6,
+        "credibility_effective": 5
+      },
+      "calibration_adjustments": {
+        "saturation_penalty": -0.5,
+        "incumbent_penalty": 0,
+        "broad_trap_penalty": 0,
+        "ph_core_boost": 0,
+        "maker_signal_boost": 0,
+        "outcome_boost": 0,
+        "meta_ph_boost": 0,
+        "broad_ph_combo_boost": 0,
+        "total_adjustment": -0.5
+      },
+      "maker_signal": false,
+      "archetype_flags": {
+        "saturated": true,
+        "broad_trap": false,
+        "incumbent_extension": false,
+        "meta_ph": false,
+        "outcome_differentiated": false,
+        "practical_builder_tool": false,
+        "ecommerce_outcome": false,
+        "tier1_incumbent": false
+      },
+      "predicted_success_score": 6.45,
+      "confidence": "medium",
+      "reasoning": "Research organizer in a crowded AI-search cluster—differentiation vs Perplexity not fully verified from landing alone. Calibration: saturation -0.5.",
+      "likely_ai_bias_or_risk": "Generic saturated agent/MCP launch in AI-heavy feed.",
+      "research_sources": [
+        "https://rixx.app/"
+      ]
+    }
+  ]
+}

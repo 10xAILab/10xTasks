@@ -117,7 +117,7 @@ Use `--include-all-feed` on `parse-rss.js` only for debugging; do not use it for
    - broad vote appeal (instant “aha” for non-developers)
    - **PH core voter appeal** (makers/founders/indie hackers — the real electorate)
    - **maker signal**: known PH hunter, repeat launcher, YC/partner credibility, major OSS repo (stars/contributors only — not PH votes)
-   - **archetype flags**: saturated, broad-trap, **`mac_demo_utility`** (Mac/menu-bar with broad + shareability ≥ 8), **`oss_stars_only_maker`** (repo stars without famous hunter), **`founder_operator_outcome`** (AI PM / team ops for founders), **`novelty_shareability_trap`** (game/hackathon hype, ph-core ≤ 6), incumbent extension, **tier1_incumbent** (Google/Apple/Meta/OpenAI), meta-PH, outcome-differentiated, **ecommerce_outcome** (seller/store GTM), practical-builder-tool (ship-today utility for makers)
+   - **archetype flags**: saturated, broad-trap, **`mac_demo_utility`** (Mac/menu-bar with broad + shareability ≥ 8), **`oss_stars_only_maker`** (repo stars without famous hunter), **`founder_operator_outcome`** (AI PM / team ops for founders), **`novelty_shareability_trap`** (game/hackathon hype, ph-core ≤ 6), **`creator_page_builder`** (link-in-bio / personal-site builder with verified traction — not a travel/ID trap), **`tier1_consumer_incumbent`** (tier-1 consumer/social app — Meta Forum, Instagram spinoffs — not dev APIs), **`rohan_mcp_hunter`** (Rohan Chaubey hunt on MCP/context/agent-memory with ship-today MCP install), **`llm_workflow_micro_utility`** (URL-swap or one-line agent utilities — tweet.md-style), incumbent extension, **tier1_incumbent** (Google/Apple/Meta/OpenAI **dev** surfaces), meta-PH, outcome-differentiated, **ecommerce_outcome** (seller/store GTM), practical-builder-tool (ship-today utility for makers)
    - founder/company signals from public web research
    - social proof outside Product Hunt only, if it does not mention Product Hunt traction
 10. Score each product from 1 to 10 on:
@@ -190,7 +190,7 @@ Round `predicted_success_score` to two decimal places.
 
 Before final ranking, classify the frozen RSS set:
 - Count launches in **saturated archetypes** among **included** launches only (post–Launching Today filter), not raw RSS size.
-- Count launches in **broad-trap archetypes**: Mac pet/novelty utilities, travel/local discovery, photo-ID/gimmick apps, menu-bar trivia — high `broad_vote_appeal` but historically weak PH day ranks. **Exception:** Mac/menu-bar utilities with `broad_vote_appeal` ≥ 8 **and** `shareability` ≥ 8 (strong demo GIF/notch story) are **`mac_demo_utility`** — do not treat like travel/rock-ID traps (2026-05-22: iPromise #22 pred → **#5** actual).
+- Count launches in **broad-trap archetypes**: Mac pet/novelty utilities, travel/local discovery, photo-ID/gimmick apps, menu-bar trivia — high `broad_vote_appeal` but historically weak PH day ranks. **Exceptions:** (1) Mac/menu-bar utilities with `broad_vote_appeal` ≥ 8 **and** `shareability` ≥ 8 are **`mac_demo_utility`** — do not treat like travel/rock-ID traps (2026-05-22: iPromise #22→**#5**). (2) **`creator_page_builder`** with verified traction (e.g. **5k+** published users/creators, wall-of-love, polished onboarding) — do **not** apply broad-trap penalty; can finish **top 3** (2026-05-25: own.page #15 pred → **#2** actual).
 - Also flag **ecommerce_outcome**: seller/store revenue, Shopify/Amazon GTM, agent-for-commerce — often wins with moderate `ph_core_voter_appeal` when demo is visceral (2026-05-20: StoreClaw #1).
 - Flag **novelty_shareability_trap**: game/novelty launches with high shareability (hackathon placement, trailer) but `ph_core_voter_appeal` ≤ 6 — cap expected rank **≥15** (2026-05-22: Training Data microgames #11 → #28).
 - Record counts in `feed_composition` on the prediction file (see JSON shape).
@@ -205,6 +205,7 @@ Before final ranking, classify the frozen RSS set:
 | Major-brand platform/API extension (credibility raw ≥9), **non–tier-1** | **−0.4** |
 | **Tier-1 incumbent** (Google, Apple, Meta, Microsoft, OpenAI shipping a named model/surface) | **−0.2** only |
 | **Broad-trap** archetype (Mac novelty, travel/discovery, rock/gem ID, etc.) with `ph_core_voter_appeal` ≤ 6 | **−0.4** |
+| **`tier1_consumer_incumbent`** (Meta/Apple consumer or social app, `ph_core_voter_appeal` ≤ 5) | **−0.5** |
 | **`mac_demo_utility`** (not broad-trap): Mac/menu-bar with `broad_vote_appeal` ≥ 8 and `shareability` ≥ 8 | **−0.1** only (not −0.4) |
 | **`novelty_shareability_trap`** (game/hackathon hype, `ph_core_voter_appeal` ≤ 6) | **−0.3** |
 
@@ -215,6 +216,8 @@ Before final ranking, classify the frozen RSS set:
 - **Ecommerce / seller outcome**: store profit, DTC, marketplace GTM, agent-for-commerce with verified before/after (2026-05-20: StoreClaw).
 - **Best-in-feed infra**: scraping/agent-debug/MCP that is clearly the most differentiated of its cluster (e.g. wins on usefulness + `ph_core_voter_appeal` ≥ 8).
 - **Vertical agent utility with clear JTBD** (e.g. permission-aware recordings, agent activity VCS) when usefulness ≥ 8 and not generic “memory/MCP layer” positioning.
+- **`rohan_mcp_hunter`**: Rohan Chaubey (or equivalent top-tier hunter) on MCP/context with verified install path and clarity ≥ 8.
+- **`creator_page_builder`** with verified **5k+** user/creator traction on the landing page.
 
 **Relative boost** (add to score; stack with penalties):
 
@@ -223,6 +226,9 @@ Before final ranking, classify the frozen RSS set:
 | `ph_core_voter_appeal` ≥ 8 and usefulness ≥ 8 | **+0.5** |
 | Verified **outcome** launch (meetings, sleep, fundraising, sales meetings) with clarity ≥ 8 | **+0.4** |
 | **Maker signal** (known hunter, repeat PH winner team) | **+0.5** |
+| **`rohan_mcp_hunter`** (Rohan Chaubey–class hunt on MCP/context/agent-memory, clarity ≥ 9, ship-today MCP) | **+0.5** |
+| **`creator_page_builder`** (verified 5k+ creators/users, clarity ≥ 8) | **+0.3** |
+| **`llm_workflow_micro_utility`** (URL-swap / agent skill / token-saving ingest, clarity ≥ 9) | **+0.2** |
 | **`oss_stars_only_maker`** (repo momentum only — no famous hunter) | **+0.2** |
 | **Founder-operator outcome** (AI PM / “runs your team”, founder ops, Telegram bot with clear before/after) with `broad_vote_appeal` ≥ 7 | **+0.3** |
 | **Ben Lang / Garry Tan inference API** with published benchmarks + ship-today API (not generic dataset feed) | **+0.3** |
@@ -232,7 +238,7 @@ Before final ranking, classify the frozen RSS set:
 | **Practical builder tool**: ship-today utility for makers (OSS agent hub, outbound/lead gen, QA/test automation, multi-model dev workspace) with usefulness ≥ 8 and clarity ≥ 8 | **+0.3** |
 | **Ecommerce / seller outcome** with clarity ≥ 8 and shareability ≥ 8 | **+0.4** |
 | **Relaunch / major version** in name or tagline (`3.0`, `2.0`, `v4`, “by {known brand}”) with verified product | **+0.2** |
-| **Tier-1 incumbent** with `broad_vote_appeal` ≥ 7 and shareability ≥ 8 | **+0.3** (stacks with **−0.2** incumbent penalty, not −0.4) |
+| **Tier-1 incumbent** (**dev** API/model surface only) with `broad_vote_appeal` ≥ 7, shareability ≥ 8, and `ph_core_voter_appeal` ≥ 6 | **+0.3** (stacks with **−0.2** incumbent penalty, not −0.4). **Do not apply** to **`tier1_consumer_incumbent`**. |
 
 **Stacked-boost guardrails** (apply when summing boosts; record caps in reasoning):
 - If **maker + outcome + ph-core** boosts would sum to **>1.0** before other boosts, cap **maker_signal_boost** at **+0.2** unless the launch is an **incumbent** with `product_hunt_audience_fit` ≥ 9 **or** a verified **repeat PH winner / relaunch** (e.g. `SocLeads 3.0`, `imgproxy v4`) — hunter fame alone is not enough (2026-05-19: Chert #1 pred → #7 with +1.4 stacked).
@@ -242,7 +248,10 @@ Before final ranking, classify the frozen RSS set:
 - When **included launch_count ≤ 25** (typical after Launching Today filter), allow **at most two** `practical_builder_tool` launches in predicted **top 5** — extra builder slots over-concentrate and collapsed on 2026-05-20 (Tophat #4→#17, Skilled #9→#22) and 2026-05-21 (Basedash #3→#18, InstaVM #5→#17, CatchAll #4→#12).
 - **Garry Tan / Ben Lang hunter split (feeds ≤25):** promote **workflow/docs/outcome** hunts (Mintlify-style, `outcome_differentiated` or clear docs JTBD) to **top 5**; promote **benchmarked inference API** hunts (General Compute–style: OpenAI-compatible, published tok/s, $ credit on signup) to **top 5** — do not lump with dataset-only feeds (2026-05-22: General Compute #6 pred → **#3** actual). Cap **dataset/API infra** hunts (CatchAll-style, `best_in_feed_infra` without prior PH win or benchmarks) at **top 10** (2026-05-21: Mintlify #6→#2, CatchAll #4→#12).
 - **OSS stars-only** launches: never in predicted **top 5** on feeds ≤25 regardless of star count (2026-05-22: whosthere #4→#21).
-- **Rohan Chaubey / Shopify OSS** mobile-dev utilities: practical-builder boost OK for top **12**, not top **5**, unless prior PH win on same product line — **sales/fundraising outcome** hunts (WarmIntro-style) may reach **top 5** (2026-05-21: WarmIntro #9→#5).
+- **Rohan Chaubey split (feeds ≤25):** **`rohan_mcp_hunter`** (MCP install, context layer, agent-memory with clarity ≥ 9) → **top 3** review, can be **#1** (2026-05-25: Unabyss #9 pred → **#1** actual). **Shopify OSS / mobile-dev utilities** only → top **12**, not top **5**, unless prior PH win — **sales/fundraising outcome** hunts (WarmIntro-style) may reach **top 5** (2026-05-21: WarmIntro #9→#5).
+- **`tier1_consumer_incumbent`**: never in predicted **top 10** on feeds ≤25 — cap **rank 12+** regardless of brand (2026-05-25: Meta Forum #5 pred → **#16** actual).
+- **Prior PH winner + relaunch at #1:** use only when **no** **`rohan_mcp_hunter`** or **`meta_ph`** with `product_hunt_audience_fit` ≥ 10 is in the feed (2026-05-25: Supaboard 3.0 #1 pred → #4 when Unabyss won).
+- On feeds **≤20** included launches: allow **at most one** `practical_builder_tool` in predicted **top 3** (2026-05-25: LLMTest #2 pred → #9).
 
 Final sort key: adjusted `predicted_success_score` descending.
 
@@ -261,7 +270,7 @@ Before writing `predictions.json`, verify:
 6. **No boost-stacked #1**: do not rank #1 when `total_adjustment` ≥ **1.2** unless `product_hunt_audience_fit` ≥ 9 **and** (**incumbent**, verified **relaunch/major-version**, **`meta_ph` with audience fit ≥ 10**, or **prior PH winner**). Hunter + outcome stacks alone are not sufficient. **Do not** swap a **meta-PH** launch out of #1 for a **tier-1 incumbent** on feeds ≤25 when both are present (2026-05-21: Tycoon actual #1, Google Antigravity #1 pred → #4).
 7. **Promote practical builder tools**: any launch with usefulness ≥ 8, clarity ≥ 8, `ph_core_voter_appeal` ≥ 7, and a ship-today JTBD ranked **below 18** should be reviewed for **top 12** — but respect the **≤2 in top 5** cap when launch_count ≤ 25 (2026-05-19: PollyReach #29→#1 on a 50-launch feed; 2026-05-20: Tophat/Skilled over-promoted in top 10; 2026-05-21: three builder slots in pred top 5 all missed).
 8. **Promote ecommerce + hunter outcomes**: any launch with **ecommerce_outcome**, shareability ≥ 8, and (maker signal or Chris Messina–tier hunter) ranked **below 8** should be reviewed for **top 5** (2026-05-20: StoreClaw #6 pred → #1 actual).
-9. **Promote tier-1 incumbents**: Google/Apple/Meta/OpenAI model or API surfaces with `broad_vote_appeal` ≥ 7 ranked **below 8** should be reviewed for **top 6** — on feeds ≤25, slot **#3–#5**, not #1, when a **meta-PH** or **PH CEO** launch is in the feed (2026-05-20: Gemini Omni #10→#4; 2026-05-21: Google Antigravity #1→#4).
+9. **Promote tier-1 *dev* incumbents only**: Google/Apple/Meta/OpenAI **model, API, or dev-tool** surfaces with `ph_core_voter_appeal` ≥ 6 and `broad_vote_appeal` ≥ 7 ranked **below 8** → review for **top 6** (#3–#5, not #1 when meta-PH competes). **Demote `tier1_consumer_incumbent`** (Meta Forum–class consumer/social apps) from top 10 → **rank 12+** (2026-05-25: Forum #5→**#16**).
 10. **Scan vertical agent utilities**: permission-aware media/recording or agent-activity VCS with usefulness ≥ 8 ranked **below 15** → review for **top 10** (2026-05-20: Supercut #19→#7, Re_gent #16→#6).
 11. **Promote prior-PH-winner relaunches**: `prior_ph_winner` + **relaunch** (`3.0`, `2.0`, `vN` in name/tagline) ranked **below 10** → review for **top 5** (2026-05-21: WeWeb 3.0 #13→#3).
 12. **Promote Garry Tan workflow/docs hunts**: maker signal + **`outcome_differentiated`** (docs, fundraising, sales paths) ranked **below 6** → review for **top 5**; do **not** apply the same promotion to **dataset/API infra** hunts without prior PH win (2026-05-21: Mintlify #6→#2).
@@ -269,7 +278,11 @@ Before writing `predictions.json`, verify:
 14. **Demote OSS-stars-only from top 5**: any launch in predicted top 5 whose only maker proof is GitHub stars → move to **rank 8+** (2026-05-22: whosthere).
 15. **Demote novelty_shareability_trap from top 12**: game/hackathon launches with `ph_core_voter_appeal` ≤ 6 in top 12 → **rank 15+** (2026-05-22: Training Data #11→#28).
 16. **Demote B2B infra without hunter from top 5**: established B2B SaaS extensions (notifications, auth, Databricks connectors) without famous hunter ranked in top 5 → **rank 8+** (2026-05-22: SuprSend #3→#10).
-17. **Scan under-ranked growth/consumer sleepers**: social autopilot, creator book tools, or consumer social with clarity ≥ 7 ranked **below 15** → review for **top 10** (2026-05-22: Auto Posts #20→#6, Prosed #19→#8, moop #24→#7).
+17. **Scan under-ranked growth/consumer sleepers**: social autopilot, creator book tools, **`creator_page_builder`** with verified 5k+ traction, or consumer social with clarity ≥ 7 ranked **below 12** → review for **top 5** (2026-05-22: Auto Posts #20→#6; 2026-05-25: own.page #15→**#2**).
+18. **Promote `rohan_mcp_hunter`**: Rohan Chaubey–class hunt on MCP/context with clarity ≥ 9 ranked **below 5** → review for **top 3** (can be **#1**) (2026-05-25: Unabyss #9→**#1**).
+19. **Promote `llm_workflow_micro_utility`**: URL-swap / agent-skill ingest tools with clarity ≥ 9 ranked **below 12** → review for **top 8** (2026-05-25: tweet.md #12→**#5**).
+20. **Demote timed challenge / dev-game launches** in predicted **top 5** without an established recurring community (bi-weekly signup only) → **rank 10+** (2026-05-25: The Incident Challenge #4→#12).
+21. **Do not auto-promote prior-PH relaunch to #1** when a **`rohan_mcp_hunter`** or **`meta_ph`** launch with `product_hunt_audience_fit` ≥ 10 is present — slot prior winner **#2–#4** instead (2026-05-25: Supaboard #1 pred → #4).
 
 ### Confidence calibration
 
@@ -279,7 +292,7 @@ Before writing `predictions.json`, verify:
 | **medium** | Default for AI-heavy feeds, saturated archetypes without maker signal, incumbents, crowded categories, **all predicted top-3**, and **meta-PH** launches even when likely #1 |
 | **low** | Unverified product, thin research, conflicting signals, or broad-trap with `ph_core_voter_appeal` ≤ 6 |
 
-Do not assign **high** confidence from high `broad_vote_appeal` alone. On 2026-05-15, **high** confidence averaged ~22 ranks off. On 2026-05-19, **high** at predicted #1 (Chert) missed by 6 ranks. On 2026-05-21, **high** on InstaVM, CatchAll, Mintlify, WarmIntro averaged **~7 ranks off** in top 10. On 2026-05-22, **high** on Nugget AI (pred #5 → actual #9) — use **medium** for outcome-PM tools without famous hunter even when `ph_core_voter_appeal` ≥ 8.
+Do not assign **high** confidence from high `broad_vote_appeal` alone. On 2026-05-15, **high** confidence averaged ~22 ranks off. On 2026-05-19, **high** at predicted #1 (Chert) missed by 6 ranks. On 2026-05-21, **high** on InstaVM, CatchAll, Mintlify, WarmIntro averaged **~7 ranks off** in top 10. On 2026-05-22, **high** on Nugget AI (pred #5 → actual #9) — use **medium** for outcome-PM tools without famous hunter even when `ph_core_voter_appeal` ≥ 8. **Never** assign **high** to **`tier1_consumer_incumbent`** or **`practical_builder_tool`** in predicted top 3 on feeds ≤20 (2026-05-25: LLMTest #2→#9). On 2026-05-26, **high** on Replyless (#11→#27) and DNSimple CLI (#5→#18) missed badly — use **medium** by default for non-tier-1 incumbent CLI/API launches and outbound tooling unless they have prior PH win evidence on the same product line. On 2026-05-27, top-5 was mostly missed (top-5 precision 0.20), with large infra/outbound over-ranks and consumer/multi-tool AI under-ranks — keep **high** effectively reserved for verified prior winners, clear tier-1 dev incumbents, or strong meta-PH narratives.
 
 ### Calibration from evaluation runs
 
@@ -449,16 +462,152 @@ Use these empirical results when scoring and ranking. Product Hunt’s electorat
 6. **Do not fill top 5 with practical-builder + OSS + B2B** when the feed also has **prior-PH relaunch**, **platform major release**, and **founder-operator** candidates — max two builder slots still applies, but slot **founder-operator** and **benchmarked inference** ahead of SuprSend/whosthere-style picks.
 7. **Nugget-style outcome PM** without hunter: **medium** confidence, top-8 at best (pred #5 → #9).
 
+#### 2026-05-25 (`prediction_results.json`, 16 Launching Today launches)
+
+| Metric | Value |
+|--------|-------|
+| Mean absolute rank error | **5.13** |
+| Median absolute rank error | **5.5** |
+| Top-3 / top-5 precision | **33% / 40%** (1 / 2 hits) |
+| Mean signed rank error | **0** (balanced) |
+| Mean upvote-rank error | **5.13** |
+| RSS entries / included | 50 / **16** Launching Today |
+
+**Actual top 5 (day rank / upvotes):** Unabyss (#1, 622↑), own.page (#2, 535↑), Yansu (#3, 335↑), Supaboard 3.0 (#4, 293↑), tweet.md (#5, 228↑).
+
+**Hits:** Yansu (#3 pred → **#3** exact), Supaboard (#1 → #4, top-5 hit). Pi (#6 → #7) and tldx (#10 → #11) were near-misses.
+
+**Failure modes (over-ranked):**
+- **Prior-PH relaunch defaulted to #1** without checking feed: Supaboard 3.0 (#1 → #4) while **Rohan MCP** won the day.
+- **Tier-1 consumer incumbent promoted to top 5**: Meta Forum (#5 → **#16**) — PH makers do not reward quiet Meta consumer app experiments.
+- **Practical-builder in top 3 on a 16-launch feed**: LLMTest (#2 → #9) — LLM routing/autopilot is useful but not a day-winner vs hunter-led MCP.
+- **Dev challenge / high-shareability game in top 5**: The Incident Challenge (#4 → #12) — bi-weekly puzzle format lacks launch-day vote momentum.
+- **Broad-trap penalty on proven creator builder**: own.page buried at #15 despite **6k+ creators** — finished **#2**.
+
+**Failure modes (under-ranked):**
+- **Rohan Chaubey + MCP/context**: Unabyss (#9 → **#1**) — capped hunter boost too aggressively; saturated MCP label wrong when hunter + install story is strongest in feed.
+- **Creator page builder with traction**: own.page (#15 → **#2**).
+- **LLM workflow micro-utility**: tweet.md (#12 → **#5**) — URL-swap + agent skill is narrow but instantly tryable.
+- **Founder-operator outcome**: Yansu (#3 → **#3**) — calibration for proactive AI PM worked when not crowded out by wrong #1 pick.
+
+**Lessons:**
+1. **`rohan_mcp_hunter` can win #1** on small feeds — full **+0.5** maker boost and **top 3** promotion; do not lump all Rohan hunts with “Shopify OSS top-12 only.”
+2. **`tier1_consumer_incumbent`** (Meta Forum–class) → **rank 12+**, not top 5 — separate from Google/OpenAI **dev** ships (Gemini, Antigravity).
+3. **`creator_page_builder`** with **5k+** verified users is **not** a broad-trap — remove **−0.4** penalty and review for **top 5**.
+4. **Prior PH winner + `3.0` relaunch** → **#2–#4** when **`rohan_mcp_hunter`** or strong **meta-PH** is present; do not auto-promote to #1.
+5. **On feeds ≤20**, max **one** `practical_builder_tool` in predicted **top 3**; second builder slot belongs **#6–#10**.
+6. **`llm_workflow_micro_utility`** (tweet.md-class) → **top 8** review when clarity ≥ 9.
+7. **Timed dev challenges** without established daily community → cap **≥10** even when `ph_core_voter_appeal` ≥ 8.
+
+#### 2026-05-26 (`prediction_results.json`, 27 Launching Today launches)
+
+| Metric | Value |
+|--------|-------|
+| Mean absolute rank error | **7.26** |
+| Median absolute rank error | **5** |
+| Top-3 / top-5 precision | **33% / 20%** (1 / 1 hits) |
+| Mean signed rank error | **0** (balanced; large bilateral misses) |
+| Mean upvote-rank error | **7.19** |
+| RSS entries / included | 50 / **27** Launching Today |
+
+**Actual top 5 (day rank / upvotes):** Brew (#1, 680↑), Bond (#2, 395↑), Rezonant (#3, 292↑), QuakPit (#4, 220↑), Parrot Speech-to-text API (#5, 184↑).
+
+**Hits:** Brew (#2 pred → **#1**) and SelectPrism (#6 → #8) were directionally close in hunter-led GTM/hiring cluster.
+
+**Failure modes (over-ranked):**
+- **Hunter + stacked boosts without meta-PH/outlier proof**: Willow Scribe (#1 → #7) and Trace (#3 → #25) — maker + outcome + ph-core stacks over-promoted.
+- **Incumbent CLI/API and practical-builder infra over-promoted into top 10**: DNSimple CLI (#5 → #18), blokdots 3.0 (#7 → #19), Replyless (#11 → #27).
+- **Over-penalized broad-trap edge case**: QuakPit (#19 → #4) — playful meeting-reminder utility behaved more like `mac_demo_utility` than a weak novelty trap.
+
+**Failure modes (under-ranked):**
+- **Founder GTM outcomes without famous hunter can still win small/medium feeds**: Bond (#9 → **#2**) and Rezonant (#8 → **#3**).
+- **B2B API infra can crack top 5 when value prop is immediate and production-facing**: Parrot STT API (#21 → **#5**).
+- **Consumer-leaning language tools can finish mid-pack, not always bottom-5**: LangPanda (#25 → #12).
+
+**Lessons:**
+1. **Do not rank non-meta launches #1 from boost stack alone**: if `total_adjustment` > **1.6** and not `meta_ph` and not tier-1 dev incumbent, review for demotion to **#3–#8**.
+2. **Garry/Rohan hunter signal is not a universal top-3 pass** unless the launch is `meta_ph`, `rohan_mcp_hunter`, or has prior PH winner evidence for the same product line.
+3. **Outbound/sales outcome launches** with clarity ≥ 8 and `ph_core_voter_appeal` ≥ 7 should be reviewed for **top 5** even without famous hunters.
+4. **Production voice API/STT launches** with clear ship-today docs and usefulness ≥ 8 should be reviewed for **top 8** (not auto-capped by generic B2B infra heuristics).
+5. **Mac meeting reminder utilities** with shareability ≥ 8 and clear meeting JTBD should not receive full broad-trap demotion; treat as `mac_demo_utility`-adjacent.
+6. **Keep `confidence: high` rare** for incumbent CLI/API and outbound tools; default to **medium** unless prior PH-win/relaunch evidence exists.
+
+#### 2026-05-27 (`prediction_results.json`, 30 Launching Today launches)
+
+| Metric | Value |
+|--------|-------|
+| Mean absolute rank error | **9.87** |
+| Median absolute rank error | **8** |
+| Top-3 / top-5 precision | **33% / 20%** (1 / 1 hits) |
+| Mean signed rank error | **0** (balanced but with large bilateral misses) |
+| Mean upvote-rank error | **9.73** |
+| RSS entries / included | 50 / **30** Launching Today |
+
+**Actual top 5 (day rank / upvotes):** Powabase (#1, 414↑), Bluedot 2.1 (#2, 405↑), zero.xyz (#3, 279↑), Oasis Browser for Mac (#4, 244↑), Coworker AI (#5, 205↑).
+
+**Hits:** Bluedot 2.1 (#2 pred → **#2**). Octolane (#5 → #6) and Calling Skills for AI Agents (#4 → #10) were directionally closer than the top-5 misses.
+
+**Failure modes (over-ranked):**
+- **Generic dev infra / compliance launches over-promoted to top 10**: Chunk sidecars (#1 → #24), Harbor (#10 → #30), BankStatementLab (#6 → #23), BobCA (#9 → #21).
+- **Outbound/calling agent narratives over-promoted to top 5**: AgenticCalling AI (#3 → #29) and Calling Skills (#4 → #10) — “AI calling” wording alone is not enough for top-5 on 30-launch feeds.
+- **Top-5 monoculture in saturated builder archetypes**: too many similar AI-builder picks near #1–#10 increased collision risk and missed non-identical winners.
+
+**Failure modes (under-ranked):**
+- **Differentiated integration hubs / model-routing infra**: zero.xyz (#26 → **#3**), Coworker AI (#25 → **#5**), Powabase (#8 → **#1**).
+- **Consumer/prosumer utilities with clear immediate utility**: Oasis Browser for Mac (#12 → **#4**), Mojito (#20 → #7), Layers (#16 → #8), Pawse.ai (#30 → #9).
+- **Saturation penalties over-applied in a 30-launch feed**: several winner-class AI launches were pushed down despite high utility + clear JTBD.
+
+**Lessons:**
+1. **On feeds 26–35 launches, avoid top-5 monoculture**: allow at most **two** launches from the same saturated AI-builder cluster in predicted top 5 unless differentiated by verified maker signal or prior PH winner evidence.
+2. **Demote generic enterprise/infra to rank 8+**: CI/compliance/devops connectors and generic OSS infra without strong maker signal should not occupy predicted top 5.
+3. **Do not auto-promote outbound/calling agents**: “AI calling/sales calls” without verified differentiated outcome proof should be capped around **#8–#15**.
+4. **Promote differentiated multi-tool/model-routing platforms**: launches with clear “connect many tools/APIs/models now” JTBD and usefulness ≥ 8 should be reviewed for **top 5** even if saturated.
+5. **Reduce blanket saturation on medium feeds (26–35)**: use lighter penalties when a launch is clearly actionable today (install/integrate/use-now path) and has ph-core appeal ≥ 7.
+6. **Promote strong consumer-prosumer utility**: privacy browser, creator utility, and practical personal productivity tools with clear demo + clarity ≥ 8 should be reviewed for **top 8** (not auto-capped as broad traps).
+
+#### 2026-05-28 (`prediction_results.json`, 22 Launching Today launches)
+
+| Metric | Value |
+|--------|-------|
+| Mean absolute rank error | **6.18** |
+| Median absolute rank error | **5** |
+| Top-3 / top-5 precision | **0% / 20%** (0 / 1 hits) |
+| Mean signed rank error | **0** (balanced; strong bilateral misses) |
+| Mean upvote-rank error | **6.0** |
+| RSS entries / included | 50 / **22** Launching Today |
+
+**Actual top 5 (day rank / upvotes):** Pancake (#1, 518↑), SpotsNow (#2, 483↑), Pitch Agent (#3, 295↑), Revolte (#4, 257↑), Buffer API (#5, 205↑).
+
+**Hits:** Pancake (#5 pred → **#1**). Memori (#8 → #8) and Granite (#11 → #12) were stable mid-pack calls.
+
+**Failure modes (over-ranked):**
+- **Prior-winner + relaunch over-promotion to #1 on small feed**: Marked 3 (#1 → #9) — relaunch pattern was too strong relative to fresh launch momentum.
+- **Mac demo utility in top 3 over-correction**: LaunchOS (#3 → #19) — `mac_demo_utility` can be top 5 in exceptions, but still rarely deserves top 3.
+- **Hunter/benchmark infra over-ranked without direct outcome hook**: KugelAudio (#6 → #16), Crew44 (#7 → #18) — strong maker/dev narratives did not convert into top-5 day rank.
+
+**Failure modes (under-ranked):**
+- **Chris Messina founder-ops outcome won outright**: Pancake (#5 → **#1**) — “company autonomy” outcome + hunter should be treated as a top-3 review case on small feeds.
+- **Rohan non-MCP GTM outcome can still finish top 3**: SpotsNow (#13 → **#2**) — current `rohan_mcp_hunter` special-case is too narrow.
+- **Incumbent workflow products were under-promoted**: Pitch Agent (#12 → **#3**) and Buffer API (#9 → **#5**) — practical business workflows from known incumbents can beat trendier dev infra.
+- **Generic-seeming dev tooling can spike**: Revolte (#22 → **#4**) — avoid hard-burying broad “AI for software engineering” launches when there is clear builder JTBD.
+
+**Lessons:**
+1. **Feeds ≤25: avoid confidence in canonical #1 templates** — prior winner + relaunch should default to **#2–#8** unless maker signal is also elite and non-competitive.
+2. **`mac_demo_utility` ceiling on small feeds** — promote into **top 10** by default, but require verified maker signal or prior PH win to place in **top 5**; avoid **top 3** by default.
+3. **Expand Rohan handling beyond MCP** — Rohan launches with explicit GTM/founder outcomes (ads, fundraising, sales) and clarity ≥ 8 should be reviewed for **top 5**.
+4. **Incumbent workflow/API launches need a small-feed uplift** — if clarity/usefulness/ph-core all ≥ 8 and onboarding is ship-today, review for **top 5** even with incumbent penalties.
+5. **Do not bottom-rank generic dev-builder launches solely by archetype labels** — if product_hunt_audience_fit ≥ 7 and usefulness ≥ 7, keep expected floor around **rank 12** on feeds ≤25.
+
 #### Combined rules (apply every run)
 
 1. **Filter to Launching Today first** — score and rank only included launches; never compare across stale RSS entries (2026-05-20: 23/50 included, MAE **5.87**).
 2. **`ph_core_voter_appeal` > `broad_vote_appeal`** for ranking — but **ecommerce outcomes** and **tier-1 incumbents** can win on shareability + broad appeal with ph-core 7 (2026-05-20).
 3. **Outcome beats novelty** for winners: meetings, sleep, fundraising, sales, **seller/store GTM** (2026-05-14, 2026-05-20) — **ship-today builder utilities** help on large feeds (2026-05-19) but **over-fill top 5 on small feeds** (2026-05-20).
-4. **Maker signal + differentiated infra** can win #1–3 (2026-05-15) — **cap hunter boosts**; Chris Messina + ecommerce beat Garry Tan infra for #1 on 2026-05-20.
-5. **Broad-trap skepticism**: travel/discovery, photo-ID toys, solar hobbyist apps — cap expected rank; rarely top 3. **Mac demo utilities** (`mac_demo_utility`) with broad + shareability ≥ 8 can reach **top 5** (2026-05-22: iPromise). **Novelty/game hackathon** launches cap **≥15**.
-6. **Incumbent extensions**: tier-1 (Google, Apple, Meta, OpenAI) → top **6** with **−0.2** penalty + boost when broad appeal is strong; other incumbents top 10 (Cursor #3 on 2026-05-19).
+4. **Maker signal + differentiated infra** can win #1–3 (2026-05-15) — **cap hunter boosts**; Chris Messina + ecommerce beat Garry Tan infra for #1 on 2026-05-20. On non-`meta_ph` launches, do not keep a product at #1 when `total_adjustment` is heavily stack-driven (>1.6) without prior-PH-winner or tier-1 dev incumbent proof (2026-05-26: Willow #1→#7).
+5. **Broad-trap skepticism**: travel/discovery, photo-ID toys, solar hobbyist apps — cap expected rank; rarely top 3. **Mac demo utilities** (`mac_demo_utility`) with broad + shareability ≥ 8 can reach **top 5** (2026-05-22: iPromise). **`creator_page_builder`** with 5k+ verified traction can reach **top 3** (2026-05-25: own.page). **Novelty/game hackathon** launches cap **≥15**; **timed dev challenges** without daily community cap **≥10**.
+6. **Incumbent extensions**: tier-1 **dev** APIs/models (Google, Apple, OpenAI dev surfaces) → top **6** with **−0.2** + boost when `ph_core` ≥ 6. **`tier1_consumer_incumbent`** (Meta Forum–class) → **rank 12+**, not top 10 (2026-05-25: Forum #16).
 7. **Confidence** — **medium** for most predicted top 3; **high** only with proven archetype fit, not hunter stacks alone.
-8. **Practical builder scan**: promote from rank 18+ on **large** feeds; on **≤25** included launches, max **two** in top 5 and prefer **meta-PH**, **prior-PH-winner relaunch**, **Garry workflow/docs outcome**, or **tier-1 incumbent (#3–#5)** over infra/HN slots (2026-05-21).
+8. **Practical builder scan**: promote from rank 18+ on **large** feeds; on **≤25** included launches, max **two** in top 5 and prefer **meta-PH**, **prior-PH-winner relaunch**, **Garry workflow/docs outcome**, or **tier-1 incumbent (#3–#5)** over infra/HN slots (2026-05-21). On 26–30 launch feeds, still avoid top-10 over-concentration of incumbent CLI/API and generic practical-builder tools (2026-05-26: DNSimple/blokdots/replyless over-ranked).
 9. **best_in_feed_infra** alone is insufficient for top 10 — on feeds ≤25 cap at **top 12**; verify install-or-try-today JTBD.
 10. **Saturation counts use included launches only** after Launching Today filter.
 11. **Meta-PH + audience fit 10** can rank **#1** despite high `total_adjustment`; do not swap for tier-1 incumbent on small feeds (2026-05-21: Tycoon).
@@ -468,6 +617,23 @@ Use these empirical results when scoring and ranking. Product Hunt’s electorat
 15. **Ben Lang / benchmarked inference API** → top 5 when verified; distinct from dataset-only `best_in_feed_infra` cap (2026-05-22: General Compute).
 16. **Founder-operator outcome** (AI PM / team ops) → top 5 review when broad ≥ 7 (2026-05-22: Cleo).
 17. **Chris Messina + prior PH #1 + relaunch** → default #1 candidate on small feeds when present (2026-05-22: TestSprite).
+18. **`rohan_mcp_hunter`** → top **3** review, can be **#1**; beats prior-PH relaunch for #1 slot (2026-05-25: Unabyss).
+19. **`creator_page_builder`** with 5k+ traction → top **5** review; not a broad-trap (2026-05-25: own.page).
+20. **`tier1_consumer_incumbent`** → never top **10** on feeds ≤25 (2026-05-25: Meta Forum).
+21. **Feeds ≤20**: max **one** `practical_builder_tool` in predicted **top 3** (2026-05-25: LLMTest).
+22. **`llm_workflow_micro_utility`** with clarity ≥ 9 → top **8** review (2026-05-25: tweet.md).
+23. **Founder GTM/outbound outcomes** (signal-based outbound, spec→tickets PM workflow) with clarity ≥ 8 and `ph_core_voter_appeal` ≥ 7 → review for **top 5** even without famous hunter (2026-05-26: Bond #9→#2, Rezonant #8→#3).
+24. **Production STT/voice APIs** with clear docs + ship-today integration and usefulness ≥ 8 should not be auto-capped as generic B2B infra; review for **top 8** (2026-05-26: Parrot #21→#5).
+25. **Playful meeting utilities** (reminders, meeting-time helpers) with shareability ≥ 8 and clear JTBD are not automatic broad traps; treat as `mac_demo_utility`-adjacent and review for **top 8** (2026-05-26: QuakPit #19→#4).
+26. **Feeds 26–35: top-5 diversity guardrail** — allow at most **two** launches from the same saturated AI-builder archetype in predicted top 5 unless a third has verified maker signal or prior PH winner evidence (2026-05-27 monoculture miss).
+27. **Generic dev-infra cap** — CI/compliance/devops connector launches without strong maker signal should be capped at **rank 8+**; do not place at #1–#5 on medium feeds (2026-05-27: CircleCI/Harbor misses).
+28. **Outbound/calling caution** — sales-calling/agent-calling launches without differentiated proof (clear before/after, notable maker signal, or prior winner evidence) should be capped at **#8–#15** (2026-05-27: AgenticCalling #3→#29).
+29. **Promote differentiated integration hubs and consumer-prosumer utilities** — model-routing/tool-hub launches and practical consumer/prosumer utilities with clarity ≥ 8, usefulness ≥ 8, and ship-today utility should be reviewed for **top 8** (2026-05-27: zero.xyz #26→#3, Coworker #25→#5, Oasis #12→#4).
+30. **Small-feed relaunch caution (≤25 launches)** — prior-PH-winner + relaunch should not be auto-ranked #1; default **#2–#8** unless paired with elite maker signal and no stronger hunter/outcome narratives (2026-05-28: Marked #1→#9).
+31. **`mac_demo_utility` on small feeds (≤25)** — treat as top-10 candidate by default, not top-3; require verified maker signal or prior PH win for top-5 promotion (2026-05-28: LaunchOS #3→#19).
+32. **Rohan GTM outcome expansion** — not only `rohan_mcp_hunter`: any Rohan Chaubey launch with clear GTM/founder outcome (ads, sales, fundraising), clarity ≥ 8, and usefulness ≥ 8 should be reviewed for **top 5** (2026-05-28: SpotsNow #13→#2).
+33. **Incumbent workflow/API uplift on small feeds (≤25)** — incumbent launches with clarity/usefulness/`ph_core_voter_appeal` all ≥ 8 and ship-today onboarding should be reviewed for **top 5** despite incumbent penalties (2026-05-28: Pitch #12→#3, Buffer API #9→#5).
+34. **Generic dev-builder floor on small feeds (≤25)** — avoid ranking broad dev-tool launches below **rank 12** when `product_hunt_audience_fit` ≥ 7 and usefulness ≥ 7 unless there is explicit weak proof (thin page/unverified) (2026-05-28: Revolte #22→#4).
 
 Prediction JSON shape:
 
@@ -560,7 +726,11 @@ Prediction JSON shape:
         "mac_demo_utility": false,
         "oss_stars_only_maker": false,
         "founder_operator_outcome": false,
-        "novelty_shareability_trap": false
+        "novelty_shareability_trap": false,
+        "creator_page_builder": false,
+        "tier1_consumer_incumbent": false,
+        "rohan_mcp_hunter": false,
+        "llm_workflow_micro_utility": false
       },
       "predicted_success_score": 0,
       "confidence": "low | medium | high",
